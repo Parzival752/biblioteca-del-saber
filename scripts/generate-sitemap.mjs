@@ -4,7 +4,8 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-let siteUrl = 'https://bibliotecadelsaber.mx';
+const DEFAULT_SITE_URL = 'https://parzival752.github.io/biblioteca-del-saber';
+let siteUrl = DEFAULT_SITE_URL;
 
 const envPath = resolve(root, '.env');
 if (existsSync(envPath)) {
