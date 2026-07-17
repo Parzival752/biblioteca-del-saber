@@ -8,9 +8,9 @@ export const LEGAL_VERSION = '2026-07-17';
 
 /** Datos publicos del sitio en produccion (actualiza antes de publicar). */
 export const SITE_PUBLIC = {
-  url: 'https://bibliotecadelsaber.mx',
-  contactEmail: 'contacto@bibliotecadelsaber.mx',
-  reportUrl: 'mailto:contacto@bibliotecadelsaber.mx?subject=Reporte%20Biblioteca%20del%20Saber',
+  url: 'https://parzival752.github.io/biblioteca-del-saber',
+  contactEmail: 'bitacorapz.contacto@gmail.com',
+  reportUrl: 'mailto:bitacorapz.contacto@gmail.com?subject=Reporte%20Biblioteca%20del%20Saber',
 };
 
 /** Identificación del titular (actualiza contacto cuando lo tengas) */
