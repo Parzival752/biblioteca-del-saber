@@ -49,6 +49,15 @@ Sitemap: **https://parzival752.github.io/biblioteca-del-saber/sitemap.xml**
 3. **Enviar**
 4. Estado deberia pasar a **Correcto** en unos minutos
 
+### Si dice "No se ha podido leer el sitemap"
+
+1. En el campo de Search Console escribe **solo** `sitemap.xml` (no la URL completa).
+   - Correcto: `https://parzival752.github.io/biblioteca-del-saber/` + `sitemap.xml`
+   - Incorrecto: pegar otra vez la URL entera en el campo (Google intenta una ruta invalida y devuelve 404).
+2. Abre en el navegador y confirma que ves XML (no HTML):
+   https://parzival752.github.io/biblioteca-del-saber/sitemap.xml
+3. En Search Console, elimina el sitemap fallido (tres puntos → Eliminar) y vuelve a **Enviar**.
+
 ---
 
 ## Paso 3 — Pedir indexacion de la portada
