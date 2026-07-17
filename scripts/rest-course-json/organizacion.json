@@ -1,0 +1,788 @@
+{
+  "id": "organizacion",
+  "prefix": "org",
+  "contextField": "tu rutina diaria",
+  "practiceField": "hábitos de estudio TDAH-friendly",
+  "modules": [
+    {
+      "title": "Externalización y captura",
+      "description": "Sacar tareas de la cabeza a sistema confiable",
+      "lessons": [
+        [
+          "Inbox universal",
+          "Un solo lugar capturar ideas y tareas",
+          "app notas o cuaderno siempre accesible",
+          "Mente libre para foco, no recordar listas.",
+          "Procesar inbox diario 10 min.",
+          "¿Para qué inbox?",
+          [
+            "Recordar todo mental",
+            "50 apps inbox",
+            "Ignorar capturas",
+            "Liberar memoria de trabajo"
+          ],
+          3
+        ],
+        [
+          "Brain dump",
+          "Volcar todo pendiente sin filtrar 15 min",
+          "timer 15 min escribir sin parar",
+          "Después clasificar, no durante dump.",
+          "Semanal en domingo útil.",
+          "¿Brain dump?",
+          [
+            "Solo en cabeza",
+            "Una vez al año",
+            "Vaciar mente antes organizar",
+            "Organizar mientras volcar"
+          ],
+          2
+        ],
+        [
+          "Segundo cerebro ligero",
+          "Notas enlazadas por proyecto/contexto",
+          "carpeta ProyectoX con links",
+          "No over-engineer PARA si no lo usarás.",
+          "Busca > taxonomía perfecta.",
+          "¿Segundo cerebro simple?",
+          [
+            "Post-its suelo",
+            "Notas encontrables por proyecto",
+            "1000 carpetas vacías",
+            "Solo memoria"
+          ],
+          1
+        ],
+        [
+          "Recordatorios contexto",
+          "Ubicación o herramienta como disparador",
+          "recordatorio al llegar biblioteca: libros devolver",
+          "Context beats time solo.",
+          "No saturar notificaciones.",
+          "¿Recordatorio útil?",
+          [
+            "Ligado a contexto acción",
+            "100 alarmas hora",
+            "Silenciar todo",
+            "Tatuaje"
+          ],
+          0
+        ],
+        [
+          "Listas por contexto",
+          "@casa @pc @llamadas agrupa errands",
+          "procesa lista @llamadas en batch",
+          "Reduce cambio contexto.",
+          "GTD popularizó contexts.",
+          "¿Agrupar llamadas?",
+          [
+            "Sin listas",
+            "Solo urgente",
+            "Lista @llamadas batch",
+            "Una tarea random cada hora"
+          ],
+          2
+        ],
+        [
+          "Plantillas checklist",
+          "Salida casa, inicio estudio, cierre día",
+          "checklist impresa mochila escuela",
+          "Reduce olvidos sin fuerza de voluntad.",
+          "Laminar reutilizable.",
+          "¿Checklist salida?",
+          [
+            "Lista de 200",
+            "Items fijos repetibles",
+            "Memorizar 30 items",
+            "Sin lista nunca"
+          ],
+          1
+        ],
+        [
+          "Calendario bloques",
+          "Tiempo real reservado en calendario",
+          "bloque 9-11 estudio matemáticas",
+          "Si no está en calendario, no existe.",
+          "Incluye buffers.",
+          "¿Bloque estudio?",
+          [
+            "Estudiar cuando sobre",
+            "Solo lista tareas",
+            "Ignorar calendario",
+            "Cita contigo mismo"
+          ],
+          3
+        ],
+        [
+          "Referencias visibles",
+          "Horario, deadlines pared o monitor",
+          "post-it deadline entrega visible",
+          "Out of sight out of mind real.",
+          "Quitar cuando cumplido.",
+          "¿Deadline importante?",
+          [
+            "Visible entorno estudio",
+            "Solo en app enterrada",
+            "Memorizar",
+            "Ignorar"
+          ],
+          0
+        ],
+        [
+          "Captura voz",
+          "Dictar idea caminando a notas",
+          "widget grabación móvil",
+          "Transcribir después en procesamiento.",
+          "Útil cuando manos ocupadas.",
+          "¿Idea caminando?",
+          [
+            "Gritar",
+            "Nota voz procesar luego",
+            "Olvidar seguro",
+            "Parar tráfico escribir"
+          ],
+          1
+        ],
+        [
+          "Revisión semanal",
+          "30 min: inbox cero, calendario semana, prioridades",
+          "viernes tarde ritual fijo",
+          "Ancla del sistema.",
+          "Ajusta lo que falló.",
+          "¿Revisión semanal?",
+          [
+            "Solo cuando crisis",
+            "Diario 5h",
+            "Recalibrar sistema organización",
+            "Nunca revisar"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Tiempo y foco",
+      "description": "Timers, Pomodoro y transiciones",
+      "lessons": [
+        [
+          "Pomodoro 25/5",
+          "25 min foco, 5 descanso; 4 ciclos pausa larga",
+          "timer visible durante bloque",
+          "Descanso levantarse moverse.",
+          "Ajusta 15/3 si 25 largo.",
+          "¿Pomodoro clásico?",
+          [
+            "8 horas sin pausa",
+            "1 min estudio",
+            "Solo cronómetro infinito",
+            "25 min trabajo 5 pausa"
+          ],
+          3
+        ],
+        [
+          "Timeboxing",
+          "Caja tiempo máxima por tarea evita perfeccionismo",
+          "máx 45 min redactar borrador",
+          "Done > perfect en caja.",
+          "Alarma fin caja.",
+          "¿Timeboxing?",
+          [
+            "Sin límite",
+            "0 minutos",
+            "Límite tiempo por tarea",
+            "Hasta perfecto infinito"
+          ],
+          2
+        ],
+        [
+          "Timer visible",
+          "Reloj cuenta atrás grande en pantalla",
+          "app fullscreen timer",
+          "Presión suave visual.",
+          "Evita mirar reloj teléfono distractor.",
+          "¿Timer visible?",
+          [
+            "Alguien grita hora",
+            "Ancla temporal visual",
+            "Reloj oculto",
+            "Adivinar tiempo"
+          ],
+          1
+        ],
+        [
+          "Transiciones",
+          "Ritual 2 min entre materias: respirar, agua, stretch",
+          "playlist 2 min entre bloques",
+          "Reduce inercia cambio tarea.",
+          "Mismo ritual cada vez.",
+          "¿Entre bloques estudio?",
+          [
+            "Ritual transición corto",
+            "Saltar directo caos",
+            "30 min Instagram",
+            "Siesta 2h"
+          ],
+          0
+        ],
+        [
+          "Single-tasking",
+          "Una tarea activa visible; resto oculta",
+          "solo una pestaña trabajo",
+          "Multitarea divide atención.",
+          "Escritorio físico igual.",
+          "¿Estudio efectivo?",
+          [
+            "TV fondo",
+            "Chat constante",
+            "Una tarea foco",
+            "10 pestañas activas"
+          ],
+          2
+        ],
+        [
+          "Parkinson adaptado",
+          "Tarea expande al tiempo dado; acorta caja",
+          "examen práctica 30 min no 3h",
+          "Deadline artificial productivo.",
+          "Comunicar si grupo.",
+          "¿Tarea ocupa todo día?",
+          [
+            "Copiar",
+            "Acortar deadline artificial",
+            "Sin deadline meses",
+            "Eliminar sueño"
+          ],
+          1
+        ],
+        [
+          "Energy mapping",
+          "Estudiar materia dura en pico energía personal",
+          "registra energía 1-5 cada hora semana",
+          "Mañana vs noche individual.",
+          "Tareas admin en valle.",
+          "¿Matemáticas difícil?",
+          [
+            "Medianoche siempre",
+            "Post comida pesada",
+            "Con sueño",
+            "Bloque alto energía"
+          ],
+          3
+        ],
+        [
+          "Descansos movimiento",
+          "5 min caminar reduce inquietud",
+          "timer pausa = caminar agua",
+          "Movimiento regula arousal.",
+          "No pantalla en pausa.",
+          "¿Pausa Pomodoro?",
+          [
+            "Movimiento hidratación",
+            "Scroll redes",
+            "Seguir estudiando 2h",
+            "Dormir"
+          ],
+          0
+        ],
+        [
+          "Anti-distraction environment",
+          "Modo no molestar, teléfono otra habitación",
+          "focus mode activado bloque",
+          "Extensión bloquea sitios estudio.",
+          "Auriculares cancelación ruido.",
+          "¿Sesión foco?",
+          [
+            "Grupo chat activo",
+            "Eliminar notificaciones",
+            "Teléfono en escritorio",
+            "TV encendida"
+          ],
+          1
+        ],
+        [
+          "Tracking tiempo opcional",
+          "Toggl conocer dónde va día sin obsesión",
+          "track una semana diagnóstico",
+          "Datos ajustan estimaciones.",
+          "No micro-track forever.",
+          "¿Diagnóstico tiempo?",
+          [
+            "Nunca medir",
+            "Adivinar",
+            "Track corto periodo",
+            "Track cada segundo forever"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Body doubling y accountability",
+      "description": "Presencia ajena y compromisos externos",
+      "lessons": [
+        [
+          "Body doubling",
+          "Otra persona presente silenciosa aumenta inicio tarea",
+          "sesión Zoom mute cámara opcional estudiando",
+          "No necesita ayuda activa.",
+          "Biblioteca cuenta como doble.",
+          "¿Body double?",
+          [
+            "Debe enseñarte",
+            "Solo solo siempre",
+            "Distraerte juntos",
+            "Presencia facilita iniciar"
+          ],
+          3
+        ],
+        [
+          "Focusmate estilo",
+          "Turnos 25 min compartidos check-in",
+          "probar plataforma cowork virtual",
+          "Compromiso social suave.",
+          "Respetar reglas plataforma.",
+          "¿Cowork virtual?",
+          [
+            "Sin check-in",
+            "Jugar",
+            "Compromiso temporal compartido",
+            "Chat todo el tiempo"
+          ],
+          2
+        ],
+        [
+          "Grupo estudio estructurado",
+          "Agenda: 5 min meta, 45 min silencio, 10 repaso",
+          "grupo 3-4 misma materia",
+          "Facilitador rota semanal.",
+          "Evitar solo socializar.",
+          "¿Grupo efectivo?",
+          [
+            "Hablar 2h",
+            "Estructura y silencio foco",
+            "Solo memes",
+            "Sin meta"
+          ],
+          1
+        ],
+        [
+          "Accountability partner",
+          "Reporte diario 2 líneas progreso",
+          "mensaje noche: hice X, mañana Y",
+          "Mutuo no jerárquico.",
+          "Amable en fallos.",
+          "¿Partner accountability?",
+          [
+            "Check-in mutuo progreso",
+            "Castigo dinero",
+            "Competir tóxico",
+            "Ghosting"
+          ],
+          0
+        ],
+        [
+          "Contrato consigo mismo",
+          "Escrito firmado objetivo semana",
+          "pegado escritorio",
+          "Recompensa cumplimiento pequeña.",
+          "No castigo duro.",
+          "¿Compromiso escrito?",
+          [
+            "Amenaza extrema",
+            "Sin meta",
+            "Clarifica intención",
+            "Solo verbal olvidado"
+          ],
+          2
+        ],
+        [
+          "Clases grabadas ritmo",
+          "Asistir síncrono o body double replay",
+          "ver lecture con compañero pausas",
+          "Pausa activa notas.",
+          "No solo pasivo.",
+          "¿Lecture larga?",
+          [
+            "Dormir",
+            "Pausas activas notas",
+            "Background noise",
+            "Skip siempre"
+          ],
+          1
+        ],
+        [
+          "Biblioteca como ancla",
+          "Mismo sitio = modo estudio automático",
+          "mesa habitual biblioteca",
+          "Ritual llegada: agua, timer, objetivo.",
+          "Casa requiere más cues.",
+          "¿Mismo lugar estudiar?",
+          [
+            "Cama principal",
+            "Sofá TV",
+            "Random diario",
+            "Señal contextual hábito"
+          ],
+          3
+        ],
+        [
+          "Música foco",
+          "Lo-fi sin letra o ruido blanco",
+          "playlist instrumental fija",
+          "Letra compite lenguaje.",
+          "Prueba binaural si funciona.",
+          "¿Música estudio?",
+          [
+            "Instrumental sin letra",
+            "Podcast",
+            "Rock vocal",
+            "Silencio absoluto siempre required"
+          ],
+          0
+        ],
+        [
+          "Gamificación ligera",
+          "Puntos stickers metas cumplidas",
+          "tablero visible racha días",
+          "Recompensa proporcional.",
+          "Evitar infantilizar si no motiva.",
+          "¿Racha visible?",
+          [
+            "Premio caro cada hora",
+            "Motivación extrínseca suave",
+            "Castigo físico",
+            "Sin feedback"
+          ],
+          1
+        ],
+        [
+          "Límites sociales estudio",
+          "Decir no salida si bloque reservado",
+          "mensaje auto: estudio hasta 17h",
+          "FOMO normal; prioridad explícita.",
+          "Recuperar social después.",
+          "¿Bloque sagrado?",
+          [
+            "Mentir",
+            "Sin límites",
+            "Comunicar no disponible",
+            "Cancelar siempre estudio"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Materiales y espacio",
+      "description": "Minimizar fricción física y digital",
+      "lessons": [
+        [
+          "Mochila lista",
+          "Todo material noche anterior",
+          "checklist mochila puerta",
+          "Evita olvidar calculadora examen.",
+          "Duplicar críticos baratos.",
+          "¿Noche antes clase?",
+          [
+            "Mañana correr bus",
+            "Sin material",
+            "Pedir prestado siempre",
+            "Preparar mochila"
+          ],
+          3
+        ],
+        [
+          "Escritorio clear",
+          "Solo lo necesario sesión actual",
+          "caja temporal resto",
+          "Visual clutter distrae.",
+          "Reset fin sesión.",
+          "¿Escritorio estudio?",
+          [
+            "Comida días",
+            "30 monitores",
+            "Mínimo visible sesión",
+            "Papeles meses"
+          ],
+          2
+        ],
+        [
+          "Digital desktop",
+          "Carpeta SESION_HOY en desktop",
+          "mover archivos activos ahí",
+          "Downloads zero weekly.",
+          "Iconos menos = mejor.",
+          "¿Archivos activos?",
+          [
+            "USB perdido",
+            "Carpeta sesión dedicada",
+            "Todo desktop",
+            "Sin carpetas"
+          ],
+          1
+        ],
+        [
+          "Bookmarks estudio",
+          "Barra favoritos solo recursos curso",
+          "eliminar 50 tabs guardados",
+          "Un click LMS.",
+          "Sync navegador.",
+          "¿Recursos frecuentes?",
+          [
+            "Bookmarks organizados",
+            "Google cada vez",
+            "Tabs 100",
+            "Historial scroll"
+          ],
+          0
+        ],
+        [
+          "Impresión batch",
+          "Imprimir semana una vez",
+          "domingo imprimir readings",
+          "Evita 'necesito imprimir' bloqueo.",
+          "Doble si barato.",
+          "¿Readings semana?",
+          [
+            "No leer",
+            "Solo móvil tiny",
+            "Batch impresión",
+            "Imprimir cada página día"
+          ],
+          2
+        ],
+        [
+          "Suministros backup",
+          "Bolígrafo extra, cargador, batería",
+          "estuche siempre mochila",
+          "Frustración supply = abandono.",
+          "Lista restock mensual.",
+          "¿Dos bolígrafos?",
+          [
+            "No escribir",
+            "Backup evita parar",
+            "Sin tinta parar",
+            "Pedir cada vez"
+          ],
+          1
+        ],
+        [
+          "Iluminación",
+          "Luz frontal suficiente reduce fatiga",
+          "lámpara escritorio 4000K",
+          "Evita solo luz techo espalda.",
+          "Luz natural lateral ideal.",
+          "¿Estudiar noche?",
+          [
+            "Oscuridad",
+            "Solo vela",
+            "Pantalla sola",
+            "Buena iluminación frontal"
+          ],
+          3
+        ],
+        [
+          "Ruido control",
+          "Tapones o ANC si ruido ambiente",
+          "probar biblioteca vs casa",
+          "White noise app tren.",
+          "Comunicar familia horario.",
+          "¿Ruido vecinos?",
+          [
+            "ANC o earplugs",
+            "Gritar más alto",
+            "Rendirse siempre",
+            "Mover montaña"
+          ],
+          0
+        ],
+        [
+          "Digital minimal tabs",
+          "Extensión limit tabs max 5",
+          "OneTab guardar resto",
+          "RAM y atención.",
+          "Cerrar post sesión.",
+          "¿Demasiadas pestañas?",
+          [
+            "Incognito 20",
+            "Limitar activas",
+            "Abrir más",
+            "Nunca cerrar"
+          ],
+          1
+        ],
+        [
+          "Reset espacio post",
+          "5 min ordenar fin sesión",
+          "timer 5 min guardar",
+          "Mañana empieza limpio.",
+          "Hábito ancla.",
+          "¿Fin estudio?",
+          [
+            "Mamá limpia",
+            "Ignorar",
+            "Reset rápido espacio",
+            "Dejar caos"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Estudio activo y repaso",
+      "description": "Técnicas que reducen procrastinación de inicio",
+      "lessons": [
+        [
+          "Regla 2 minutos",
+          "Si resistencia, comprometer solo 2 min empezar",
+          "decir 'solo abro documento'",
+          "Inicio reduce activación.",
+          "A menudo continúas.",
+          "¿Procrastinación?",
+          [
+            "Esperar motivación perfecta",
+            "Multitarea",
+            "Cancelar día",
+            "Empezar 2 minutos"
+          ],
+          3
+        ],
+        [
+          "Active recall",
+          "Cerrar apuntes y recitar conceptos",
+          "flashcards Anki 10 min",
+          "Reconocimiento ≠ recuerdo.",
+          "Espaciado repetición.",
+          "¿Estudiar activo?",
+          [
+            "Subrayar todo",
+            "Copiar texto",
+            "Recuperar sin mirar",
+            "Releer pasivo"
+          ],
+          2
+        ],
+        [
+          "Feynman técnica",
+          "Explicar en voz alta simple",
+          "grabar audio explicación 3 min",
+          "Detecta huecos comprensión.",
+          "Sin jerga.",
+          "¿Feynman?",
+          [
+            "Ignorar dudas",
+            "Explicar simple detecta lagunas",
+            "Memorizar sin entender",
+            "Solo fórmulas"
+          ],
+          1
+        ],
+        [
+          "Interleaving",
+          "Alternar tipos problemas vs bloque único",
+          "mezclar álgebra y geometría sesión",
+          "Mejor transferencia examen.",
+          "Más difícil pero eficaz.",
+          "¿Practicar examen?",
+          [
+            "Mezclar tipos problemas",
+            "Solo un tipo horas",
+            "Solo leer",
+            "Sin practicar"
+          ],
+          0
+        ],
+        [
+          "Chunking materia",
+          "Dividir capítulo secciones 20 min",
+          "outline antes leer",
+          "Mapa mental una página.",
+          "Priorizar core concepts.",
+          "¿Capítulo largo?",
+          [
+            "Saltar todo",
+            "Una noche",
+            "Chunks con metas",
+            "Leer lineal sin parar"
+          ],
+          2
+        ],
+        [
+          "Spaced repetition",
+          "Repasar día 1,3,7,14",
+          "Anki deck diario 15 min",
+          "Olvido curva Ebbinghaus.",
+          "Consistencia > cram.",
+          "¿Memoria largo plazo?",
+          [
+            "No repasar",
+            "Repaso espaciado",
+            "Cram noche antes solo",
+            "Leer una vez"
+          ],
+          1
+        ],
+        [
+          "Practice exams",
+          "Simular condiciones tiempo",
+          "timer exam completo",
+          "Reduce ansiedad sorpresa.",
+          "Revisar errores categoría.",
+          "¿Preparación examen?",
+          [
+            "Solo resumen",
+            "Copiar respuestas",
+            "Ignorar formato",
+            "Simulacros cronometrados"
+          ],
+          3
+        ],
+        [
+          "Reward pairing",
+          "Gusto pequeño tras bloque completado",
+          "café favorito tras 2 pomodoros",
+          "Dopamina refuerzo.",
+          "No solo recompensa final lejana.",
+          "¿Tras bloque?",
+          [
+            "Recompensa pequeña inmediata",
+            "Castigo",
+            "Nada nunca",
+            "Solo recompensa fin mes"
+          ],
+          0
+        ],
+        [
+          "Sleep hygiene estudio",
+          "Dormir suficiente consolida memoria",
+          "no all-nighter si evitable",
+          "Repaso breve antes dormir ok.",
+          "No sustituye sueño.",
+          "¿All-nighter?",
+          [
+            "Requerido",
+            "Perjudica memoria y foco",
+            "Siempre ideal",
+            "Mejor que estudiar día"
+          ],
+          1
+        ],
+        [
+          "Autoevaluación honesta",
+          "Qué funcionó esta semana organización",
+          "3 preguntas viernes journal",
+          "Ajuste sistema personal.",
+          "No culpa, experimento.",
+          "¿Cierre semanal estudio?",
+          [
+            "Copiar sistema ajeno ciego",
+            "Rendirse",
+            "Reflexionar y ajustar hábitos",
+            "Ignorar resultados"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

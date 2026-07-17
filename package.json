@@ -1,0 +1,24 @@
+{
+  "name": "biblioteca-del-saber-web",
+  "version": "1.0.0-web",
+  "description": "La Biblioteca del Saber — build de produccion para publicar en internet",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "dev": "python3 -m http.server 8773",
+    "prebuild": "node scripts/generate-sitemap.mjs",
+    "build": "vite build",
+    "postbuild": "node scripts/verify-dist.mjs",
+    "preview": "vite preview --port 4173",
+    "build:check": "npm run build && npm test",
+    "serve:dist": "python3 -m http.server 8773 --directory dist"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "vitest": "^2.0.0"
+  }
+}

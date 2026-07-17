@@ -1,0 +1,788 @@
+{
+  "id": "redes",
+  "prefix": "red",
+  "contextField": "la red local",
+  "practiceField": "diagnóstico en casa u oficina",
+  "modules": [
+    {
+      "title": "Fundamentos de red",
+      "description": "IP, máscara, gateway y DNS explicados",
+      "lessons": [
+        [
+          "IPv4 privada",
+          "Rangos 10/8, 172.16/12, 192.168/16 para LAN",
+          "identifica IP de tu router y PC con ip addr o ipconfig",
+          "192.168.1.1 suele ser gateway doméstico.",
+          "IPs privadas no enrutan en Internet directamente.",
+          "¿Rango típico hogar?",
+          [
+            "8.8.8.0/24 privado",
+            "1.1.1.1 LAN",
+            "224.0.0.0 host",
+            "192.168.0.0/16"
+          ],
+          3
+        ],
+        [
+          "Máscara de subred",
+          "Define porción red vs host; /24 = 255.255.255.0 común",
+          "calcula hosts útiles en /24: 254 aprox",
+          "Máscara /32 es un solo host.",
+          "CIDR simplifica notación.",
+          "¿Hosts en /24 típico?",
+          [
+            "Solo 2 siempre",
+            "Millones",
+            "254 utilizables aprox",
+            "65534 en /24"
+          ],
+          2
+        ],
+        [
+          "Gateway predeterminado",
+          "Router que enruta tráfico fuera de subred local",
+          "ping gateway desde PC; si falla, problema local",
+          "Sin gateway no sales a Internet aunque haya IP.",
+          "Gateway incorrecto = aislamiento.",
+          "¿Sin gateway correcto?",
+          [
+            "WiFi más fuerte",
+            "No accedes fuera de LAN",
+            "Más velocidad",
+            "DNS automático"
+          ],
+          1
+        ],
+        [
+          "DNS",
+          "Traduce nombres a IP; suele ser router o 8.8.8.8/1.1.1.1",
+          "nslookup dominio comprueba resolución",
+          "DNS lento afecta sensación de lentitud web.",
+          "DNS over HTTPS cambia privacidad.",
+          "¿Función DNS?",
+          [
+            "Resolver nombres a IP",
+            "Ampliar WiFi",
+            "Cifrar disco",
+            "Medir ping físico"
+          ],
+          0
+        ],
+        [
+          "MAC address",
+          "Identificador físico interfaz; útil en DHCP reservas",
+          "encuentra MAC en ip link o etiqueta router",
+          "MAC filtrado en WiFi es seguridad débil sola.",
+          "Primer tramo comunicación usa MAC.",
+          "¿Capa MAC?",
+          [
+            "Física solo cable",
+            "DNS",
+            "Enlace de datos (L2)",
+            "Aplicación (L7)"
+          ],
+          2
+        ],
+        [
+          "DHCP",
+          "Asigna IP automáticamente; lease temporal",
+          "reserva IP por MAC en panel router para servidor",
+          "Agotar pool DHCP impide nuevos dispositivos.",
+          "Renovar: dhclient o reconectar.",
+          "¿DHCP sin leases libres?",
+          [
+            "Cable se rompe",
+            "Dispositivos no obtienen IP",
+            "Internet más rápido",
+            "DNS desaparece"
+          ],
+          1
+        ],
+        [
+          "NAT doméstico",
+          "Router traduce IPs privadas a pública WAN",
+          "múltiples dispositivos comparten IP pública",
+          "NAT impide acceso entrante sin port forward.",
+          "CGNAT complica hosting casero.",
+          "¿NAT permite?",
+          [
+            "IPs públicas ilimitadas en LAN",
+            "Eliminar router",
+            "DNS local",
+            "Varios dispositivos con una IP pública"
+          ],
+          3
+        ],
+        [
+          "TCP vs UDP",
+          "TCP confiable con handshake; UDP rápido sin garantía",
+          "HTTP usa TCP; DNS tradicional UDP",
+          "Streaming puede usar UDP con buffer.",
+          "Puertos identifican servicios.",
+          "¿Protocolo confiable?",
+          [
+            "TCP",
+            "UDP",
+            "ICMP siempre",
+            "ARP web"
+          ],
+          0
+        ],
+        [
+          "Puertos comunes",
+          "80 HTTP, 443 HTTPS, 22 SSH, 53 DNS",
+          "nmap localhost en red propia con permiso",
+          "Firewall bloquea puertos no necesarios.",
+          "Escaneo ajeno puede ser ilegal.",
+          "¿HTTPS?",
+          [
+            "Puerto 80 solo mail",
+            "Puerto 443",
+            "Puerto 21 siempre",
+            "Puerto 25 web"
+          ],
+          1
+        ],
+        [
+          "Modelo OSI práctico",
+          "7 capas; diagnóstico de abajo arriba: cable, IP, DNS, app",
+          "si ping IP OK pero no nombre, sospecha DNS",
+          "Capa física: cable malo común.",
+          "Aplicación: certificado SSL caducado.",
+          "¿Ping IP OK, nombre falla?",
+          [
+            "Monitor apagado",
+            "Teclado",
+            "Problema DNS probable",
+            "Cable roto"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "WiFi doméstico",
+      "description": "SSID, bandas, canal y cobertura",
+      "lessons": [
+        [
+          "2.4 vs 5 GHz",
+          "2.4 más alcance; 5 más velocidad y menos interferencia",
+          "conecta móvil a 5 GHz cerca del router",
+          "2.4 atraviesa paredes mejor.",
+          "Algunos IoT solo 2.4.",
+          "¿Mejor throughput cerca router?",
+          [
+            "2.4 siempre",
+            "Bluetooth",
+            "Cable coaxial",
+            "5 GHz"
+          ],
+          3
+        ],
+        [
+          "Canales WiFi",
+          "2.4 GHz canales 1,6,11 no solapados en EEUU/EU similar",
+          "analiza congestión con app WiFi analyzer",
+          "Vecinos en mismo canal reducen velocidad.",
+          "Auto canal ayuda pero no perfecto.",
+          "¿Canales 2.4 sin solapar (1,6,11)?",
+          [
+            "Cierran DHCP",
+            "Apagan DNS",
+            "Reducen interferencia mutua",
+            "Duplican señal"
+          ],
+          2
+        ],
+        [
+          "SSID y contraseña",
+          "WPA2/WPA3; contraseña larga aleatoria",
+          "cambia contraseña por defecto del router",
+          "WPS es vulnerable: desactivar.",
+          "SSID oculto no es seguridad real.",
+          "¿Seguridad WiFi moderna?",
+          [
+            "Sin contraseña",
+            "WPA3 o WPA2 fuerte",
+            "WEP",
+            "Abierto siempre"
+          ],
+          1
+        ],
+        [
+          "Repetidor vs mesh",
+          "Repetidor halva ancho de banda; mesh coordina nodos",
+          "evalúa cobertura en planta alta",
+          "Cable ethernet backhaul es ideal.",
+          "Mesh caro pero cómodo.",
+          "¿Mesh ventaja?",
+          [
+            "Roaming coordinado entre nodos",
+            "Siempre más lento que nada",
+            "Elimina cable",
+            "Sustituye ISP"
+          ],
+          0
+        ],
+        [
+          "Potencia y ubicación",
+          "Router central elevado lejos de metales",
+          "no dentro de armario metálico",
+          "Microondas interfiere 2.4 GHz.",
+          "Antenas verticales para cobertura horizontal.",
+          "¿Peor ubicación router?",
+          [
+            "Lejos microondas",
+            "Con ventilación",
+            "Armario metálico cerrado",
+            "Centro casa elevado"
+          ],
+          2
+        ],
+        [
+          "Invitados WiFi",
+          "SSID invitados aísla de dispositivos LAN",
+          "activa red invitados para visitas IoT",
+          "Impide acceso a NAS/impressoras LAN.",
+          "Límite velocidad opcional.",
+          "¿Red invitados?",
+          [
+            "Abre puertos",
+            "Aislamiento de dispositivos principales",
+            "Más contraseña admin",
+            "Apaga Internet"
+          ],
+          1
+        ],
+        [
+          "Actualizar firmware router",
+          "Parches seguridad y estabilidad",
+          "backup config antes de actualizar",
+          "Firmware antiguo tiene CVEs conocidos.",
+          "Reinicio programado post-update.",
+          "¿Por qué actualizar firmware?",
+          [
+            "Más MACs",
+            "Cambiar color LED",
+            "Eliminar WiFi",
+            "Seguridad y correcciones"
+          ],
+          3
+        ],
+        [
+          "QoS básico",
+          "Prioriza tráfico videollamada o juego",
+          "configura QoS si router lo soporta",
+          "Subida saturada afecta ACKs y latencia.",
+          "QoS mal configurado empeora.",
+          "¿QoS útil cuando?",
+          [
+            "Subida limitada saturada",
+            "Fibra simétrica ociosa",
+            "Sin dispositivos",
+            "Cable apagado"
+          ],
+          0
+        ],
+        [
+          "Diagnóstico velocidad",
+          "speedtest en cable vs WiFi compara",
+          "prueba con cable ethernet directo",
+          "WiFi nunca iguala cable en estabilidad.",
+          "Varios tests en horas distintas.",
+          "¿Test fiable WiFi?",
+          [
+            "Con VPN siempre",
+            "Comparar con ethernet mismo momento",
+            "Un test forever",
+            "Solo móvil lejos"
+          ],
+          1
+        ],
+        [
+          "Lista dispositivos conectados",
+          "Panel router muestra DHCP clients",
+          "identifica desconocidos y cambia WiFi",
+          "IoT olvidado puede ser vector ataque.",
+          "Renombra dispositivos para reconocer.",
+          "¿Dispositivo desconocido en lista?",
+          [
+            "Abrir todos puertos",
+            "Apagar firewall",
+            "Investigar y bloquear si no es tuyo",
+            "Ignorar"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Cableado y hardware",
+      "description": "Switch, router, PoE y pruebas físicas",
+      "lessons": [
+        [
+          "Router vs switch vs modem",
+          "Modem ISP; router enruta; switch expande puertos L2",
+          "diagrama tu red doméstica en papel",
+          "Modem-router combo común en ISP.",
+          "Switch no asigna IP.",
+          "¿Expandir puertos ethernet?",
+          [
+            "Modem solo",
+            "Monitor",
+            "Teclado USB",
+            "Switch"
+          ],
+          3
+        ],
+        [
+          "Cat5e vs Cat6",
+          "Cat6 mejor rendimiento a distancias cortas 1G+",
+          "usa Cat6 para cableado nuevo",
+          "Cable dañado causa negociación 100M.",
+          "No doblar excesivamente.",
+          "¿Cable gigabit estable?",
+          [
+            "HDMI",
+            "Audio RCA",
+            "Cat5e/Cat6 buen estado",
+            "Cable telefónico"
+          ],
+          2
+        ],
+        [
+          "PoE",
+          "Alimentación por ethernet para AP y cámaras",
+          "verifica switch PoE budget watts",
+          "Estándares 802.3af/at/bt distintos potencia.",
+          "Cable largo reduce voltaje.",
+          "¿PoE para?",
+          [
+            "PC gaming",
+            "AP y cámaras sin adaptador",
+            "Monitor 4K",
+            "Impresora láser grande"
+          ],
+          1
+        ],
+        [
+          "Link lights",
+          "LED en puerto indica link y velocidad",
+          "sin luz link: cable o puerto malo",
+          "Parpadeo indica tráfico.",
+          "Cruzar TX/RX en cable directo antiguo.",
+          "¿Sin luz link?",
+          [
+            "Cable, puerto o interfaz apagada",
+            "DNS roto",
+            "Contraseña WiFi",
+            "CPU caliente"
+          ],
+          0
+        ],
+        [
+          "Loop de conmutación",
+          "Conectar switch a sí mismo puede crear bucle",
+          "evita loops sin STP en switches baratos",
+          "Red cae por tormenta broadcast.",
+          "STP en switches managed previene.",
+          "¿Loop ethernet?",
+          [
+            "Mejor WiFi",
+            "DNS más rápido",
+            "Broadcast storm puede paralizar LAN",
+            "Más velocidad"
+          ],
+          2
+        ],
+        [
+          "UPnP y riesgos",
+          "Abre puertos automáticamente para apps",
+          "desactiva UPnP si no lo necesitas",
+          "Malware puede abrir puertos vía UPnP.",
+          "Port forward manual más control.",
+          "¿Riesgo UPnP?",
+          [
+            "Cable más largo",
+            "Apertura automática no deseada",
+            "Más ping",
+            "WiFi apagado"
+          ],
+          1
+        ],
+        [
+          "Port forwarding",
+          "Redirige puerto WAN a IP LAN interna",
+          "solo abre puertos necesarios para servidor",
+          "Ejemplo: 443→servidor HTTPS local.",
+          "IP reservada evita cambios DHCP.",
+          "¿Acceso externo a NAS?",
+          [
+            "Abrir todos puertos",
+            "Sin contraseña",
+            "WEP",
+            "Port forward + seguridad fuerte"
+          ],
+          3
+        ],
+        [
+          "VLAN introducción",
+          "Segmenta tráfico lógicamente en switch managed",
+          "IoT en VLAN separada en redes avanzadas",
+          "Requiere hardware compatible.",
+          "Mejora seguridad y broadcast.",
+          "¿VLAN beneficio?",
+          [
+            "Segmentación y seguridad",
+            "Más WiFi alcance",
+            "Elimina cables",
+            "DNS gratis"
+          ],
+          0
+        ],
+        [
+          "Tester de cable",
+          "Verifica pares y continuidad",
+          "tester barato detecta cruce pares",
+          "Toner localiza cable en pared.",
+          "Certificación para instalaciones pro.",
+          "¿Cable sospechoso?",
+          [
+            "Reiniciar monitor",
+            "Probar con tester o reemplazar",
+            "Ignorar",
+            "Más WiFi"
+          ],
+          1
+        ],
+        [
+          "Documentar red",
+          "Diagrama IP, MAC, ubicación AP y contraseñas en gestor",
+          "actualiza tras cada cambio hardware",
+          "Password manager para credenciales router.",
+          "Etiqueta física en patch panel.",
+          "¿Documentación red?",
+          [
+            "Inseguro siempre",
+            "Opcional nunca",
+            "Facilita diagnóstico futuro",
+            "Ralentiza Internet"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Diagnóstico paso a paso",
+      "description": "Metodología cuando 'no hay internet'",
+      "lessons": [
+        [
+          "Capa física primero",
+          "Cable, WiFi conectado, luces link",
+          "reinicia modem y router 30 s apagados",
+          "Muchos problemas son cable suelto.",
+          "Prueba otro puerto/cable.",
+          "¿Primer paso sin internet?",
+          [
+            "Reinstalar OS",
+            "Comprar router nuevo",
+            "Cambiar ISP sin probar",
+            "Verificar link físico/WiFi"
+          ],
+          3
+        ],
+        [
+          "Ping gateway",
+          "Confirma conectividad LAN",
+          "ping 192.168.1.1 ejemplo",
+          "Si falla gateway, problema local.",
+          "Firewall PC raro bloquea ping.",
+          "¿Ping gateway falla?",
+          [
+            "Web caída",
+            "SSL caducado",
+            "Problema LAN o WiFi local",
+            "DNS seguro"
+          ],
+          2
+        ],
+        [
+          "Ping 8.8.8.8",
+          "Prueba salida Internet sin DNS",
+          "ping 8.8.8.8",
+          "OK IP pero no nombre → DNS.",
+          "Fallo IP → ISP o router WAN.",
+          "¿Ping IP OK, no dominios?",
+          [
+            "Impresora",
+            "DNS",
+            "Monitor",
+            "Teclado"
+          ],
+          1
+        ],
+        [
+          "Traceroute",
+          "Identifica salto donde se pierde ruta",
+          "traceroute google.com",
+          "Timeout en hop 1 es local.",
+          "Algunos routers no responden ICMP.",
+          "¿Timeout hop 1?",
+          [
+            "Problema router/gateway local",
+            "Google caído siempre",
+            "Teclado",
+            "RAM"
+          ],
+          0
+        ],
+        [
+          "ipconfig / ip addr",
+          "Ver IP, máscara, gateway asignados",
+          "compara con rango esperado",
+          "APIPA 169.254 indica DHCP fallido.",
+          "Renovar lease puede ayudar.",
+          "¿IP 169.254.x.x?",
+          [
+            "DNS rápido",
+            "Fibra 10G",
+            "DHCP no respondió",
+            "Conexión perfecta"
+          ],
+          2
+        ],
+        [
+          "Flush DNS cache",
+          "Limpiar caché DNS corrupta",
+          "systemd-resolve --flush-caches o equivalente",
+          "Windows: ipconfig /flushdns.",
+          "Probar otro DNS 1.1.1.1 temporal.",
+          "¿Sospecha DNS local corrupto?",
+          [
+            "Apagar switch",
+            "Flush cache DNS",
+            "Formatear PC",
+            "Cambiar monitor"
+          ],
+          1
+        ],
+        [
+          "Un solo dispositivo",
+          "Si solo uno falla, enfoca en ese dispositivo",
+          "olvidar/rediscover WiFi en móvil",
+          "Proxy manual mal configurado.",
+          "VPN atascada.",
+          "¿Solo un PC falla?",
+          [
+            "Router roto seguro",
+            "ISP caído",
+            "DNS mundial caído",
+            "Config ese dispositivo"
+          ],
+          3
+        ],
+        [
+          "Logs router",
+          "Revisar WAN disconnects y DHCP",
+          "accede panel admin cable",
+          "Muchos routers muestran uptime WAN.",
+          "Credenciales en etiqueta o manual.",
+          "¿WAN caída frecuente?",
+          [
+            "Contactar ISP o revisar modem",
+            "Cambiar teclado",
+            "Más RAM",
+            "Nuevo monitor"
+          ],
+          0
+        ],
+        [
+          "MTU issues",
+          "MTU incorrecto fragmenta VPN o PPPoE",
+          "prueba ping -M do -s 1472 host",
+          "Síntoma: algunas páginas no cargan.",
+          "Ajuste MTU en interfaz.",
+          "¿Síntoma MTU?",
+          [
+            "DNS siempre",
+            "Algunos sitios fallan otros OK",
+            "WiFi apagado",
+            "Todo lento igual"
+          ],
+          1
+        ],
+        [
+          "Escalado ISP",
+          "Documentar pruebas antes de llamar soporte",
+          "anota hora, luces modem, resultados ping",
+          "Soporte pedirá reinicio modem.",
+          "Nivel 2 si persistencia.",
+          "¿Antes llamar ISP?",
+          [
+            "Culpar vecino",
+            "Comprar router sin probar",
+            "Registro de pruebas realizadas",
+            "Sin datos"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Seguridad doméstica",
+      "description": "Firewall, actualizaciones y higiene",
+      "lessons": [
+        [
+          "Contraseña admin router",
+          "Cambiar default evita takeover remoto",
+          "usuario/contraseña únicos fuertes",
+          "CVEs en routers antiguos explotados.",
+          "Desactiva admin remoto si no usas.",
+          "¿Admin remoto sin necesidad?",
+          [
+            "Dejar default",
+            "password123",
+            "SSID admin",
+            "Desactivar"
+          ],
+          3
+        ],
+        [
+          "Actualizar dispositivos IoT",
+          "Cámaras y plugs parchean vulnerabilidades",
+          "lista IoT y calendario update",
+          "Botnets explotan IoT default creds.",
+          "Segmentar IoT en red invitados.",
+          "¿IoT sin parches?",
+          [
+            "Mejor DNS",
+            "Menos cables",
+            "Riesgo de botnet",
+            "Más velocidad"
+          ],
+          2
+        ],
+        [
+          "Firewall host",
+          "ufw/firewalld en PCs expuestos",
+          "activa firewall en laptop",
+          "No sustituye router firewall.",
+          "Reglas mínimas necesarias.",
+          "¿Firewall en laptop?",
+          [
+            "Apaga WiFi",
+            "Capa extra protección",
+            "Innecesario siempre",
+            "Ralentiza CPU 50%"
+          ],
+          1
+        ],
+        [
+          "HTTPS everywhere",
+          "Cifrado tráfico web; HSTS en sitios",
+          "observa candado navegador",
+          "No envíes credenciales en HTTP plano.",
+          "Certificados Let's Encrypt gratuitos.",
+          "¿HTTPS protege?",
+          [
+            "Cifrado en tránsito",
+            "Elimina malware local",
+            "Oculta IP siempre",
+            "Acelera CPU"
+          ],
+          0
+        ],
+        [
+          "Phishing en red",
+          "Captive portals falsos en WiFi público",
+          "no loguear bancos en WiFi abierto",
+          "VPN en café protege tráfico.",
+          "Verificar SSID oficial hotel.",
+          "¿WiFi público bancario?",
+          [
+            "Más rápido",
+            "Sin riesgo",
+            "Evitar o usar VPN",
+            "Siempre seguro"
+          ],
+          2
+        ],
+        [
+          "Backup configuración router",
+          "Export config tras cambios",
+          "guarda cifrado en password manager",
+          "Restaurar tras reset factory.",
+          "Incluye DHCP reservas.",
+          "¿Tras configurar router?",
+          [
+            "Borrar firmware",
+            "Exportar backup config",
+            "Olvidar",
+            "Publicar online"
+          ],
+          1
+        ],
+        [
+          "Desactivar WPS",
+          "PIN WPS brute-forcible",
+          "toggle off en wireless settings",
+          "Botón físico WPS también riesgo.",
+          "Usar WPA2-PSK largo.",
+          "¿WPS?",
+          [
+            "Más seguro activo",
+            "Requerido siempre",
+            "Mejor que WPA3",
+            "Vulnerable; desactivar"
+          ],
+          3
+        ],
+        [
+          "Monitoreo anomalías",
+          "Tráfico saliente inusual puede ser malware",
+          "revisa dispositivos listados router",
+          "Adblock DNS reduce riesgo también.",
+          "Pi-hole combina filtrado y stats.",
+          "¿Tráfico saliente raro?",
+          [
+            "Investigar dispositivo origen",
+            "Ignorar",
+            "Abrir puertos",
+            "Desactivar DHCP"
+          ],
+          0
+        ],
+        [
+          "VPN doméstica",
+          "Acceso remoto seguro a LAN",
+          "WireGuard en NAS o router avanzado",
+          "Mejor que port forward RDP expuesto.",
+          "Mantén claves seguras.",
+          "¿Acceso remoto files?",
+          [
+            "Telnet",
+            "VPN como WireGuard",
+            "RDP abierto Internet",
+            "FTP sin cifrar"
+          ],
+          1
+        ],
+        [
+          "Plan respuesta incidente",
+          "Aislar dispositivo, cambiar passwords, firmware",
+          "desconecta IoT comprometido de red",
+          "Documenta timeline para soporte.",
+          "Restaurar backup limpio.",
+          "¿Dispositivo comprometido?",
+          [
+            "Publicar password",
+            "Abrir DMZ",
+            "Aislar y actualizar/restaurar",
+            "Ignorar"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,788 @@
+{
+  "id": "fotografia",
+  "prefix": "fot",
+  "contextField": "el paisaje natural",
+  "practiceField": "salidas fotográficas al aire libre",
+  "modules": [
+    {
+      "title": "Exposición y luz natural",
+      "description": "Triángulo apertura-velocidad-ISO",
+      "lessons": [
+        [
+          "Triángulo exposición",
+          "Apertura, velocidad e ISO se compensan",
+          "modo manual cambia uno observa histograma",
+          "Subir ISO aumenta ruido.",
+          "Un stop duplica luz.",
+          "¿Subir ISO?",
+          [
+            "Más nitidez siempre",
+            "Menos luz entrada",
+            "Apaga flash solo",
+            "Sensor más sensible más ruido"
+          ],
+          3
+        ],
+        [
+          "Apertura y profundidad",
+          "f/2.8 poca profundidad; f/11 mucha",
+          "foto flor f/2.8 vs paisaje f/11",
+          "Bokeh en retrato.",
+          "Difracción f/22+ pierde nitidez.",
+          "¿Paisaje nítido total?",
+          [
+            "f/32 siempre mejor",
+            "Sin trípode ISO min",
+            "f/8-f/11 aprox",
+            "f/1.4 siempre"
+          ],
+          2
+        ],
+        [
+          "Velocidad congelar",
+          "1/1000 aves; 1/30 agua sedosa con trípode",
+          "experimenta cascada 1/4 s",
+          "Regla 1/focal hand-held.",
+          "IBIS ayuda poco.",
+          "¿Congelar ave vuelo?",
+          [
+            "Modo retrato auto",
+            "Velocidad muy rápida",
+            "1 segundo",
+            "Bulb 30s"
+          ],
+          1
+        ],
+        [
+          "ISO y ruido",
+          "Base ISO 100-400 según cámara; subir si necesario",
+          "compara ISO 3200 en sombra",
+          "NR raw en post.",
+          "Mejor trípode que ISO extremo.",
+          "¿Poca luz sin trípode?",
+          [
+            "Subir ISO moderado",
+            "ISO 51200 siempre",
+            "Apagar cámara",
+            "Flash paisaje aleatorio"
+          ],
+          0
+        ],
+        [
+          "Histograma",
+          "Grafico tonos; evitar clipping extremos",
+          "activa histograma live view",
+          "Highlights pegados derecha sin detalle.",
+          "Expose to the right suave.",
+          "¿Histograma útil?",
+          [
+            "Sustituye composición",
+            "Reemplaza enfoque",
+            "Evaluar distribución tonos",
+            "Decoración"
+          ],
+          2
+        ],
+        [
+          "Hora dorada",
+          "Primera/última hora luz cálida lateral",
+          "planifica salida golden hour app",
+          "Sombras largas textura.",
+          "Blue hour después.",
+          "¿Golden hour?",
+          [
+            "Flash directo",
+            "Luz cálida baja angular",
+            "Mediodía duro",
+            "Noche sin luna"
+          ],
+          1
+        ],
+        [
+          "Hora azul",
+          "Crepúsculo cielo azul profundo",
+          "foto ciudad blue hour trípode",
+          "Balance blancos frío.",
+          "Mezcla artificial y natural.",
+          "¿Blue hour?",
+          [
+            "Mediodía",
+            "Eclipse solo",
+            "Mediodía HDR always",
+            "Post sunset cielo azul"
+          ],
+          3
+        ],
+        [
+          "Contraluz y silueta",
+          "Medir cielo silueta montaña",
+          "silueta árbol atardecer",
+          "Bracket si quieres ambos.",
+          "Flash relleno retrato.",
+          "¿Silueta?",
+          [
+            "Exponer fondo brillante",
+            "Exponer sombra",
+            "Flash paisaje",
+            "ISO 100 min night"
+          ],
+          0
+        ],
+        [
+          "Filtros ND",
+          "ND reduce luz día larga exposición",
+          "ND8 cascada día",
+          "ND variable cuidado banding.",
+          "Calcular tiempos app.",
+          "¿ND para?",
+          [
+            "Zoom digital",
+            "Exposición larga con luz",
+            "Más ISO",
+            "Flash exterior"
+          ],
+          1
+        ],
+        [
+          "Filtro polarizador",
+          "Reduce reflejos cielo agua",
+          "rotar CPL max saturación cielo 90° sol",
+          "No uniforme gran angular.",
+          "Quita brillo hojas.",
+          "¿CPL efecto?",
+          [
+            "Zoom digital",
+            "Enfoque auto macro",
+            "Reduce reflejos y oscurece cielo parcial",
+            "Aumenta ISO"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Composición paisaje",
+      "description": "Regla tercios, líneas y profundidad",
+      "lessons": [
+        [
+          "Regla tercios",
+          "Sujeto en intersecciones tercios",
+          "activa grid cámara",
+          "Horizonte tercio superior/inferior.",
+          "Romper regla intencional.",
+          "¿Horizonte centro?",
+          [
+            "Siempre obligatorio centro",
+            "Sin horizonte nunca",
+            "Diagonal solo",
+            "A menudo estático salvo reflejo"
+          ],
+          3
+        ],
+        [
+          "Líneas guía",
+          "Senderos, ríos dirigen ojo",
+          "componer camino desde esquina",
+          "Leading lines profundidad.",
+          "Evitar salida frame random.",
+          "¿Leading lines?",
+          [
+            "Solo vertical",
+            "Sin profundidad",
+            "Dirigen mirada sujeto",
+            "Distraen siempre"
+          ],
+          2
+        ],
+        [
+          "Foreground interest",
+          "Roca flor primer plano escala",
+          "gran angular cerca objeto",
+          "Profundidad capas.",
+          "Enfoque hyperfocal.",
+          "¿Primer plano paisaje?",
+          [
+            "Sin sujeto",
+            "Profundidad y escala",
+            "Solo cielo",
+            "Bokeh extremo paisaje"
+          ],
+          1
+        ],
+        [
+          "Encuadre vertical",
+          "Montañas árboles altos vertical",
+          "probar mismo lugar H vs V",
+          "Instagram no manda arte.",
+          "Vertical dramatismo.",
+          "¿Vertical cuándo?",
+          [
+            "Sujetos altos estrechos",
+            "Siempre horizontal",
+            "Nunca",
+            "Solo video"
+          ],
+          0
+        ],
+        [
+          "Simetría reflejos",
+          "Lago calma reflejo perfecto",
+          "amanecer viento mínimo",
+          "Horizonte centro ok.",
+          "Exposición media.",
+          "¿Reflejo simétrico?",
+          [
+            "Sin agua",
+            "Flash agua",
+            "Horizonte central aceptable",
+            "Horizonte siempre tercio"
+          ],
+          2
+        ],
+        [
+          "Marco natural",
+          "Ramás forman marco cascada",
+          "buscar ventana vegetación",
+          "No oscurecer sujeto.",
+          "Enfoque sujeto.",
+          "¿Marco natural?",
+          [
+            "Solo HDR",
+            "Enmarca sujeto contexto",
+            "Bloquea sujeto",
+            "Sin composición"
+          ],
+          1
+        ],
+        [
+          "Minimalismo",
+          "Espacio negativo cielo",
+          "una dunas cielo",
+          "Menos elementos más fuerza.",
+          "Exposición cuidado.",
+          "¿Minimalismo?",
+          [
+            "Llenar frame clutter",
+            "Siempre HDR 9 shots",
+            "Random",
+            "Pocos elementos impacto"
+          ],
+          3
+        ],
+        [
+          "Escala humana",
+          "Persona lejana tamaño montaña",
+          "silueta cresta",
+          "Permiso modelo.",
+          "Ética paisaje.",
+          "¿Persona paisaje?",
+          [
+            "Da sensación escala",
+            "Selfie stick siempre",
+            "Multitud",
+            "Sin sentido"
+          ],
+          0
+        ],
+        [
+          "Clutter removal",
+          "Mover basura frame o cambiar ángulo",
+          "2 pasos izquierda elimina poste",
+          "Clone stamp último recurso.",
+          "Ética documental.",
+          "¿Poste eléctrico?",
+          [
+            "No fotografiar",
+            "Reencuadrar si posible",
+            "Clone siempre mentir",
+            "Ignorar"
+          ],
+          1
+        ],
+        [
+          "Storytelling",
+          "Secuencia amanecer cuenta historia",
+          "3 fotos antes/durante/después",
+          "Serie blog.",
+          "Caption contexto.",
+          "¿Serie fotográfica?",
+          [
+            "Sin orden",
+            "Solo filtro",
+            "Narrativa múltiples imágenes",
+            "Una random"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Equipo y campo",
+      "description": "Cámara, lentes, trípode y protección",
+      "lessons": [
+        [
+          "Cámara APS-C vs FF",
+          "Full frame mejor baja luz; APS-C ligero",
+          "usa lo que tienes bien",
+          "Sensor no reemplaza composición.",
+          "Cropped factor focal.",
+          "¿FF ventaja?",
+          [
+            "Siempre mejor composición",
+            "Obligatorio paisaje",
+            "Sin lentes",
+            "Rendimiento alto ISO típico"
+          ],
+          3
+        ],
+        [
+          "Gran angular",
+          "10-24mm paisaje expansivo",
+          "probar 16mm estrellas",
+          "Distorsión bordes.",
+          "Corregir LR.",
+          "¿Paisaje amplio?",
+          [
+            "Macro 1:1 insecto solo",
+            "Fish eye siempre",
+            "Gran angular",
+            "Tele 600mm"
+          ],
+          2
+        ],
+        [
+          "Tele paisaje",
+          "Compresión montañas capas 70-200",
+          "montañas apiladas tele",
+          "Panoramas tele múltiples.",
+          "Trípode estable.",
+          "¿Compresión perspectiva?",
+          [
+            "Sin lente",
+            "Tele acorta distancia aparente",
+            "Gran angular siempre",
+            "Macro"
+          ],
+          1
+        ],
+        [
+          "Trípode elección",
+          "Estabilidad viento carga; ball head",
+          "trípode amanecer larga exposición",
+          "Carbono ligero.",
+          "Ganchos peso colgante.",
+          "¿Larga exposición día?",
+          [
+            "Trípode estable",
+            "Mano 5s",
+            "Monopie macro",
+            "Sin soporte"
+          ],
+          0
+        ],
+        [
+          "Bolsa y clima",
+          "Rain cover humedad; silice",
+          "fundas cambio lente seco",
+          "Condensación calor-frío.",
+          "Lens hood siempre.",
+          "¿Lluvia?",
+          [
+            "Guardar mojado cerrado",
+            "Secador pelo lente",
+            "Protección equipo y bolsa",
+            "Cambiar lente abierto"
+          ],
+          2
+        ],
+        [
+          "Baterías frío",
+          "Frío drena; calentar bolsillo spare",
+          "2 baterías invierno",
+          "Rotar calientes.",
+          "Power bank USB-C cámaras nuevas.",
+          "¿Frío montaña?",
+          [
+            "Sin spare",
+            "Baterías spare calor corporal",
+            "Una batería",
+            "Dejar fuera noche"
+          ],
+          1
+        ],
+        [
+          "Tarjetas backup",
+          "2 tarjetas rotar; no borrar hasta backup",
+          "copiar noche laptop campo",
+          "Format in-camera nueva.",
+          "Label tarjetas.",
+          "¿Backup campo?",
+          [
+            "Una tarjeta forever",
+            "Borrar sin ver",
+            "Confiar nube sin señal",
+            "Copiar diario disco"
+          ],
+          3
+        ],
+        [
+          "Sensor polvo",
+          "Cambio lente viento cuidado",
+          "soplador bulb sensor",
+          "Spot removal LR.",
+          "Profesional limpieza.",
+          "¿Polvo sensor?",
+          [
+            "Manchas cielo uniforme",
+            "Mejora composición",
+            "Más bokeh",
+            "Enfoque"
+          ],
+          0
+        ],
+        [
+          "Mochila foto",
+          "Acceso rápido cámara lateral",
+          "Peak Design vs f-stop debate",
+          "Distribución peso cadera.",
+          "Hydration compatible.",
+          "¿Mochila foto?",
+          [
+            "Mano 8h",
+            "Acceso gear sin parar",
+            "Bolsa supermercado",
+            "Sin correa"
+          ],
+          1
+        ],
+        [
+          "Etiqueta sendero",
+          "No bloquear sendero trípode",
+          "step aside grupos",
+          "Leave No Trace foto.",
+          "Drones regulación.",
+          "¿Trípode sendero?",
+          [
+            "Flash grupos",
+            "Dron prohibido ignore",
+            "Apartarse paso",
+            "Centro sendero"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Técnicas avanzadas",
+      "description": "HDR, panorámica, enfoque y astro",
+      "lessons": [
+        [
+          "Bracketing HDR",
+          "3-5 exposiciones fusionar",
+          "±2 EV paisaje alto contraste",
+          "Natural look evitar halos.",
+          "Merge Lightroom.",
+          "¿HDR cuándo?",
+          [
+            "Siempre obligatorio",
+            "Nunca",
+            "Solo JPEG camera",
+            "Alto rango dinámico escena"
+          ],
+          3
+        ],
+        [
+          "Panorámica horizontal",
+          "Overlap 30% rotar trípode",
+          "une 5 tomas valle",
+          "Manual exposure lock.",
+          "Nodal rail ideal.",
+          "¿Panorama?",
+          [
+            "Una foto gran angular crop",
+            "Video screenshot",
+            "Múltiples fotos unidas",
+            "Zoom digital"
+          ],
+          2
+        ],
+        [
+          "Enfoque hyperfocal",
+          "Max profundidad paisaje",
+          "app hyperfocal calcular",
+          "F/8-f/11 sweet.",
+          "Enfoque third distance.",
+          "¿Hyperfocal?",
+          [
+            "Sin enfoque",
+            "Profundidad máxima paisaje",
+            "f/1.4 paisaje",
+            "Manual infinito siempre mal"
+          ],
+          1
+        ],
+        [
+          "Focus stacking",
+          "Macro flores múltiples focos",
+          "10 shots merge Helicon",
+          "Trípode obligatorio.",
+          "Viento problema.",
+          "¿Focus stack?",
+          [
+            "Combinar planos foco",
+            "Una toma f/1.4 macro",
+            "Mover cámara",
+            "Autofocus random"
+          ],
+          0
+        ],
+        [
+          "Astro vía láctea",
+          "ISO alto gran angular trípode 15-25s",
+          "regla 500 evitar trails",
+          "Lejos luz ciudad.",
+          "Foco infinito manual.",
+          "¿Vía láctea?",
+          [
+            "Flash",
+            "HDR día",
+            "Exposición larga oscuro",
+            "Mediodía"
+          ],
+          2
+        ],
+        [
+          "Star trails",
+          "Bulb 30min o stack",
+          "app intervalometer",
+          "Batería larga.",
+          "Foreground interesante.",
+          "¿Star trails?",
+          [
+            "Autofocus día",
+            "Exposición muy larga o stack",
+            "1/8000s",
+            "Flash estrellas"
+          ],
+          1
+        ],
+        [
+          "Time-lapse",
+          "Interval 2-5s nubes",
+          "LRTimelapse o cámara built-in",
+          "Exposure ramp atardecer.",
+          "Tarjeta grande.",
+          "¿Time-lapse?",
+          [
+            "Una foto",
+            "Slow mo video",
+            "GIF meme",
+            "Secuencia fotos video"
+          ],
+          3
+        ],
+        [
+          "Long exposure personas",
+          "ND gente desaparece turístico",
+          "ND1000 plaza 2min",
+          "Tripod peso.",
+          "Permisos.",
+          "¿ND gente?",
+          [
+            "Exposición larga elimina gente móvil",
+            "Flash gente",
+            "ISO max",
+            "Bokeh"
+          ],
+          0
+        ],
+        [
+          "Vertorama",
+          "Panorama vertical acantilado",
+          "3 shots vertical stitch",
+          "Distorsión cuidado.",
+          "Software PTGui.",
+          "¿Vertorama?",
+          [
+            "Crop",
+            "Panorama vertical",
+            "Solo horizontal",
+            "Zoom digital"
+          ],
+          1
+        ],
+        [
+          "Planning PhotoPills",
+          "App sol luna posición",
+          "planificar luna alineada arco",
+          "Scout día antes.",
+          "Waypoints GPS.",
+          "¿PhotoPills?",
+          [
+            "Sin plan",
+            "Solo mapa papel",
+            "Planificar astro y sol",
+            "Adivinar"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Postproceso y flujo",
+      "description": "RAW, Lightroom y archivo",
+      "lessons": [
+        [
+          "RAW vs JPEG",
+          "RAW más datos recuperación sombras",
+          "dispara RAW+JPEG si duda",
+          "Espacio disco.",
+          "Perfil cámara JPEG.",
+          "¿Recuperar sombras?",
+          [
+            "JPEG siempre igual",
+            "PNG screenshot",
+            "BMP",
+            "RAW mejor margen"
+          ],
+          3
+        ],
+        [
+          "Balance blancos",
+          "Temp tint cálido frío",
+          "RAW ajustar WB after",
+          "Nublado vs sombra.",
+          "Consistency serie.",
+          "¿Atardecer WB?",
+          [
+            "Auto siempre perfect",
+            "Sin WB",
+            "Más cálido o ajustar RAW",
+            "Fluorescente verde"
+          ],
+          2
+        ],
+        [
+          "Curvas y contraste",
+          "S-curve suave",
+          "highlights recovery shadows lift",
+          "No overprocess.",
+          "Local adjustments.",
+          "¿Contraste excesivo?",
+          [
+            "Blur",
+            "Aspecto artificial halo",
+            "Mejor siempre más",
+            "Sin contraste"
+          ],
+          1
+        ],
+        [
+          "Dehaze local",
+          "Clarity montaña niebla moderada",
+          "brush dehaze fondo",
+          "Over clarity halos.",
+          "Natural preferred.",
+          "¿Dehaze?",
+          [
+            "Reducir neblina moderado",
+            "Siempre max",
+            "Nunca",
+            "Replace sky default"
+          ],
+          0
+        ],
+        [
+          "Sharpening export",
+          "Capture vs output sharpen web",
+          "export sharpen screen",
+          "No oversharpen sky.",
+          "Mask sharpening.",
+          "¿Sharpen web?",
+          [
+            "Sin sharpen nunca",
+            "Blur export",
+            "Output sharpening moderado",
+            "Max sharpen todo"
+          ],
+          2
+        ],
+        [
+          "Crop y nivel",
+          "Enderezar horizonte crítico",
+          "grid overlay rotate",
+          "Perder resolución crop.",
+          "Ratio print.",
+          "¿Horizonte torcido?",
+          [
+            "Extreme dutch always",
+            "Corregir rotate crop",
+            "Dejar torcido",
+            "No importa"
+          ],
+          1
+        ],
+        [
+          "Color grading natural",
+          "HSL ajuste cielo verde selective",
+          "subtle teal orange evitar cliché",
+          "Taste evoluciona.",
+          "Monitor calibrado.",
+          "¿HSL?",
+          [
+            "Saturación 100 global",
+            "B&w random",
+            "Sin color",
+            "Ajustar colores selectivos"
+          ],
+          3
+        ],
+        [
+          "Metadata keywords",
+          "Keywords location copyright IPTC",
+          "añadir GPS si ético",
+          "Buscar archivo.",
+          "Model release personas.",
+          "¿Keywords?",
+          [
+            "Organizar buscar fotos",
+            "Decoración",
+            "Sin utilidad",
+            "Secret"
+          ],
+          0
+        ],
+        [
+          "Backup 3-2-1",
+          "3 copias 2 medios 1 offsite",
+          "SSD + cloud fotos",
+          "Verificar restore.",
+          "No solo laptop.",
+          "¿Backup fotos?",
+          [
+            "Solo Instagram",
+            "Regla 3-2-1",
+            "Una tarjeta",
+            "Sin backup"
+          ],
+          1
+        ],
+        [
+          "Portfolio salida",
+          "Seleccionar 10 mejores serie coherente",
+          "critique grupo fotoclub",
+          "Kill favorites weak.",
+          "Sequence matters.",
+          "¿Portfolio paisaje?",
+          [
+            "Solo filtros",
+            "Sin edición",
+            "Selección curada coherente",
+            "Todas fotos"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

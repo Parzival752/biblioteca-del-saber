@@ -1,0 +1,788 @@
+{
+  "id": "automatizacion",
+  "prefix": "aut",
+  "contextField": "tus flujos de trabajo",
+  "practiceField": "automatizar tareas repetitivas",
+  "modules": [
+    {
+      "title": "Identificar automatizables",
+      "description": "Tiempo, frecuencia y reglas claras",
+      "lessons": [
+        [
+          "Auditoría de tareas",
+          "Lista tareas repetitivas semanales con tiempo estimado",
+          "registra una semana de microtareas",
+          "Si haces >5 veces/mes, candidato.",
+          "Automatizar mal ahorra nada.",
+          "¿Candidato automatización?",
+          [
+            "Creativo único",
+            "Una vez al año",
+            "Sin datos",
+            "Repetitivo, reglas claras, alto volumen"
+          ],
+          3
+        ],
+        [
+          "ROI tiempo",
+          "Tiempo automatizar vs tiempo ahorrado en 6 meses",
+          "si setup 2h ahorra 10 min/semana, ¿vale?",
+          "Break-even = coste setup / ahorro periodo.",
+          "Preferir quick wins.",
+          "¿Vale 2h setup ahorrando 10 min/sem?",
+          [
+            "Solo si ahorra 1 seg",
+            "Sin calcular",
+            "Sí ~12 semanas break-even",
+            "Nunca"
+          ],
+          2
+        ],
+        [
+          "Reglas vs ML",
+          "Reglas deterministas primero; ML si patrón complejo",
+          "if carpeta Downloads then mover por extensión",
+          "Reglas auditable y debuggable.",
+          "ML overkill para renombrar PDFs.",
+          "¿Renombrar facturas PDF?",
+          [
+            "Random",
+            "Reglas por patrón nombre",
+            "Red neuronal",
+            "Manual forever"
+          ],
+          1
+        ],
+        [
+          "Puntos de fricción",
+          "Copy-paste, renombrar, exportar, recordatorios",
+          "marca fricciones rojas en flujo",
+          "Un clic menos × 100 = horas.",
+          "Observa dónde abandonas tarea.",
+          "¿Fricción típica?",
+          [
+            "Copiar datos entre apps",
+            "Pensar creativo",
+            "Conversación humana",
+            "Caminar"
+          ],
+          0
+        ],
+        [
+          "Documentar proceso manual",
+          "Pasos numerados antes de automatizar",
+          "graba pantalla haciendo proceso una vez",
+          "Excepciones deben listarse.",
+          "Stakeholders validan pasos.",
+          "¿Antes automatizar?",
+          [
+            "Automatizar caos",
+            "Sin probar manual",
+            "Documentar flujo actual",
+            "Adivinar"
+          ],
+          2
+        ],
+        [
+          "Alcance mínimo viable",
+          "Automatiza 80% caso común primero",
+          "ignora edge cases raros inicialmente",
+          "Iteración v2 maneja excepciones.",
+          "Perfecto enemigo de hecho.",
+          "¿Primera versión?",
+          [
+            "100 features",
+            "Caso común principal",
+            "Todos edge day one",
+            "Nunca lanzar"
+          ],
+          1
+        ],
+        [
+          "Riesgos automatización",
+          "Borrado masivo, emails erróneos, loops infinitos",
+          "dry-run sin efectos destructivos",
+          "Sandbox datos prueba.",
+          "Rollback plan.",
+          "¿Antes delete masivo?",
+          [
+            "Producción directo",
+            "Sin log",
+            "Cron cada segundo",
+            "Dry-run y backup"
+          ],
+          3
+        ],
+        [
+          "Mantenimiento",
+          "APIs cambian; scripts requieren revisión",
+          "calendario revisión trimestral scripts",
+          "Alertas si falla cron.",
+          "Versiona scripts en git.",
+          "¿Script cron falló?",
+          [
+            "Logs y alertas",
+            "Ignorar",
+            "Duplicar 10 copias",
+            "Email boss"
+          ],
+          0
+        ],
+        [
+          "Humano en el loop",
+          "Aprobación para acciones irreversibles",
+          "email confirm antes de publicar batch",
+          "Confianza gradual.",
+          "Auto total solo bajo riesgo.",
+          "¿Borrar 1000 filas?",
+          [
+            "Solo los viernes",
+            "Confirmación humana",
+            "Sin preguntar",
+            "Random bot"
+          ],
+          1
+        ],
+        [
+          "Métricas éxito",
+          "Tiempo ahorrado, errores reducidos, satisfacción",
+          "mide minutos/semana post deploy",
+          "Cuantificar vende siguiente mejora.",
+          "Ajusta si no mejora.",
+          "¿Automatización exitosa?",
+          [
+            "Más clics",
+            "Peor calidad",
+            "Métrica mejora medible",
+            "Sin medir"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Automatización escritorio",
+      "description": "Atajos, macros OS y herramientas locales",
+      "lessons": [
+        [
+          "Atajos teclado OS",
+          "Win/Mac shortcuts ventana, captura, cambio app",
+          "lista 5 atajos nuevos practicar",
+          "Alt+Tab ahorra segundos ×100.",
+          "Personaliza en settings.",
+          "¿Cambiar app rápido?",
+          [
+            "Mouse solo",
+            "Reiniciar PC",
+            "Gritar",
+            "Alt+Tab / Cmd+Tab"
+          ],
+          3
+        ],
+        [
+          "Text expanders",
+          "Snippet firma email, direcciones frecuentes",
+          "configura ;addr → dirección completa",
+          "EspacioTrigger consistente.",
+          "No expandir en passwords.",
+          "¿Snippet útil?",
+          [
+            "Password",
+            "Código aleatorio",
+            "Texto frecuente largo",
+            "Novela entera"
+          ],
+          2
+        ],
+        [
+          "AutoHotkey / Keyboard Maestro",
+          "Scripts hotkey Windows/Mac",
+          "hotkey abre apps combo fija",
+          "AHK potente Windows.",
+          "KM Mac GUI amigable.",
+          "¿Abrir IDE + terminal?",
+          [
+            "Fax",
+            "Script hotkey",
+            "Manual 50 clics",
+            "Imprimir mapa"
+          ],
+          1
+        ],
+        [
+          "Reglas correo",
+          "Filtrar, etiquetar, archivar automático",
+          "regla: factura@ → carpeta Facturas",
+          "Reduce inbox ruido.",
+          "Revisar falsos positivos semanal.",
+          "¿Correo facturas?",
+          [
+            "Filtro auto carpeta",
+            "Scroll manual",
+            "Borrar todo",
+            "Imprimir"
+          ],
+          0
+        ],
+        [
+          "Renombrado batch",
+          "Bulk Rename Utility, rename CLI",
+          "prefijo fecha a escaneos",
+          "Preview antes ejecutar.",
+          "Regex poderoso.",
+          "¿100 fotos renombrar?",
+          [
+            "Screenshot nombres",
+            "No renombrar",
+            "Herramienta batch",
+            "Uno a uno"
+          ],
+          2
+        ],
+        [
+          "Carpetas vigiladas",
+          "Watch folder procesa nuevos archivos",
+          "PDF nuevo → OCR script",
+          "inotify/fswatch disparadores.",
+          "Evita loop procesando output.",
+          "¿Nuevo archivo dispara acción?",
+          [
+            "Copiar manual",
+            "Watch folder",
+            "Polling humano",
+            "Refresh F5"
+          ],
+          1
+        ],
+        [
+          "Clipboard managers",
+          "Historial portapapeles multi pegado",
+          "pega últimos 5 snippets",
+          "Reduce re-copy.",
+          "Cuidado datos sensibles historial.",
+          "¿Pegar item hace 3 min?",
+          [
+            "Reescribir",
+            "Foto pantalla",
+            "Imprimir",
+            "Clipboard manager"
+          ],
+          3
+        ],
+        [
+          "Launchers",
+          "Raycast, Alfred, KRunner abrir apps/files",
+          "hotkey buscar archivo por nombre",
+          "Menos mouse navegación.",
+          "Plugins extienden.",
+          "¿Abrir app sin mouse?",
+          [
+            "Launcher",
+            "Desktop icons solo",
+            "CMD sin buscar",
+            "Scroll"
+          ],
+          0
+        ],
+        [
+          "Capturas y OCR",
+          "Flameshot + tesseract extrae texto imagen",
+          "OCR recibo a CSV",
+          "Revisa errores OCR.",
+          "Idioma spa traineddata.",
+          "¿Texto de imagen?",
+          [
+            "Ignorar",
+            "OCR",
+            "Retipear siempre",
+            "Adivinar"
+          ],
+          1
+        ],
+        [
+          "Backup automático local",
+          "rsync cron a disco externo",
+          "rsync -av --delete con cuidado",
+          "Regla 3-2-1 backup.",
+          "Prueba restore.",
+          "¿Backup local?",
+          [
+            "Confiar nube solo",
+            "Sin backup",
+            "rsync programado",
+            "Una copia manual 2019"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Scripts y CLI",
+      "description": "Bash, Python pequeños y plantillas",
+      "lessons": [
+        [
+          "Shebang y permisos",
+          "Script ejecutable ./deploy.sh",
+          "chmod +x y probar",
+          "#!/usr/bin/env bash portable.",
+          "set -euo pipefail seguro.",
+          "¿Script ejecutable?",
+          [
+            "chmod 000",
+            "Sin shebang required always",
+            "Word doc",
+            "chmod +x"
+          ],
+          3
+        ],
+        [
+          "Argumentos CLI",
+          "argparse flags --dry-run",
+          "python script.py --help",
+          "Defaults sensatos.",
+          "Validar inputs.",
+          "¿Flag dry-run?",
+          [
+            "Random mode",
+            "Sin help",
+            "Simular sin cambios",
+            "Borrar siempre"
+          ],
+          2
+        ],
+        [
+          "Logging",
+          "logging.info vs print producción",
+          "log a archivo rotativo",
+          "Niveles DEBUG prod INFO.",
+          "Timestamp en logs.",
+          "¿Producción script?",
+          [
+            "echo rm -rf",
+            "logging module",
+            "print only",
+            "silent fail"
+          ],
+          1
+        ],
+        [
+          "Plantillas script",
+          "Copiar boilerplate argparse+logging",
+          "repo plantillas personal",
+          "DRY setup.",
+          "README por script.",
+          "¿Nuevo script?",
+          [
+            "Plantilla estándar",
+            "Desde cero caos",
+            "Sin docs",
+            "2000 líneas"
+          ],
+          0
+        ],
+        [
+          "Cron scheduling",
+          "0 2 * * * backup.sh",
+          "crontab -e usuario",
+          "PATH en cron explícito.",
+          "Redirigir stdout log.",
+          "¿2am diario?",
+          [
+            "Manual alarm",
+            "Esperar eclipse",
+            "Cron 0 2 * * *",
+            "while true"
+          ],
+          2
+        ],
+        [
+          "systemd timer",
+          "Alternativa cron en Linux moderno",
+          "unit timer + service",
+          "journalctl ver ejecuciones.",
+          "OnFailure alert opcional.",
+          "¿Linux sin cron?",
+          [
+            "Word macro",
+            "systemd timer",
+            "Reboot loop",
+            "kill -9 init"
+          ],
+          1
+        ],
+        [
+          "Exit codes",
+          "0 ok, !=0 error para cron alert",
+          "trap cleanup EXIT",
+          "CI usa exit codes.",
+          "Documenta códigos custom.",
+          "¿Cron falló?",
+          [
+            "Exit 0 always",
+            "Segfault ok",
+            "Ignore",
+            "Exit !=0 y log"
+          ],
+          3
+        ],
+        [
+          "Entornos virtuales Python",
+          "venv aísla dependencias proyecto",
+          "python -m venv .venv",
+          "requirements.txt pin versions.",
+          "No pip global caos.",
+          "¿Deps proyecto Python?",
+          [
+            "venv + requirements",
+            "pip install global 50 libs",
+            "Sin versiones",
+            "Python 2"
+          ],
+          0
+        ],
+        [
+          "JSON y YAML config",
+          "Config externa sin hardcode",
+          "config.yaml paths folders",
+          "Validar schema.",
+          "Secrets en env vars.",
+          "¿API key?",
+          [
+            "Sticky note photo",
+            "Variable entorno",
+            "Hardcode git",
+            "Tweet key"
+          ],
+          1
+        ],
+        [
+          "Tests smoke",
+          "Test mínimo script no explota",
+          "pytest test_main.py",
+          "CI GitHub Actions opcional.",
+          "Sample fixture data.",
+          "¿Antes deploy script?",
+          [
+            "Pray",
+            "Copy prod data delete",
+            "Smoke test",
+            "Yolo prod"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Integraciones web",
+      "description": "APIs, webhooks y no-code",
+      "lessons": [
+        [
+          "Webhooks",
+          "HTTP POST cuando evento ocurre",
+          "GitHub push → Discord notify",
+          "Verificar firma HMAC.",
+          "Idempotencia reintentos.",
+          "¿Evento dispara URL?",
+          [
+            "Poll cada 1s forever",
+            "Email fax",
+            "SMS pigeon",
+            "Webhook"
+          ],
+          3
+        ],
+        [
+          "REST POST JSON",
+          "curl -X POST -d '{}' headers",
+          "crear issue API tracker",
+          "Content-Type application/json.",
+          "Bearer token header.",
+          "¿Enviar JSON API?",
+          [
+            "FTP JSON",
+            "Telnet",
+            "POST con Content-Type json",
+            "GET only always"
+          ],
+          2
+        ],
+        [
+          "OAuth básico",
+          "No compartir password; tokens refresh",
+          "app Google OAuth consent screen",
+          "Scopes mínimos.",
+          "Revoca tokens viejos.",
+          "¿Acceso Gmail automatizado?",
+          [
+            "Share account",
+            "OAuth tokens",
+            "Password en script",
+            "Screenshot password"
+          ],
+          1
+        ],
+        [
+          "Zapier/Make flujos",
+          "Trigger action multi step",
+          "form → sheet → slack",
+          "Cuota free limits.",
+          "Map fields explícito.",
+          "¿No-code integración?",
+          [
+            "Zapier/Make",
+            "Contratar dev siempre",
+            "Manual CSV email",
+            "Fax chain"
+          ],
+          0
+        ],
+        [
+          "Google Apps Script",
+          "Automatizar Sheets/Gmail en JS cloud",
+          "onFormSubmit handler",
+          "Triggers time-driven.",
+          "Cuotas Google.",
+          "¿Sheets auto email?",
+          [
+            "Print mail",
+            "Carrier pigeon",
+            "Apps Script trigger",
+            "Copy paste hourly"
+          ],
+          2
+        ],
+        [
+          "RSS to action",
+          "Nuevo feed item → notificación",
+          "IFTTT RSS trigger",
+          "Filtra keywords.",
+          "Evita spam feeds.",
+          "¿Monitor blog?",
+          [
+            "Ignore",
+            "RSS trigger",
+            "Refresh homepage 24/7",
+            "Print RSS"
+          ],
+          1
+        ],
+        [
+          "Rate limits",
+          "Respetar Retry-After headers",
+          "sleep exponential backoff",
+          "429 Too Many Requests.",
+          "Cache responses.",
+          "¿API 429?",
+          [
+            "Hammer faster",
+            "New account spam",
+            "DDoS",
+            "Backoff y retry"
+          ],
+          3
+        ],
+        [
+          "Idempotencia",
+          "Mismo input no duplica efecto",
+          "idempotency-key header pagos",
+          "Crítico pagos/emails.",
+          "UUID por operación.",
+          "¿Evitar doble cargo?",
+          [
+            "Idempotency key",
+            "Retry blindly",
+            "Double POST",
+            "Hope"
+          ],
+          0
+        ],
+        [
+          "Monitoreo flujos",
+          "Salud zap: error rate email",
+          "dead letter queue failed jobs",
+          "Dashboard uptime.",
+          "Alert Slack.",
+          "¿Flujo falló 3 veces?",
+          [
+            "Delete logs",
+            "Alerta y pausa",
+            "Ignorar",
+            "Loop infinito"
+          ],
+          1
+        ],
+        [
+          "Documentar integraciones",
+          "Diagrama trigger→steps→output",
+          "Notion page por flujo",
+          "Credenciales vault link.",
+          "Owner responsable.",
+          "¿Integración equipo?",
+          [
+            "Solo en cabeza jefe",
+            "Post-it",
+            "Documentación clara",
+            "Secreto tribal"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Buenas prácticas",
+      "description": "Seguridad, pruebas y evolución",
+      "lessons": [
+        [
+          "Secrets management",
+          "Vault, pass, env nunca git",
+          ".env en gitignore",
+          "git-secrets scan.",
+          "Rotate keys leak.",
+          "¿API key repo?",
+          [
+            "Push .env public",
+            "Tweet key",
+            "Hardcode main",
+            "Nunca commit; usar env"
+          ],
+          3
+        ],
+        [
+          "Least privilege",
+          "Token solo scopes necesarios",
+          "read-only si solo lee",
+          "Cuenta servicio dedicada.",
+          "Revoca al terminar proyecto.",
+          "¿Token lectura datos?",
+          [
+            "Root AWS",
+            "Share password",
+            "Scope read-only",
+            "Admin full always"
+          ],
+          2
+        ],
+        [
+          "Version control flujos",
+          "Git para scripts y config",
+          "commit message convencional",
+          "PR review automation.",
+          "Tags releases.",
+          "¿Scripts automatización?",
+          [
+            "No versionar",
+            "En git",
+            "Email attachments",
+            "USB only"
+          ],
+          1
+        ],
+        [
+          "Staging environment",
+          "Probar en copia datos anonimizados",
+          "staging zap disabled external",
+          "No test emails clientes reales.",
+          "Flag LIVE vs TEST.",
+          "¿Probar email masivo?",
+          [
+            "Staging lista fake",
+            "Prod first",
+            "BCC all customers test",
+            "Spam"
+          ],
+          0
+        ],
+        [
+          "Rollback",
+          "Backup config anterior deploy",
+          "git revert workflow json",
+          "Feature flags.",
+          "One-click disable.",
+          "¿Deploy malo?",
+          [
+            "Delete prod",
+            "Blame intern",
+            "Rollback rápido",
+            "Fix forward only always"
+          ],
+          2
+        ],
+        [
+          "Observabilidad",
+          "Logs, métricas, trazas flujos",
+          "OpenTelemetry si complejo",
+          "Correlation id request.",
+          "Grafana dashboard.",
+          "¿Debug flujo async?",
+          [
+            "Silence",
+            "Logs correlacionados",
+            "Guess",
+            "Print random"
+          ],
+          1
+        ],
+        [
+          "Coste cloud",
+          "Serverless invocations suman",
+          "budget alert AWS/GCP",
+          "Cron overkill usa $$.",
+          "Self-host simple tasks.",
+          "¿Lambda cada segundo?",
+          [
+            "Gratis siempre",
+            "Ilimitado",
+            "Monopoly money",
+            "Costoso; reconsiderar"
+          ],
+          3
+        ],
+        [
+          "Accesibilidad automatización",
+          "No asumir usuario ve email error",
+          "notificación accesible multi canal",
+          "Texto claro errores.",
+          "Manual fallback doc.",
+          "¿Error solo email?",
+          [
+            "Multi canal + doc manual",
+            "Beep only",
+            "Flash screen",
+            "Nothing"
+          ],
+          0
+        ],
+        [
+          "Etica bots",
+          "Respetar ToS y no spam",
+          "rate limit sensato outreach",
+          "LinkedIn scraper riesgo ban.",
+          "Consentimiento datos.",
+          "¿Scrape LinkedIn masivo?",
+          [
+            "Harass",
+            "Revisar ToS/legal",
+            "Ignore ToS",
+            "Sell data"
+          ],
+          1
+        ],
+        [
+          "Mejora continua",
+          "Retrospectiva trimestral automatizaciones",
+          "¿sigue ahorrando tiempo?",
+          "Apagar zombies obsoletos.",
+          "Nuevas herramientas evaluar.",
+          "¿Automatización zombie?",
+          [
+            "Duplicar",
+            "Ignorar cost",
+            "Desactivar o actualizar",
+            "Mantener forever"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

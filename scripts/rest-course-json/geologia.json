@@ -1,0 +1,788 @@
+{
+  "id": "geologia",
+  "prefix": "geo",
+  "contextField": "el terreno y las rocas",
+  "practiceField": "excursiones y muestras en campo",
+  "modules": [
+    {
+      "title": "Rocas ígneas",
+      "description": "Formación por enfriamiento de magma o lava",
+      "lessons": [
+        [
+          "Magma vs lava",
+          "Magma es roca fundida bajo superficie; lava al salir",
+          "identifica basalto en acantilados y granito en montañas antiguas",
+          "El granito de Yosemite cristalizó lentamente mostrando cristales visibles.",
+          "Cristales grandes indican enfriamiento lento bajo tierra.",
+          "¿Dónde cristaliza más lentamente?",
+          [
+            "En erupciones instantáneas",
+            "En el espacio",
+            "Solo en glaciares",
+            "Bajo la superficie"
+          ],
+          3
+        ],
+        [
+          "Textura vítrea",
+          "Enfriamiento muy rápido impide cristales; forma vidrio volcánico",
+          "busca obsidiana con fractura conchoidal",
+          "La obsidiana se usó históricamente para filos de herramientas.",
+          "Bordes de obsidiana son muy afilados: usa guantes.",
+          "¿Qué textura indica enfriamiento instantáneo?",
+          [
+            "Clástica sedimentaria",
+            "Metamórfica bandeada",
+            "Vítrea sin cristales",
+            "Porfídica gruesa"
+          ],
+          2
+        ],
+        [
+          "Basalto columnar",
+          "Contracción al enfriar lava forma columnas hexagonales",
+          "fotografía columnas y mide ángulos en afloramientos",
+          "Giant's Causeway es ejemplo clásico de columnas basálticas.",
+          "Grietas de enfriamiento suelen formar ángulos de ~120°.",
+          "¿Qué forma las columnas hexagonales?",
+          [
+            "Raíces de plantas",
+            "Contracción térmica al enfriar",
+            "Erosión eólica sola",
+            "Depósito de calcita"
+          ],
+          1
+        ],
+        [
+          "Granito plutónico",
+          "Intrusivo ácido rico en cuarzo y feldespato potásico",
+          "distingue granito (grueso) de riolita (fina) por textura",
+          "Sierra Nevada expone batholitos graníticos por erosión profunda.",
+          "El cuarzo resiste erosión y enriquece arenas.",
+          "¿Mineral que distingue granito de basalto?",
+          [
+            "Cuarzo y feldespato abundantes",
+            "Solo carbonatos",
+            "100% vidrio",
+            "Fósiles marinos"
+          ],
+          0
+        ],
+        [
+          "Piroclastos",
+          "Fragmentos expulsados: ceniza, lapilli y bloques",
+          "recoge lapilli con guantes evitando inhalar polvo fino",
+          "Capas de tefra datan erupciones en estratigrafía.",
+          "Ceniza fina puede viajar miles de kilómetros.",
+          "¿Qué son lapilli?",
+          [
+            "Fósiles marinos",
+            "Sales evaporíticos",
+            "Fragmentos de 2–64 mm",
+            "Cristales de río"
+          ],
+          2
+        ],
+        [
+          "Rocas ultrabásicas",
+          "Ricas en olivino y piroxeno; origen mantélico",
+          "identifica peridotita en ofiolitas",
+          "Oman tiene ofiolita: corteza oceánica emplazada en continente.",
+          "Olivino verde indica composición mantélica.",
+          "¿Mineral típico ultrabásico?",
+          [
+            "Halita",
+            "Olivino",
+            "Calcita",
+            "Yeso"
+          ],
+          1
+        ],
+        [
+          "Diques y sills",
+          "Diques cortan estratos; sills se intruyen paralelos",
+          "observa dique basáltico en caliza en cortes de carretera",
+          "Contacto térmico puede crear hornfels en encajante.",
+          "Dike negro en roca clara es muy visible.",
+          "¿Qué corta capas sedimentarias?",
+          [
+            "Sill paralelo",
+            "Estrato conforme",
+            "Horizonte de suelo",
+            "Dique"
+          ],
+          3
+        ],
+        [
+          "Índice de color",
+          "Serie ácida-básica según sílice y minerales ferromagnesianos",
+          "compara colores de rocas volcánicas en mismo sitio",
+          "Basalto oscuro es básico; riolita clara es ácida.",
+          "Meteorización oscurece rocas ácidas: no te fíes solo del color.",
+          "¿Roca más rica en sílice?",
+          [
+            "Riolita",
+            "Basalto",
+            "Peridotita",
+            "Komatiita"
+          ],
+          0
+        ],
+        [
+          "Calderas",
+          "Colapso tras vaciado de cámara magmática",
+          "identifica calderas circulares en mapas topográficos",
+          "Yellowstone es caldera activa con geotermia extensa.",
+          "Lagos en calderas pueden acumular gases disueltos.",
+          "¿Qué forma una caldera?",
+          [
+            "Glaciación",
+            "Colapso tras erupción mayor",
+            "Solo erosión fluvial",
+            "Depósito eólico"
+          ],
+          1
+        ],
+        [
+          "Identificación en campo",
+          "Textura, dureza, color y reacción ácida clasifican ígneas",
+          "lleva martillo, lupa y HCl diluido",
+          "Cuarzo raya vidrio; calcita burbujea con ácido.",
+          "Registra GPS y foto de cada muestra.",
+          "¿Prueba para carbonato?",
+          [
+            "Sabor salado",
+            "Fluorescencia UV",
+            "Efervescencia con ácido diluido",
+            "Imán potente"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Rocas sedimentarias",
+      "description": "Acumulación, litificación y registro de ambientes",
+      "lessons": [
+        [
+          "Clasificación clástica",
+          "Tamaño de grano define conglomerado, arenisca y lutita",
+          "mide granos con regla en playa o cauce seco",
+          "Cantos redondeados indican transporte prolongado en agua.",
+          "Brecha tiene fragmentos angulares; conglomerado redondeados.",
+          "¿Roca de grano más fino?",
+          [
+            "Conglomerado",
+            "Brecha",
+            "Grava suelta",
+            "Lutita arcillosa"
+          ],
+          3
+        ],
+        [
+          "Ambientes deposicionales",
+          "Río, delta, playa y mar profundo dejan secuencias distintas",
+          "interpreta capas alternantes en acantilado",
+          "Ripple marks fosilizados indican corriente u oleaje.",
+          "Fósiles reconstruyen paleoambiente mejor que color solo.",
+          "¿Qué indican ripple marks?",
+          [
+            "Intrusión magmática",
+            "Meteorización química",
+            "Corriente u oleaje al depositarse",
+            "Impacto meteorítico"
+          ],
+          2
+        ],
+        [
+          "Rocas químicas",
+          "Evaporitas y calizas químicas por precipitación",
+          "observa estratos de yeso en cuencas áridas",
+          "Death Valley tiene boratos y halita gema.",
+          "Halita tiene sabor salado distintivo en muestras limpias.",
+          "¿Roca por evaporación?",
+          [
+            "Basalto",
+            "Halita y yeso",
+            "Granito",
+            "Esquisto"
+          ],
+          1
+        ],
+        [
+          "Caliza y fósiles",
+          "Carbonatos biogénicos con fósiles marinos frecuentes",
+          "aplica HCl diluido: caliza reacciona",
+          "Caliza cretácica puede contener rudistas.",
+          "Caliza meteorizada forma suelos rojos ricos en hierro.",
+          "¿Composición principal de caliza?",
+          [
+            "Carbonato de calcio",
+            "Sílice pura",
+            "Feldespato",
+            "Magnetita"
+          ],
+          0
+        ],
+        [
+          "Discordancias",
+          "Superficie de erosión entre rocas de edades distintas",
+          "busca contacto angular en afloramientos",
+          "Siccar Point demostró tiempo geológico profundo.",
+          "Un gap puede representar millones de años sin registro.",
+          "¿Discordancia angular?",
+          [
+            "Dike basáltico",
+            "Geoda",
+            "Estratos inclinados sobre horizontales",
+            "Capas paralelas continuas"
+          ],
+          2
+        ],
+        [
+          "Transgresiones",
+          "Subida del mar deja secuencias fino arriba de grueso",
+          "observa alternancia lutita-arenisca",
+          "Transgresión deposita lutitas sobre areniscas costeras.",
+          "Secuencias fining-upward son comunes en deltas.",
+          "¿Fining-upward indica?",
+          [
+            "Intrusión",
+            "Grano más fino hacia arriba",
+            "Erupción volcánica",
+            "Impacto meteorítico"
+          ],
+          1
+        ],
+        [
+          "Turbiditas",
+          "Corrientes de densidad depositan gradación en aguas profundas",
+          "identifica gradación inversa en capas gruesas",
+          "Secuencia de Bouma tiene intervalos Ta-Te.",
+          "Deltas entregan gran parte del sedimento oceánico.",
+          "¿Flujo turbidítico?",
+          [
+            "Viento en desierto",
+            "Glaciar alpino",
+            "Marea lunar",
+            "Corriente densa de sedimento"
+          ],
+          3
+        ],
+        [
+          "Fosilización",
+          "Entierro rápido y química favorable preservan restos",
+          "registra fósiles con estrato y orientación",
+          "Trilobites en pizarra muestran moldes detallados.",
+          "No extraigas fósiles en sitios protegidos.",
+          "¿Mejor ambiente para fósiles?",
+          [
+            "Sedimentación rápida en agua tranquila",
+            "Cima expuesta sin sedimento",
+            "Lava recién solidificada",
+            "Desierto sin cubierta"
+          ],
+          0
+        ],
+        [
+          "Diagénesis",
+          "Compactación y cementación convierten sedimento en roca",
+          "observa cemento de sílice en arenisca",
+          "Cuarzo sobrecrece granos en arenisca madura.",
+          "Roca cementada es más dura que sedimento fresco.",
+          "¿Convierte arena en arenisca?",
+          [
+            "Evaporación instantánea",
+            "Cementación y compactación",
+            "Fusión a magma",
+            "Subducción"
+          ],
+          1
+        ],
+        [
+          "Muestreo estratigráfico",
+          "Registrar estrato, espesor, color y contactos",
+          "toma muestra representativa sin mezclar capas",
+          "Etiqueta: fecha, UTM, estrato, litología.",
+          "Foto con escala (martillo) es obligatoria.",
+          "¿Dato esencial en cuaderno?",
+          [
+            "Nombre del coleccionista",
+            "Temperatura ambiente",
+            "Coordenadas y columna estratigráfica",
+            "Solo color subjetivo"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Rocas metamórficas",
+      "description": "Transformación por presión, temperatura y fluidos",
+      "lessons": [
+        [
+          "Metamorfismo de contacto",
+          "Calor de intrusión altera roca encajante",
+          "observa halo de hornfels junto a dike",
+          "Andalusita indica metamorfismo de baja presión.",
+          "Hornfels es fino, duro y oscuro.",
+          "¿Causa metamorfismo de contacto?",
+          [
+            "Solo erosión glaciar",
+            "Depósito fluvial",
+            "Evaporación",
+            "Intrusión magmática caliente"
+          ],
+          3
+        ],
+        [
+          "Metamorfismo regional",
+          "Presión en orogenias forma esquistos y gneiss",
+          "identifica foliación con mica brillante",
+          "Alpes muestran esquistos con minerales índice.",
+          "Foliación puede ser sedimentaria o tectónica también.",
+          "¿Roca con foliación regional?",
+          [
+            "Conglomerado",
+            "Basalto vítreo",
+            "Esquisto",
+            "Granito masivo"
+          ],
+          2
+        ],
+        [
+          "Facies metamórficas",
+          "Minerales indican condiciones P-T de equilibrio",
+          "aprende serie clorita-biotita-garnet-kyanite",
+          "Serie de Barrow mapea zonas metamórficas.",
+          "Minerales índice marcan grado creciente.",
+          "¿Mineral de alta presión?",
+          [
+            "Halita",
+            "Kyanita",
+            "Clorita",
+            "Yeso"
+          ],
+          1
+        ],
+        [
+          "Gneiss bandeado",
+          "Bandas claras y oscuras por segregación mineral",
+          "observa bandas cuarzo-feldespato vs ferromagnesianos",
+          "Gneiss del Escudo Canadiense supera 3 Ga.",
+          "Migmatita muestra fusión parcial.",
+          "¿Banding en gneiss?",
+          [
+            "Segregación mineral en bandas",
+            "Estratificación intacta",
+            "Fósiles preservados",
+            "Sal evaporada"
+          ],
+          0
+        ],
+        [
+          "Mármol y cuarcita",
+          "Caliza→mármol; arenisca→cuarcita por recristalización",
+          "cuarcita raya vidrio por cuarzo recristalizado",
+          "Mármol de Carrara es caliza metamorfoseada pura.",
+          "Cuarcita resiste erosión química.",
+          "¿Origen del mármol?",
+          [
+            "Lutita sin alterar",
+            "Ceniza volcánica",
+            "Caliza metamorfoseada",
+            "Basalto oceánico"
+          ],
+          2
+        ],
+        [
+          "Pizarra y cleavage",
+          "Foliación fina permite partir en láminas delgadas",
+          "prueba partir pizarra paralela a planos",
+          "Pizarra para tejados proviene de bajo grado metamórfico.",
+          "Mica orientada da brillo en foliación.",
+          "¿Uso tradicional de pizarra fina?",
+          [
+            "Vidrio óptico",
+            "Tejados y tableros",
+            "Combustible fósil",
+            "Cemento"
+          ],
+          1
+        ],
+        [
+          "Milonitas",
+          "Deformación ductil en fallas profundas tritura roca",
+          "busca roca muy fina en zonas de falla",
+          "Cataclasita es equivalente frágil superficial.",
+          "Slickensides indican movimiento.",
+          "¿Qué es milonita?",
+          [
+            "Fósil índice",
+            "Concreción de hierro",
+            "Geoda",
+            "Roca fina por deformación en falla"
+          ],
+          3
+        ],
+        [
+          "Metamorfismo de impacto",
+          "Ondas de choque producen cuarzo con líneas planares",
+          "estudia cráteres como Meteor Crater",
+          "Coesita y stishovita son fases de alta presión.",
+          "Impactos liberan energía enorme.",
+          "¿Evidencia de impacto en cuarzo?",
+          [
+            "Líneas planares de choque",
+            "Fósiles marinos",
+            "Ripple marks",
+            "Concreciones"
+          ],
+          0
+        ],
+        [
+          "Porfiroblastos",
+          "Cristales grandes crecen en matriz fina metamórfica",
+          "identifica granates euédricos en esquisto",
+          "Inclusiones en granate registran condiciones antiguas.",
+          "Estaurolita forma cristales en forma de cruz.",
+          "¿Qué son porfiroblastos?",
+          [
+            "Burbujas",
+            "Cristales grandes en matriz fina",
+            "Fósiles de dinosaurio",
+            "Gotas de lluvia"
+          ],
+          1
+        ],
+        [
+          "Mapas metamórficos",
+          "Zonas indican grado y edad metamórfica regional",
+          "superpone mapa geológico con ruta",
+          "Contactos pueden ser graduales o abruptos.",
+          "Mapas USGS muestran unidades por grado.",
+          "¿Para qué sirve mapa metamórfico?",
+          [
+            "Localizar petróleo joven",
+            "Medir radiación solar",
+            "Interpretar historia tectónica",
+            "Predecir clima diario"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Procesos externos",
+      "description": "Erosión, transporte y modelado del relieve",
+      "lessons": [
+        [
+          "Meteorización física",
+          "Fractura mecánica por hielo, sal y termoclastia",
+          "observa exfoliación en bolas de granito",
+          "Gelifracción abre grietas por hielo.",
+          "Color oscuro acelera termoclastia.",
+          "¿Qué es gelifracción?",
+          [
+            "Disolución de calcita",
+            "Depósito fluvial",
+            "Fusión parcial",
+            "Fractura por hielo en grietas"
+          ],
+          3
+        ],
+        [
+          "Meteorización química",
+          "Disolución e hidrólisis alteran minerales",
+          "observa corteza de alteración",
+          "Feldespato→caolinita en climas húmedos.",
+          "Lluvia ácida acelera disolución de caliza.",
+          "¿Clima de meteorización química intensa?",
+          [
+            "Tundra congelada",
+            "Interior árido",
+            "Tropical húmedo",
+            "Desierto polar seco"
+          ],
+          2
+        ],
+        [
+          "Erosión fluvial",
+          "Agua transporta sedimento según caudal y pendiente",
+          "calcula pendiente de cauce en mapa",
+          "Meandros migran erosionando concavos.",
+          "Curvas juntas indican valle encajado.",
+          "¿Qué forma un meandro?",
+          [
+            "Intrusión",
+            "Erosión lateral en tramos bajos",
+            "Solo glaciares",
+            "Impacto"
+          ],
+          1
+        ],
+        [
+          "Erosión glaciar",
+          "Glaciares escarban valles U y depositan till",
+          "distingue valle U vs V",
+          "Circo evoluciona a lago glaciar.",
+          "Estrías indican dirección de flujo.",
+          "¿Perfil de valle glaciar?",
+          [
+            "U amplio",
+            "V estrecho",
+            "Delta plano",
+            "Caldera"
+          ],
+          0
+        ],
+        [
+          "Erosión eólica",
+          "Viento transporta finos y forma dunas",
+          "observa ventifactos pulidos",
+          "Dunas barchan son media luna con viento constante.",
+          "Deflación baja superficie hasta lecho rocoso.",
+          "¿Forma de duna barchan?",
+          [
+            "Línea recta",
+            "Cono volcánico",
+            "Media luna",
+            "Estrella sin viento"
+          ],
+          2
+        ],
+        [
+          "Procesos gravitacionales",
+          "Desprendimientos y creep mueven material pendiente abajo",
+          "evalúa talud de escoria al pie",
+          "Alud requiere pendiente, nieve inestable y disparador.",
+          "Arcillas hidratadas deslizan lentamente.",
+          "¿Talud de escoria?",
+          [
+            "Lava",
+            "Acumulación al pie de pendiente",
+            "Delta fluvial",
+            "Arrecife"
+          ],
+          1
+        ],
+        [
+          "Karst",
+          "Disolución de caliza crea dolinas y cuevas",
+          "no entres en cueva sin equipo",
+          "Estalactitas del techo; estalagmitas del suelo.",
+          "CO₂ del suelo acidifica agua subterránea.",
+          "¿Crece del techo?",
+          [
+            "Estalagmita",
+            "Duna",
+            "Morrena",
+            "Estalactita"
+          ],
+          3
+        ],
+        [
+          "Costas",
+          "Oleaje y mareas remodelan playas y acantilados",
+          "documenta retroceso con fotos repetidas",
+          "Longshore drift transporta arena paralela a costa.",
+          "Rocas resistentes forman cabos.",
+          "¿Longshore drift?",
+          [
+            "Transporte paralelo de arena",
+            "Subducción",
+            "Metamorfismo",
+            "Erupción submarina"
+          ],
+          0
+        ],
+        [
+          "Suelos y horizontes",
+          "Perfil O-A-B-C refleja clima, biota y tiempo",
+          "excava zanja segura y describe horizontes",
+          "Horizonte B acumula arcilla lixiviada.",
+          "Lateritas indican intemperismo tropical.",
+          "¿Horizonte con orgánica?",
+          [
+            "Turbidita",
+            "Horizonte A",
+            "Horizonte C rocoso",
+            "Magma"
+          ],
+          1
+        ],
+        [
+          "Ciclo geológico",
+          "Rocas reciclan entre tipos por procesos endógenos y exógenos",
+          "relaciona observaciones con diagrama del ciclo",
+          "Cualquier roca puede transformarse con tiempo.",
+          "Escala humana hace el ciclo aparentemente lento.",
+          "¿Destino de sedimento litificado?",
+          [
+            "Gas instantáneo",
+            "Evaporación total",
+            "Metamorfismo o subducción",
+            "Permanencia sin cambio"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Geología de campo",
+      "description": "Técnicas de excursión, muestreo y seguridad",
+      "lessons": [
+        [
+          "Equipo básico",
+          "Martillo, brújula, lupa, cuaderno y GPS",
+          "prepara mochila con botiquín",
+          "Brújula de inclinación mide rumbo y buzamiento.",
+          "Casco bajo paredes inestables.",
+          "¿Mide buzamiento?",
+          [
+            "Termómetro",
+            "Multímetro",
+            "Barómetro",
+            "Brújula de inclinación"
+          ],
+          3
+        ],
+        [
+          "Mapas geológicos",
+          "Colores y símbolos indican litología y edad",
+          "superpone geológico con topográfico",
+          "Dientes en contacto indican roca más joven encima.",
+          "Consulta siempre la leyenda.",
+          "¿Líneas de contacto?",
+          [
+            "Curvas de nivel solas",
+            "Fronteras políticas",
+            "Límite entre unidades",
+            "Solo caminos"
+          ],
+          2
+        ],
+        [
+          "Strike y dip",
+          "Rumbo y buzamiento describen orientación de estratos",
+          "usa regla de mano derecha",
+          "Tres puntos definen un plano.",
+          "Strike es perpendicular al buzamiento máximo.",
+          "¿Strike perpendicular a?",
+          [
+            "Norte siempre",
+            "Dirección del buzamiento",
+            "Gravedad",
+            "Eje terrestre"
+          ],
+          1
+        ],
+        [
+          "Seguridad en afloramientos",
+          "Evaluar caídas, fauna, clima y acceso legal",
+          "informa ruta y hora de regreso",
+          "Víboras en grietas soleadas en zonas áridas.",
+          "No golpees sin revisar estabilidad.",
+          "¿Precaución en acantilado?",
+          [
+            "Casco y distancia de pared",
+            "Martillo sin aviso",
+            "Ignorar tormenta",
+            "Trabajar solo sin avisar"
+          ],
+          0
+        ],
+        [
+          "Muestreo ético",
+          "Respeta propiedad, parques y normas",
+          "pide permiso en fincas privadas",
+          "Algunos países regulan exportación de fósiles.",
+          "Fotografía puede sustituir colección.",
+          "¿Fósil en parque protegido?",
+          [
+            "Vender online",
+            "Ocultar para saqueo",
+            "Documentar sin extraer",
+            "Excavar con pala"
+          ],
+          2
+        ],
+        [
+          "Cuaderno de campo",
+          "Fecha, clima, litología, estructuras y croquis",
+          "incluye escala y norte en croquis",
+          "Un croquis orientado vale más que texto sin mapa.",
+          "Copia digital al final del día.",
+          "¿Esencial en croquis?",
+          [
+            "Publicidad",
+            "Escala y norte",
+            "Solo colores",
+            "Firma legal"
+          ],
+          1
+        ],
+        [
+          "Fallas",
+          "Normales, inversas y de rumbo desplazan bloques",
+          "identifica slickensides en plano de falla",
+          "Normales en extensión; inversas en compresión.",
+          "Zona de falla es débil a erosión.",
+          "¿Falla normal indica?",
+          [
+            "Compresión extrema",
+            "Solo eólica",
+            "Depósito glaciar",
+            "Extensión cortical"
+          ],
+          3
+        ],
+        [
+          "Fósiles in situ",
+          "Contexto estratigráfico da valor científico",
+          "fotografía antes de mover si está permitido",
+          "Fósil sin contexto pierde información.",
+          "Molde y contramolde van etiquetados juntos.",
+          "¿Por qué documentar posición?",
+          [
+            "Contexto estratigráfico",
+            "Solo estética",
+            "Peso comercial",
+            "Color de roca"
+          ],
+          0
+        ],
+        [
+          "Georreferenciación",
+          "GPS/UTM ubica muestras reproduciblemente",
+          "registra precisión y datum",
+          "5 m de error confunde contactos estrechos.",
+          "Waypoints coinciden con etiquetas.",
+          "¿Sistema común?",
+          [
+            "Nombre de calle",
+            "Coordenadas UTM",
+            "Solo latitud sin datum",
+            "Dirección postal"
+          ],
+          1
+        ],
+        [
+          "Informe post-excursión",
+          "Síntesis, interpretación y limitaciones",
+          "incluye mapa, fotos y columna",
+          "Informe claro permite comparar años.",
+          "Plantea hipótesis alternativas.",
+          "¿Cierra informe sólido?",
+          [
+            "Opinión sin datos",
+            "Sin coordenadas",
+            "Interpretación y limitaciones",
+            "Lista de compras"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,788 @@
+{
+  "id": "mitologia",
+  "prefix": "mit",
+  "contextField": "los relatos culturales",
+  "practiceField": "lectura comparativa de mitos",
+  "modules": [
+    {
+      "title": "Qué es un mito",
+      "description": "Función cultural, no verdad literal",
+      "lessons": [
+        [
+          "Definición académica",
+          "Narrativa sagrada o fundacional de una cultura",
+          "compara mito con leyenda y folclore",
+          "Mitología griega explica cosmos para helénos.",
+          "Estudiar como literatura e historia ideas.",
+          "¿Mito en academia?",
+          [
+            "Noticia verificable",
+            "Manual técnico",
+            "Tabla periódica",
+            "Relato cultural con funciones simbólicas"
+          ],
+          3
+        ],
+        [
+          "Funciones del mito",
+          "Explicar, unificar, educar, ritual",
+          "identifica función en mito creación local",
+          "Cosmogonía ordena caos.",
+          "No competir con ciencia moderna.",
+          "¿Función cosmogonía?",
+          [
+            "Predecir eclipse Newton",
+            "Código Python",
+            "Explicar origen mundo ordenado",
+            "Medir gravedad"
+          ],
+          2
+        ],
+        [
+          "Mito vs religión",
+          "Solapados pero analíticos distintos",
+          "compara panteón griego vs práctica culto",
+          "Religión incluye ritual vivo.",
+          "Mito puede estudiarse secularmente.",
+          "¿Estudio secular mitos?",
+          [
+            "Solo fe literal",
+            "Análisis cultural e histórico",
+            "Proselitismo obligatorio",
+            "Negar existencia culturas"
+          ],
+          1
+        ],
+        [
+          "Transmisión oral",
+          "Variantes múltiples antes fijar escrito",
+          "nota variantes Prometeo en fuentes",
+          "Homero oral compuesto.",
+          "No una versión 'correcta' única.",
+          "¿Versiones mito?",
+          [
+            "Múltiples según época y región",
+            "Una sola oficial siempre",
+            "Sin cambios nunca",
+            "Solo Netflix"
+          ],
+          0
+        ],
+        [
+          "Euhemerismo",
+          "Interpretar dioses como héroes humanos exagerados",
+          "debate euhemerismo vs simbolismo clase",
+          "Teoría antigua, no consenso actual.",
+          "Útil como lente histórica.",
+          "¿Euhemerismo?",
+          [
+            "Teoría cuántica",
+            "Geología",
+            "Dioses como reyes mitificados",
+            "Hecho probado"
+          ],
+          2
+        ],
+        [
+          "Monomito Campbell",
+          "Héroe viaje: llamada, prueba, retorno",
+          "aplica esquema a Odiseo o Moana",
+          "Modelo descriptivo no prescriptivo.",
+          "Críticas simplifican diversidad.",
+          "¿Monomito?",
+          [
+            "Teorema",
+            "Patrón narrativo recurrente",
+            "Ley física",
+            "Tabla elementos"
+          ],
+          1
+        ],
+        [
+          "Animismo y totem",
+          "Espíritus en naturaleza; totem clan",
+          "compara totem aborigen australiano",
+          "Respeto ecológico en algunos.",
+          "Evitar estereotipo homogéneo.",
+          "¿Totem?",
+          [
+            "Logo empresa",
+            "Emoji",
+            "Hashtag",
+            "Símbolo ancestral de grupo"
+          ],
+          3
+        ],
+        [
+          "Pantheon estructura",
+          "Jerarquía dioses refleja sociedad",
+          "mapea Zeus/Jupiter rol",
+          "Rey dioses espejo política.",
+          "Comparar panteones.",
+          "¿Zeus similar a?",
+          [
+            "Jupiter romano",
+            "Newton",
+            "Darwin solo",
+            "Linux kernel"
+          ],
+          0
+        ],
+        [
+          "Mito creation ex nihilo",
+          "Creación desde nada vs caos primordial",
+          "Enuma Elish vs Génesis análisis literario",
+          "Comparación estructural.",
+          "Contexto histórico Babilonia.",
+          "¿Enuma Elish?",
+          [
+            "Receta",
+            "Epopeya creación mesopotámica",
+            "Paper científico",
+            "Informe meteorológico"
+          ],
+          1
+        ],
+        [
+          "Etica lectura",
+          "Respeto culturas originarias; evitar apropiación superficial",
+          "cita fuentes académicas",
+          "No costumes sagrados como disfraz.",
+          "Consultar voces originarias.",
+          "¿Estudiar mitos sagrados ajenos?",
+          [
+            "Afirmar literal como ciencia",
+            "Ridiculizar creyentes",
+            "Respeto y contexto académico",
+            "Caricatura"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Mediterráneo clásico",
+      "description": "Grecia y Roma comparados",
+      "lessons": [
+        [
+          "Teogonía Hesiodo",
+          "Caos, Gea, Titanes, Olimpo",
+          "lee resumen Teogonía",
+          "Cronos traga hijos mito tiempo.",
+          "Zeus establece orden.",
+          "¿Quién derrota a Cronos?",
+          [
+            "Hércules solo",
+            "Odiseo",
+            "Aquiles bebé",
+            "Zeus y aliados"
+          ],
+          3
+        ],
+        [
+          "Olimpo griego",
+          "Doce dioses principales funciones",
+          "tabla dios dominio",
+          "Atenea sabiduría y guerra estratégica.",
+          "Dioniso renovación.",
+          "¿Diosa sabiduría griega?",
+          [
+            "Hades sol",
+            "Poseidón fuego",
+            "Atenea",
+            "Afrodita sola"
+          ],
+          2
+        ],
+        [
+          "Héroes griegos",
+          "Semidioses mortalidad y arete",
+          "compara Aquiles y Odiseo",
+          "Nostoi regresos.",
+          "Catálogo barcos Ilíada.",
+          "¿Odisea trata?",
+          [
+            "Viaje Cristóbal Colón",
+            "Regreso Odiseo",
+            "Guerra Troya día 1 solo",
+            "Funda Roma"
+          ],
+          1
+        ],
+        [
+          "Romanización mitos",
+          "Adaptación nombres y valores romanos",
+          "Jupiter/Zeus diferencias culturales",
+          "Pietas romana vs arete.",
+          "Eneida fundación Roma.",
+          "¿Eneida Virgilio?",
+          [
+            "Mito origen romano Eneas",
+            "Manual agrícola",
+            "Tratado física",
+            "Código penal moderno"
+          ],
+          0
+        ],
+        [
+          "Mitología romana práctica",
+          "Ritual estado y augurios",
+          "augurio aves significado cultural",
+          "Religión cívica.",
+          "No solo copia griega.",
+          "¿Augur romano?",
+          [
+            "Astrólogo NASA",
+            "Chef",
+            "Interpretar signos aves",
+            "General ejército"
+          ],
+          2
+        ],
+        [
+          "Troya arqueológica",
+          "Schliemann y capas históricas",
+          "distinción mito literario vs yacimiento",
+          "Guerra Troya mezcla historia leyenda.",
+          "Ciudad real excavada.",
+          "¿Troya?",
+          [
+            "Ficción sin base",
+            "Yacimiento real + capa mítica literaria",
+            "Solo invento",
+            "Planeta"
+          ],
+          1
+        ],
+        [
+          "Tragedia y mito",
+          "Edipo, Antígona dilemas",
+          "leer resumen Edipo Rey",
+          "Destino vs responsabilidad.",
+          "Teatro Atenas festival.",
+          "¿Edipo?",
+          [
+            "Comedia romántica",
+            "Manual Excel",
+            "Tutorial Linux",
+            "Tragedia destino y identidad"
+          ],
+          3
+        ],
+        [
+          "Mitos naturaleza",
+          "Deméter/Persephone estaciones",
+          "explicación cultural estaciones",
+          "No explicación botánica.",
+          "Rito Eleusis.",
+          "¿Rapto Perséfone simboliza?",
+          [
+            "Estaciones/ciclo vegetal cultural",
+            "Gravedad",
+            "Fotosíntesis detalle",
+            "Placas tectónicas"
+          ],
+          0
+        ],
+        [
+          "Iconografía",
+          "Atributos visual identifican dioses",
+          "reconoce tridente Poseidón",
+          "Cuervo Atenea.",
+          "Arte clásico transmite mito.",
+          "¿Tridente?",
+          [
+            "Hades tridente siempre",
+            "Poseidón/Neptuno",
+            "Apolo",
+            "Hermes"
+          ],
+          1
+        ],
+        [
+          "Recepción moderna",
+          "Mitología en cine literatura",
+          "analiza película vs fuente clásica",
+          "Adaptación creativa.",
+          "Crítica fidelidad.",
+          "¿Clash Titans vs mito?",
+          [
+            "Paper peer review",
+            "Informe bursátil",
+            "Adaptación popular moderna",
+            "Texto arcaico literal"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Tradiciones comparadas",
+      "description": "Norte Europa, Mesoamérica y África",
+      "lessons": [
+        [
+          "Nórdico cosmología",
+          "Yggdrasil nueve mundos",
+          "resumen Edda Poética",
+          "Ragnarok ciclo fin renovación.",
+          "Odín sacrificio conocimiento.",
+          "¿Yggdrasil?",
+          [
+            "Río estigia",
+            "Monte Olimpo",
+            "Muro China",
+            "Árbol mundo nórdico"
+          ],
+          3
+        ],
+        [
+          "Mesoamérica Quetzalcoatl",
+          "Dios pluma serpiente culturas múltiples",
+          "compara azteca y maya",
+          "No monolito.",
+          "Conquista reinterpretaciones.",
+          "¿Quetzalcoatl?",
+          [
+            "Vikingo",
+            "Científico",
+            "Deidad mesoamericana compleja",
+            "Emperador romano"
+          ],
+          2
+        ],
+        [
+          "Popol Vuh",
+          "Creación maya k'iche'",
+          "lectura comentada Popol Vuh extracto",
+          "Maíz humanidad.",
+          "Texto colonial recopilado.",
+          "¿Popol Vuh?",
+          [
+            "Beowulf solo",
+            "Narrativa creación maya",
+            "Ilíada",
+            "Edda Prosa"
+          ],
+          1
+        ],
+        [
+          "Yoruba Orishas",
+          "Panteón Nigeria diaspora",
+          "Eshu trickster función",
+          "Sincretismo Américas.",
+          "Respeto tradición viva.",
+          "¿Orisha Eshu?",
+          [
+            "Trickster/mensajero yoruba",
+            "Dios griego Zeus",
+            "Santo católico mismo",
+            "Planeta"
+          ],
+          0
+        ],
+        [
+          "Anansi",
+          "Trickster araña África occidental",
+          "cuentos Anansi moraleja",
+          "Oralidad caribe.",
+          "Enseñanza astucia.",
+          "¿Anansi?",
+          [
+            "Rey histórico",
+            "Satélite",
+            "Personaje trickster araña",
+            "Héroe guerrero solo"
+          ],
+          2
+        ],
+        [
+          "Dreamtime aborigen",
+          "Tiempo sueño creación Australia",
+          "arte dot painting contexto",
+          "Conexión tierra.",
+          "No folclore genérico.",
+          "¿Dreamtime?",
+          [
+            "App móvil",
+            "Marco cosmológico aborigen australiano",
+            "Videojuego",
+            "Teoría cuerdas"
+          ],
+          1
+        ],
+        [
+          "Comparación diluvio",
+          "Noé, Utnapishtim, Deucalion",
+          "tabla paralelos estructurales",
+          "Motivo común no implica contacto.",
+          "Función advertencia.",
+          "¿Mito diluvio común?",
+          [
+            "Prueba geología única",
+            "Evento idéntico probado",
+            "Invención moderna",
+            "Motivo narrativo recurrente"
+          ],
+          3
+        ],
+        [
+          "Trickster global",
+          "Loki, Coyote, Hermes",
+          "analiza función social trickster",
+          "Rompe reglas enseña límites.",
+          "Ambivalente.",
+          "¿Trickster?",
+          [
+            "Figura ambigua desafía orden",
+            "Villano puro",
+            "Héroe sin fallas",
+            "Científico"
+          ],
+          0
+        ],
+        [
+          "Heroína en mitos",
+          "Atalanta, Isis, Amaterasu",
+          "recupera voces femeninas narrativas",
+          "Sesgo fuentes patriarcales.",
+          "Relectura crítica.",
+          "¿Amaterasu?",
+          [
+            "CEO",
+            "Diosa sol shinto",
+            "Diosa griega Hera sol",
+            "Reina Victoria mito"
+          ],
+          1
+        ],
+        [
+          "Sincretismo",
+          "Mezcla tradiciones por contacto",
+          "ejemplo Día Muertos capas",
+          "Colonialismo impacta.",
+          "Estudio histórico.",
+          "¿Sincretismo?",
+          [
+            "Invención ayer",
+            "Error",
+            "Fusión elementos culturales",
+            "Pureza absoluta"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Métodos de análisis",
+      "description": "Estructuralismo, arquetipos y contexto",
+      "lessons": [
+        [
+          "Lévi-Strauss estructural",
+          "Oposiciones binarias en mitos",
+          "raw vs cooked en mitos",
+          "Estructura mente humana debate.",
+          "No verdad universal aceptada.",
+          "¿Estructuralismo?",
+          [
+            "Contar palabras",
+            "Medir altura héroe",
+            "ADN dioses",
+            "Analizar pares oposición"
+          ],
+          3
+        ],
+        [
+          "Jung arquetipos",
+          "Sombra, anima en psicología profunda",
+          "discute límites arquetipos académicos",
+          "Psicología no mitología histórica.",
+          "Metáfora útil crítica.",
+          "¿Arquetipo Jung?",
+          [
+            "Fósil",
+            "Ecuación",
+            "Patrón psíquico propuesto",
+            "Hecho histórico"
+          ],
+          2
+        ],
+        [
+          "Contexto histórico",
+          "Mito refleja guerra, clima, política época",
+          "Guerra Troya contexto bronce",
+          "Evitar presentismo.",
+          "Fuentes datadas.",
+          "¿Contextualizar?",
+          [
+            "Memes",
+            "Situar en época cultura",
+            "Ignorar historia",
+            "Solo moral moderna"
+          ],
+          1
+        ],
+        [
+          "Análisis simbólico",
+          "Serpiente, agua, árbol significados variables",
+          "serpiente multi cultura",
+          "No diccionario fijo.",
+          "Cultura específica manda.",
+          "¿Serpiente siempre mal?",
+          [
+            "Depende cultura y mito",
+            "Siempre diabólica",
+            "Siempre wifi",
+            "Siempre Python"
+          ],
+          0
+        ],
+        [
+          "Comparativa responsable",
+          "Paralelos sin equiparar superficial",
+          "tabla similitudes diferencias",
+          "Diffusion vs poligenesis.",
+          "Evitar universalizar.",
+          "¿Comparar mitos?",
+          [
+            "Ignorar diferencia",
+            "Ranking superior",
+            "Similitudes y diferencias contextuales",
+            "Decir iguales total"
+          ],
+          2
+        ],
+        [
+          "Fuentes primarias",
+          "Textos arcaicos traducciones académicas",
+          "cita traducción Loeb o similar",
+          "Wikipedia punto partida no fin.",
+          "Notas críticas.",
+          "¿Fuente primaria?",
+          [
+            "Chat GPT sin verificar",
+            "Texto antiguo original traducido",
+            "Meme Instagram",
+            "Película sola"
+          ],
+          1
+        ],
+        [
+          "Arqueología mito",
+          "Objetos ritual ilustran creencias",
+          "pintura vasija griega escena",
+          "Material complementa texto.",
+          "No prueba evento literal.",
+          "¿Vaso pintado?",
+          [
+            "Prueba dragón real",
+            "Video CCTV antiguo",
+            "Selfie Zeus",
+            "Evidencia iconográfica cultural"
+          ],
+          3
+        ],
+        [
+          "Mitología contemporánea",
+          "Superhéroes como mitos modernos",
+          "analiza Spider-Man arquetipo",
+          "Cultura pop estudiable.",
+          "No reemplaza clásicos.",
+          "¿Superhéroe mito moderno?",
+          [
+            "Narrativa cultural actual",
+            "Documento legal",
+            "Teorema",
+            "Manual cocina"
+          ],
+          0
+        ],
+        [
+          "Escritura comparativa ensayo",
+          "Tesis, evidencia, bibliografía",
+          "outline ensayo 1500 palabras",
+          "Argumento, no lista.",
+          "Contraargumento.",
+          "¿Ensayo mitología?",
+          [
+            "Solo opinión",
+            "Tesis con fuentes",
+            "Opinión sin fuente",
+            "Copiar wiki"
+          ],
+          1
+        ],
+        [
+          "Presentación oral",
+          "Contar mito en 5 min contexto",
+          "practica cronometrada",
+          "Claridad audiencia.",
+          "Q&A preparado.",
+          "¿Presentar mito?",
+          [
+            "Sin contexto",
+            "Improvisar sin prep",
+            "Narrativa + contexto cultural",
+            "Leer lista dioses"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Lectura guiada",
+      "description": "Proyectos prácticos comparativos",
+      "lessons": [
+        [
+          "Elegir par mitos",
+          "Creación, héroe, diluvio de dos culturas",
+          "selecciona con bibliografía disponible",
+          "Acceso fuentes español.",
+          "Profundidad > amplitud.",
+          "¿Proyecto comparativo?",
+          [
+            "Diez sin leer",
+            "Sin tema",
+            "Aleatorio",
+            "Dos mitos tema común"
+          ],
+          3
+        ],
+        [
+          "Mapa conceptual",
+          "Visualizar personajes relaciones",
+          "draw.io mapa genealogía",
+          "Colores por cultura.",
+          "Leyenda clara.",
+          "¿Mapa mito?",
+          [
+            "Sin leyenda",
+            "Solo emoji",
+            "Organizar relaciones",
+            "Decoración random"
+          ],
+          2
+        ],
+        [
+          "Tabla comparativa",
+          "Columnas: cultura, función, símbolos, fuente",
+          "Google Sheet comparativa",
+          "Citas breves.",
+          "Bibliografía columna.",
+          "¿Tabla?",
+          [
+            "Plagio",
+            "Comparación estructurada",
+            "Párrafo caótico",
+            "Sin fuentes"
+          ],
+          1
+        ],
+        [
+          "Línea temporal",
+          "Ordenar textos y hallazgos arqueológicos",
+          "timeline mitos escritura",
+          "No confundir fecha mito vs composición.",
+          "Contexto BCE/CE.",
+          "¿Ilíada compuesta?",
+          [
+            "Arcaico griego siglos VIII-VII a.C. aprox",
+            "2024 d.C.",
+            "Era Jurásica",
+            "Big Bang"
+          ],
+          0
+        ],
+        [
+          "Glosario personal",
+          "20 términos definidos propias palabras",
+          "arete, hubris, cosmogonía",
+          "Repaso examen.",
+          "Ejemplo por término.",
+          "¿Hubris?",
+          [
+            "Tipo roca",
+            "Comando Linux",
+            "Exceso orgullo castigado en tragedia",
+            "Virtud"
+          ],
+          2
+        ],
+        [
+          "Resumen académico",
+          "300 palabras neutrales sin opinión",
+          "resumen Popol Vuh",
+          "Cita autor.",
+          "Párrafo único prohibido.",
+          "¿Resumen académico?",
+          [
+            "Sin autor",
+            "Idea central con citas",
+            "Opinión personal",
+            "Copiar texto"
+          ],
+          1
+        ],
+        [
+          "Debate en clase",
+          "Argumentar interpretación con evidencia",
+          "prepara 3 citas debate",
+          "Escuchar postura opuesta.",
+          "Moderador tiempo.",
+          "¿Debate mitología?",
+          [
+            "Gritar",
+            "Sin leer",
+            "Ad hominem",
+            "Argumentos con fuentes"
+          ],
+          3
+        ],
+        [
+          "Arte y mito",
+          "Analizar escultura mitológica museo virtual",
+          "descripción iconográfica",
+          "Postura, atributos, periodo.",
+          "Comparar dos obras.",
+          "¿Iconografía?",
+          [
+            "Estudio símbolos visuales",
+            "Opinión gustos",
+            "Precio subasta",
+            "Selfie"
+          ],
+          0
+        ],
+        [
+          "Mito local",
+          "Investigar leyenda región propia",
+          "entrevista oral opcional ética",
+          "Archivo municipal.",
+          "Distinción leyenda/mito.",
+          "¿Leyenda local?",
+          [
+            "Receta",
+            "Tradición oral regional",
+            "Noticia ayer",
+            "Teoría física"
+          ],
+          1
+        ],
+        [
+          "Portfolio final",
+          "Ensayo + tabla + mapa + reflexión aprendizaje",
+          "entrega carpeta digital",
+          "Reflexión qué aprendiste método.",
+          "Autoevaluación rubrica.",
+          "¿Portfolio mitología?",
+          [
+            "Vacío",
+            "Plagio wiki",
+            "Conjunto evidencias aprendizaje",
+            "Solo meme"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

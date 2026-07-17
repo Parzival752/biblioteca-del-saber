@@ -1,0 +1,788 @@
+{
+  "id": "datos",
+  "prefix": "dat",
+  "contextField": "tus datos y registros",
+  "practiceField": "organizar información cotidiana",
+  "modules": [
+    {
+      "title": "Organización básica",
+      "description": "Carpetas, nombres y convenciones",
+      "lessons": [
+        [
+          "Jerarquía de carpetas",
+          "Estructura lógica por proyecto/año/tipo",
+          "crea plantilla carpetas para nuevo proyecto",
+          "Ejemplo: Proyecto/Docs/Imágenes/Export.",
+          "Evita carpetas 'Misc' gigantes.",
+          "¿Buena estructura?",
+          [
+            "Todo en Descargas",
+            "Sin subcarpetas",
+            "Solo escritorio",
+            "Por proyecto y tipo de archivo"
+          ],
+          3
+        ],
+        [
+          "Nombres de archivo",
+          "Fecha ISO YYYY-MM-DD al inicio ordena cronológicamente",
+          "renombra fotos con prefijo fecha",
+          "Evita espacios; usa guiones.",
+          "Versión v01 v02 en iteraciones.",
+          "¿Orden cronológico en nombres?",
+          [
+            "Solo emoji",
+            "Sin extensión",
+            "Prefijo YYYY-MM-DD",
+            "Nombre aleatorio"
+          ],
+          2
+        ],
+        [
+          "Metadatos útiles",
+          "Etiquetas OS, comentarios PDF, EXIF fotos",
+          "añade tags en Finder/Explorer o herramienta",
+          "Búsqueda por tag acelera hallazgo.",
+          "No dupliques info innecesaria.",
+          "¿Tags sirven para?",
+          [
+            "Cifrar disco",
+            "Buscar transversalmente",
+            "Eliminar archivos",
+            "Comprimir siempre"
+          ],
+          1
+        ],
+        [
+          "Duplicados",
+          "Copias idénticas ocupan espacio y confunden",
+          "usa fdupes o rmlint con precaución",
+          "Revisa antes de borrar automático.",
+          "Hash SHA256 confirma identidad.",
+          "¿Detectar duplicados?",
+          [
+            "Comparar hash contenido",
+            "Solo nombre igual",
+            "Tamaño archivo único",
+            "Color icono"
+          ],
+          0
+        ],
+        [
+          "Inbox cero digital",
+          "Carpeta Inbox para procesar y clasificar semanalmente",
+          "mueve Descargas a Inbox y procesa",
+          "Regla: cada archivo tiene destino o se borra.",
+          "15 min semanal mantienen orden.",
+          "¿Inbox digital?",
+          [
+            "Papelera",
+            "Backup único",
+            "Punto entrada temporal a clasificar",
+            "Almacén permanente"
+          ],
+          2
+        ],
+        [
+          "Plantillas documento",
+          "Contratos, informes y listas reutilizables",
+          "guarda plantilla .odt/.docx en Templates",
+          "Campos rellenables ahorran tiempo.",
+          "Versiona plantillas.",
+          "¿Plantilla?",
+          [
+            "Solo PDF final",
+            "Documento base reutilizable",
+            "Copia única sin formato",
+            "Archivo corrupto"
+          ],
+          1
+        ],
+        [
+          "Control versiones simple",
+          "Sufijos v1 v2 o carpeta versions/",
+          "no uses 'final_final2.docx' sin sistema",
+          "Git para texto/código; copias fechadas para office.",
+          "Un canonical latest claro.",
+          "¿Versionado claro?",
+          [
+            "Solo sobrescribir",
+            "Borrar anteriores siempre",
+            "Sin historial",
+            "v01, v02 o git"
+          ],
+          3
+        ],
+        [
+          "Archivar vs borrar",
+          "Archivo frío para referencia; borrar lo obsoleto",
+          "carpeta Archive/Año para cerrados",
+          "Archivar libera mente sin perder historial.",
+          "Política retención define cuándo borrar.",
+          "¿Proyecto terminado?",
+          [
+            "Mover a Archive",
+            "Dejar en Desktop",
+            "Duplicar 10 veces",
+            "Email a todos"
+          ],
+          0
+        ],
+        [
+          "Búsqueda eficiente",
+          "Everything, locate, Spotlight según OS",
+          "indexa discos y aprende operadores",
+          "Operadores path: modified: en algunos.",
+          "Organizar reduce dependencia búsqueda.",
+          "¿Encontrar archivo rápido?",
+          [
+            "Renombrar random",
+            "Herramienta indexada + buen nombre",
+            "Scroll manual infinito",
+            "Imprimir todo"
+          ],
+          1
+        ],
+        [
+          "Auditoría trimestral",
+          "Revisar estructura, duplicados y permisos",
+          "calendario recordatorio cada 3 meses",
+          "Ajusta convenciones que fallaron.",
+          "Involucra equipo si compartido.",
+          "¿Auditoría datos?",
+          [
+            "Formatear disco",
+            "Ignorar duplicados",
+            "Mantener sistema usable",
+            "Opcional nunca"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Hojas de cálculo",
+      "description": "CSV, Excel/LibreOffice y buenas prácticas",
+      "lessons": [
+        [
+          "CSV UTF-8",
+          "Formato intercambio universal; cuidado separador , vs ;",
+          "exporta CSV UTF-8 desde hoja",
+          "Excel regional usa ; en EU.",
+          "Comillas escapan comas internas.",
+          "¿CSV ventaja?",
+          [
+            "Solo imágenes",
+            "Binario cerrado",
+            "Sin datos",
+            "Interoperable y simple"
+          ],
+          3
+        ],
+        [
+          "Encabezados claros",
+          "Primera fila nombres columna sin espacios raros",
+          "usa snake_case o Title Case consistente",
+          "Evita celdas fusionadas en datos.",
+          "Una tabla por hoja.",
+          "¿Tabla limpia?",
+          [
+            "Varias tablas entrelazadas",
+            "Colores solo",
+            "Encabezados fila 1 sin fusiones",
+            "Título en fila 50"
+          ],
+          2
+        ],
+        [
+          "Tipos de datos",
+          "Número, fecha, texto; no mezclar en columna",
+          "formato fecha ISO en columna Fecha",
+          "Números como texto rompen sumas.",
+          "Separar moneda en columna propia.",
+          "¿Suma falla?",
+          [
+            "Falta café",
+            "Números guardados como texto",
+            "Excel roto",
+            "Monitor mal"
+          ],
+          1
+        ],
+        [
+          "Filtros y tablas",
+          "Convertir rango en Tabla facilita filtros",
+          "Ctrl+Shift+L filtro en Excel",
+          "Tablas expanden fórmulas automáticamente.",
+          "Filtro no borra datos ocultos.",
+          "¿Filtrar sin borrar?",
+          [
+            "AutoFilter oculta filas",
+            "Delete row",
+            "Format paint",
+            "Print"
+          ],
+          0
+        ],
+        [
+          "VLOOKUP/XLOOKUP intro",
+          "Unir datos por clave común",
+          "busca precio producto por SKU",
+          "XLOOKUP más flexible que VLOOKUP.",
+          "Claves duplicadas causan ambigüedad.",
+          "¿Unir tablas por ID?",
+          [
+            "Solo colores",
+            "Imprimir",
+            "XLOOKUP/VLOOKUP",
+            "Copiar manual 1000 filas"
+          ],
+          2
+        ],
+        [
+          "Pivot básico",
+          "Resumir ventas por categoría/mes",
+          "insert pivot desde rango tabular",
+          "Arrastra campo a filas y valores.",
+          "Actualizar origen si datos crecen.",
+          "¿Resumen interactivo?",
+          [
+            "Macro sin datos",
+            "Tabla dinámica/pivot",
+            "Solo gráfico",
+            "Word art"
+          ],
+          1
+        ],
+        [
+          "Validación datos",
+          "Listas desplegables evitan typos",
+          "valida Estado: Pendiente/Hecho/Cancelado",
+          "Reduce errores entrada masiva.",
+          "Mensaje error claro al usuario.",
+          "¿Evitar typo categoría?",
+          [
+            "Texto libre siempre",
+            "Celdas vacías",
+            "Fusionar",
+            "Validación lista"
+          ],
+          3
+        ],
+        [
+          "Gráficos honestos",
+          "Ejes desde cero cuando corresponde; etiquetas claras",
+          "gráfico barras gastos mensuales",
+          "Eje truncado exagera diferencias.",
+          "Título describe insight.",
+          "¿Gráfico engañoso?",
+          [
+            "Eje Y truncado sin aviso",
+            "Etiquetas claras",
+            "Colores accesibles",
+            "Título descriptivo"
+          ],
+          0
+        ],
+        [
+          "Backup hojas",
+          "Copia versionada antes de macros masivas",
+          "guarda copia fecha antes de transformar",
+          "Git no ideal para xlsx binario.",
+          "Export CSV para datos críticos.",
+          "¿Antes macro destructiva?",
+          [
+            "Borrar origen",
+            "Copia respaldo fechada",
+            "Confiar undo infinito",
+            "Sobrescribir única"
+          ],
+          1
+        ],
+        [
+          "Import limpio",
+          "Power Query / datos→texto columnas",
+          "import CSV con tipos correctos",
+          "Elimina filas vacías al import.",
+          "Documenta pasos refresh.",
+          "¿Import recurrente?",
+          [
+            "Screenshot",
+            "PDF only",
+            "Query reproducible",
+            "Pegar manual mensual"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Registros personales",
+      "description": "Diarios, hábitos, finanzas simples",
+      "lessons": [
+        [
+          "Diario estructurado",
+          "Campos: fecha, ánimo 1-5, logros, bloqueos",
+          "plantilla markdown diaria",
+          "Revisión semanal detecta patrones.",
+          "Breve > largo inconsistente.",
+          "¿Diario útil?",
+          [
+            "Novela diaria obligatoria",
+            "Solo memes",
+            "Sin fecha",
+            "Reflexión y seguimiento"
+          ],
+          3
+        ],
+        [
+          "Tracker hábitos",
+          "Checkbox diario ejercicio, lectura, agua",
+          "hoja mes con filas días columnas hábitos",
+          "No más de 5 hábitos nuevos a la vez.",
+          "Visual streak motiva.",
+          "¿Cuántos hábitos nuevos?",
+          [
+            "Cero registro",
+            "Solo anual",
+            "Pocos para sostener",
+            "20 simultáneos"
+          ],
+          2
+        ],
+        [
+          "Finanzas personales",
+          "Ingresos, gastos fijos, variables por categoría",
+          "registra cada gasto mismo día",
+          "Separar necesidades vs gustos.",
+          "Reconciliar con extracto banco mensual.",
+          "¿Registro gastos?",
+          [
+            "Adivinar",
+            "Conciencia y presupuesto",
+            "Ignorar deudas",
+            "Solo efectivo sin nota"
+          ],
+          1
+        ],
+        [
+          "Inventario casa",
+          "Serial, compra, garantía electrodomésticos",
+          "foto etiqueta serial en registro",
+          "Útil para seguros y reparaciones.",
+          "Ubicación física en nota.",
+          "¿Inventario?",
+          [
+            "Seguros y mantenimiento",
+            "Decoración",
+            "Spam",
+            "Ocultar garantías"
+          ],
+          0
+        ],
+        [
+          "Salud registro básico",
+          "Sueño, pasos, síntomas opcionales sin diagnosticar",
+          "log sueño hora acostar/levantar",
+          "Compartir con médico si relevante.",
+          "No sustituye consulta profesional.",
+          "¿Log sueño?",
+          [
+            "Publicar online",
+            "Ignorar",
+            "Patrones para conversar con profesional",
+            "Autodiagnóstico"
+          ],
+          2
+        ],
+        [
+          "Lectura y media",
+          "Lista lectura: título, autor, estado, nota",
+          "Goodreads o hoja simple",
+          "Notas citas página útil.",
+          "Prioriza terminados vs empezados infinitos.",
+          "¿Lista lectura?",
+          [
+            "Solo portadas",
+            "Priorizar y recordar",
+            "Comprar sin leer siempre",
+            "Sin título"
+          ],
+          1
+        ],
+        [
+          "Contactos enriquecidos",
+          "Contexto cómo conociste, cumple, preferencias",
+          "CRM personal ligero en hoja",
+          "Recordatorios follow-up profesionales.",
+          "Respeta privacidad GDPR si aplica.",
+          "¿CRM personal?",
+          [
+            "Spam amigos",
+            "Vender datos",
+            "Sin consentimiento",
+            "Relaciones profesionales organizadas"
+          ],
+          3
+        ],
+        [
+          "Objetivos SMART",
+          "Specific Measurable Achievable Relevant Time-bound",
+          "transforma 'estudiar más' en meta semanal horas",
+          "Revisión mensual ajusta metas.",
+          "Un objetivo principal por área.",
+          "¿SMART?",
+          [
+            "Metas concretas medibles",
+            "Deseos vagos",
+            "Sin plazo",
+            "Imposibles siempre"
+          ],
+          0
+        ],
+        [
+          "Privacidad registros",
+          "Cifrar carpeta sensible; backup cifrado",
+          "veracrypt o cifrado disco OS",
+          "No sincronizar salud a nube sin cifrar.",
+          "Contraseña fuerte gestor.",
+          "¿Datos sensibles?",
+          [
+            "Twitter",
+            "Cifrar local o nube cifrada",
+            "Email sin password",
+            "USB público"
+          ],
+          1
+        ],
+        [
+          "Export periódico",
+          "PDF/CSV anual para archivo",
+          "exporta finanzas año a Archive",
+          "Formato abierto perdurable.",
+          "Prueba restaurar backup.",
+          "¿Archivo anual?",
+          [
+            "Borrar origen",
+            "Screenshot",
+            "Export abierto fechado",
+            "Solo app propietaria"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Automatización ligera",
+      "description": "Fórmulas, scripts simples y integraciones",
+      "lessons": [
+        [
+          "Fórmulas vs macros",
+          "Fórmulas transparentes; macros para repetitivo",
+          "prefiere SUMIF antes de VBA",
+          "Macros requieren confianza archivo.",
+          "Documenta lógica.",
+          "¿Suma condicional?",
+          [
+            "Manual calculator",
+            "Imprimir",
+            "Dibujar",
+            "SUMIF/COUNTIF"
+          ],
+          3
+        ],
+        [
+          "OpenRefine limpieza",
+          "Corregir mayúsculas, trim, cluster duplicados",
+          "import CSV sucio a OpenRefine",
+          "Facets exploran datos rápido.",
+          "Export limpio a CSV.",
+          "¿Limpiar nombres duplicados?",
+          [
+            "Borrar todo",
+            "Ignorar",
+            "Clustering OpenRefine",
+            "Ojo humano 100k filas"
+          ],
+          2
+        ],
+        [
+          "IFTTT/Zapier intro",
+          "Conectar apps: email→hoja, form→notificación",
+          "automatiza recibo gasto a spreadsheet",
+          "Revisa permisos OAuth.",
+          "Empieza con un flujo simple.",
+          "¿Automatizar entrada datos?",
+          [
+            "CD-ROM",
+            "Integración no-code",
+            "Copiar manual forever",
+            "Fax"
+          ],
+          1
+        ],
+        [
+          "Python pandas mini",
+          "read_csv, dropna, to_csv para limpieza",
+          "script 10 líneas limpia CSV mensual",
+          "Reproducible vs clics manuales.",
+          "Entorno virtual recomendado.",
+          "¿Ventaja script limpieza?",
+          [
+            "Reproducible y auditable",
+            "Siempre manual",
+            "Sin logs",
+            "Aleatorio"
+          ],
+          0
+        ],
+        [
+          "APIs REST GET",
+          "Obtener JSON público y parsear",
+          "curl API clima a JSON local",
+          "Respeta rate limits.",
+          "No hardcode API keys en repos.",
+          "¿GET público?",
+          [
+            "DDoS",
+            "Keys en GitHub",
+            "Obtener datos estructurados",
+            "Scrape sin permiso"
+          ],
+          2
+        ],
+        [
+          "Scheduled tasks datos",
+          "Cron ejecuta export nightly",
+          "backup CSV a las 2am",
+          "Log stdout para verificar.",
+          "Prueba manual antes cron.",
+          "¿Backup automático?",
+          [
+            "Solo USB perdido",
+            "Cron/systemd timer",
+            "Recordar humano",
+            "Nunca backup"
+          ],
+          1
+        ],
+        [
+          "Normalización",
+          "Tercera forma normal simplificada: no repetir grupos",
+          "separa Cliente y Pedidos tablas",
+          "Reduce anomalías actualización.",
+          "IDs enlazan tablas.",
+          "¿Repetir dirección cliente en cada pedido?",
+          [
+            "Duplicar siempre",
+            "Una celda gigante",
+            "Sin claves",
+            "Separar tabla Cliente"
+          ],
+          3
+        ],
+        [
+          "Documentar pipeline",
+          "README pasos origen→transform→destino",
+          "diagrama flecha simple",
+          "Onboarding futuro te agradece.",
+          "Versiona cambios pipeline.",
+          "¿Pipeline datos?",
+          [
+            "Documentar flujo",
+            "Secreto oral",
+            "Solo en cabeza",
+            "Borrar logs"
+          ],
+          0
+        ],
+        [
+          "Calidad datos",
+          "Completitud, unicidad, validez métricas",
+          "regla email contiene @",
+          "Dashboard errores semanal.",
+          "Corregir en origen si posible.",
+          "¿Email sin @?",
+          [
+            "Publicar",
+            "Dato inválido a corregir",
+            "Válido siempre",
+            "Ignorar"
+          ],
+          1
+        ],
+        [
+          "Ethics scraping",
+          "Respeta robots.txt y ToS",
+          "usa API oficial si existe",
+          "Scraping agresivo puede bloquear o ilegal.",
+          "Datos personales regulados.",
+          "¿Scrape sitio?",
+          [
+            "Vender datos ajenos",
+            "Sin límites",
+            "Revisar ToS y robots",
+            "Ignorar legal"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Visualización y comunicación",
+      "description": "Gráficos, tablas y narrativa con datos",
+      "lessons": [
+        [
+          "Elegir gráfico correcto",
+          "Barras categorías; línea tiempo; scatter correlación",
+          "no uses pie con 15 categorías",
+          "Pocas categorías en pie.",
+          "Línea para series temporales.",
+          "¿15 categorías proporción?",
+          [
+            "Pie chart",
+            "Word cloud solo",
+            "3D siempre",
+            "Barras horizontales"
+          ],
+          3
+        ],
+        [
+          "Tablas legibles",
+          "Alineación número derecha; miles separador",
+          "formato condicional resalta outliers",
+          "Congela fila encabezado scroll.",
+          "Ancho columna adecuado.",
+          "¿Números en tabla?",
+          [
+            "Fusión masiva",
+            "Sin encabezado",
+            "Alinear derecha",
+            "Centro siempre"
+          ],
+          2
+        ],
+        [
+          "Storytelling datos",
+          "Un mensaje principal por visualización",
+          "título activo: 'Ventas subieron 12% Q2'",
+          "Contexto comparación año anterior.",
+          "Evita chartjunk decorativo.",
+          "¿Buen título gráfico?",
+          [
+            "Random",
+            "Insight claro",
+            "Gráfico 1",
+            "Sin etiquetas"
+          ],
+          1
+        ],
+        [
+          "Accesibilidad color",
+          "No solo color; patrones para daltónicos",
+          "viridis o contrast check",
+          "Rojo-verde problemático.",
+          "Etiquetas directas mejor que leyenda lejana.",
+          "¿Accesible?",
+          [
+            "Contraste y etiquetas",
+            "Solo rojo/verde",
+            "Texto 6px",
+            "Sin título"
+          ],
+          0
+        ],
+        [
+          "Export presentación",
+          "SVG vector gráficos; PNG alta res",
+          "export 300dpi si imprime",
+          "Embed fuentes si PDF.",
+          "Revisa en modo presentación.",
+          "¿Imprimir póster?",
+          [
+            "Foto monitor",
+            "ASCII art",
+            "Alta resolución PNG/SVG",
+            "Screenshot 72dpi"
+          ],
+          2
+        ],
+        [
+          "Dashboard simple",
+          "KPIs 3-5 máximo una pantalla",
+          "hoja Resumen con enlaces detalle",
+          "Actualización manual o query refresh.",
+          "No sobrecargar widgets.",
+          "¿Dashboard efectivo?",
+          [
+            "Datos fake",
+            "Pocos KPIs claros",
+            "50 gráficos tiny",
+            "Sin fuente"
+          ],
+          1
+        ],
+        [
+          "Anotar fuentes",
+          "Pie de figura: origen, fecha, filtro",
+          "Fuente: Inventario 2025-03, sin obsoletos",
+          "Reproducibilidad confianza.",
+          "Enlace datos si públicos.",
+          "¿Figura profesional?",
+          [
+            "Sin contexto",
+            "Estimado inventado",
+            "Ocultar método",
+            "Fuente y fecha"
+          ],
+          3
+        ],
+        [
+          "Evitar cherry-picking",
+          "Mostrar rango completo temporal",
+          "incluir meses malos y buenos",
+          "Eje truncado documentado si usado.",
+          "Integridad > impresionar.",
+          "¿Cherry-picking?",
+          [
+            "Seleccionar solo datos favorables",
+            "Mostrar serie completa",
+            "Etiquetar método",
+            "Fuente clara"
+          ],
+          0
+        ],
+        [
+          "Feedback audiencia",
+          "Preguntar qué confunde antes de final",
+          "prueba con una persona no experta",
+          "Itera etiquetas unclear.",
+          "Glosario términos técnicos.",
+          "¿Antes de publicar informe?",
+          [
+            "Solo emojis",
+            "Prueba comprensión lector",
+            "Asumir experto",
+            "Sin revisar"
+          ],
+          1
+        ],
+        [
+          "Archivo final proyecto",
+          "Datos crudos, limpios, figuras, informe",
+          "carpeta final/ con README",
+          "Otros (o tú futuro) reproducen.",
+          "Checksum opcional integridad.",
+          "¿Cierre proyecto datos?",
+          [
+            "Borrar crudos",
+            "Sin README",
+            "Paquete reproducible documentado",
+            "Solo PPT bonito"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

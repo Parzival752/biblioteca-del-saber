@@ -1,0 +1,788 @@
+{
+  "id": "cocina",
+  "prefix": "coc",
+  "contextField": "la cocina de campo",
+  "practiceField": "preparación segura de alimentos",
+  "modules": [
+    {
+      "title": "Seguridad alimentaria",
+      "description": "Temperatura, contaminación cruzada e higiene",
+      "lessons": [
+        [
+          "Zona de peligro térmico",
+          "Entre 5 °C y 60 °C bacterias se multiplican rápido",
+          "mantén frío frío y caliente caliente en campamento",
+          "Ensalada de pollo olvidada al sol media hora puede ser riesgo.",
+          "Nevera portátil con hielo en contacto con alimentos.",
+          "¿Rango de riesgo bacteriano?",
+          [
+            "0 °C a 5 °C",
+            "60 °C a 100 °C",
+            "Bajo cero siempre",
+            "5 °C a 60 °C"
+          ],
+          3
+        ],
+        [
+          "Contaminación cruzada",
+          "Sangre cruda en tabla puede pasar a vegetales sin lavar",
+          "usa tabla y cuchillo separados para crudo y listo",
+          "Pollo crudo junto a tomate cortado es error clásico.",
+          "Lava manos tras tocar carne cruda.",
+          "¿Evitar contaminación cruzada?",
+          [
+            "Secar con mismo paño",
+            "Guardar crudo sobre ensalada",
+            "Separar utensilios crudo y cocido",
+            "Usar misma tabla sin lavar"
+          ],
+          2
+        ],
+        [
+          "Lavado de manos",
+          "Agua, jabón y fricción 20 s antes de manipular comida",
+          "monta estación de lavado con garrafón y jabón",
+          "Toalla individual evita compartir bacterias.",
+          "Desinfectante gel no reemplaza lavado si hay grasa visible.",
+          "¿Cuándo lavar manos en campo?",
+          [
+            "Solo si están visibles sucias",
+            "Antes de cocinar y tras tocar crudo",
+            "Solo al final del día",
+            "Nunca con agua limitada"
+          ],
+          1
+        ],
+        [
+          "Agua potable",
+          "Hervir, filtrar o pastillas según fuente",
+          "hierve 1 min (3 min >2000 m) si dudas de calidad",
+          "Arroyo aparentemente limpio puede tener giardia.",
+          "Lleva filtro de 0,2 µm para trekking largo.",
+          "¿Agua de montaña dudosa?",
+          [
+            "Hervir o filtrar según protocolo",
+            "Beber directo siempre",
+            "Confiar en color claro",
+            "Mezclar con barro"
+          ],
+          0
+        ],
+        [
+          "Cadena de frío",
+          "Mantener <5 °C carnes y lácteos hasta cocinar",
+          "bloques de hielo sobre carnes en nevera de campamento",
+          "Carne a temperatura ambiente 2 h en verano es riesgo.",
+          "Abre nevera lo mínimo posible.",
+          "¿Carne fuera de nevera en verano?",
+          [
+            "En sol para secar",
+            "Mezclar con hierbas",
+            "Cocinar pronto o desechar",
+            "Dejar hasta noche"
+          ],
+          2
+        ],
+        [
+          "Cocción completa",
+          "Pollo y carne molida requieren temperatura interna segura",
+          "usa termómetro de sonda si disponible",
+          "Jugos de pollo deben salir claros, no rosados.",
+          "Pescado se desmenuza fácil al estar listo.",
+          "¿Pollo seguro?",
+          [
+            "Solo marinado",
+            "Sin jugo rosado y 74 °C interno",
+            "Exterior dorado basta",
+            "Crudo en centro"
+          ],
+          1
+        ],
+        [
+          "Conservas caseras",
+          "Botulismo es riesgo en conservas de baja acidez mal procesadas",
+          "sigue recetas acidas o presión certificada; no improvises",
+          "Verduras en aceite sin ácido pueden ser peligrosas.",
+          "En campo prioriza alimentos secos comerciales.",
+          "¿Riesgo botulismo?",
+          [
+            "Pan tostado",
+            "Fruta fresca",
+            "Arroz hervido",
+            "Conservas anaeróbicas mal acidificadas"
+          ],
+          3
+        ],
+        [
+          "Alergias e intolerancias",
+          "Etiqueta ingredientes y evita contacto cruzado",
+          "pregunta al grupo por alergias antes de planificar menú",
+          "Nueces en trail mix cerca de persona alérgica es grave.",
+          "Lava ollas si cocinaste alérgeno antes.",
+          "¿Planificar menú grupal?",
+          [
+            "Preguntar alergias y separar alimentos",
+            "Ignorar restricciones",
+            "Usar misma cuchara",
+            "Ocultar ingredientes"
+          ],
+          0
+        ],
+        [
+          "Basura y fauna",
+          "Olor atrae animales; guarda comida lejos de tienda",
+          "usa oso-canister o colgar PCT style donde aplique",
+          "Mapache nocturno rompe bolsas de basura débiles.",
+          "Lava platos lejos del campamento.",
+          "¿Comida en campamento?",
+          [
+            "En mochila abierta",
+            "Almacenar sellada lejos de dormir",
+            "Dentro de tienda siempre",
+            "Bajo la lona exterior"
+          ],
+          1
+        ],
+        [
+          "Inspección pre-comida",
+          "Olor, textura y fecha en alimentos empacados",
+          "descarta lata abombada o olor agrio",
+          "Atún en lata hinchada indica posible contaminación.",
+          "Cuando dudes, tíralo: salud > ahorro.",
+          "¿Lata abombada?",
+          [
+            "Calentar más",
+            "Mezclar con especias",
+            "No consumir",
+            "Abrir y oler"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Equipamiento de campo",
+      "description": "Fogones, combustible y utensilios",
+      "lessons": [
+        [
+          "Fogones de gas",
+          "Cartucho rosca vs válvula; revisa junta y estabilidad",
+          "prueba fogón en casa antes de excursión",
+          "Viento apaga llama: usa pantalla de viento.",
+          "Nunca cocines dentro de tienda cerrada: CO mortal.",
+          "¿Monóxido de carbono en tienda?",
+          [
+            "Inofensivo",
+            "Solo con alcohol",
+            "Eliminado por hielo",
+            "Riesgo mortal con combustión cerrada"
+          ],
+          3
+        ],
+        [
+          "Fogones de alcohol",
+          "Trangia y similares estables; combustible en botella etiquetada",
+          "aprende tiempo de hervido con tu olla estándar",
+          "Alcohol metílico es tóxico: usa etílico o isopropílico según diseño.",
+          "Apaga tapando; no soplar puede derramar llama.",
+          "¿Ventaja alcohol vs gas?",
+          [
+            "Sin riesgo de derrame",
+            "No necesita oxígeno",
+            "Silencioso y simple en rutas ligeras",
+            "Más potente siempre"
+          ],
+          2
+        ],
+        [
+          "Leña y fuego",
+          "Solo donde permitido; usa fogata existente",
+          "recoge leña muerta del suelo, no cortes vivo",
+          "Brasas estables mejor que llama alta para olla.",
+          "Apaga completamente: agua, remover, mano cerca sin calor.",
+          "¿Apagar fogata?",
+          [
+            "Irse de noche",
+            "Agua, remover y comprobar frío",
+            "Dejar brasas",
+            "Tapar con tierra húmeda sola"
+          ],
+          1
+        ],
+        [
+          "Ollas y materiales",
+          "Aluminio ligero vs acero resistente; revestimiento antiadherente frágil",
+          "elige olla según número de comensales y peso",
+          "Olla ancha calienta más rápido que olla estrecha alta.",
+          "Asa resistente evita quemaduras al colgar.",
+          "¿Olla para 2 personas trekking?",
+          [
+            "1–1,5 L ligera con tapa",
+            "5 L de hierro",
+            "Sin tapa",
+            "Solo sartén plana"
+          ],
+          0
+        ],
+        [
+          "Utensilios mínimos",
+          "Cuchillo afilado, tabla flexible, cuchara y taza medidora",
+          "multiherramienta de cocina reduce peso",
+          "Cuchillo con funda evita cortes en mochila.",
+          "Cuchara larga evita quemarte en olla hondo.",
+          "¿Kit mínimo eficiente?",
+          [
+            "Sin cuchillo",
+            "Solo tenedor",
+            "Cuchillo, olla, cuchara y encendedor",
+            "Juego completo de 20 piezas"
+          ],
+          2
+        ],
+        [
+          "Encendido fiable",
+          "Mechero + fósforos impermeables + yesca de respaldo",
+          "guarda mecheros en bolsa impermeable",
+          "Fósforo de caja dentro de película sellada.",
+          "Practica encender fogón con guantes fríos.",
+          "¿Respaldo encendido?",
+          [
+            "Fricción de ramas siempre fácil",
+            "Fósforos impermeables y yesca",
+            "Solo papel",
+            "Esperar rayo"
+          ],
+          1
+        ],
+        [
+          "Superficie de cocina",
+          "Roca plana o mesa plegable estable lejos de tienda",
+          "nivela fogón antes de poner olla con agua",
+          "Piedra inestable vuelca olla caliente.",
+          "Marca zona cocina para que otros no pisen.",
+          "¿Superficie segura?",
+          [
+            "Inclinada hacia la tienda",
+            "Sobre raíces mojadas",
+            "En interior de tienda",
+            "Plana, estable y despejada"
+          ],
+          3
+        ],
+        [
+          "Limpieza de ollas",
+          "Agua caliente, poco jabón biodegradable lejos de arroyo",
+          "lleva esponja pequeña y escurre lejos de fuente",
+          "Restos de comida atraen fauna cerca del campamento.",
+          "Arena fina puede fregar sin jabón en pinchos.",
+          "¿Lavar platos en arroyo?",
+          [
+            "Evitar; usar agua aparte y dispersar",
+            "Directo en corriente",
+            "Con detergente industrial",
+            "Dejar platos sucios"
+          ],
+          0
+        ],
+        [
+          "Combustible transporte",
+          "Cartuchos fuera de mochila caliente; avión solo según norma",
+          "consulta aerolínea para gas en equipaje facturado",
+          "Gas en cabina suele estar prohibido.",
+          "Almacena lejos del sol en coche.",
+          "¿Cartucho gas en avión?",
+          [
+            "Perforado para aligerar",
+            "Seguir normativa IATA y aerolínea",
+            "Siempre en carry-on",
+            "Oculto sin declarar"
+          ],
+          1
+        ],
+        [
+          "Mantenimiento fogón",
+          "Limpiar quemador y revisar orificios obstruidos",
+          "guarda fogón seco tras cada viaje",
+          "Orificio tapado causa llama amarilla irregular.",
+          "Junta de cartucho dañada pierde gas.",
+          "¿Llama amarilla irregular?",
+          [
+            "Signo de cocción perfecta",
+            "Falta de oxígeno en botella",
+            "Posible obstrucción o suciedad",
+            "Normal siempre"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Planificación de menús",
+      "description": "Calorías, peso y logística de ingredientes",
+      "lessons": [
+        [
+          "Densidad calórica",
+          "Grasas 9 kcal/g; ideales para reducir peso en trekking",
+          "añade aceite de oliva a pasta en sobre",
+          "Nueces y chocolate aportan energía compacta.",
+          "Balancea con fibra para digestión.",
+          "¿Alimento más calórico por gramo?",
+          [
+            "Agua",
+            "Lechuga",
+            "Caldo diluido",
+            "Grasas"
+          ],
+          3
+        ],
+        [
+          "Deshidratados comerciales",
+          "Ligeros; requieren agua caliente y tiempo de hidratación",
+          "prueba en casa tiempos de rehidratación",
+          "Arroz deshidratado puede quedar crudo si falta agua.",
+          "Sobres de una ración facilitan porciones.",
+          "¿Ventaja deshidratado?",
+          [
+            "Siempre más barato",
+            "No caduca nunca",
+            "Peso bajo y larga conservación",
+            "Sin necesidad de agua"
+          ],
+          2
+        ],
+        [
+          "One-pot meals",
+          "Una olla reduce limpieza y combustible",
+          "planifica guisos donde pasta y salsa cocinen juntos",
+          "Lentejas + arroz + especias = comida completa.",
+          "Remover evita pegar en fondo.",
+          "¿Ventaja one-pot?",
+          [
+            "Requiere tres fogones",
+            "Menos utensilios y limpieza",
+            "Más peso",
+            "Peor sabor siempre"
+          ],
+          1
+        ],
+        [
+          "Snacks de marcha",
+          "Energía rápida sin parar: frutos secos, barritas, fruta seca",
+          "porciona snacks en bolsitas diarias",
+          "Comer poco y seguido mantiene energía estable.",
+          "Evita solo azúcar simple: crash posterior.",
+          "¿Snack equilibrado en ruta?",
+          [
+            "Frutos secos y fruta seca",
+            "Solo refresco",
+            "Ensalada grande",
+            "Sopa caliente en termo siempre"
+          ],
+          0
+        ],
+        [
+          "Desayuno de campamento",
+          "Avena, café y fruta seca arrancan día sin mucho tiempo",
+          "usa bolsa con cierre para overnight oats con agua fría",
+          "Café filtrado por goteo ligero anima madrugones.",
+          "Desayuno caliente requiere más combustible.",
+          "¿Desayuno rápido sin cocina?",
+          [
+            "Sushi fresco",
+            "Horno de leña",
+            "Muesli con agua o leche en polvo",
+            "Filete a la plancha"
+          ],
+          2
+        ],
+        [
+          "Menú por días",
+          "Lista ingredientes por día evita exceso o falta",
+          "tabla: día × comidas × peso",
+          "Sobrar 500 g × 5 días = 2,5 kg innecesarios.",
+          "Día de reserva con barritas extra.",
+          "¿Planificar menú?",
+          [
+            "Sin agua planificada",
+            "Lista por día con pesos",
+            "Comprar al azar",
+            "Solo un tipo de comida"
+          ],
+          1
+        ],
+        [
+          "Vegetarianismo en campo",
+          "Proteína: legumbres, texturizados, quinoa, frutos secos",
+          "lleva lentejas rápidas o hummus en sobre",
+          "Combinar cereal + legumbre mejora perfil aminoácidos.",
+          "Vitamina B12 suplemento en dietas estrictas.",
+          "¿Proteína vegetal trekking?",
+          [
+            "Solo lechuga",
+            "Agua",
+            "Azúcar",
+            "Legumbres y frutos secos"
+          ],
+          3
+        ],
+        [
+          "Especias y sabor",
+          "Sal, pimienta y mezcla favorita en tubo pequeño",
+          "un buen sabor mejora moral del grupo",
+          "Limón en polvo realza guisos.",
+          "Sal insuficiente en sudor intenso: considera electrolitos.",
+          "¿Mejorar moral con comida?",
+          [
+            "Especias ligeras y variadas",
+            "Sin sal nunca",
+            "Solo picante extremo",
+            "Evitar todo sabor"
+          ],
+          0
+        ],
+        [
+          "Porciones grupales",
+          "Escala recetas y reparte tareas cocinar/limpiar",
+          "designa cocinero y ayudante por turnos",
+          "Doblar receta no siempre dobla tiempo.",
+          "Comunica alergias antes de servir.",
+          "¿Cocina grupal?",
+          [
+            "Porciones aleatorias",
+            "Turnos claros y porciones calculadas",
+            "Una persona hace todo siempre",
+            "Sin hablar de alergias"
+          ],
+          1
+        ],
+        [
+          "Presupuesto y compras",
+          "Supermercado vs tienda outdoor: equilibrio peso y precio",
+          "compra frutos secos a granel y porciona",
+          "Atún en lata es económico y proteico.",
+          "Evita packaging pesado innecesario.",
+          "¿Ahorrar sin perder nutrición?",
+          [
+            "Eliminar proteína",
+            "Llevar latas enteras sin plan",
+            "Comprar básicos y porcionar en casa",
+            "Solo comidas de lujo"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Técnicas de cocción",
+      "description": "Hervir, guisar, asar y horno de campamento",
+      "lessons": [
+        [
+          "Hervir agua eficiente",
+          "Tapa acelera ebullición; menos agua = menos combustible",
+          "calienta solo agua necesaria para pasta o té",
+          "Viento sin pantalla duplica tiempo de hervido.",
+          "Agua a 100 °C mata bacterias por ebullición.",
+          "¿Hervir más rápido?",
+          [
+            "Olla abierta al viento",
+            "Agua fría extra",
+            "Sin tapa siempre",
+            "Tapa y pantalla de viento"
+          ],
+          3
+        ],
+        [
+          "Cocción a fuego lento",
+          "Guisos espesan y saben mejor con simmmer bajo",
+          "remueve fondo para no quemar",
+          "Lentejas sin remojo largo si hierves bien.",
+          "Simmer es burbuja pequeña, no ebullición fuerte.",
+          "¿Simmer correcto?",
+          [
+            "Sin calor nunca",
+            "Llama máxima siempre",
+            "Burbujas pequeñas ocasionales",
+            "Ebullición violenta"
+          ],
+          2
+        ],
+        [
+          "Asar en sartén",
+          "Aceite caliente antes de proteína evita pegar",
+          "secar superficie de carne antes de sellar",
+          "No llenes sartén: humedad impide dorado.",
+          "Dejar reposar 2 min tras cocinar.",
+          "¿Evitar pegar en sartén?",
+          [
+            "Sin aceite nunca",
+            "Superficie seca y sartén caliente",
+            "Sartén fría con agua",
+            "Mucha comida junta"
+          ],
+          1
+        ],
+        [
+          "Horno reflectante",
+          "Panel reflectante con bolsa horno cocina con menos combustible",
+          "prueba brownies en bolsa horno en campamento",
+          "Viento reduce eficiencia del horno solar/reflector.",
+          "Ideal en sol fuerte y día sin nubes.",
+          "¿Bolsa horno?",
+          [
+            "Aísla calor para hornear con poco gas",
+            "Enfría comida",
+            "Sustituye agua",
+            "Conserva crudo"
+          ],
+          0
+        ],
+        [
+          "Cocción al vapor improvisada",
+          "Rejilla sobre olla con agua herviendo",
+          "brócoli al vapor retiene nutrientes",
+          "Tapa esencial para retener vapor.",
+          "Cuidado vapor al abrir: quemaduras.",
+          "¿Vapor en campo?",
+          [
+            "Freír sin aceite seco",
+            "Microondas portátil",
+            "Rejilla o plato elevado sobre agua hirviendo",
+            "Hervir sin tapa horas"
+          ],
+          2
+        ],
+        [
+          "Rehydration meals",
+          "Dejar hidratar 10–15 min tras ebullición según fabricante",
+          "revuelve a mitad de tiempo indicado",
+          "Arroz instantáneo vs parboiled difieren en agua.",
+          "Probar en casa evita sorpresas en montaña.",
+          "¿Arroz deshidratado?",
+          [
+            "Cocinar 2 h siempre",
+            "Seguir ratio agua del fabricante",
+            "Sin agua",
+            "Agua fría instantánea"
+          ],
+          1
+        ],
+        [
+          "Pan plano en sartén",
+          "Harina, agua, sal y fogón = tortilla o bannock",
+          "masa no muy húmeda para sartén caliente",
+          "Bannock en palo es tradición scout.",
+          "Gira cuando burbujas aparecen.",
+          "¿Pan sin horno?",
+          [
+            "Crudo en agua",
+            "Solo microondas",
+            "Sin calor",
+            "Sartén con masa plana"
+          ],
+          3
+        ],
+        [
+          "Altitud y ebullición",
+          "A mayor altitud ebullición baja: cocción más lenta",
+          "usa olla a presión de campamento si >2500 m",
+          "Agua hierve a 93 °C en 2000 m aprox.",
+          "Pasta necesita más tiempo o presión.",
+          "¿Ebullición a 3000 m?",
+          [
+            "Menor de 100 °C",
+            "Igual que nivel mar",
+            "Imposible hervir",
+            "300 °C"
+          ],
+          0
+        ],
+        [
+          "Postres simples",
+          "Compota de manzana deshidratada o chocolate fundido",
+          "compota rehidrata con agua caliente y canela",
+          "Postre mejora ánimo tras día duro.",
+          "Chocolate se derrite en bolsillo en verano.",
+          "¿Postre ligero?",
+          [
+            "Sin azúcar nunca",
+            "Fruta deshidratada rehidratada",
+            "Tarta de tres pisos",
+            "Helo seco complejo"
+          ],
+          1
+        ],
+        [
+          "Café y té en campo",
+          "Filtrado, prensa francesa pequeña o té en hoja",
+          "lleva prensa de plástico ligero",
+          "Cafeína moderada ayuda alerta; exceso deshidrata.",
+          "Té de hierbas sin cafeína por la noche.",
+          "¿Café sin electricidad?",
+          [
+            "Solo instantáneo siempre",
+            "Hervir granos enteros sin moler",
+            "Prensa francesa o filtro de goteo",
+            "Express eléctrico"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Logística y conservación",
+      "description": "Almacenamiento, residuos y práctica Leave No Trace",
+      "lessons": [
+        [
+          "Leave No Trace cocina",
+          "Minimizar impacto: comida seca, poca basura, sitio limpio",
+          "empaca basura en bolsa doble hasta contenedor",
+          "Principio: llevar todo lo que trajiste.",
+          "Cocina 60 m de lagos y campamentos.",
+          "¿Principio LNT?",
+          [
+            "Enterrar plásticos",
+            "Quemar latas",
+            "Dejar restos para fauna",
+            "No dejar rastro de comida o basura"
+          ],
+          3
+        ],
+        [
+          "Empaque y etiquetas",
+          "Marcar fecha apertura y contenido en bolsas",
+          "usa rotulador permanente en congelador bags",
+          "Harina sin etiqueta se confunde con sal.",
+          "Doble bolsa evita derrames en mochila.",
+          "¿Por qué etiquetar?",
+          [
+            "Pesar menos",
+            "Evitar cocinar",
+            "Identificar y controlar caducidad",
+            "Decoración"
+          ],
+          2
+        ],
+        [
+          "Residuos orgánicos",
+          "En muchas áreas prohibido tirar restos aunque biodegradables",
+          "lleva restos en bolsa como basura general",
+          "Manzana tarda en descomponerse en clima seco.",
+          "Sigue regulación local del parque.",
+          "¿Cáscaras en parque nacional?",
+          [
+            "Alimentar animales",
+            "Llevarlas según normativa",
+            "Tirar siempre",
+            "Enterrar cerca de tienda"
+          ],
+          1
+        ],
+        [
+          "Agua gris",
+          "Dispersar agua jabonosa lejos de fuentes tras filtrar sólidos",
+          "usa jabón biodegradable aún así dispersa",
+          "Partículas de comida en agua gris atraen fauna.",
+          "Colador pequeño retiene sólidos.",
+          "¿Agua de lavar platos?",
+          [
+            "Filtrar sólidos y dispersar lejos de arroyo",
+            "Verter en manantial",
+            "Dejar en olla",
+            "Regar tienda"
+          ],
+          0
+        ],
+        [
+          "Refrigeración improvisada",
+          "Saco reflectante, hielo y sombra en verano",
+          "congela botellas de agua como hielo reutilizable",
+          "Nevera sin hielo dura pocas horas en calor.",
+          "Abre solo lo necesario.",
+          "¿Mantener frío en campamento?",
+          [
+            "Tienda cerrada con comida",
+            "Sin nevera nunca",
+            "Hielo en contacto y sombra",
+            "Dejar al sol"
+          ],
+          2
+        ],
+        [
+          "Sobras seguras",
+          "Enfría rápido o consume pronto; no dejar al sol",
+          "come sobras en 2 h o desecha en calor",
+          "Arroz cocido a temperatura ambiente puede ser riesgo.",
+          "En frío invernal más margen pero precaución.",
+          "¿Sobras en verano caliente?",
+          [
+            "Guardar en mochila cerrada",
+            "Refrigerar o consumir pronto",
+            "Dejar hasta mañana al sol",
+            "Mezclar con crudo"
+          ],
+          1
+        ],
+        [
+          "Checklist salida cocina",
+          "Fogón, combustible, encendedor, olla, comida, agua, basura",
+          "repasa lista en parking antes de caminar",
+          "Olvidar encendedor arruina menú caliente.",
+          "Repuesto de cartucho en rutas largas.",
+          "¿Olvido crítico?",
+          [
+            "Solo tenedor",
+            "Libro de poesía",
+            "Toalla de playa",
+            "Encendedor y combustible"
+          ],
+          3
+        ],
+        [
+          "Práctica en parque urbano",
+          "Simula campamento cocinando comida real en mesa de picnic",
+          "cronometra hervido y limpieza",
+          "Prueba en entorno seguro antes de montaña.",
+          "Invita amigo a probar porciones.",
+          "¿Simulacro urbano?",
+          [
+            "Probar menú y tiempos antes de ruta",
+            "Solo leer recetas",
+            "Primera vez en cumbre",
+            "Sin fogón"
+          ],
+          0
+        ],
+        [
+          "Documentar recetas",
+          "Anota qué funcionó: agua, tiempo, gustos del grupo",
+          "cuaderno de campamento culinario",
+          "Receta que falló en lluvia enseña más.",
+          "Comparte con club de montaña.",
+          "¿Cuaderno cocina campo?",
+          [
+            "Copiar sin probar",
+            "Tiempos, ratios y feedback",
+            "Solo fotos sin notas",
+            "Borrar todo"
+          ],
+          1
+        ],
+        [
+          "Evaluación post-salida",
+          "Peso sobrante, basura generada y satisfacción nutricional",
+          "pesa sobras para ajustar próximo menú",
+          "Si sobró 30% comida, reduce lista.",
+          "Hidratación adecuada: orina clara.",
+          "¿Ajuste menú siguiente?",
+          [
+            "Eliminar agua",
+            "Ignorar feedback",
+            "Reducir exceso según sobras reales",
+            "Duplicar siempre"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

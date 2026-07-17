@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La Biblioteca del Saber — 1250+ lecciones gratis de programacion, naturaleza, supervivencia, cultura y mas. Tu maestro es un alebrije.">
+  <meta name="theme-color" content="#f472b6">
+  <meta name="robots" content="index, follow">
+  <title>La Biblioteca del Saber — Aprende con el Maestro Alebrije</title>
+  <link rel="canonical" href="https://bibliotecadelsaber.mx/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="La Biblioteca del Saber">
+  <meta property="og:title" content="La Biblioteca del Saber — Aprende con el Maestro Alebrije">
+  <meta property="og:description" content="1250+ lecciones gratis: programacion, naturaleza, supervivencia y mas. Sin registro. Progreso en tu navegador.">
+  <meta property="og:url" content="https://bibliotecadelsaber.mx/">
+  <meta property="og:image" content="https://bibliotecadelsaber.mx/og.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="La Biblioteca del Saber">
+  <meta name="twitter:description" content="1250+ lecciones gratis con el Maestro Alebrije.">
+  <meta name="twitter:image" content="https://bibliotecadelsaber.mx/og.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/material-darker.min.css">
+</head>
+<body>
+  <div id="app" class="app">
+    <!-- Pantalla de bienvenida -->
+    <div id="welcomeScreen" class="welcome">
+      <div class="welcome__hero">
+        <div class="welcome__card">
+          <p class="welcome__badge">Gratuito · 30 saberes · 1250+ lecciones</p>
+          <h1>La Biblioteca del <span>Saber</span></h1>
+          <p class="welcome__lead">
+            Programación, biología, supervivencia, primeros auxilios y mucho más.
+            Tu <strong>profesor</strong> es el <strong>Maestro Alebrije</strong> — te guía con lecciones,
+            código, quizzes, XP e insignias.
+          </p>
+          <div class="alebrije-intro">
+            <div class="alebrije-intro__head">
+              <img src="assets/alebrijes/maestro.svg?v=2" alt="" class="alebrije-intro__icon" width="52" height="52">
+              <div>
+                <strong class="alebrije-intro__title">Tu profesor: el Maestro Alebrije</strong>
+                <span class="alebrije-intro__role">Guía de todos los saberes de la biblioteca</span>
+              </div>
+            </div>
+            <details class="alebrije-intro__details">
+              <summary>¿Qué es un alebrije?</summary>
+              <p>
+                Los <strong>alebrijes</strong> son figuras de arte mexicano: criaturas fantásticas
+                hechas de partes de distintos animales, con colores muy vivos. Nacieron en los sueños
+                del artesano Pedro Linares y hoy son símbolo de creatividad, alegría y mezcla de lo
+                imposible hecho posible.
+              </p>
+              <p>
+                En esta biblioteca, el <strong>Maestro Alebrije</strong> es tu profesor: une código,
+                naturaleza y supervivencia como un alebrije une formas distintas — con paciencia,
+                humor y explicaciones claras para todo público.
+              </p>
+            </details>
+          </div>
+          <div class="welcome__courses">
+            <p class="welcome__courses-label">Paso 1 — Elige tu saber</p>
+            <label class="course-combobox" for="courseSelect">
+              <span class="course-combobox__label">Tema de la biblioteca</span>
+              <select id="courseSelect" class="course-select" aria-label="Seleccionar saber"></select>
+            </label>
+            <div class="course-preview" id="coursePreview"></div>
+          </div>
+          <div id="welcomeStats" class="welcome__stats" hidden></div>
+          <div class="welcome__profile" id="welcomeProfile">
+            <p class="welcome__courses-label">Paso 2 — Tu perfil</p>
+            <p class="welcome__profile-greet" id="welcomeGreet" hidden></p>
+            <label class="profile-field" for="studentNickname">
+              <span>Tu apodo</span>
+              <input type="text" id="studentNickname" class="profile-input" maxlength="24"
+                placeholder="Ej: Luna, SabioFox…" autocomplete="nickname">
+            </label>
+            <div class="profile-field">
+              <span>Elige tu avatar</span>
+              <div class="avatar-picker" id="welcomeAvatarPicker"></div>
+            </div>
+          </div>
+          <ul class="welcome__features" id="welcomeFeatures"></ul>
+          <div class="backup-panel" id="welcomeBackup">
+            <p class="backup-panel__label">Sincronizar entre dispositivos</p>
+            <p class="backup-panel__hint">Exporta tu progreso, ajustes y cursos para usarlos en otro PC, tablet o teléfono.</p>
+            <div class="backup-panel__actions">
+              <button type="button" class="btn btn--ghost btn--sm" id="btnWelcomeExport">⬇ Exportar progreso</button>
+              <button type="button" class="btn btn--ghost btn--sm" id="btnWelcomeImport">⬆ Importar progreso</button>
+            </div>
+          </div>
+          <input type="file" id="backupFileInput" accept=".json,application/json" hidden>
+          <p class="welcome__enter-legal">
+            Al pulsar «Entrar a la biblioteca» aceptas los
+            <button type="button" class="legal-link" data-legal="terms">Términos y condiciones</button>,
+            el <button type="button" class="legal-link" data-legal="disclaimer">Descargo de responsabilidad</button>
+            y el resto de documentos legales.
+          </p>
+          <button type="button" class="btn btn--primary btn--lg" id="btnStart">
+            Entrar a la biblioteca →
+          </button>
+          <button type="button" class="btn btn--ghost" id="btnContinue" hidden>
+            Continuar donde lo dejaste
+          </button>
+          <button type="button" class="btn btn--ghost btn--danger-text" id="btnRestartCourse" hidden>
+            ↺ Reiniciar curso desde cero
+          </button>
+        </div>
+        <div class="welcome__preview">
+          <div class="alebrije-hero">
+            <img src="assets/alebrijes/maestro.svg?v=2" alt="Maestro Alebrije" class="alebrije-hero__img" width="220" height="220">
+            <p class="alebrije-hero__quote">«Soy tu profesor. Cada estante guarda un saber — ¡exploremos juntos!»</p>
+            <p class="alebrije-hero__name">— Maestro Alebrije, tu guía</p>
+          </div>
+          <div class="welcome__modules" id="welcomeModules"></div>
+          <div id="welcomeAboutNote"></div>
+        </div>
+      </div>
+      <footer class="welcome-footer" id="welcomeLegalFooter" aria-label="Pie de página legal"></footer>
+    </div>
+
+    <!-- App principal -->
+    <div id="mainApp" class="main-app hidden">
+      <header class="topbar">
+        <button type="button" class="btn-icon" id="btnToggleNav" title="Menú" aria-label="Menú">☰</button>
+        <div class="topbar__brand">
+          <strong id="topbarCourse">JavaScript</strong>
+          <span id="topbarLesson">—</span>
+        </div>
+        <button type="button" class="profile-pill" id="btnProfile" title="Tu perfil">
+          <span id="topbarAvatar"></span>
+          <span class="profile-pill__info">
+            <strong id="topbarName">Explorador/a</strong>
+            <span id="topbarLevel">Novato · 0 XP</span>
+          </span>
+        </button>
+        <div class="topbar__actions">
+          <button type="button" class="btn-icon" id="btnCourses" title="Cambiar saber">📚</button>
+          <button type="button" class="btn-icon" id="btnHelp" title="Ayuda (?)">❓</button>
+          <button type="button" class="btn-icon" id="btnFocus" title="Modo enfoque">🎯</button>
+          <button type="button" class="btn-icon" id="btnSearch" title="Buscar (/)">🔍</button>
+          <button type="button" class="btn-icon" id="btnDashboard" title="Progreso">📊</button>
+          <button type="button" class="btn-icon" id="btnSettings" title="Ajustes">⚙️</button>
+          <button type="button" class="btn-icon" id="btnTheme" title="Tema">☀️</button>
+        </div>
+        <div class="topbar__progress">
+          <div class="progress-bar"><div class="progress-bar__fill" id="globalProgress"></div></div>
+          <span id="progressText">0%</span>
+        </div>
+      </header>
+
+      <div class="layout">
+        <div class="sidebar-overlay hidden" id="sidebarOverlay"></div>
+        <nav class="sidebar" id="sidebar">
+          <div class="student-card" id="sidebarProfile">
+            <button type="button" class="student-card__inner" id="btnSidebarProfile">
+              <span id="sidebarAvatar"></span>
+              <div class="student-card__body">
+                <strong id="sidebarName">Explorador/a</strong>
+                <span id="sidebarLevel">Novato</span>
+                <div class="student-card__bar"><div class="student-card__fill" id="sidebarLevelFill"></div></div>
+                <span class="student-card__xp" id="sidebarXp">0 XP</span>
+              </div>
+            </button>
+          </div>
+          <div class="maestro-banner" title="Tu profesor de todos los saberes">
+            <img src="assets/alebrijes/maestro.svg?v=2" alt="Maestro Alebrije" width="40" height="40">
+            <div>
+              <strong>Maestro Alebrije</strong>
+              <span>Tu profesor</span>
+            </div>
+          </div>
+          <div id="sidebarStudying" class="sidebar-studying" hidden></div>
+          <div class="sidebar__head">
+            <h2>Contenido</h2>
+            <p id="sidebarProgress">0 lecciones</p>
+            <input type="search" class="sidebar__search" id="lessonSearch" placeholder="Buscar lección… ( / )" aria-label="Buscar lección">
+          </div>
+          <div id="navModules" class="nav-modules"></div>
+          <footer class="sidebar-legal">
+            <button type="button" class="legal-link legal-link--sm" data-legal="notice">Aviso legal</button>
+            <button type="button" class="legal-link legal-link--sm" data-legal="terms">Términos</button>
+            <button type="button" class="legal-link legal-link--sm" data-legal="disclaimer">Descargo</button>
+            <button type="button" class="legal-link legal-link--sm" data-legal="donations">Donaciones</button>
+          </footer>
+        </nav>
+
+        <main class="content" id="lessonContent"></main>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay hidden" id="modalOverlay" role="dialog" aria-modal="true">
+      <div class="modal" id="modalBody"></div>
+      <button type="button" class="modal-close" id="btnCloseModal" aria-label="Cerrar">×</button>
+    </div>
+
+    <!-- Panel de ayuda -->
+    <aside class="help-panel hidden" id="helpPanel">
+      <header class="help-panel__head">
+        <h2>📚 Centro de ayuda</h2>
+        <button type="button" class="btn-icon" id="btnCloseHelp" aria-label="Cerrar">×</button>
+      </header>
+      <div class="help-tabs" id="helpTabs">
+        <button type="button" class="help-tabs__btn active" data-help-tab="glossary">Glosario</button>
+        <button type="button" class="help-tabs__btn" data-help-tab="cheatsheet">Chuleta</button>
+        <button type="button" class="help-tabs__btn" data-help-tab="maestro">Maestro</button>
+        <button type="button" class="help-tabs__btn" data-help-tab="howto">Cómo usar</button>
+      </div>
+      <div class="help-panel__body">
+        <div class="help-tab-panel active" id="help-glossary">
+          <p class="help-intro">Términos del saber activo (programación o naturaleza).</p>
+          <div id="helpGlossary"></div>
+        </div>
+        <div class="help-tab-panel" id="help-cheatsheet">
+          <p class="help-intro">Sintaxis rápida para copiar y practicar.</p>
+          <div id="helpCheatsheet"></div>
+        </div>
+        <div class="help-tab-panel" id="help-maestro">
+          <div class="maestro-help">
+            <img src="assets/alebrijes/maestro.svg?v=2" alt="Maestro Alebrije" width="100" height="100">
+            <h3>Tu profesor: el Maestro Alebrije</h3>
+            <p>En toda la biblioteca, el <strong>Maestro Alebrije</strong> es quien te enseña: explica la teoría, propone los retos de código y hace los quizzes de naturaleza y campo.</p>
+            <h4>¿Qué es un alebrije?</h4>
+            <p>Los alebrijes son criaturas fantásticas del arte popular mexicano: mezclan partes de distintos animales y colores imposibles. Simbolizan creatividad, alegría y unir lo distinto en algo hermoso.</p>
+            <p>Por eso un alebrije es el profesor ideal para una biblioteca que junta programación, biología, supervivencia y más — ¡todos los saberes en un solo lugar!</p>
+          </div>
+        </div>
+        <div class="help-tab-panel" id="help-howto">
+          <div class="howto-steps">
+            <div class="howto-step"><span>1</span><div><strong>Lee la teoría</strong><p>Conceptos con ejemplos. Revisa "En resumen" al final.</p></div></div>
+            <div class="howto-step"><span>2</span><div><strong>Ejecuta el ejemplo</strong><p>Pulsa ▶ Ejecutar. Observa la consola.</p></div></div>
+            <div class="howto-step"><span>3</span><div><strong>Haz el ejercicio</strong><p>Sigue los pasos sugeridos. Probar → Comprobar.</p></div></div>
+            <div class="howto-step"><span>?</span><div><strong>Si te atascas</strong><p>Usa Pista, luego Ver solución (tras 3 intentos).</p></div></div>
+            <div class="howto-step"><span>↺</span><div><strong>Reiniciar</strong><p>Lección, módulo o curso completo desde Ajustes ⚙️</p></div></div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="toast" id="toast" role="status"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/xml/xml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/css/css.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/htmlmixed/htmlmixed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/python/python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/sql/sql.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/clike/clike.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/shell/shell.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

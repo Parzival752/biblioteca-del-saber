@@ -1,0 +1,788 @@
+{
+  "id": "linux",
+  "prefix": "lin",
+  "contextField": "la terminal",
+  "practiceField": "comandos en tu sistema Linux",
+  "modules": [
+    {
+      "title": "Primeros pasos en terminal",
+      "description": "Shell, rutas, ayuda y autocompletado",
+      "lessons": [
+        [
+          "Qué es la terminal",
+          "Interfaz texto que ejecuta comandos en el shell",
+          "abre terminal y ejecuta whoami y pwd",
+          "Bash es shell común en muchas distros; zsh en otras.",
+          "Ctrl+R busca en historial de comandos.",
+          "¿Para qué sirve pwd?",
+          [
+            "Apagar el PC",
+            "Instalar drivers gráficos solos",
+            "Formatear disco siempre",
+            "Mostrar directorio actual"
+          ],
+          3
+        ],
+        [
+          "Estructura de rutas",
+          "Rutas absolutas desde /; relativas desde directorio actual",
+          "navega con cd /home y cd ..",
+          "/etc contiene configuración del sistema.",
+          " cd ~ lleva a tu home.",
+          "¿Ruta absoluta?",
+          [
+            "Sin barras",
+            "Empieza con ..",
+            "Empieza con /",
+            "Solo nombre de archivo"
+          ],
+          2
+        ],
+        [
+          "Comando ls",
+          "Lista archivos; -l detalle, -a incluye ocultos",
+          "prueba ls -lah en tu home",
+          "Archivos ocultos empiezan con punto.",
+          "Colores en ls indican tipo en muchas distros.",
+          "¿Ver archivos ocultos?",
+          [
+            "shutdown -h",
+            "ls -a",
+            "ls --no-color",
+            "ls /dev/null"
+          ],
+          1
+        ],
+        [
+          "cd y rutas especiales",
+          ". actual; .. padre; - directorio anterior",
+          "alterna cd - entre dos carpetas de trabajo",
+          "Tab completa nombres de carpetas.",
+          "Espacios en nombres requieren comillas.",
+          "¿Ir al directorio anterior?",
+          [
+            "cd -",
+            "cd ..",
+            "cd /",
+            "cd ."
+          ],
+          0
+        ],
+        [
+          "man y --help",
+          "Documentación integrada de comandos",
+          "lee man ls y ls --help",
+          "man usa paginador; q para salir.",
+          "--help es resumen rápido.",
+          "¿Salir de man?",
+          [
+            "exit",
+            "kill man",
+            "Tecla q",
+            "Ctrl+C solo"
+          ],
+          2
+        ],
+        [
+          "Historial bash",
+          "Flechas arriba/abajo; history lista comandos",
+          "busca comando previo con Ctrl+R",
+          "!! repite último comando.",
+          "!n ejecuta comando número n del history.",
+          "¿Buscar comando previo?",
+          [
+            "Scroll mouse",
+            "Ctrl+R",
+            "Ctrl+Z",
+            "Alt+F4"
+          ],
+          1
+        ],
+        [
+          "Autocompletado Tab",
+          "Completa comandos y rutas parciales",
+          "escribe cd Doc y pulsa Tab",
+          "Doble Tab lista opciones si hay ambigüedad.",
+          "Funciona en muchos shells modernos.",
+          "¿Doble Tab si ambiguo?",
+          [
+            "Borra disco",
+            "Cierra sesión",
+            "Formatea home",
+            "Lista opciones posibles"
+          ],
+          3
+        ],
+        [
+          "Permisos básicos lectura",
+          "r lectura, w escritura, x ejecución para user/group/other",
+          "mira ls -l y identifica permisos de un script",
+          "x en directorio permite entrar (cd).",
+          "Permisos se muestran como rwxr-xr--.",
+          "¿Ejecutar script local?",
+          [
+            "chmod +x script.sh",
+            "rm /",
+            "format c:",
+            "cat /dev/sda > file"
+          ],
+          0
+        ],
+        [
+          "Usuarios y sudo",
+          "sudo ejecuta comando como root temporalmente",
+          "actualiza lista paquetes con sudo apt update (Debian/Ubuntu)",
+          "Usa sudo solo cuando necesario.",
+          "whoami muestra usuario actual.",
+          "¿Instalar paquete sistema en Debian?",
+          [
+            "editar /dev/random",
+            "sudo apt install nombre",
+            "apt install sin sudo siempre",
+            "rm -rf /"
+          ],
+          1
+        ],
+        [
+          "Alias útiles",
+          "Atajos en .bashrc: alias ll='ls -la'",
+          "crea alias gs='git status' si usas git",
+          "alias temporales duran sesión; en .bashrc persisten.",
+          "source ~/.bashrc recarga config.",
+          "¿Persistir alias?",
+          [
+            "En /tmp siempre",
+            "No es posible",
+            "Añadir a .bashrc o .zshrc",
+            "Solo en terminal actual sin guardar"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Archivos y directorios",
+      "description": "Crear, copiar, mover, enlaces y búsqueda",
+      "lessons": [
+        [
+          "mkdir y touch",
+          "mkdir crea carpetas; touch crea archivo vacío o actualiza fecha",
+          "mkdir -p proyecto/src crea árbol",
+          "mkdir -p crea padres faltantes.",
+          "touch útil para crear placeholder.",
+          "¿Crear árbol de carpetas?",
+          [
+            "mkdir sin -p siempre funciona anidado",
+            "touch carpeta",
+            "rm mkdir",
+            "mkdir -p ruta/anidada"
+          ],
+          3
+        ],
+        [
+          "cp y mv",
+          "cp copia; mv mueve o renombra",
+          "cp -r dir1 dir2 copia recursiva",
+          "mv sobrescribe destino sin aviso en mismo filesystem.",
+          "cp -i pregunta antes de sobrescribir.",
+          "¿Renombrar archivo?",
+          [
+            "rm viejo",
+            "cat viejo",
+            "mv viejo nuevo",
+            "cp viejo nuevo"
+          ],
+          2
+        ],
+        [
+          "rm con cuidado",
+          "rm borra; -r recursivo; -i interactivo",
+          "NUNCA ejecutes rm -rf / como broma",
+          "Papelera no existe por defecto en CLI.",
+          "trash-cli añade papelera segura.",
+          "¿Borrar carpeta y contenido?",
+          [
+            "format",
+            "rm -r nombre",
+            "rm nombre sin -r en carpeta",
+            "mv a /dev/null siempre"
+          ],
+          1
+        ],
+        [
+          "cat, less, head, tail",
+          "Ver contenido; less pagina; head/tail extremos",
+          "tail -f sigue log en vivo",
+          "less permite buscar con /patrón.",
+          "head -n 20 muestra 20 primeras líneas.",
+          "¿Seguir log en tiempo real?",
+          [
+            "tail -f archivo.log",
+            "cat -f",
+            "rm log",
+            "chmod log"
+          ],
+          0
+        ],
+        [
+          "find básico",
+          "Buscar por nombre, tipo, tamaño",
+          "find . -name '*.txt'",
+          "find . -type f -mtime -7 archivos modificados 7 días.",
+          "Puede ser lento en árboles grandes.",
+          "¿Archivos .md bajo directorio actual?",
+          [
+            "grep md",
+            "man find",
+            "find . -name '*.md'",
+            "ls *.md recursivo siempre"
+          ],
+          2
+        ],
+        [
+          "grep",
+          "Buscar texto en archivos o salida de comandos",
+          "grep -r 'TODO' src/",
+          "grep -i ignora mayúsculas.",
+          "grep -n muestra número de línea; combina con pipes: ps aux | grep nginx.",
+          "¿Buscar cadena recursiva?",
+          [
+            "rm grep",
+            "grep -r 'texto' dir",
+            "grep solo en un byte",
+            "cat grep"
+          ],
+          1
+        ],
+        [
+          "Enlaces simbólicos",
+          "ln -s destino enlace crea symlink",
+          "ln -s /ruta/larga enlace_corto",
+          "Symlink puede apuntar a archivo o directorio.",
+          "Enlace roto si destino se mueve.",
+          "¿Enlace simbólico?",
+          [
+            "cp objetivo nombre",
+            "mv objetivo",
+            "chmod -s",
+            "ln -s objetivo nombre"
+          ],
+          3
+        ],
+        [
+          "wc y sort",
+          "wc cuenta líneas; sort ordena",
+          "wc -l archivo cuenta líneas",
+          "sort -n ordena numéricamente.",
+          "uniq requiere entrada ordenada para colapsar repetidos.",
+          "¿Contar líneas?",
+          [
+            "wc -l",
+            "ls -l",
+            "df -h",
+            "ping"
+          ],
+          0
+        ],
+        [
+          "Redirección",
+          "> sobrescribe; >> añade; 2> errores; | tubería",
+          "ls > lista.txt guarda salida",
+          "2>&1 redirige errores a stdout.",
+          "/dev/null descarta salida.",
+          "¿Añadir al final de archivo?",
+          [
+            "|",
+            ">>",
+            ">",
+            "<"
+          ],
+          1
+        ],
+        [
+          "nano vs vim básico",
+          "Editores en terminal; nano más amigable principiante",
+          "nano ~/.bashrc edita configuración",
+          "vim requiere modo insert con i.",
+          "Ctrl+O guarda en nano.",
+          "¿Editor amigable principiante?",
+          [
+            "rm archivo",
+            "cat > sin cerrar",
+            "nano",
+            "vim sin practicar"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Procesos y sistema",
+      "description": "ps, top, señales, servicios y espacio en disco",
+      "lessons": [
+        [
+          "ps y top",
+          "Listar procesos; top/htop monitor en vivo",
+          "htop si está instalado es más claro que top",
+          "ps aux muestra todos los procesos.",
+          "PID identifica proceso para kill.",
+          "¿Ver procesos interactivo?",
+          [
+            "ls -la",
+            "cd /proc",
+            "man bash",
+            "htop o top"
+          ],
+          3
+        ],
+        [
+          "kill y señales",
+          "kill envía señal; SIGTERM 15 graceful; SIGKILL 9 forzado",
+          "kill PID termina proceso",
+          "kill -9 solo si no responde.",
+          "killall cierra por nombre con cuidado.",
+          "¿Forzar cierre proceso?",
+          [
+            "rm PID",
+            "shutdown",
+            "kill -9 PID",
+            "kill sin PID siempre"
+          ],
+          2
+        ],
+        [
+          "jobs y fg/bg",
+          "Control de trabajos en shell actual",
+          "Ctrl+Z suspende; bg continúa fondo",
+          "fg trae trabajo al frente.",
+          "jobs lista trabajos del shell.",
+          "¿Continuar suspendido en fondo?",
+          [
+            "exit",
+            "bg",
+            "fg",
+            "kill shell"
+          ],
+          1
+        ],
+        [
+          "df y du",
+          "df espacio en discos montados; du uso por carpeta",
+          "df -h legible; du -sh carpeta",
+          "du -sh * en directorio resume hijos.",
+          "df / muestra partición raíz.",
+          "¿Espacio usado por carpeta?",
+          [
+            "du -sh nombre",
+            "df nombre",
+            "ls -lh",
+            "free -h"
+          ],
+          0
+        ],
+        [
+          "free y memoria",
+          "free -h muestra RAM y swap",
+          "observa available más que free en sistemas con cache",
+          "Swap usada indica presión de memoria.",
+          "cache puede liberarse si hace falta.",
+          "¿Memoria realmente disponible?",
+          [
+            "Solo swap",
+            "df -h",
+            "Columna available en free -h",
+            "Solo total"
+          ],
+          2
+        ],
+        [
+          "systemctl básico",
+          "Gestionar servicios en systemd",
+          "systemctl status ssh",
+          "sudo systemctl restart nginx reinicia servicio.",
+          "enabled arranca al boot.",
+          "¿Estado servicio?",
+          [
+            "format",
+            "systemctl status nombre",
+            "kill systemd",
+            "rm /etc"
+          ],
+          1
+        ],
+        [
+          "journalctl",
+          "Logs del sistema con systemd",
+          "journalctl -u nginx -f sigue servicio",
+          "journalctl -xe muestra errores recientes.",
+          "-since today filtra por fecha.",
+          "¿Logs servicio en vivo?",
+          [
+            "cat /dev/null",
+            "ls /var",
+            "grep journal",
+            "journalctl -u servicio -f"
+          ],
+          3
+        ],
+        [
+          "uptime y load average",
+          "Tiempo encendido y carga CPU promedio",
+          "uptime muestra load 1,5,15 min",
+          "Load alto vs núcleos indica saturación.",
+          "No confundir con uso CPU porcentual.",
+          "¿Load average?",
+          [
+            "Promedio procesos en cola/ejecución",
+            "Temperatura CPU",
+            "Espacio disco",
+            "RAM usada exacta"
+          ],
+          0
+        ],
+        [
+          "which y type",
+          "Ubicación de ejecutables y tipo de comando",
+          "which python3",
+          "type cd muestra builtin vs externo.",
+          "whereis busca binario, fuente y man.",
+          "¿Ruta del ejecutable?",
+          [
+            "grep nombre",
+            "which nombre",
+            "rm nombre",
+            "chmod nombre"
+          ],
+          1
+        ],
+        [
+          "cron introducción",
+          "Tareas programadas en crontab",
+          "crontab -e edita (con cuidado)",
+          "Formato: min hora día mes día_semana comando.",
+          "Logs en syslog según distro.",
+          "¿Editar tareas usuario?",
+          [
+            "systemctl cron always",
+            "nano /",
+            "crontab -e",
+            "rm -rf /"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Redes en Linux",
+      "description": "ip, ping, curl, ssh y transferencia archivos",
+      "lessons": [
+        [
+          "ip y ss",
+          "ip addr muestra interfaces; ss sockets",
+          "ip a muestra IPv4 e IPv6",
+          "ip route muestra tabla enrutamiento.",
+          "ss -tuln puertos escuchando.",
+          "¿Ver IP local?",
+          [
+            "ls network",
+            "cat ip",
+            "rm eth0",
+            "ip addr o ip a"
+          ],
+          3
+        ],
+        [
+          "ping y traceroute",
+          "Diagnóstico conectividad y ruta",
+          "ping -c 4 8.8.8.8",
+          "traceroute muestra saltos (puede requerir instalación).",
+          "Ping puede estar bloqueado por firewall.",
+          "¿4 paquetes ping?",
+          [
+            "curl ping",
+            "kill network",
+            "ping -c 4 host",
+            "ping forever default"
+          ],
+          2
+        ],
+        [
+          "curl",
+          "Cliente HTTP/HTTPS en terminal",
+          "curl -I https://example.com headers",
+          "curl -O descarga archivo.",
+          "-L sigue redirecciones.",
+          "¿Solo cabeceras HTTP?",
+          [
+            "ssh URL",
+            "curl -I URL",
+            "curl rm",
+            "ping URL"
+          ],
+          1
+        ],
+        [
+          "wget",
+          "Descarga archivos por HTTP/FTP",
+          "wget URL -O archivo.local",
+          "wget -c continúa descarga interrumpida.",
+          "Útil para mirrors grandes.",
+          "¿Continuar descarga?",
+          [
+            "wget -c URL",
+            "wget --delete",
+            "rm wget",
+            "curl only"
+          ],
+          0
+        ],
+        [
+          "ssh cliente",
+          "Conexión remota cifrada",
+          "ssh usuario@host",
+          "ssh -i clave.pem usuario@host con clave.",
+          "-p cambia puerto.",
+          "¿Conexión remota segura?",
+          [
+            "ftp host plain",
+            "nc host",
+            "ssh user@host",
+            "telnet host"
+          ],
+          2
+        ],
+        [
+          "scp y rsync",
+          "Copiar archivos por red",
+          "scp file user@host:/ruta/",
+          "rsync -avz sincroniza eficientemente.",
+          "rsync ideal para backups incrementales.",
+          "¿Sincronizar carpeta con compresión?",
+          [
+            "rm -r src",
+            "rsync -avz src/ user@host:dest/",
+            "cp src host:",
+            "mv src host:"
+          ],
+          1
+        ],
+        [
+          "/etc/hosts",
+          "Resolución local de nombres",
+          "añade 127.0.0.1 miapp.local para prueba",
+          "Editar requiere sudo.",
+          "DNS real tiene prioridad según orden nsswitch.",
+          "¿Archivo hosts local?",
+          [
+            "/etc/passwd",
+            "/var/log",
+            "/boot",
+            "/etc/hosts"
+          ],
+          3
+        ],
+        [
+          "nmcli básico",
+          "NetworkManager en CLI",
+          "nmcli dev status",
+          "nmcli con show lista conexiones.",
+          "Útil en portátiles Linux.",
+          "¿Estado dispositivos red?",
+          [
+            "nmcli dev status",
+            "ls wifi",
+            "cat network",
+            "ping nmcli"
+          ],
+          0
+        ],
+        [
+          "firewall ufw intro",
+          "Firewall simplificado Ubuntu",
+          "sudo ufw status",
+          "sudo ufw allow 22/tcp abre SSH.",
+          "Enable solo si entiendes reglas.",
+          "¿Ver estado ufw?",
+          [
+            "kill ufw",
+            "sudo ufw status",
+            "rm firewall",
+            "chmod ufw"
+          ],
+          1
+        ],
+        [
+          "dig y nslookup",
+          "Consultas DNS",
+          "dig example.com A",
+          "nslookup alternativa más antigua.",
+          "MX registros para correo.",
+          "¿Registro IPv4?",
+          [
+            "ssh DNS",
+            "rm resolv.conf",
+            "dig dominio A",
+            "ping DNS"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Scripting y productividad",
+      "description": "Scripts bash, permisos, pipes y buenas prácticas",
+      "lessons": [
+        [
+          "Shebang",
+          "#!/bin/bash indica intérprete del script",
+          "primera línea #!/usr/bin/env bash es portable",
+          "chmod +x script.sh para ejecutar ./script.sh",
+          "#!/bin/sh usa POSIX shell.",
+          "¿Ejecutar script local?",
+          [
+            "bash script en /etc",
+            "rm script",
+            "script sin shebang always",
+            "./script.sh"
+          ],
+          3
+        ],
+        [
+          "Variables bash",
+          "VAR=valor sin espacios; $VAR expansión",
+          "echo $HOME muestra home",
+          "Comillas dobles expanden variables; simples literales.",
+          "${VAR} delimita nombre.",
+          "¿Mostrar variable?",
+          [
+            "cat VAR",
+            "ls $",
+            "echo $NOMBRE",
+            "print VAR"
+          ],
+          2
+        ],
+        [
+          "Condicionales if",
+          "if [ condición ]; then ... fi",
+          "prueba if [ -f archivo ]; then echo existe; fi",
+          "[ ] es test; -f archivo, -d directorio.",
+          "== compara strings en bash.",
+          "¿Probar si existe archivo?",
+          [
+            "grep if",
+            "if [ -f file ]; then",
+            "if file exists",
+            "rm if file"
+          ],
+          1
+        ],
+        [
+          "Bucles for",
+          "for i in lista; do ... done",
+          "for f in *.txt; do echo $f; done",
+          "for ((i=0;i<10;i++)) estilo C.",
+          "while lee líneas: while read line.",
+          "¿Iterar archivos txt?",
+          [
+            "for f in *.txt; do",
+            "loop txt",
+            "rm *.txt",
+            "cat loop"
+          ],
+          0
+        ],
+        [
+          "Funciones bash",
+          "nombre() { cuerpo; }",
+          "funciones organizan scripts largos",
+          "return devuelve código salida.",
+          "Parámetros $1 $2...",
+          "¿Definir función?",
+          [
+            "def bash()",
+            "fn bash",
+            "mi_func() { ...; }",
+            "function=()"
+          ],
+          2
+        ],
+        [
+          "Pipes y xargs",
+          "Componer comandos; xargs construye argumentos",
+          "find . -name '*.log' | xargs rm",
+          "xargs -0 para nulos con find -print0.",
+          "Pipes conectan stdout a stdin.",
+          "¿Pasar lista archivos a comando?",
+          [
+            "rm |",
+            "xargs",
+            "grep xargs",
+            "chmod pipe"
+          ],
+          1
+        ],
+        [
+          "Exit codes",
+          "$? código salida; 0 éxito",
+          "comando; echo $? verifica",
+          "Scripts deben salir 0 si OK.",
+          "set -e aborta script en error.",
+          "¿Éxito en bash?",
+          [
+            "Código 1 siempre",
+            "Código -1",
+            "Sin código",
+            "Código 0"
+          ],
+          3
+        ],
+        [
+          "Entorno PATH",
+          "PATH lista directorios donde buscar ejecutables",
+          "echo $PATH",
+          "Export PATH=$PATH:~/bin añade personal.",
+          "which verifica comando en PATH.",
+          "¿Añadir ~/bin temporalmente?",
+          [
+            "export PATH=$PATH:~/bin",
+            "rm PATH",
+            "chmod PATH",
+            "delete bin"
+          ],
+          0
+        ],
+        [
+          "tar y compresión",
+          "tar empaqueta; -czvf gzip; -xzvf extrae",
+          "tar -czvf backup.tar.gz carpeta/",
+          "zip/unzip también disponibles.",
+          "tar preserva permisos.",
+          "¿Comprimir carpeta gzip?",
+          [
+            "cat dir",
+            "tar -czvf out.tar.gz dir",
+            "zip tar always",
+            "rm dir"
+          ],
+          1
+        ],
+        [
+          "Buenas prácticas CLI",
+          "No root innecesario; backups; probar en copia",
+          "lee comando twice antes de Enter en rm -rf",
+          "Tab completion reduce errores tipográficos.",
+          "Documenta scripts con comentarios #.",
+          "¿Antes de rm -rf?",
+          [
+            "Sin backup",
+            "Como root siempre",
+            "Verificar ruta dos veces",
+            "Ejecutar rápido"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}

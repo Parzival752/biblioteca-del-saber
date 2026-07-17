@@ -1,0 +1,26 @@
+{
+  "name": "La Biblioteca del Saber",
+  "short_name": "Biblioteca",
+  "description": "1250+ lecciones gratis: programacion, naturaleza, supervivencia y mas. Tu maestro es un alebrije.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "es",
+  "background_color": "#120f18",
+  "theme_color": "#f472b6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

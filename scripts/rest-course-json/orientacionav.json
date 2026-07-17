@@ -1,0 +1,788 @@
+{
+  "id": "orientacionav",
+  "prefix": "ori",
+  "contextField": "el terreno y la navegación",
+  "practiceField": "rutas reales con mapa y brújula",
+  "modules": [
+    {
+      "title": "Mapas topográficos",
+      "description": "Curvas de nivel, escala y simbología cartográfica",
+      "lessons": [
+        [
+          "Escala del mapa",
+          "Relaciona distancia en mapa con distancia real en terreno",
+          "calcula distancia real entre dos puntos con regla y escala 1:25000",
+          "En 1:25000, 4 cm en mapa equivalen a 1 km en campo.",
+          "Anota la escala en el margen del cuaderno antes de salir.",
+          "¿Distancia real con 2 cm en mapa 1:50000?",
+          [
+            "500 m",
+            "2 km",
+            "5 km",
+            "1 km"
+          ],
+          3
+        ],
+        [
+          "Curvas de nivel",
+          "Líneas que unen puntos de igual altitud; separación indica pendiente",
+          "identifica cumbres, collados y valles solo con curvas",
+          "Curvas muy juntas señalan pared rocosa; abiertas, llanura.",
+          "Un collado aparece como hendidura entre dos cumbres.",
+          "¿Pendiente fuerte en mapa?",
+          [
+            "Sin curvas",
+            "Solo color verde",
+            "Curvas de nivel muy juntas",
+            "Curvas muy separadas"
+          ],
+          2
+        ],
+        [
+          "Orientación del mapa",
+          "Rotar mapa hasta alinear norte cartográfico con norte real",
+          "usa brújula para orientar mapa en terreno visible",
+          "Con mapa orientado, las formas coinciden con el paisaje.",
+          "En días nublados orientar el mapa es más difícil: usa GPS como respaldo.",
+          "¿Para qué orientar el mapa?",
+          [
+            "Dibujar escala",
+            "Hacer coincidir mapa con terreno",
+            "Medir temperatura",
+            "Calcular hora solar"
+          ],
+          1
+        ],
+        [
+          "Simbología IGN/OSM",
+          "Interpretar caminos, sendas, límites y puntos de referencia",
+          "memoriza símbolos de senda, pista y carretera en tu región",
+          "Senda de montaña suele ser línea discontinua fina.",
+          "Leyenda del mapa resuelve dudas de color y grosor.",
+          "¿Símbolo típico de senda?",
+          [
+            "Línea de trazo discontinuo",
+            "Círculo relleno azul",
+            "Triángulo rojo solo",
+            "Cuadrícula negra gruesa"
+          ],
+          0
+        ],
+        [
+          "Coordenadas UTM",
+          "Sistema métrico por zonas; easting y northing en metros",
+          "localiza tu posición leyendo cruces de coordenadas en mapa impreso",
+          "Zona UTM 14 cubre gran parte de México central.",
+          "Registra zona UTM: sin zona las coordenadas son ambiguas.",
+          "¿Ventaja de UTM en montaña?",
+          [
+            "Evitar brújula",
+            "No necesitar mapa",
+            "Medir distancias en metros directamente",
+            "Usar grados sexagesimales solamente"
+          ],
+          2
+        ],
+        [
+          "Perfil topográfico",
+          "Corte vertical del terreno a lo largo de una ruta",
+          "dibuja perfil entre refugio y cumbre contando curvas cruzadas",
+          "Un perfil muestra ascensos antes de salir y ayuda a planificar agua.",
+          "Cuenta cuántas curvas subes: cada una es el equidistancia del mapa.",
+          "¿Para qué un perfil?",
+          [
+            "Sustituir brújula",
+            "Anticipar desnivel y esfuerzo",
+            "Medir latitud solar",
+            "Predecir lluvia exacta"
+          ],
+          1
+        ],
+        [
+          "Marga magnética",
+          "Diferencia entre norte verdadero, magnético y de cuadrícula",
+          "aplica declinación local al tomar azimut con brújula",
+          "Declinación cambia lentamente; consulta valor actual del año.",
+          "En muchos mapas, convergencia de meridianos también importa en rutas largas.",
+          "¿Qué es declinación magnética?",
+          [
+            "Pendiente del terreno",
+            "Distancia en km",
+            "Altitud sobre el mar",
+            "Ángulo entre norte magnético y geográfico"
+          ],
+          3
+        ],
+        [
+          "Errores de lectura",
+          "Confundir camino con arroyo seco o sombrear mal una ladera",
+          "verifica cruce de arroyo con brújula y altitud esperada",
+          "Un arroyo seco puede parecer senda en mapas viejos.",
+          "Compara varios puntos, no uno solo.",
+          "¿Confirmar posición en cruce?",
+          [
+            "Coincidencia de forma, altitud y azimut",
+            "Solo intuición",
+            "Color del papel",
+            "Hora del almuerzo"
+          ],
+          0
+        ],
+        [
+          "Mapas digitales offline",
+          "Descargar teselas antes de perder cobertura",
+          "guarda mapa topográfico offline en app antes de la ruta",
+          "Maps.me y OsmAnd permiten rutas GPX sin datos móviles.",
+          "Batería externa evita quedarte sin mapa a mitad de ruta.",
+          "¿Antes de ruta remota?",
+          [
+            "Desactivar GPS",
+            "Descargar mapa offline y GPX",
+            "Confiar solo en streaming",
+            "Borrar caché"
+          ],
+          1
+        ],
+        [
+          "Ejercicio de triangulación",
+          "Ubicarse cruzando azimuts desde dos puntos conocidos",
+          "practica en parque con colinas visibles y mapa impreso",
+          "Desde iglesia y puente, dos azimuts se cruzan en tu posición.",
+          "Tercer punto mejora precisión si hay error de lectura.",
+          "¿Triangulación en mapa?",
+          [
+            "Seguir estrellas de día",
+            "Medir pH del suelo",
+            "Cruzar direcciones desde puntos conocidos",
+            "Contar pasos sin brújula"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Brújula y azimut",
+      "description": "Uso de brújula baseplate y toma de rumbos",
+      "lessons": [
+        [
+          "Partes de la brújula",
+          "Visor, línea de dirección, rosa y orientador magnético",
+          "identifica cada parte en tu brújula antes de salir",
+          "Brújula baseplate permite trazar azimut en mapa.",
+          "Comprueba que la aguja se mueva libremente sin burbujas.",
+          "¿Para qué la línea de dirección?",
+          [
+            "Medir altitud",
+            "Guardar agua",
+            "Afilar lápiz",
+            "Apuntar objetivo y leer rumbo"
+          ],
+          3
+        ],
+        [
+          "Azimut vs rumbo",
+          "Azimut se mide 0–360° desde el norte en sentido horario",
+          "toma azimut a cumbre visible y compáralo con mapa",
+          "Azimut 90° apunta al este geográfico.",
+          "No confundas rumbo náutico antiguo con azimut terrestre.",
+          "¿Azimut 270° indica?",
+          [
+            "Sur",
+            "Este",
+            "Oeste",
+            "Norte"
+          ],
+          2
+        ],
+        [
+          "Compensar declinación",
+          "Sumar o restar declinación según hemisferio y convención del mapa",
+          "marca declinación en brújula si tiene escala ajustable",
+          "En zona con declinación 10°E, ajusta antes de seguir rumbo.",
+          "Revisa anualmente: la declinación cambia.",
+          "¿Por qué ajustar declinación?",
+          [
+            "Evitar lluvia",
+            "Convertir norte magnético a geográfico",
+            "Medir temperatura",
+            "Calibrar GPS"
+          ],
+          1
+        ],
+        [
+          "Seguir un rumbo",
+          "Escoger punto intermedio y caminar hacia él sin desviarte",
+          "elige árbol o roca en tu azimut y camina en zigzag mínimo",
+          "En niebla, avanza de punto en punto cada 50 m.",
+          "Contar pasos ayuda entre puntos sin referencia.",
+          "¿Técnica en niebla?",
+          [
+            "Avanzar de referencia en referencia",
+            "Correr en línea recta sin brújula",
+            "Seguir arroyo cuesta abajo siempre",
+            "Apagar GPS y adivinar"
+          ],
+          0
+        ],
+        [
+          "Brújula y mapa juntos",
+          "Trasladar azimut entre mapa y campo con orientación correcta",
+          "traza en mapa rumbo al refugio y comprueba en terreno",
+          "Línea en mapa alineada con brújula da rumbo a seguir.",
+          "Mapa debe estar orientado antes de trazar.",
+          "¿Primer paso al trasladar rumbo?",
+          [
+            "Medir temperatura",
+            "Guardar brújula",
+            "Orientar el mapa al norte",
+            "Doblar mapa"
+          ],
+          2
+        ],
+        [
+          "Desvío lateral",
+          "Regla del contraste: si te desvías, corrige volviendo al rumbo",
+          "practica desvío intencional de 50 m y corrección",
+          "Desviarse cuesta abajo es común siguiendo arroyos.",
+          "No camines paralelo al rumbo sin corregir.",
+          "¿Tras desviarte por obstáculo?",
+          [
+            "Tirar mapa",
+            "Volver al rumbo original",
+            "Seguir paralelo indefinidamente",
+            "Invertir azimut 180° siempre"
+          ],
+          1
+        ],
+        [
+          "Interferencias magnéticas",
+          "Metal, mochilas y cables pueden desviar la aguja",
+          "aleja brújula del teléfono y hebillas al leer",
+          "Leer brújula dentro del coche da error grande.",
+          "Sostén brújula a la altura del pecho lejos de objetos.",
+          "¿Error común con móvil?",
+          [
+            "GPS desactivado",
+            "Mapa mojado",
+            "Botas nuevas",
+            "Aguja desviada por magnetismo del teléfono"
+          ],
+          3
+        ],
+        [
+          "Back bearing",
+          "Azimut inverso ±180° confirma que volviste por la misma línea",
+          "al llegar a meta, mide back bearing al punto de partida",
+          "Si back bearing difiere >5°, revisa posición.",
+          "Útil en regreso por niebla.",
+          "¿Back bearing de 45°?",
+          [
+            "225°",
+            "45°",
+            "135°",
+            "315°"
+          ],
+          0
+        ],
+        [
+          "Brújula de espejo vs baseplate",
+          "Espejo permite señalización y lectura precisa a distancia",
+          "prueba ambos tipos si tu club de montaña los presta",
+          "Brújula con espejo ayuda en señales de socorro.",
+          "Baseplate es más ligera para senderismo diario.",
+          "¿Ventaja brújula espejo?",
+          [
+            "No necesita norte",
+            "Señalizar flash solar y lectura estable",
+            "Flotar en agua",
+            "Medir presión"
+          ],
+          1
+        ],
+        [
+          "Práctica en parque",
+          "Recorrido corto con 5 cambios de rumbo registrados",
+          "diseña circuito de 2 km con waypoints en mapa impreso",
+          "Comparar hora estimada vs real calibra tu ritmo.",
+          "Repasa errores al final: aprendizaje inmediato.",
+          "¿Cierre de práctica?",
+          [
+            "No anotar nada",
+            "Ignorar desvíos",
+            "Comparar ruta planificada con track GPS",
+            "Esconder mapa"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Planificación de ruta",
+      "description": "Distancia, tiempo, agua y puntos de retorno",
+      "lessons": [
+        [
+          "Regla de Naismith",
+          "Tiempo = distancia/velocidad + 1 h cada 600 m de ascenso",
+          "estima hora de llegada a refugio con desnivel del perfil",
+          "10 km planos + 600 m subida ≈ tiempo base + 1 h extra.",
+          "Ajusta por mochila pesada o terreno rocoso.",
+          "¿Qué añade Naismith?",
+          [
+            "Distancia en millas náuticas",
+            "Temperatura del agua",
+            "Declinación magnética",
+            "Tiempo extra por desnivel positivo"
+          ],
+          3
+        ],
+        [
+          "Puntos de agua",
+          "Marcar fuentes, arroyos y refugios en mapa antes de salir",
+          "confirma en foros locales si manantial está seco en verano",
+          "Arroyo en mapa puede estar seco en sequía.",
+          "Lleva 1 L extra si hay duda.",
+          "¿En verano árido?",
+          [
+            "Beber solo al final",
+            "Evitar mapa",
+            "Verificar estado de fuentes recientemente",
+            "Asumir agua en cada curva"
+          ],
+          2
+        ],
+        [
+          "Punto de retorno",
+          "Hora límite para volver aunque no se alcance la cumbre",
+          "fija retorno 2 h antes del anochecer en rutas largas",
+          "Grupo lento debe ajustar cumbre vs seguridad.",
+          "Anochecer sin linterna aumenta riesgo de desorientación.",
+          "¿Por qué punto de retorno?",
+          [
+            "Correr de noche",
+            "Priorizar seguridad sobre meta",
+            "Llegar siempre a cumbre",
+            "Evitar usar mapa"
+          ],
+          1
+        ],
+        [
+          "Alternativas y escape",
+          "Plan B por valle sur si hay tormenta en cresta",
+          "marca rutas alternativas más bajas en mapa",
+          "Cresta expuesta es peligrosa con rayos.",
+          "Valle sur puede ser más cálido en invierno.",
+          "¿Plan B en tormenta eléctrica?",
+          [
+            "Descender a ruta baja y alejada de cresta",
+            "Subir al punto más alto",
+            "Quitar mapa",
+            "Separarse del grupo"
+          ],
+          0
+        ],
+        [
+          "Equipamiento mínimo",
+          "Mapa, brújula, silbato, agua, capa, linterna y botiquín",
+          "usa lista de verificación antes de cada salida",
+          "Silbato tres pitidos es señal de socorro internacional.",
+          "Chaqueta compacta aunque haga sol por la mañana.",
+          "¿Señal internacional de socorro?",
+          [
+            "Silencio total",
+            "Dos palmadas",
+            "Tres pitidos cortos",
+            "Un pitido largo"
+          ],
+          2
+        ],
+        [
+          "Ritmo de grupo",
+          "Velocidad del más lento define avance seguro",
+          "acuerda paradas cada hora para hidratación",
+          "Separarse sin radio es riesgo en bosque denso.",
+          "Líder rota para compartir responsabilidad.",
+          "¿Regla de grupo en montaña?",
+          [
+            "Sin plan de reunión",
+            "Nadie se queda solo",
+            "Cada uno a su ritmo sin avisar",
+            "Correr separados"
+          ],
+          1
+        ],
+        [
+          "Track GPX",
+          "Registrar ruta real para comparar con plan",
+          "exporta GPX de práctica y revísalo en ordenador",
+          "Desvíos repetidos indican zonas confusas del mapa.",
+          "Compartir GPX ayuda a otros con la misma ruta.",
+          "¿Utilidad del track?",
+          [
+            "Sustituir brújula",
+            "Evitar llevar mapa",
+            "Medir temperatura",
+            "Analizar desvíos y tiempos reales"
+          ],
+          3
+        ],
+        [
+          "Permisos y acceso",
+          "Algunas zonas requieren permiso o tienen cierre estacional",
+          "consulta autoridad local y normativa de parque",
+          "Cierre por anidación de aves es común en primavera.",
+          "Propiedad privada puede cruzar senda señalizada.",
+          "¿Antes de ruta en parque?",
+          [
+            "Verificar permisos y cierres",
+            "Ignorar señales",
+            "Acampar sin reglas",
+            "Encender fuego siempre"
+          ],
+          0
+        ],
+        [
+          "Meteo de montaña",
+          "Temporales vespertinos y viento en cresta cambian plan",
+          "consulta pronóstico por altitud, no solo valle",
+          "Nube lenticular indica viento fuerte arriba.",
+          "Empieza temprano para evitar tormenta de tarde.",
+          "¿Señal de viento fuerte arriba?",
+          [
+            "Mapa seco",
+            "Nubes lenticulares en cumbre",
+            "Cielo despejado en valle",
+            "Rocío matinal"
+          ],
+          1
+        ],
+        [
+          "Briefing pre-salida",
+          "Repasar ruta, roles, emergencia y hora de retorno en grupo",
+          "5 minutos en parking evitan malentendidos",
+          "Designa contacto en valle que espere llamada.",
+          "Todos deben saber usar brújula básica.",
+          "¿Qué incluir briefing?",
+          [
+            "Color de mochilas",
+            "Música en altavoz",
+            "Ruta, retorno y contacto de emergencia",
+            "Solo menú de comida"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "GPS y navegación mixta",
+      "description": "Combinar mapa, brújula y receptor GPS",
+      "lessons": [
+        [
+          "Limitaciones del GPS",
+          "Batería, señal en cañones y precisión ±3–10 m",
+          "no dependas solo del GPS en cañón estrecho",
+          "GPS puede errar 20 m bajo rocas.",
+          "Waypoints no reemplazan interpretación del mapa.",
+          "¿GPS en cañón profundo?",
+          [
+            "Siempre perfecto",
+            "No usa batería",
+            "Sustituye declinación",
+            "Señal débil o multipath"
+          ],
+          3
+        ],
+        [
+          "Waypoints y rutas",
+          "Marcar refugio, cruce y coche como puntos numerados",
+          "crea ruta con 4 waypoints antes de salir",
+          "Waypoint en cruce de arroyo evita pasarlo de largo.",
+          "Nombres claros: WP3_CRUCE sur.",
+          "¿Buen waypoint?",
+          [
+            "Solo el parking",
+            "Sin nombre",
+            "Punto único fácil de identificar en mapa y campo",
+            "Cualquier punto al azar"
+          ],
+          2
+        ],
+        [
+          "UTM en GPS",
+          "Configurar mismo datum y zona que mapa impreso",
+          "verifica zona UTM en menú del GPS y mapa",
+          "Datum WGS84 es estándar actual.",
+          "Cambiar datum sin darte cuenta desplaza posición.",
+          "¿Datum común en GPS moderno?",
+          [
+            "Local arbitrario",
+            "WGS84",
+            "NAD27 solo",
+            "Sin datum"
+          ],
+          1
+        ],
+        [
+          "Navegación mixta",
+          "GPS confirma posición; brújula guía si falla electrónica",
+          "practica llegar a waypoint solo con mapa y brújula",
+          "Pantalla rota no debe dejarte sin orientación.",
+          "Mapa impreso en funda plástica sobrevive lluvia.",
+          "¿Si GPS se apaga?",
+          [
+            "Continuar con mapa y brújula",
+            "Quedarse quieto indefinidamente",
+            "Correr cuesta abajo",
+            "Tirar mapa"
+          ],
+          0
+        ],
+        [
+          "Geocaching y práctica",
+          "Caches en parques entrenan lectura de coordenadas",
+          "busca cache de dificultad baja para practicar UTM",
+          "Geocaching mejora precisión leyendo coordenadas.",
+          "Respeta entorno: no dañes vegetación.",
+          "¿Beneficio formativo?",
+          [
+            "Sustituir botiquín",
+            "Correr sin brújula",
+            "Practicar coordenadas en terreno real",
+            "Evitar mapas"
+          ],
+          2
+        ],
+        [
+          "Smartphone como GPS",
+          "Modo avión + GPS ahorra batería; lleva powerbank",
+          "descarga mapas offline y cierra apps en ruta",
+          "Pantalla en cold drain agota batería rápido.",
+          "Fundas táctiles permiten usar mapa con guantes finos.",
+          "¿Ahorrar batería GPS móvil?",
+          [
+            "Bluetooth encendido sin uso",
+            "Modo avión con GPS activo",
+            "Brillo máximo siempre",
+            "Streaming de video"
+          ],
+          1
+        ],
+        [
+          "Registrar emergencia",
+          "Coordenadas exactas acortan rescate",
+          "practica leer UTM actual y dictarla en simulacro",
+          "Rescate aéreo necesita posición precisa y descripción.",
+          "Silbato + coordenadas + hora.",
+          "¿Qué dar a rescate?",
+          [
+            "Solo nombre",
+            "Color de chaqueta únicamente",
+            "Nada",
+            "Coordenadas, número de personas y lesiones"
+          ],
+          3
+        ],
+        [
+          "Errores GPS comunes",
+          "Confiar en flecha sin mapa ni contexto",
+          "comprueba que posición GPS coincide con terreno visible",
+          "Flecha puede apuntar mal con brújula móvil descalibrada.",
+          "Recalibra brújula móvil con movimiento en 8.",
+          "¿Posición GPS no coincide con mapa?",
+          [
+            "Revisar datum, zona y orientación del mapa",
+            "Mapa siempre incorrecto",
+            "GPS siempre mentira",
+            "Ignorar y correr"
+          ],
+          0
+        ],
+        [
+          "Track vs ruta planificada",
+          "Superponer GPX plan y real en software",
+          "analiza desvío en cruce confuso tras la salida",
+          "Desvíos sistemáticos indican mapa desactualizado.",
+          "Informa a club local de errores cartográficos.",
+          "¿Desvío repetido en mismo cruce?",
+          [
+            "Sin importancia",
+            "Posible error de mapa o señalización",
+            "GPS siempre falla",
+            "Brújula innecesaria"
+          ],
+          1
+        ],
+        [
+          "Integración en cuaderno",
+          "Anotar UTM, hora y observaciones en cada waypoint",
+          "formato: WP2 14U 543210 2345678 10:45 collado",
+          "Cuaderno + GPX dan trazabilidad completa.",
+          "Backup en foto del cuaderno al final.",
+          "¿Registro completo?",
+          [
+            "Sin hora",
+            "Sin descripción",
+            "Coordenadas, hora y descripción del punto",
+            "Solo selfie"
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "title": "Seguridad y rescate",
+      "description": "Prevención, señales y actuación en emergencia",
+      "lessons": [
+        [
+          "Capas de ropa",
+          "Base, aislamiento y shell contra viento y lluvia",
+          "ajusta capas en collado antes de enfriarte",
+          "Sudor mojado + viento = hipotermia rápida.",
+          "Shell impermeable también corta viento.",
+          "¿Por qué capas?",
+          [
+            "Llevar una sola chaqueta gruesa siempre",
+            "Evitar gorro",
+            "No cambiar en collado",
+            "Regular temperatura y humedad corporal"
+          ],
+          3
+        ],
+        [
+          "Hipotermia e hipertermia",
+          "Temperatura corporal fuera de rango es emergencia",
+          "reconoce temblor, confusión y pulso rápido",
+          "Hipotermia leve: abrigo seco y bebida caliente si consciente.",
+          "Golpe de calor: sombra, enfriar y hidratar.",
+          "¿Hipotermia leve?",
+          [
+            "Mucha sed únicamente",
+            "Picor leve",
+            "Temblor, piel fría y fatiga",
+            "Piel caliente seca"
+          ],
+          2
+        ],
+        [
+          "Señales de socorro",
+          "Tres de anything; espejo; silbato; SMS si hay cobertura",
+          "practica señal con espejo de brújula hacia parking",
+          "SOS en montaña: repetición de tres señales.",
+          "Panel naranja visible desde aire ayuda.",
+          "¿Señal visual internacional?",
+          [
+            "Silencio",
+            "Tres flashes o tres banderas",
+            "Un flash",
+            "Luces aleatorias"
+          ],
+          1
+        ],
+        [
+          "Botiquín de montaña",
+          "Vendajes, analgésico, blister care, termo manta",
+          "revisa caducidad cada temporada",
+          "Termo manta compacta evita pérdida de calor.",
+          "Saber usar vendaje es tan importante como llevarlo.",
+          "¿Item clave botiquín montaña?",
+          [
+            "Vendaje elástico y termo manta",
+            "Perfume",
+            "Libro de cocina",
+            "Repelente solo"
+          ],
+          0
+        ],
+        [
+          "Lesiones comunes",
+          "Esguince, ampolla y roce por desnivel",
+          "aprende vendaje en talón para ampollas",
+          "Taping preventivo en talón evita parar ruta.",
+          "Bastones reducen carga en rodillas bajada.",
+          "¿Prevención ampollas?",
+          [
+            "No cortar uñas",
+            "Sin calcetines",
+            "Calcetines secos y calzado probado",
+            "Zapatos nuevos en ruta larga"
+          ],
+          2
+        ],
+        [
+          "Noche inesperada",
+          "Linterna frontal, refugio improvisado y no separarse",
+          "lleva linterna aunque vuelvas de día",
+          "Abrigo de emergencia pesa poco y salva vidas.",
+          "Acampada no planificada requiere informar contacto.",
+          "¿Si oscurece lejos del coche?",
+          [
+            "Tirar mochila",
+            "Refugio, calor y avisar si es posible",
+            "Seguir corriendo sin luz",
+            "Separarse del grupo"
+          ],
+          1
+        ],
+        [
+          "Fauna y riesgos locales",
+          "Serpientes, osos o barrancos según región",
+          "infórmate de protocolo local antes del viaje",
+          "En área con osos, usa campana y guarda comida.",
+          "No te acerques a crías de fauna grande.",
+          "¿En zona con osos?",
+          [
+            "Correr silencioso con comida abierta",
+            "Acercarse a crías",
+            "Dejar basura",
+            "Hacer ruido y guardar olores de comida"
+          ],
+          3
+        ],
+        [
+          "Comunicación de emergencia",
+          "112 o número local; radio en zonas remotas",
+          "guarda número de rescate de montaña en contactos",
+          "SMS puede funcionar con señal débil cuando llamada no.",
+          "Dicta coordenadas despacio y repite.",
+          "¿Qué decir al rescate?",
+          [
+            "Ubicación, personas, lesiones y clima",
+            "Solo nombre",
+            "Hora de desayuno",
+            "Marca de mochila"
+          ],
+          0
+        ],
+        [
+          "Dejar rastro",
+          "Nota en coche con hora retorno; track compartido",
+          "deja papel en parabrisas con ruta y teléfono",
+          "Contacto en valle llama si pasas hora límite.",
+          "Apps de seguridad comparten ubicación temporal.",
+          "¿Contacto en valle?",
+          [
+            "Sin teléfono",
+            "Persona que actúa si no hay check-in",
+            "Nadie",
+            "Desconocido aleatorio"
+          ],
+          1
+        ],
+        [
+          "Post-mortem de ruta",
+          "Revisar qué funcionó y errores para próxima salida",
+          "reunión 10 min tras ruta con grupo",
+          "Errores documentados enseñan más que éxito sin reflexión.",
+          "Actualiza tiempos Naismith con tu ritmo real.",
+          "¿Cierre formativo?",
+          [
+            "No registrar tiempos",
+            "Esconder mapa",
+            "Lecciones aprendidas y ajustes al plan",
+            "Olvidar todo"
+          ],
+          2
+        ]
+      ]
+    }
+  ]
+}
