@@ -22,6 +22,17 @@
   --mono: 'JetBrains Mono', monospace;
   --sidebar-w: 310px;
   --lesson-max: 1100px;
+  /* Syntax highlight (One Dark — fondos de editor oscuros) */
+  --hl-keyword: #c678dd;
+  --hl-string: #98c379;
+  --hl-number: #d19a66;
+  --hl-comment: #5c6370;
+  --hl-builtin: #e5c07b;
+  --hl-fn: #61afef;
+  --hl-op: #56b6c2;
+  --hl-punct: #abb2bf;
+  --hl-plain: #abb2bf;
+  --code-line-active-bg: rgba(247, 223, 30, 0.1);
 }
 
 [data-theme="light"] {
@@ -38,10 +49,12 @@
   --accent-text: #ffffff;
   --success: #047857;
   --error: #be123c;
-  --info: #0e7490;
+  --info: #0369a1;
   --code-bg: #1e2430;
   --output-bg: #161b22;
   --shadow: rgba(40, 20, 60, 0.14);
+  --code-explorer-chip-bg: #fce7f3;
+  --code-explorer-chip-fg: #9d174d;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -56,13 +69,16 @@ html, body {
 
 .hidden { display: none !important; }
 
-/* Syntax highlight */
-.hl-keyword { color: #c678dd; }
-.hl-string { color: #98c379; }
-.hl-number { color: #d19a66; }
-.hl-comment { color: #5c6370; font-style: italic; }
-.hl-builtin { color: #e5c07b; }
-.hl-fn { color: #61afef; }
+/* Syntax highlight (variables; tema claro del desglose redefine en .code-line) */
+.hl-keyword { color: var(--hl-keyword); }
+.hl-string { color: var(--hl-string); }
+.hl-number { color: var(--hl-number); }
+.hl-comment { color: var(--hl-comment); font-style: italic; }
+.hl-builtin { color: var(--hl-builtin); }
+.hl-fn { color: var(--hl-fn); }
+.hl-op { color: var(--hl-op); }
+.hl-punct { color: var(--hl-punct); }
+.hl-plain { color: var(--hl-plain); }
 
 /* Buttons */
 .btn {
@@ -1384,6 +1400,30 @@ kbd {
 }
 [data-theme="light"] .achievements-modal__score-val { color: #0369a1; }
 
+/* Desglose: código sobre fondo claro → paleta legible (editores oscuros siguen One Dark) */
+[data-theme="light"] .code-line {
+  --hl-keyword: #9d174d;
+  --hl-string: #166534;
+  --hl-number: #c2410c;
+  --hl-comment: #6b7280;
+  --hl-builtin: #a16207;
+  --hl-fn: #1d4ed8;
+  --hl-op: #0f766e;
+  --hl-punct: #4b5563;
+  --hl-plain: #1f2937;
+  --code-line-active-bg: rgba(190, 24, 93, 0.1);
+}
+[data-theme="light"] .lesson__module {
+  color: #0369a1;
+  font-weight: 700;
+}
+[data-theme="light"] .code-explorer__head {
+  background: linear-gradient(135deg, rgba(3, 105, 161, 0.1), rgba(190, 24, 93, 0.08));
+}
+[data-theme="light"] .line-detail h5 {
+  color: #0369a1;
+}
+
 /* Resumen de curso completado */
 .course-complete {
   text-align: center;
@@ -1850,10 +1890,6 @@ kbd {
 .toast--success { border-color: var(--success); color: var(--success); }
 .toast--info { border-color: var(--info); color: var(--info); }
 
-.hl-fn { color: #61afef; }
-.hl-op { color: #56b6c2; }
-.hl-punct { color: #abb2bf; }
-
 /* ── Code Explorer ── */
 .code-explorer {
   background: var(--bg-card);
@@ -1896,7 +1932,7 @@ kbd {
 
 .code-line:hover { background: var(--bg-elevated); }
 .code-line.active {
-  background: rgba(247, 223, 30, 0.1);
+  background: var(--code-line-active-bg);
   border-left: 3px solid var(--accent);
 }
 
@@ -1917,6 +1953,7 @@ kbd {
   margin: 0.25rem 0 0.35rem 1.5rem;
   white-space: pre-wrap;
   word-break: break-all;
+  color: var(--hl-plain);
 }
 
 .code-line__summary {
@@ -1979,10 +2016,10 @@ kbd {
 .part-chip code {
   font-family: var(--mono);
   font-size: 0.75rem;
-  background: var(--code-bg);
+  background: var(--code-explorer-chip-bg, var(--code-bg));
   padding: 0.15rem 0.4rem;
   border-radius: 4px;
-  color: var(--accent);
+  color: var(--code-explorer-chip-fg, var(--accent));
 }
 
 .part-chip span {

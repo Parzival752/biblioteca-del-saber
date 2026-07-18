@@ -38,7 +38,7 @@ export function highlightJS(code) {
       case 'fn': return span('hl-fn', tok.value);
       case 'operator': return span('hl-op', tok.value);
       case 'punct': return span('hl-punct', tok.value);
-      default: return escapeHtml(tok.value);
+      default: return span('hl-plain', tok.value);
     }
   }).join('');
 }
