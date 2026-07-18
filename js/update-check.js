@@ -12,25 +12,37 @@ const GITHUB_REPO = 'Parzival752/biblioteca-del-saber';
 let nextCheckAt = 0;
 let scheduleTimer = null;
 let updateCheckerStarted = false;
+let isChecking = false;
+let updatePrompted = false;
 
 export function getUpdatePollMs() {
   return POLL_MS;
 }
 
-/** Ms restantes hasta la próxima verificación automática (0 si toca ya). */
+/** Ms restantes hasta la próxima verificación automática (0 si toca ya o está comprobando). */
 export function getMsUntilNextUpdateCheck() {
-  if (!nextCheckAt) return FIRST_CHECK_MS;
+  if (isChecking || updatePrompted || !nextCheckAt) return 0;
   return Math.max(0, nextCheckAt - Date.now());
 }
 
-/** Texto corto tipo "18s" o "1:05". */
+/** Texto corto tipo "18s" o "1:05" (segundos enteros hacia abajo). */
 export function formatUpdateCountdown(ms = getMsUntilNextUpdateCheck()) {
-  const totalSec = Math.ceil(ms / 1000);
-  if (totalSec <= 0) return 'ahora';
+  const totalSec = Math.max(0, Math.floor(ms / 1000));
+  if (totalSec <= 0) return '0s';
   if (totalSec < 60) return `${totalSec}s`;
   const m = Math.floor(totalSec / 60);
   const s = totalSec % 60;
   return `${m}:${String(s).padStart(2, '0')}`;
+}
+
+/** Etiqueta completa para Ajustes (sincronizada con el programador real). */
+export function getUpdateCheckCountdownLabel() {
+  if (updatePrompted) return 'Hay una actualización: recarga para aplicarla';
+  if (isChecking) return 'Verificando ahora…';
+  if (!updateCheckerStarted || !nextCheckAt) return 'Programando verificación…';
+  const ms = getMsUntilNextUpdateCheck();
+  if (ms <= 0) return 'Verificando ahora…';
+  return `Próxima verificación en ${formatUpdateCountdown(ms)}`;
 }
 
 function appBase() {
@@ -256,42 +268,51 @@ export function startUpdateChecker() {
     setTimeout(() => showUpdateModal(), 600);
   }
 
-  let prompted = false;
-  let checking = false;
-
   const run = async () => {
-    if (prompted || checking || document.hidden) return;
-    checking = true;
+    if (updatePrompted || isChecking || document.hidden) return false;
+    isChecking = true;
     try {
       const result = await checkForUpdate();
-      if (result === 'update') prompted = true;
+      if (result === 'update') {
+        updatePrompted = true;
+        nextCheckAt = 0;
+        if (scheduleTimer) {
+          clearTimeout(scheduleTimer);
+          scheduleTimer = null;
+        }
+      }
+      return true;
     } finally {
-      checking = false;
+      isChecking = false;
     }
   };
 
   const schedule = (delayMs) => {
+    if (updatePrompted) return;
     if (scheduleTimer) clearTimeout(scheduleTimer);
-    nextCheckAt = Date.now() + delayMs;
+    const wait = Math.max(0, delayMs);
+    nextCheckAt = Date.now() + wait;
     scheduleTimer = setTimeout(async () => {
+      scheduleTimer = null;
+      // Marca “tocó ahora” mientras corre la petición
+      nextCheckAt = Date.now();
       await run();
-      if (!prompted) schedule(POLL_MS);
-      else nextCheckAt = 0;
-    }, delayMs);
+      if (!updatePrompted) schedule(POLL_MS);
+    }, wait);
   };
 
   schedule(FIRST_CHECK_MS);
 
+  // Solo comprobar al volver si ya pasó la hora (no reiniciar el contador al enfocar)
+  const checkIfDue = () => {
+    if (updatePrompted || document.hidden || isChecking) return;
+    if (!nextCheckAt || Date.now() >= nextCheckAt) {
+      schedule(0);
+    }
+  };
+
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState !== 'visible' || prompted) return;
-    run().finally(() => {
-      if (!prompted) schedule(POLL_MS);
-    });
+    if (document.visibilityState === 'visible') checkIfDue();
   });
-  window.addEventListener('focus', () => {
-    if (prompted || document.hidden) return;
-    run().finally(() => {
-      if (!prompted) schedule(POLL_MS);
-    });
-  });
+  window.addEventListener('focus', checkIfDue);
 }

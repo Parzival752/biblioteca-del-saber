@@ -52,8 +52,7 @@ import {
   checkForUpdate,
   describeUpdateCheck,
   getAppVersion,
-  getMsUntilNextUpdateCheck,
-  formatUpdateCountdown,
+  getUpdateCheckCountdownLabel,
 } from './update-check.js';
 
 const TAB_ORDER = ['theory', 'example', 'exercise'];
@@ -1418,7 +1417,7 @@ export class App {
       <h3>Actualizaciones</h3>
       <p class="settings-version">
         Versión actual: <strong id="settingsVersion">${escapeHtml(version)}</strong>
-        <span class="settings-version__countdown" id="updateNextCheck">Próxima verificación en ${formatUpdateCountdown()}</span>
+        <span class="settings-version__countdown" id="updateNextCheck">${getUpdateCheckCountdownLabel()}</span>
       </p>
       <p class="modal-tip" id="updateCheckStatus">Pulsa «Buscar actualización» para comprobar si hay una versión nueva en el servidor.</p>
       <div class="settings-actions">
@@ -1470,12 +1469,9 @@ export class App {
         clearInterval(countdownTimer);
         return;
       }
-      const ms = getMsUntilNextUpdateCheck();
-      countdownEl.textContent = ms <= 0
-        ? 'Verificando ahora…'
-        : `Próxima verificación en ${formatUpdateCountdown(ms)}`;
+      countdownEl.textContent = getUpdateCheckCountdownLabel();
     };
-    const countdownTimer = setInterval(tickCountdown, 250);
+    const countdownTimer = setInterval(tickCountdown, 200);
     tickCountdown();
 
     checkBtn?.addEventListener('click', async () => {
