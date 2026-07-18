@@ -546,18 +546,79 @@ export function markDailyChallengeDoneStorage() {
   });
 }
 
-/** Copia de seguridad — perfil, cursos, XP, ajustes y borradores */
+/** Copia de seguridad — perfil, cursos, XP, ajustes, borradores, avatares */
 export const BACKUP_VERSION = 1;
+
+function asArray(value, fallback = []) {
+  return Array.isArray(value) ? value : fallback;
+}
+
+function asObject(value, fallback = {}) {
+  return value && typeof value === 'object' && !Array.isArray(value) ? value : fallback;
+}
+
+function normalizeDoneMap(value, activeCourse) {
+  if (typeof value === 'boolean') {
+    return value ? { [activeCourse || 'javascript']: true } : {};
+  }
+  return asObject(value);
+}
+
+function normalizeCourseState(raw) {
+  const { certificateId: _drop, ...rest } = asObject(raw);
+  const merged = { ...defaultCourseState(), ...rest };
+  merged.completed = asArray(merged.completed).filter((id) => typeof id === 'string');
+  merged.codeDrafts = asObject(merged.codeDrafts);
+  merged.attempts = asObject(merged.attempts);
+  merged.hintsUsed = asObject(merged.hintsUsed);
+  merged.hintLevels = asObject(merged.hintLevels);
+  merged.noHintLessons = asArray(merged.noHintLessons).filter((id) => typeof id === 'string');
+  merged.attemptHistory = asObject(merged.attemptHistory);
+  merged.lessonTimeMs = asObject(merged.lessonTimeMs);
+  merged.quizzesPassed = asArray(merged.quizzesPassed).filter((id) => typeof id === 'string');
+  merged.totalAttempts = Number(merged.totalAttempts) || 0;
+  merged.xp = Number(merged.xp) || 0;
+  merged.lastLesson = typeof merged.lastLesson === 'string' ? merged.lastLesson : null;
+  merged.dailyChallengeDate = typeof merged.dailyChallengeDate === 'string' ? merged.dailyChallengeDate : null;
+  merged.dailyChallengeDone = Boolean(merged.dailyChallengeDone);
+  merged.startedAt = Number(merged.startedAt) || Date.now();
+  return merged;
+}
+
+function normalizeProfileState(raw) {
+  const profile = { ...defaultProfile(), ...asObject(raw) };
+  const active = typeof profile.activeCourse === 'string' ? profile.activeCourse : 'javascript';
+  profile.activeCourse = active;
+  profile.studentName = typeof profile.studentName === 'string' ? profile.studentName : '';
+  profile.avatarId = typeof profile.avatarId === 'string' ? profile.avatarId : 'alebrije';
+  profile.theme = profile.theme === 'light' ? 'light' : 'dark';
+  profile.fontSize = ['sm', 'md', 'lg'].includes(profile.fontSize) ? profile.fontSize : 'md';
+  profile.focusMode = Boolean(profile.focusMode);
+  profile.beginnerMode = profile.beginnerMode !== false;
+  profile.profileSetupDone = Boolean(profile.profileSetupDone);
+  profile.streak = Math.max(0, Number(profile.streak) || 0);
+  profile.lastStudyDate = typeof profile.lastStudyDate === 'string' ? profile.lastStudyDate : null;
+  profile.studiedAtNight = Boolean(profile.studiedAtNight);
+  profile.perfectLessons = asArray(profile.perfectLessons).filter((id) => typeof id === 'string');
+  profile.onboardingDone = normalizeDoneMap(profile.onboardingDone, active);
+  profile.tourDone = normalizeDoneMap(profile.tourDone, active);
+  profile.studyingCourses = asArray(profile.studyingCourses).filter((id) => typeof id === 'string');
+  profile.customAvatars = asArray(profile.customAvatars)
+    .filter((a) => a && typeof a === 'object' && typeof a.id === 'string')
+    .slice(0, MAX_CUSTOM_AVATARS);
+  return profile;
+}
 
 export function getFullBackup() {
   const root = loadRoot();
-  return {
+  // Snapshot profundo: evita mutaciones posteriores al objeto exportado
+  return JSON.parse(JSON.stringify({
     version: BACKUP_VERSION,
     app: 'biblioteca-del-saber',
     exportedAt: new Date().toISOString(),
     profile: root.profile,
     courses: root.courses,
-  };
+  }));
 }
 
 export function exportBackupJson() {
@@ -566,13 +627,12 @@ export function exportBackupJson() {
 
 function normalizeImportedRoot(data) {
   const root = {
-    profile: { ...defaultProfile(), ...data.profile },
+    profile: normalizeProfileState(data.profile),
     courses: {},
   };
-  root.profile.customAvatars = Array.isArray(root.profile.customAvatars) ? root.profile.customAvatars : [];
-  for (const [id, state] of Object.entries(data.courses || {})) {
-    const { certificateId, ...rest } = state || {};
-    root.courses[id] = { ...defaultCourseState(), ...rest };
+  for (const [id, state] of Object.entries(asObject(data.courses))) {
+    if (typeof id !== 'string' || !id.trim()) continue;
+    root.courses[id] = normalizeCourseState(state);
   }
   const cid = root.profile.activeCourse || 'javascript';
   if (!root.courses[cid]) {
