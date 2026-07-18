@@ -420,7 +420,8 @@ kbd {
   flex-direction: column;
   justify-content: center;
   min-width: 0;
-  flex: 0 1 11rem;
+  flex: 1 1 6rem;
+  max-width: 14rem;
 }
 
 .topbar__brand strong {
@@ -1952,7 +1953,7 @@ kbd {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.12rem 0.6rem 0.12rem 0.12rem;
+  padding: 0.12rem 0.65rem 0.12rem 0.12rem;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--bg-elevated);
@@ -1960,8 +1961,9 @@ kbd {
   color: inherit;
   font: inherit;
   flex: 0 0 auto;
-  max-width: 13rem;
-  overflow: hidden;
+  flex-shrink: 0;
+  max-width: none;
+  overflow: visible;
   transition: border-color 0.15s;
 }
 
@@ -1981,9 +1983,9 @@ kbd {
   font-weight: 600;
   line-height: 1.2;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 10.5rem;
+  overflow: visible;
+  text-overflow: clip;
+  max-width: none;
 }
 
 .student-card {
@@ -2597,22 +2599,26 @@ kbd {
 @media (max-width: 1100px) {
   .topbar__actions #btnFocus,
   .topbar__actions #btnSearch { display: none; }
-  .profile-pill__name { max-width: 8rem; }
+  .topbar__brand { max-width: 10rem; }
 }
 
 @media (max-width: 900px) {
   .topbar__progress .progress-bar { width: 36px; }
   .topbar__actions #btnDashboard { display: none; }
-  .profile-pill__name { max-width: 6.5rem; }
+  .topbar__brand { max-width: 8rem; }
 }
 
 @media (max-width: 768px) {
-  .profile-pill__name { display: none; }
-  .profile-pill { padding: 0.1rem; }
   .topbar__progress { display: none; }
-  .topbar__brand { flex-basis: auto; max-width: 40vw; }
+  .topbar__brand { max-width: 35vw; }
   .avatar-picker__group { grid-template-columns: repeat(4, 1fr); }
   .course-picker { grid-template-columns: 1fr; }
+}
+
+/* Solo en movil muy estrecho ocultar nombre (queda el avatar) */
+@media (max-width: 420px) {
+  .profile-pill__name { display: none; }
+  .profile-pill { padding: 0.1rem; }
 }
 
 @media (min-width: 900px) {

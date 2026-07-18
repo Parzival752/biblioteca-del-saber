@@ -371,7 +371,12 @@ export class App {
     const topName = document.getElementById('topbarName');
     const topLevel = document.getElementById('topbarLevel');
     if (topAvatar) topAvatar.innerHTML = avatarHtml;
-    if (topName) topName.textContent = name;
+    if (topName) {
+      topName.textContent = name;
+      topName.title = name;
+    }
+    const profileBtn = document.getElementById('btnProfile');
+    if (profileBtn) profileBtn.title = `${name} — Tu perfil`;
     if (topLevel) topLevel.textContent = `${level.name} · ${progress.xp || 0} XP`;
 
     const sbAvatar = document.getElementById('sidebarAvatar');
