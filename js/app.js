@@ -45,7 +45,7 @@ import {
 import {
   renderAboutNoteHtml, renderWelcomeLegalFooterHtml, renderLegalFooterLinks, getLegalModalHtml, bindLegalLinks,
 } from './legal.js';
-import { checkForUpdate, getAppVersion } from './update-check.js';
+import { checkForUpdate, describeUpdateCheck, getAppVersion } from './update-check.js';
 
 const TAB_ORDER = ['theory', 'example', 'exercise'];
 const TAB_LABELS = { theory: 'Teoría', example: 'Ejemplo', exercise: 'Ejercicio' };
@@ -1454,23 +1454,17 @@ export class App {
       const prevLabel = checkBtn.textContent;
       checkBtn.disabled = true;
       checkBtn.textContent = 'Comprobando…';
-      if (statusEl) statusEl.textContent = 'Consultando el servidor…';
+      if (statusEl) statusEl.textContent = 'Consultando GitHub y el sitio publicado…';
       try {
-        const result = await checkForUpdate();
+        const { result, message } = await describeUpdateCheck();
+        if (statusEl) statusEl.innerHTML = message;
         if (result === 'update') {
-          if (statusEl) statusEl.textContent = 'Hay una versión nueva. Recarga para aplicarla.';
           this.closeModal();
+          await checkForUpdate(); // muestra el diálogo de recarga
           return;
         }
-        if (result === 'latest') {
-          if (statusEl) {
-            statusEl.innerHTML = `✓ Ya tienes la última versión (<code>${escapeHtml(version)}</code>).`;
-          }
-          this.toast('Ya tienes la última versión', 'success');
-        } else if (statusEl) {
-          statusEl.textContent = 'No se pudo comprobar. Revisa tu conexión e inténtalo de nuevo.';
-          this.toast('No se pudo comprobar la actualización', 'info');
-        }
+        if (result === 'latest') this.toast('Ya tienes la última versión', 'success');
+        else this.toast('No se pudo comprobar la actualización', 'info');
       } finally {
         checkBtn.disabled = false;
         checkBtn.textContent = prevLabel || 'Buscar actualización';

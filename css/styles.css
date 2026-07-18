@@ -2385,6 +2385,14 @@ kbd {
   min-width: 10rem;
 }
 
+.update-reload-detail {
+  margin: -0.5rem 0 1rem;
+  font-size: 0.78rem;
+  font-family: var(--mono);
+  color: var(--text-muted);
+  word-break: break-all;
+}
+
 /* Selector de cursos / lenguajes */
 .welcome__courses { margin: 1rem 0; }
 .welcome__courses-label {
