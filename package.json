@@ -10,7 +10,7 @@
   "scripts": {
     "test": "vitest run",
     "dev": "python3 -m http.server 8773",
-    "prebuild": "node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/generate-version.mjs && node scripts/generate-sitemap.mjs",
     "build": "vite build",
     "postbuild": "node scripts/verify-dist.mjs",
     "preview": "vite preview --port 4173",

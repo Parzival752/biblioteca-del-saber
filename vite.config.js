@@ -1,5 +1,5 @@
 import { defineConfig, loadEnv } from 'vite';
-import { cpSync, existsSync } from 'node:fs';
+import { cpSync, existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 /** Copia carpetas estáticas que Vite no empaqueta por sí solo. */
@@ -15,14 +15,24 @@ function copyStatic(...pairs) {
   };
 }
 
+function readBuildId() {
+  const path = resolve('.build-id');
+  if (existsSync(path)) return readFileSync(path, 'utf8').trim();
+  return process.env.GITHUB_SHA?.slice(0, 12) || `b${Date.now().toString(36)}`;
+}
+
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   const base = env.VITE_BASE_PATH || '/';
+  const buildId = readBuildId();
 
   return {
     root: '.',
     base,
     publicDir: 'public',
+    define: {
+      __APP_BUILD_ID__: JSON.stringify(buildId),
+    },
     build: {
       outDir: 'dist',
       emptyOutDir: true,
@@ -30,6 +40,12 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [
       copyStatic(['assets', 'assets']),
+      {
+        name: 'inject-build-id',
+        transformIndexHtml(html) {
+          return html.replaceAll('__APP_BUILD_ID__', buildId);
+        },
+      },
     ],
   };
 });

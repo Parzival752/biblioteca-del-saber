@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
   <meta name="description" content="La Biblioteca del Saber — 1250+ lecciones gratis de programacion, naturaleza, supervivencia, cultura y mas. Tu maestro es un alebrije.">
   <meta name="theme-color" content="#f472b6">
   <meta name="robots" content="index, follow">
@@ -274,6 +276,64 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/sql/sql.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/clike/clike.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/shell/shell.min.js"></script>
+  <meta name="app-build-id" content="__APP_BUILD_ID__">
+  <script>
+  (function () {
+    var localId = document.querySelector('meta[name="app-build-id"]');
+    localId = localId && localId.content;
+    if (!localId || localId.indexOf('__APP_') === 0) return;
+
+    function appBase() {
+      var s = document.querySelector('script[type="module"][src*="assets/"]');
+      if (s) {
+        var m = s.src.match(/^(?:https?:\/\/[^/]+)?(\/.*?\/)assets\//);
+        if (m) return m[1];
+      }
+      var path = location.pathname;
+      if (path.endsWith('/')) return path;
+      return path.replace(/\/[^/]*$/, '/');
+    }
+
+    function hardReload() {
+      var url = new URL(location.href);
+      url.searchParams.set('_refresh', String(Date.now()));
+      location.replace(url.pathname + url.search + url.hash);
+    }
+
+    function showPrompt() {
+      if (document.getElementById('updateReloadOverlay')) return;
+      var overlay = document.createElement('div');
+      overlay.id = 'updateReloadOverlay';
+      overlay.className = 'update-reload-overlay';
+      overlay.innerHTML =
+        '<div class="update-reload-card">' +
+        '<p class="update-reload-badge">Nueva versión</p>' +
+        '<h2>Actualización realizada</h2>' +
+        '<p class="update-reload-msg">Hay una versión nueva de La Biblioteca del Saber. Es necesario recargar la página para ver los cambios.</p>' +
+        '<button type="button" class="btn btn--primary update-reload-btn" id="btnUpdateReloadOk">OK — recargar</button>' +
+        '</div>';
+      document.body.appendChild(overlay);
+      var btn = document.getElementById('btnUpdateReloadOk');
+      if (btn) btn.onclick = hardReload;
+    }
+
+    function check() {
+      if (document.hidden) return;
+      fetch(appBase() + 'version.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (v) {
+          if (v && v.id && v.id !== localId) showPrompt();
+        })
+        .catch(function () {});
+    }
+
+    setTimeout(check, 3500);
+    setInterval(check, 45000);
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'visible') check();
+    });
+  })();
+  </script>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

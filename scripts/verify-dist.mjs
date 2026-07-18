@@ -10,6 +10,7 @@ const required = [
   'index.html',
   'robots.txt',
   'sitemap.xml',
+  'version.json',
   'manifest.webmanifest',
   'favicon.svg',
   'assets/avatars/caballero.svg',

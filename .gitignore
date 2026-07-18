@@ -9,3 +9,5 @@ dist/
 coverage/
 __pycache__/
 *.pyc
+.build-id
+public/version.json

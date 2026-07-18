@@ -2245,6 +2245,60 @@ kbd {
   margin-top: 1rem;
 }
 
+/* Aviso de nueva versión desplegada */
+.update-reload-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  background: rgba(12, 8, 18, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.update-reload-card {
+  width: min(420px, 100%);
+  padding: 1.5rem 1.35rem;
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: 0 18px 50px var(--shadow);
+  text-align: center;
+}
+
+.update-reload-badge {
+  display: inline-block;
+  margin: 0 0 0.65rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+  background: var(--accent);
+}
+
+.update-reload-card h2 {
+  margin: 0 0 0.65rem;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--text);
+}
+
+.update-reload-msg {
+  margin: 0 0 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
+.update-reload-btn {
+  min-width: 10rem;
+}
+
 /* Selector de cursos / lenguajes */
 .welcome__courses { margin: 1rem 0; }
 .welcome__courses-label {
