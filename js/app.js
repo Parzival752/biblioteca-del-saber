@@ -1136,10 +1136,8 @@ export class App {
       this.buildNav();
       const bonus = this.hintUsedThisSession ? '' : ' (+15 XP bonus sin pistas)';
       this.showFeedback(true, `${result.message}${bonus}`);
-      this.showLessonSummary(lesson);
       if (isNew) {
         if (getDailyChallenge().lessonId === lesson.id) markDailyChallengeDone();
-        fireConfetti();
         const afterProgress = loadProgress();
         const newLevel = getLevel(afterProgress.xp || 0);
         if (newLevel.tier > prevLevel.tier) {
@@ -1147,14 +1145,9 @@ export class App {
         } else {
           this.toast(getMotivationalMessage(afterProgress.studentName, 'complete'), 'success');
         }
-        const next = getNextLesson(lesson.id);
-        if (getBeginnerMode() && next) {
-          const ok = await confirmDialog({ title: '¡Lección completada!', message: `¿Ir a "${next.title}"?`, confirmText: 'Siguiente lección' });
-          if (ok) this.goToLesson(next.id, { tab: 'theory' });
-        } else if (!next) {
-          setTimeout(() => this.showCourseComplete(), 1500);
-        }
       }
+      const next = getNextLesson(lesson.id);
+      this.showLessonSummary(lesson, { celebrate: isNew, next, courseDone: isNew && !next });
     } else {
       let msg = result.message || result.error || 'Incorrecto';
       if (attempts >= 3 && lesson.exercise.solution) {
@@ -1170,24 +1163,40 @@ export class App {
     }
   }
 
-  showLessonSummary(lesson) {
+  showLessonSummary(lesson, { celebrate = true, next = null, courseDone = false } = {}) {
     const aids = getLessonAids(lesson.id);
     const hist = getAttemptHistory(lesson.id);
     const progress = loadProgress();
     const msg = getMotivationalMessage(progress.studentName, 'complete');
+    const nextLesson = next ?? getNextLesson(lesson.id);
+    if (celebrate) fireConfetti();
     this.showModal('summary', `
       <div class="summary-profile">
         ${renderAvatarHtml(progress.avatarId, getLevelTier(getLevel(progress.xp || 0)), 'md')}
         <p class="summary-profile__msg">${escapeHtml(msg)}</p>
       </div>
-      <h2>✅ ${lesson.title} completada</h2>
+      <h2>✅ ${escapeHtml(lesson.title)} completada</h2>
       <ul class="summary-list">
         ${aids.summary.map((s) => `<li>${s}</li>`).join('')}
       </ul>
       <p class="modal-tip">Intentos en esta lección: ${hist.length}</p>
-      <button type="button" class="btn btn--primary" id="btnCloseSummary">Continuar</button>
+      <div class="summary-actions">
+        <button type="button" class="btn btn--ghost" id="btnCloseSummary">Seguir aquí</button>
+        ${nextLesson
+          ? `<button type="button" class="btn btn--primary" id="btnSummaryNext">${escapeHtml(nextLesson.title.replace(/^\d+\.\s*/, ''))} →</button>`
+          : `<button type="button" class="btn btn--primary" id="btnCloseSummaryPrimary">Continuar</button>`}
+      </div>
     `);
-    document.getElementById('btnCloseSummary')?.addEventListener('click', () => this.closeModal());
+    const closeSummary = () => {
+      this.closeModal();
+      if (courseDone) setTimeout(() => this.showCourseComplete(), 400);
+    };
+    document.getElementById('btnCloseSummary')?.addEventListener('click', closeSummary);
+    document.getElementById('btnCloseSummaryPrimary')?.addEventListener('click', closeSummary);
+    document.getElementById('btnSummaryNext')?.addEventListener('click', () => {
+      this.closeModal();
+      this.goToLesson(nextLesson.id, { tab: 'theory' });
+    });
   }
 
   showFeedback(success, message) {

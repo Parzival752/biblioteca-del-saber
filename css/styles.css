@@ -2237,6 +2237,14 @@ kbd {
   line-height: 1.4;
 }
 
+.summary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
 /* Selector de cursos / lenguajes */
 .welcome__courses { margin: 1rem 0; }
 .welcome__courses-label {
