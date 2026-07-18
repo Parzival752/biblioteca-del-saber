@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Definición de mamífero',
         duration: '8 min',
         theory: `<p>Los mamíferos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tienen pelo, glándulas mamarias y homeotermia en su mayoría. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tienen pelo, glándulas mamarias y homeotermia en su mayoría.</p>
         <p>Estudiar definición de mamífero con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tienen pelo, glándulas mamarias y homeotermia en su mayoría</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Herbívoros y rumiantes',
         duration: '8 min',
         theory: `<p>Herbívoros es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, digieren plantas con dentición especializada y microflora. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, digieren plantas con dentición especializada y microflora.</p>
         <p>Estudiar herbívoros y rumiantes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: digieren plantas con dentición especializada y microflora</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Carnívoros y depredadores',
         duration: '8 min',
         theory: `<p>Carnívoros es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cazan o carroñean con sentidos agudos y dientes carnivoros. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cazan o carroñean con sentidos agudos y dientes carnivoros.</p>
         <p>Estudiar carnívoros y depredadores con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cazan o carroñean con sentidos agudos y dientes carnivoros</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Mamíferos nocturnos',
         duration: '8 min',
         theory: `<p>Nocturnos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, adaptan visión, oído y olfato para actividad nocturna. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, adaptan visión, oído y olfato para actividad nocturna.</p>
         <p>Estudiar mamíferos nocturnos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: adaptan visión, oído y olfato para actividad nocturna</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Roedores',
         duration: '8 min',
         theory: `<p>Roedores es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tienen incisivos que crecen continuamente. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tienen incisivos que crecen continuamente.</p>
         <p>Estudiar roedores con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tienen incisivos que crecen continuamente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Primates',
         duration: '8 min',
         theory: `<p>Primates es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tienen manos prensiles y visión binocular desarrollada. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tienen manos prensiles y visión binocular desarrollada.</p>
         <p>Estudiar primates con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tienen manos prensiles y visión binocular desarrollada</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Marsupiales',
         duration: '8 min',
         theory: `<p>Marsupiales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, crías poco desarrolladas completan crecimiento en marsupio. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, crías poco desarrolladas completan crecimiento en marsupio.</p>
         <p>Estudiar marsupiales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: crías poco desarrolladas completan crecimiento en marsupio</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Mamíferos marinos',
         duration: '8 min',
         theory: `<p>Marinos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluyen cetáceos y pinípedos adaptados al agua. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluyen cetáceos y pinípedos adaptados al agua.</p>
         <p>Estudiar mamíferos marinos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluyen cetáceos y pinípedos adaptados al agua</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Hibernación y estivación',
         duration: '8 min',
         theory: `<p>Hibernación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, reduce metabolismo en frío o sequía extrema. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, reduce metabolismo en frío o sequía extrema.</p>
         <p>Estudiar hibernación y estivación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: reduce metabolismo en frío o sequía extrema</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Mamíferos de México',
         duration: '8 min',
         theory: `<p>Fauna mexicana es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluye jaguar, venado cola blanca, tlacuache y murciélagos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluye jaguar, venado cola blanca, tlacuache y murciélagos.</p>
         <p>Estudiar mamíferos de méxico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluye jaguar, venado cola blanca, tlacuache y murciélagos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Anatomía aviar',
         duration: '8 min',
         theory: `<p>Las aves es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tienen plumas, pico, huevos con cáscara y esqueleto ligero. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tienen plumas, pico, huevos con cáscara y esqueleto ligero.</p>
         <p>Estudiar anatomía aviar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tienen plumas, pico, huevos con cáscara y esqueleto ligero</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Vuelo y aerodinámica',
         duration: '8 min',
         theory: `<p>El vuelo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, usa perfil alar, músculo pectoral y cola como timón. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, usa perfil alar, músculo pectoral y cola como timón.</p>
         <p>Estudiar vuelo y aerodinámica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: usa perfil alar, músculo pectoral y cola como timón</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Migración',
         duration: '8 min',
         theory: `<p>Migración es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, sigue rutas estacionales por comida y reproducción. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, sigue rutas estacionales por comida y reproducción.</p>
         <p>Estudiar migración con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: sigue rutas estacionales por comida y reproducción</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Cantos y comunicación',
         duration: '8 min',
         theory: `<p>Cantos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, defienden territorio y atraen pareja con vocalizaciones. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, defienden territorio y atraen pareja con vocalizaciones.</p>
         <p>Estudiar cantos y comunicación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: defienden territorio y atraen pareja con vocalizaciones</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Rapaces diurnas',
         duration: '8 min',
         theory: `<p>Rapaces es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cazan con garras, pico ganchudo y vista aguda. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cazan con garras, pico ganchudo y vista aguda.</p>
         <p>Estudiar rapaces diurnas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cazan con garras, pico ganchudo y vista aguda</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Aves nocturnas',
         duration: '8 min',
         theory: `<p>Estrígidos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cazan de noche con silencio alar y oído asimétrico. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cazan de noche con silencio alar y oído asimétrico.</p>
         <p>Estudiar aves nocturnas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cazan de noche con silencio alar y oído asimétrico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Aves acuáticas',
         duration: '8 min',
         theory: `<p>Acuáticas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tienen patas palmeadas y plumas impermeables. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tienen patas palmeadas y plumas impermeables.</p>
         <p>Estudiar aves acuáticas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tienen patas palmeadas y plumas impermeables</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Polinizadores aves',
         duration: '8 min',
         theory: `<p>Polinizadores es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, colibríes y otros visitan flores tubulares. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, colibríes y otros visitan flores tubulares.</p>
         <p>Estudiar polinizadores aves con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: colibríes y otros visitan flores tubulares</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Nidificación',
         duration: '8 min',
         theory: `<p>Nidos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, varían de copa en árbol a huecos, suelo o acantilados. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, varían de copa en árbol a huecos, suelo o acantilados.</p>
         <p>Estudiar nidificación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: varían de copa en árbol a huecos, suelo o acantilados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Identificación por campo',
         duration: '8 min',
         theory: `<p>Identificación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, usa tamaño, forma, color, canto y hábitat. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, usa tamaño, forma, color, canto y hábitat.</p>
         <p>Estudiar identificación por campo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: usa tamaño, forma, color, canto y hábitat</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Reptiles: características',
         duration: '8 min',
         theory: `<p>Reptiles es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tienen escamas, huevos amnióticos y son ectotermos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tienen escamas, huevos amnióticos y son ectotermos.</p>
         <p>Estudiar reptiles: características con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tienen escamas, huevos amnióticos y son ectotermos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Serpientes',
         duration: '8 min',
         theory: `<p>Serpientes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, no tienen patas; detectan presa con olfato Jacobson y calor. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, no tienen patas; detectan presa con olfato Jacobson y calor.</p>
         <p>Estudiar serpientes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: no tienen patas; detectan presa con olfato Jacobson y calor</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Lagartos y geckos',
         duration: '8 min',
         theory: `<p>Lagartos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, regeneran cola y algunos caminan paredes con setas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, regeneran cola y algunos caminan paredes con setas.</p>
         <p>Estudiar lagartos y geckos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: regeneran cola y algunos caminan paredes con setas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Tortugas',
         duration: '8 min',
         theory: `<p>Tortugas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, llevan caparazón óseo; algunas marinas migran largas distancias. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, llevan caparazón óseo; algunas marinas migran largas distancias.</p>
         <p>Estudiar tortugas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: llevan caparazón óseo; algunas marinas migran largas distancias</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Cocodrilos y caimanes',
         duration: '8 min',
         theory: `<p>Crocodilianos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, depredadores acuáticos con mandíbula potente y metabolismo eficiente. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, depredadores acuáticos con mandíbula potente y metabolismo eficiente.</p>
         <p>Estudiar cocodrilos y caimanes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: depredadores acuáticos con mandíbula potente y metabolismo eficiente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Anfibios',
         duration: '8 min',
         theory: `<p>Anfibios es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, vida dual acuática y terrestre; piel permeable. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, vida dual acuática y terrestre; piel permeable.</p>
         <p>Estudiar anfibios con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: vida dual acuática y terrestre; piel permeable</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Salamandras y ajolotes',
         duration: '8 min',
         theory: `<p>Urodelos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, mantienen cola y algunos conservan branquias adultas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, mantienen cola y algunos conservan branquias adultas.</p>
         <p>Estudiar salamandras y ajolotes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: mantienen cola y algunos conservan branquias adultas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Peces de agua dulce',
         duration: '8 min',
         theory: `<p>Peces es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, respiran con branquias y regulan flotación con vejiga natatoria. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, respiran con branquias y regulan flotación con vejiga natatoria.</p>
         <p>Estudiar peces de agua dulce con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: respiran con branquias y regulan flotación con vejiga natatoria</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Peces marinos costeros',
         duration: '8 min',
         theory: `<p>Costeros es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, adaptados a salinidad, mareas y depredación. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, adaptados a salinidad, mareas y depredación.</p>
         <p>Estudiar peces marinos costeros con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: adaptados a salinidad, mareas y depredación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Amphibian decline',
         duration: '8 min',
         theory: `<p>Declive anfibios es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, causado por hábitat, clima, quitridiomicosis y contaminación. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, causado por hábitat, clima, quitridiomicosis y contaminación.</p>
         <p>Estudiar amphibian decline con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: causado por hábitat, clima, quitridiomicosis y contaminación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Anatomía del insecto',
         duration: '8 min',
         theory: `<p>Insectos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cuerpo en cabeza, tórax y abdomen con seis patas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cuerpo en cabeza, tórax y abdomen con seis patas.</p>
         <p>Estudiar anatomía del insecto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cuerpo en cabeza, tórax y abdomen con seis patas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Metamorfosis',
         duration: '8 min',
         theory: `<p>Metamorfosis es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, completa (huevo-larva-pupa-adulto) o incompleta. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, completa (huevo-larva-pupa-adulto) o incompleta.</p>
         <p>Estudiar metamorfosis con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: completa (huevo-larva-pupa-adulto) o incompleta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Polinizadores',
         duration: '8 min',
         theory: `<p>Polinizadores es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, abejas, mariposas, escarabajos transportan polen. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, abejas, mariposas, escarabajos transportan polen.</p>
         <p>Estudiar polinizadores con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: abejas, mariposas, escarabajos transportan polen</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Depredadores y control biológico',
         duration: '8 min',
         theory: `<p>Depredadores insectos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, mariquitas comen pulgones; mantis caza otros insectos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, mariquitas comen pulgones; mantis caza otros insectos.</p>
         <p>Estudiar depredadores y control biológico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: mariquitas comen pulgones; mantis caza otros insectos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Insectos sociales',
         duration: '8 min',
         theory: `<p>Sociales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, abejas, hormigas y termitas viven en colonias con castas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, abejas, hormigas y termitas viven en colonias con castas.</p>
         <p>Estudiar insectos sociales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: abejas, hormigas y termitas viven en colonias con castas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Insectos acuáticos',
         duration: '8 min',
         theory: `<p>Acuáticos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluyen efímeras, libélulas y escarabajos nadadores. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluyen efímeras, libélulas y escarabajos nadadores.</p>
         <p>Estudiar insectos acuáticos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluyen efímeras, libélulas y escarabajos nadadores</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Arácnidos',
         duration: '8 min',
         theory: `<p>Arácnidos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, ocho patas; incluyen arañas, escorpiones y garrapatas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, ocho patas; incluyen arañas, escorpiones y garrapatas.</p>
         <p>Estudiar arácnidos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: ocho patas; incluyen arañas, escorpiones y garrapatas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Miriápodos',
         duration: '8 min',
         theory: `<p>Miriápodos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, ciempiés depredadores; milpiés descomponedores. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, ciempiés depredadores; milpiés descomponedores.</p>
         <p>Estudiar miriápodos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: ciempiés depredadores; milpiés descomponedores</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Insectos vectores',
         duration: '8 min',
         theory: `<p>Vectores es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, mosquitos y garrapatas transmiten enfermedades. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, mosquitos y garrapatas transmiten enfermedades.</p>
         <p>Estudiar insectos vectores con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: mosquitos y garrapatas transmiten enfermedades</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Conservación de insectos',
         duration: '8 min',
         theory: `<p>Conservación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, insectos polinizadores declinan por pesticidas y hábitat. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, insectos polinizadores declinan por pesticidas y hábitat.</p>
         <p>Estudiar conservación de insectos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: insectos polinizadores declinan por pesticidas y hábitat</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Huellas y pisadas',
         duration: '8 min',
         theory: `<p>Huellas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, forma, tamaño y patrón de marcha identifican especie. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, forma, tamaño y patrón de marcha identifican especie.</p>
         <p>Estudiar huellas y pisadas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: forma, tamaño y patrón de marcha identifican especie</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Bosta y señales',
         duration: '8 min',
         theory: `<p>Señales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, heces, marcas y restos indican dieta y presencia. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, heces, marcas y restos indican dieta y presencia.</p>
         <p>Estudiar bosta y señales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: heces, marcas y restos indican dieta y presencia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Senderos y madrigueras',
         duration: '8 min',
         theory: `<p>Senderos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, animales crean rutas repetidas hacia agua y comida. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, animales crean rutas repetidas hacia agua y comida.</p>
         <p>Estudiar senderos y madrigueras con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: animales crean rutas repetidas hacia agua y comida</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Comportamiento alimenticio',
         duration: '8 min',
         theory: `<p>Forrajeo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluye caza, carroña, filtrado y almacenamiento. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluye caza, carroña, filtrado y almacenamiento.</p>
         <p>Estudiar comportamiento alimenticio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluye caza, carroña, filtrado y almacenamiento</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Comunicación animal',
         duration: '8 min',
         theory: `<p>Comunicación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, usa sonido, olor, color y postura. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, usa sonido, olor, color y postura.</p>
         <p>Estudiar comunicación animal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: usa sonido, olor, color y postura</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Territorio y jerarquía',
         duration: '8 min',
         theory: `<p>Territorio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, defiende recursos y parejas con señales y combates ritualizados. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, defiende recursos y parejas con señales y combates ritualizados.</p>
         <p>Estudiar territorio y jerarquía con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: defiende recursos y parejas con señales y combates ritualizados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Migración y estacionalidad',
         duration: '8 min',
         theory: `<p>Estacionalidad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cambia comportamiento con estaciones y fotoperiodo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cambia comportamiento con estaciones y fotoperiodo.</p>
         <p>Estudiar migración y estacionalidad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cambia comportamiento con estaciones y fotoperiodo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Camuflaje y mimetismo',
         duration: '8 min',
         theory: `<p>Camuflaje es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, reduce detección por color, forma o comportamiento. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, reduce detección por color, forma o comportamiento.</p>
         <p>Estudiar camuflaje y mimetismo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: reduce detección por color, forma o comportamiento</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Observación ética',
         duration: '8 min',
         theory: `<p>Ética es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, mantén distancia, no alimentes fauna silvestre, respeta nidos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, mantén distancia, no alimentes fauna silvestre, respeta nidos.</p>
         <p>Estudiar observación ética con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: mantén distancia, no alimentes fauna silvestre, respeta nidos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Registro faunístico',
         duration: '8 min',
         theory: `<p>Registro es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, documenta especie, comportamiento, GPS, foto y clima. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, documenta especie, comportamiento, GPS, foto y clima.</p>
         <p>Estudiar registro faunístico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: documenta especie, comportamiento, GPS, foto y clima</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {

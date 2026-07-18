@@ -2,6 +2,7 @@ import { getAllLessons } from './curriculum.js';
 import { todayKey } from './gamification.js';
 import { loadProgress, markDailyChallengeDoneStorage } from './storage.js';
 
+/** Retos curados para cursos de código (ids de lección estables). */
 const CHALLENGES = {
   javascript: [
     { lessonId: 'l01-hola', task: 'Imprime tu nombre con console.log' },
@@ -63,10 +64,44 @@ const CHALLENGES = {
   ],
 };
 
+/** Genera retos del día a partir del currículo (saberes sin lista curada). */
+function challengesFromCurriculum(courseId) {
+  const lessons = getAllLessons(courseId).filter((l) => l?.id && l?.title);
+  if (!lessons.length) return [];
+  const count = Math.min(6, lessons.length);
+  const picks = [];
+  for (let i = 0; i < count; i++) {
+    const idx = Math.round((i * (lessons.length - 1)) / Math.max(count - 1, 1));
+    const l = lessons[idx];
+    picks.push({
+      lessonId: l.id,
+      task: `Completa la lección «${l.title}»`,
+    });
+  }
+  return picks;
+}
+
+function challengesForCourse(courseId) {
+  const curated = CHALLENGES[courseId];
+  if (curated?.length) {
+    const valid = curated.filter((c) => getAllLessons(courseId).some((l) => l.id === c.lessonId));
+    if (valid.length) return valid;
+  }
+  return challengesFromCurriculum(courseId);
+}
+
 export function getDailyChallenge() {
   const day = todayKey();
   const courseId = loadProgress().activeCourse || 'javascript';
-  const list = CHALLENGES[courseId] || CHALLENGES.javascript;
+  const list = challengesForCourse(courseId);
+  if (!list.length) {
+    return {
+      lessonId: null,
+      task: 'Explora una lección del saber activo',
+      date: day,
+      courseId,
+    };
+  }
   const idx = day.split('-').reduce((a, b) => a + parseInt(b, 10), 0) % list.length;
   return { ...list[idx], date: day, courseId };
 }
@@ -82,5 +117,6 @@ export function markDailyChallengeDone() {
 
 export function getDailyChallengeLesson() {
   const ch = getDailyChallenge();
-  return getAllLessons(ch.courseId).find((l) => l.id === ch.lessonId);
+  if (!ch.lessonId) return null;
+  return getAllLessons(ch.courseId).find((l) => l.id === ch.lessonId) || null;
 }

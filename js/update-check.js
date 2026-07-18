@@ -3,10 +3,16 @@
  * Cruza: meta local, version.json, index.html (bundle) y commit de GitHub.
  */
 
+/** PENDIENTE: bajar frecuencia o cachear GitHub API (rate limit ~60/h sin auth). Se mantiene alto para demos. */
 const POLL_MS = 20_000;
 const FIRST_CHECK_MS = 3_000;
 const BUILD_ID = typeof __APP_BUILD_ID__ !== 'undefined' ? __APP_BUILD_ID__ : '';
-const GITHUB_REPO = 'Parzival752/biblioteca-del-saber';
+
+/** Repo para sondeo (configurable con <meta name="github-repo" content="user/repo">). */
+export function getGithubRepo() {
+  const meta = document.querySelector('meta[name="github-repo"]')?.content?.trim();
+  return meta || 'Parzival752/biblioteca-del-saber';
+}
 
 /** Momento absoluto (Date.now) de la próxima comprobación. */
 let nextCheckAt = 0;
@@ -105,7 +111,7 @@ function parseRemoteFromHtml(html) {
 
 async function fetchGithubMainId() {
   try {
-    const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/commits/main`, {
+    const res = await fetch(`https://api.github.com/repos/${getGithubRepo()}/commits/main`, {
       cache: 'no-store',
       headers: { Accept: 'application/vnd.github+json' },
     });
@@ -146,9 +152,9 @@ export async function getUpdateStatus() {
     outdated = true;
     reason = 'pages';
   } else if (githubId && localId && !sameVersion(githubId, localId)) {
-    // Commit nuevo en GitHub (Pages a veces tarda 1–2 min por caché CDN)
-    outdated = true;
-    reason = 'github';
+    // Commit en GitHub pero Pages aún no: NO forzar recarga (evita bucle)
+    outdated = false;
+    reason = 'github-pending';
   }
 
   return {
@@ -189,11 +195,12 @@ export function showUpdateModal({ detail = '' } = {}) {
   overlay.setAttribute('role', 'alertdialog');
   overlay.setAttribute('aria-modal', 'true');
   overlay.setAttribute('aria-labelledby', 'updateReloadTitle');
+  overlay.setAttribute('aria-describedby', 'updateReloadDesc');
   overlay.innerHTML = `
     <div class="update-reload-card">
       <p class="update-reload-badge">Nueva versión</p>
       <h2 id="updateReloadTitle">Actualización realizada</h2>
-      <p class="update-reload-msg">
+      <p class="update-reload-msg" id="updateReloadDesc">
         Hay una versión nueva de La Biblioteca del Saber.
         Es necesario recargar la página para ver los cambios.
       </p>
@@ -202,10 +209,18 @@ export function showUpdateModal({ detail = '' } = {}) {
     </div>
   `;
   document.body.appendChild(overlay);
-  document.getElementById('btnUpdateReloadOk')?.addEventListener('click', () => {
+  const btn = document.getElementById('btnUpdateReloadOk');
+  btn?.addEventListener('click', () => {
     hardReload();
   });
-  document.getElementById('btnUpdateReloadOk')?.focus();
+  btn?.focus();
+  const onKey = (e) => {
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      btn?.focus();
+    }
+  };
+  overlay.addEventListener('keydown', onKey);
 }
 
 /**
@@ -242,12 +257,16 @@ export async function describeUpdateCheck() {
       return { result: 'error', message: 'No se pudo contactar al servidor.', status: s };
     }
     if (s.outdated) {
-      const hint = s.reason === 'github'
-        ? 'Hay un commit nuevo; si acabas de publicar, espera 1–2 min y vuelve a buscar.'
-        : 'Hay una versión nueva. Recarga para aplicarla.';
       return {
         result: 'update',
-        message: `Tu versión: <code>${s.localId}</code> · Servidor: <code>${remote}</code>. ${hint}`,
+        message: `Tu versión: <code>${s.localId}</code> · Servidor: <code>${remote}</code>. Hay una versión nueva publicada. Recarga para aplicarla.`,
+        status: s,
+      };
+    }
+    if (s.reason === 'github-pending') {
+      return {
+        result: 'pending',
+        message: `Hay un commit nuevo en GitHub; GitHub Pages aún no lo sirve. Versión local: <code>${s.localId}</code>.`,
         status: s,
       };
     }

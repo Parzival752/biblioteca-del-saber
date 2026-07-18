@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Auditoría de tareas',
         duration: '8 min',
         theory: `<p>Auditoría de tareas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, registra una semana de microtareas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, registra una semana de microtareas.</p>
         <p>Estudiar auditoría de tareas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Lista tareas repetitivas semanales con tiempo estimado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. ROI tiempo',
         duration: '8 min',
         theory: `<p>ROI tiempo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, si setup 2h ahorra 10 min/semana, ¿vale? Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, si setup 2h ahorra 10 min/semana, ¿vale?.</p>
         <p>Estudiar roi tiempo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Tiempo automatizar vs tiempo ahorrado en 6 meses</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Reglas vs ML',
         duration: '8 min',
         theory: `<p>Reglas vs ML es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, if carpeta Downloads then mover por extensión Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, if carpeta Downloads then mover por extensión.</p>
         <p>Estudiar reglas vs ml con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Reglas deterministas primero; ML si patrón complejo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Puntos de fricción',
         duration: '8 min',
         theory: `<p>Puntos de fricción es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, marca fricciones rojas en flujo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, marca fricciones rojas en flujo.</p>
         <p>Estudiar puntos de fricción con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Copy-paste, renombrar, exportar, recordatorios</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Documentar proceso manual',
         duration: '8 min',
         theory: `<p>Documentar proceso manual es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, graba pantalla haciendo proceso una vez Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, graba pantalla haciendo proceso una vez.</p>
         <p>Estudiar documentar proceso manual con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Pasos numerados antes de automatizar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Alcance mínimo viable',
         duration: '8 min',
         theory: `<p>Alcance mínimo viable es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ignora edge cases raros inicialmente Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, ignora edge cases raros inicialmente.</p>
         <p>Estudiar alcance mínimo viable con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Automatiza 80% caso común primero</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Riesgos automatización',
         duration: '8 min',
         theory: `<p>Riesgos automatización es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, dry-run sin efectos destructivos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, dry-run sin efectos destructivos.</p>
         <p>Estudiar riesgos automatización con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Borrado masivo, emails erróneos, loops infinitos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Mantenimiento',
         duration: '8 min',
         theory: `<p>Mantenimiento es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, calendario revisión trimestral scripts Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, calendario revisión trimestral scripts.</p>
         <p>Estudiar mantenimiento con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: APIs cambian; scripts requieren revisión</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Humano en el loop',
         duration: '8 min',
         theory: `<p>Humano en el loop es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, email confirm antes de publicar batch Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, email confirm antes de publicar batch.</p>
         <p>Estudiar humano en el loop con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Aprobación para acciones irreversibles</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Métricas éxito',
         duration: '8 min',
         theory: `<p>Métricas éxito es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mide minutos/semana post deploy Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, mide minutos/semana post deploy.</p>
         <p>Estudiar métricas éxito con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Tiempo ahorrado, errores reducidos, satisfacción</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Atajos teclado OS',
         duration: '8 min',
         theory: `<p>Atajos teclado OS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lista 5 atajos nuevos practicar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, lista 5 atajos nuevos practicar.</p>
         <p>Estudiar atajos teclado os con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Win/Mac shortcuts ventana, captura, cambio app</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Text expanders',
         duration: '8 min',
         theory: `<p>Text expanders es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, configura ;addr → dirección completa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, configura ;addr → dirección completa.</p>
         <p>Estudiar text expanders con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Snippet firma email, direcciones frecuentes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. AutoHotkey / Keyboard Maestro',
         duration: '8 min',
         theory: `<p>AutoHotkey / Keyboard Maestro es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, hotkey abre apps combo fija Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, hotkey abre apps combo fija.</p>
         <p>Estudiar autohotkey / keyboard maestro con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Scripts hotkey Windows/Mac</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Reglas correo',
         duration: '8 min',
         theory: `<p>Reglas correo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, regla: factura@ → carpeta Facturas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, regla: factura@ → carpeta Facturas.</p>
         <p>Estudiar reglas correo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Filtrar, etiquetar, archivar automático</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Renombrado batch',
         duration: '8 min',
         theory: `<p>Renombrado batch es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prefijo fecha a escaneos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, prefijo fecha a escaneos.</p>
         <p>Estudiar renombrado batch con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Bulk Rename Utility, rename CLI</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Carpetas vigiladas',
         duration: '8 min',
         theory: `<p>Carpetas vigiladas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, PDF nuevo → OCR script Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, PDF nuevo → OCR script.</p>
         <p>Estudiar carpetas vigiladas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Watch folder procesa nuevos archivos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Clipboard managers',
         duration: '8 min',
         theory: `<p>Clipboard managers es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, pega últimos 5 snippets Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, pega últimos 5 snippets.</p>
         <p>Estudiar clipboard managers con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Historial portapapeles multi pegado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Launchers',
         duration: '8 min',
         theory: `<p>Launchers es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, hotkey buscar archivo por nombre Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, hotkey buscar archivo por nombre.</p>
         <p>Estudiar launchers con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Raycast, Alfred, KRunner abrir apps/files</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Capturas y OCR',
         duration: '8 min',
         theory: `<p>Capturas y OCR es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, OCR recibo a CSV Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, OCR recibo a CSV.</p>
         <p>Estudiar capturas y ocr con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Flameshot + tesseract extrae texto imagen</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Backup automático local',
         duration: '8 min',
         theory: `<p>Backup automático local es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, rsync -av --delete con cuidado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, rsync -av --delete con cuidado.</p>
         <p>Estudiar backup automático local con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: rsync cron a disco externo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Shebang y permisos',
         duration: '8 min',
         theory: `<p>Shebang y permisos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, chmod +x y probar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, chmod +x y probar.</p>
         <p>Estudiar shebang y permisos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Script ejecutable ./deploy.sh</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Argumentos CLI',
         duration: '8 min',
         theory: `<p>Argumentos CLI es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, python script.py --help Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, python script.py --help.</p>
         <p>Estudiar argumentos cli con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: argparse flags --dry-run</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Logging',
         duration: '8 min',
         theory: `<p>Logging es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, log a archivo rotativo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, log a archivo rotativo.</p>
         <p>Estudiar logging con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: logging.info vs print producción</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Plantillas script',
         duration: '8 min',
         theory: `<p>Plantillas script es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, repo plantillas personal Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, repo plantillas personal.</p>
         <p>Estudiar plantillas script con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Copiar boilerplate argparse+logging</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Cron scheduling',
         duration: '8 min',
         theory: `<p>Cron scheduling es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, crontab -e usuario Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, crontab -e usuario.</p>
         <p>Estudiar cron scheduling con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: 0 2 * * * backup.sh</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. systemd timer',
         duration: '8 min',
         theory: `<p>systemd timer es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, unit timer + service Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, unit timer + service.</p>
         <p>Estudiar systemd timer con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Alternativa cron en Linux moderno</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Exit codes',
         duration: '8 min',
         theory: `<p>Exit codes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, trap cleanup EXIT Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, trap cleanup EXIT.</p>
         <p>Estudiar exit codes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: 0 ok, !=0 error para cron alert</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Entornos virtuales Python',
         duration: '8 min',
         theory: `<p>Entornos virtuales Python es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, python -m venv .venv Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, python -m venv .venv.</p>
         <p>Estudiar entornos virtuales python con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: venv aísla dependencias proyecto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. JSON y YAML config',
         duration: '8 min',
         theory: `<p>JSON y YAML config es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, config.yaml paths folders Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, config.yaml paths folders.</p>
         <p>Estudiar json y yaml config con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Config externa sin hardcode</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Tests smoke',
         duration: '8 min',
         theory: `<p>Tests smoke es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, pytest test_main.py Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, pytest test_main.py.</p>
         <p>Estudiar tests smoke con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Test mínimo script no explota</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Webhooks',
         duration: '8 min',
         theory: `<p>Webhooks es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, GitHub push → Discord notify Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, GitHub push → Discord notify.</p>
         <p>Estudiar webhooks con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: HTTP POST cuando evento ocurre</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. REST POST JSON',
         duration: '8 min',
         theory: `<p>REST POST JSON es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, crear issue API tracker Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, crear issue API tracker.</p>
         <p>Estudiar rest post json con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: curl -X POST -d '{}' headers</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. OAuth básico',
         duration: '8 min',
         theory: `<p>OAuth básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, app Google OAuth consent screen Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, app Google OAuth consent screen.</p>
         <p>Estudiar oauth básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: No compartir password; tokens refresh</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Zapier/Make flujos',
         duration: '8 min',
         theory: `<p>Zapier/Make flujos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, form → sheet → slack Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, form → sheet → slack.</p>
         <p>Estudiar zapier/make flujos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Trigger action multi step</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Google Apps Script',
         duration: '8 min',
         theory: `<p>Google Apps Script es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, onFormSubmit handler Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, onFormSubmit handler.</p>
         <p>Estudiar google apps script con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Automatizar Sheets/Gmail en JS cloud</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. RSS to action',
         duration: '8 min',
         theory: `<p>RSS to action es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, IFTTT RSS trigger Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, IFTTT RSS trigger.</p>
         <p>Estudiar rss to action con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Nuevo feed item → notificación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Rate limits',
         duration: '8 min',
         theory: `<p>Rate limits es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, sleep exponential backoff Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, sleep exponential backoff.</p>
         <p>Estudiar rate limits con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Respetar Retry-After headers</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Idempotencia',
         duration: '8 min',
         theory: `<p>Idempotencia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, idempotency-key header pagos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, idempotency-key header pagos.</p>
         <p>Estudiar idempotencia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Mismo input no duplica efecto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Monitoreo flujos',
         duration: '8 min',
         theory: `<p>Monitoreo flujos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, dead letter queue failed jobs Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, dead letter queue failed jobs.</p>
         <p>Estudiar monitoreo flujos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Salud zap: error rate email</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Documentar integraciones',
         duration: '8 min',
         theory: `<p>Documentar integraciones es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Notion page por flujo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, Notion page por flujo.</p>
         <p>Estudiar documentar integraciones con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Diagrama trigger→steps→output</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Secrets management',
         duration: '8 min',
         theory: `<p>Secrets management es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, .env en gitignore Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, .env en gitignore.</p>
         <p>Estudiar secrets management con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Vault, pass, env nunca git</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Least privilege',
         duration: '8 min',
         theory: `<p>Least privilege es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, read-only si solo lee Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, read-only si solo lee.</p>
         <p>Estudiar least privilege con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Token solo scopes necesarios</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Version control flujos',
         duration: '8 min',
         theory: `<p>Version control flujos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, commit message convencional Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, commit message convencional.</p>
         <p>Estudiar version control flujos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Git para scripts y config</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Staging environment',
         duration: '8 min',
         theory: `<p>Staging environment es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, staging zap disabled external Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, staging zap disabled external.</p>
         <p>Estudiar staging environment con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Probar en copia datos anonimizados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Rollback',
         duration: '8 min',
         theory: `<p>Rollback es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, git revert workflow json Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, git revert workflow json.</p>
         <p>Estudiar rollback con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Backup config anterior deploy</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Observabilidad',
         duration: '8 min',
         theory: `<p>Observabilidad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, OpenTelemetry si complejo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, OpenTelemetry si complejo.</p>
         <p>Estudiar observabilidad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Logs, métricas, trazas flujos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Coste cloud',
         duration: '8 min',
         theory: `<p>Coste cloud es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, budget alert AWS/GCP Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, budget alert AWS/GCP.</p>
         <p>Estudiar coste cloud con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Serverless invocations suman</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Accesibilidad automatización',
         duration: '8 min',
         theory: `<p>Accesibilidad automatización es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, notificación accesible multi canal Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, notificación accesible multi canal.</p>
         <p>Estudiar accesibilidad automatización con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: No asumir usuario ve email error</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Etica bots',
         duration: '8 min',
         theory: `<p>Etica bots es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, rate limit sensato outreach Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, rate limit sensato outreach.</p>
         <p>Estudiar etica bots con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Respetar ToS y no spam</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Mejora continua',
         duration: '8 min',
         theory: `<p>Mejora continua es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus flujos de trabajo y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ¿sigue ahorrando tiempo? Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus flujos de trabajo de forma integrada.</p>
+        <p>En la práctica, ¿sigue ahorrando tiempo?.</p>
         <p>Estudiar mejora continua con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en automatizar tareas repetitivas.</p>
         <ul><li>Concepto central: Retrospectiva trimestral automatizaciones</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en automatizar tareas repetitivas</li></ul>`,
         example: {

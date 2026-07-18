@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Niveles de biodiversidad',
         duration: '8 min',
         theory: `<p>La biodiversidad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluye genes, especies, ecosistemas y servicios que proveen. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluye genes, especies, ecosistemas y servicios que proveen.</p>
         <p>Estudiar niveles de biodiversidad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluye genes, especies, ecosistemas y servicios que proveen</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Hotspots de biodiversidad',
         duration: '8 min',
         theory: `<p>Hotspots es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, son regiones con muchas especies endémicas y amenazadas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, son regiones con muchas especies endémicas y amenazadas.</p>
         <p>Estudiar hotspots de biodiversidad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: son regiones con muchas especies endémicas y amenazadas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Servicios ecosistémicos',
         duration: '8 min',
         theory: `<p>Servicios ecosistémicos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluyen polinización, agua limpia, clima y suelo fértil. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluyen polinización, agua limpia, clima y suelo fértil.</p>
         <p>Estudiar servicios ecosistémicos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluyen polinización, agua limpia, clima y suelo fértil</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Especies indicadoras',
         duration: '8 min',
         theory: `<p>Indicadoras es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, reflejan salud del ecosistema como anfibios y macroinvertebrados acuáticos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, reflejan salud del ecosistema como anfibios y macroinvertebrados acuáticos.</p>
         <p>Estudiar especies indicadoras con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: reflejan salud del ecosistema como anfibios y macroinvertebrados acuáticos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Especies invasoras',
         duration: '8 min',
         theory: `<p>Invasoras es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, compiten o depredan nativas sin controladores naturales. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, compiten o depredan nativas sin controladores naturales.</p>
         <p>Estudiar especies invasoras con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: compiten o depredan nativas sin controladores naturales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Fragmentación de hábitat',
         duration: '8 min',
         theory: `<p>Fragmentación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, divide poblaciones y aumenta efectos de borde. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, divide poblaciones y aumenta efectos de borde.</p>
         <p>Estudiar fragmentación de hábitat con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: divide poblaciones y aumenta efectos de borde</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Corredores biológicos',
         duration: '8 min',
         theory: `<p>Corredores es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, conectan parches para migración y flujo genético. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, conectan parches para migración y flujo genético.</p>
         <p>Estudiar corredores biológicos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: conectan parches para migración y flujo genético</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Índices de diversidad',
         duration: '8 min',
         theory: `<p>Índices es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, como Shannon cuantifican riqueza y equidad de especies. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, como Shannon cuantifican riqueza y equidad de especies.</p>
         <p>Estudiar índices de diversidad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: como Shannon cuantifican riqueza y equidad de especies</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Extinción y red lists',
         duration: '8 min',
         theory: `<p>Extinción es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, UICN clasifica especies en categorías de riesgo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, UICN clasifica especies en categorías de riesgo.</p>
         <p>Estudiar extinción y red lists con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: UICN clasifica especies en categorías de riesgo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Ciudadanía en biodiversidad',
         duration: '8 min',
         theory: `<p>Participación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, ciencia ciudadana y iNaturalist documentan fauna y flora. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, ciencia ciudadana y iNaturalist documentan fauna y flora.</p>
         <p>Estudiar ciudadanía en biodiversidad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: ciencia ciudadana y iNaturalist documentan fauna y flora</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Bioma desértico',
         duration: '8 min',
         theory: `<p>Desierto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, baja precipitación y adaptaciones xerófitas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, baja precipitación y adaptaciones xerófitas.</p>
         <p>Estudiar bioma desértico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: baja precipitación y adaptaciones xerófitas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Bioma bosque tropical',
         duration: '8 min',
         theory: `<p>Selva tropical es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, alta biodiversidad, lluvias y estratos complejos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, alta biodiversidad, lluvias y estratos complejos.</p>
         <p>Estudiar bioma bosque tropical con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: alta biodiversidad, lluvias y estratos complejos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Bioma templado',
         duration: '8 min',
         theory: `<p>Bosque templado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, estaciones marcadas con caducifolios o coníferas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, estaciones marcadas con caducifolios o coníferas.</p>
         <p>Estudiar bioma templado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: estaciones marcadas con caducifolios o coníferas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Bioma tundra',
         duration: '8 min',
         theory: `<p>Tundra es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, frío extremo, suelo permafrost y vegetación baja. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, frío extremo, suelo permafrost y vegetación baja.</p>
         <p>Estudiar bioma tundra con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: frío extremo, suelo permafrost y vegetación baja</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Bioma marino costero',
         duration: '8 min',
         theory: `<p>Costero es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, manglar, arrecife y estuario son nurseries de vida. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, manglar, arrecife y estuario son nurseries de vida.</p>
         <p>Estudiar bioma marino costero con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: manglar, arrecife y estuario son nurseries de vida</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Humedales',
         duration: '8 min',
         theory: `<p>Humedales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, regulan inundaciones y albergan aves migratorias. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, regulan inundaciones y albergan aves migratorias.</p>
         <p>Estudiar humedales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: regulan inundaciones y albergan aves migratorias</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Montaña y altitud',
         duration: '8 min',
         theory: `<p>Gradiente altitudinal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cambia temperatura, oxígeno y comunidades con altura. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cambia temperatura, oxígeno y comunidades con altura.</p>
         <p>Estudiar montaña y altitud con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cambia temperatura, oxígeno y comunidades con altura</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Ecosistemas urbanos',
         duration: '8 min',
         theory: `<p>Urbanos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, parques y ríos urbanos albergan fauna adaptada. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, parques y ríos urbanos albergan fauna adaptada.</p>
         <p>Estudiar ecosistemas urbanos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: parques y ríos urbanos albergan fauna adaptada</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Zonas de transición',
         duration: '8 min',
         theory: `<p>Ecotonos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, borde entre biomas tiene mezcla de especies. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, borde entre biomas tiene mezcla de especies.</p>
         <p>Estudiar zonas de transición con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: borde entre biomas tiene mezcla de especies</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Biomas de México',
         duration: '8 min',
         theory: `<p>México es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluye desierto chihuahuense, selva lacandona, manglar y tundra alpina. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluye desierto chihuahuense, selva lacandona, manglar y tundra alpina.</p>
         <p>Estudiar biomas de méxico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluye desierto chihuahuense, selva lacandona, manglar y tundra alpina</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Contaminación del agua',
         duration: '8 min',
         theory: `<p>Agua contaminada es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluye químicos, nutrientes, plásticos y patógenos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluye químicos, nutrientes, plásticos y patógenos.</p>
         <p>Estudiar contaminación del agua con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluye químicos, nutrientes, plásticos y patógenos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Contaminación del aire',
         duration: '8 min',
         theory: `<p>Aire es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, PM2.5, NOx y ozono afectan salud y clima. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, PM2.5, NOx y ozono afectan salud y clima.</p>
         <p>Estudiar contaminación del aire con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: PM2.5, NOx y ozono afectan salud y clima</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Contaminación del suelo',
         duration: '8 min',
         theory: `<p>Suelo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, metales pesados y pesticidas persisten y entran a cadena alimenticia. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, metales pesados y pesticidas persisten y entran a cadena alimenticia.</p>
         <p>Estudiar contaminación del suelo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: metales pesados y pesticidas persisten y entran a cadena alimenticia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Plásticos y microplásticos',
         duration: '8 min',
         theory: `<p>Plásticos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, fragmentan en microplásticos ingeridos por fauna marina. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, fragmentan en microplásticos ingeridos por fauna marina.</p>
         <p>Estudiar plásticos y microplásticos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: fragmentan en microplásticos ingeridos por fauna marina</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Contaminación lumínica',
         duration: '8 min',
         theory: `<p>Luz artificial es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, altera insectos nocturnos, aves migratorias y observación astronómica. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, altera insectos nocturnos, aves migratorias y observación astronómica.</p>
         <p>Estudiar contaminación lumínica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: altera insectos nocturnos, aves migratorias y observación astronómica</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Contaminación acústica',
         duration: '8 min',
         theory: `<p>Ruido es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, estresa fauna y dificulta comunicación de cetáceos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, estresa fauna y dificulta comunicación de cetáceos.</p>
         <p>Estudiar contaminación acústica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: estresa fauna y dificulta comunicación de cetáceos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Pesticidas y bioacumulación',
         duration: '8 min',
         theory: `<p>Pesticidas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, DDT histórico adelgazó cáscaras de huevos de aves rapaces. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, DDT histórico adelgazó cáscaras de huevos de aves rapaces.</p>
         <p>Estudiar pesticidas y bioacumulación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: DDT histórico adelgazó cáscaras de huevos de aves rapaces</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Derrames y accidentes',
         duration: '8 min',
         theory: `<p>Derrames es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, petróleo y químicos requieren contención y remediación. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, petróleo y químicos requieren contención y remediación.</p>
         <p>Estudiar derrames y accidentes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: petróleo y químicos requieren contención y remediación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Aguas residuales',
         duration: '8 min',
         theory: `<p>Aguas residuales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tratamiento primario, secundario y terciario limpia agua. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tratamiento primario, secundario y terciario limpia agua.</p>
         <p>Estudiar aguas residuales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tratamiento primario, secundario y terciario limpia agua</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Reducir huella de contaminación',
         duration: '8 min',
         theory: `<p>Reducción es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, 3R, filtros, transporte limpio y consumo responsable. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, 3R, filtros, transporte limpio y consumo responsable.</p>
         <p>Estudiar reducir huella de contaminación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: 3R, filtros, transporte limpio y consumo responsable</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Áreas naturales protegidas',
         duration: '8 min',
         theory: `<p>ANP es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, reservan hábitat con regulación de uso humano. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, reservan hábitat con regulación de uso humano.</p>
         <p>Estudiar áreas naturales protegidas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: reservan hábitat con regulación de uso humano</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Conservación in situ vs ex situ',
         duration: '8 min',
         theory: `<p>In situ es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, protege en hábitat natural; ex situ en zoos y bancos de semillas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, protege en hábitat natural; ex situ en zoos y bancos de semillas.</p>
         <p>Estudiar conservación in situ vs ex situ con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: protege en hábitat natural; ex situ en zoos y bancos de semillas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Restauración ecológica',
         duration: '8 min',
         theory: `<p>Restauración es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, rehabilita suelos, vegetación y conectividad. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, rehabilita suelos, vegetación y conectividad.</p>
         <p>Estudiar restauración ecológica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: rehabilita suelos, vegetación y conectividad</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Conservación comunitaria',
         duration: '8 min',
         theory: `<p>Comunitaria es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, comunidades locales gestionan recursos con conocimiento tradicional. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, comunidades locales gestionan recursos con conocimiento tradicional.</p>
         <p>Estudiar conservación comunitaria con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: comunidades locales gestionan recursos con conocimiento tradicional</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Caza y pesca sostenible',
         duration: '8 min',
         theory: `<p>Sostenible es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cuotas, tallas mínimas y vedas permiten regeneración. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cuotas, tallas mínimas y vedas permiten regeneración.</p>
         <p>Estudiar caza y pesca sostenible con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cuotas, tallas mínimas y vedas permiten regeneración</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Comercio de especies',
         duration: '8 min',
         theory: `<p>CITES es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, regula comercio internacional de fauna y flora amenazada. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, regula comercio internacional de fauna y flora amenazada.</p>
         <p>Estudiar comercio de especies con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: regula comercio internacional de fauna y flora amenazada</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Rewilding',
         duration: '8 min',
         theory: `<p>Rewilding es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, reintroduce especies clave y procesos naturales. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, reintroduce especies clave y procesos naturales.</p>
         <p>Estudiar rewilding con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: reintroduce especies clave y procesos naturales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Educación ambiental',
         duration: '8 min',
         theory: `<p>Educación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, genera valores y habilidades para conservar. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, genera valores y habilidades para conservar.</p>
         <p>Estudiar educación ambiental con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: genera valores y habilidades para conservar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Evaluación de impacto ambiental',
         duration: '8 min',
         theory: `<p>EIA es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, analiza proyectos antes de construcción. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, analiza proyectos antes de construcción.</p>
         <p>Estudiar evaluación de impacto ambiental con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: analiza proyectos antes de construcción</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Voluntariado y brigadas',
         duration: '8 min',
         theory: `<p>Voluntariado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, limpieza, reforestación y monitoreo movilizan ciudadanía. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, limpieza, reforestación y monitoreo movilizan ciudadanía.</p>
         <p>Estudiar voluntariado y brigadas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: limpieza, reforestación y monitoreo movilizan ciudadanía</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Atmósfera y energía solar',
         duration: '8 min',
         theory: `<p>Atmósfera es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, filtra radiación y distribuye calor por circulación. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, filtra radiación y distribuye calor por circulación.</p>
         <p>Estudiar atmósfera y energía solar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: filtra radiación y distribuye calor por circulación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Efecto invernadero',
         duration: '8 min',
         theory: `<p>Invernadero es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, CO₂, CH₄ y N₂O atrapan calor; natural y amplificado por humanos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, CO₂, CH₄ y N₂O atrapan calor; natural y amplificado por humanos.</p>
         <p>Estudiar efecto invernadero con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: CO₂, CH₄ y N₂O atrapan calor; natural y amplificado por humanos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Cambio climático observado',
         duration: '8 min',
         theory: `<p>Cambio climático es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, temperatura global sube, glaciares retroceden, eventos extremos aumentan. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, temperatura global sube, glaciares retroceden, eventos extremos aumentan.</p>
         <p>Estudiar cambio climático observado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: temperatura global sube, glaciares retroceden, eventos extremos aumentan</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Acidificación oceánica',
         duration: '8 min',
         theory: `<p>Océano es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, absorbe CO₂ y baja pH afectando corales y moluscos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, absorbe CO₂ y baja pH afectando corales y moluscos.</p>
         <p>Estudiar acidificación oceánica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: absorbe CO₂ y baja pH afectando corales y moluscos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Derretimiento polar',
         duration: '8 min',
         theory: `<p>Hielo polar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, reduce albedo y eleva nivel del mar. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, reduce albedo y eleva nivel del mar.</p>
         <p>Estudiar derretimiento polar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: reduce albedo y eleva nivel del mar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Eventos extremos',
         duration: '8 min',
         theory: `<p>Extremos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, olas de calor, sequías e inundaciones se intensifican. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, olas de calor, sequías e inundaciones se intensifican.</p>
         <p>Estudiar eventos extremos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: olas de calor, sequías e inundaciones se intensifican</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Mitigación',
         duration: '8 min',
         theory: `<p>Mitigación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, reduce emisiones con energías limpias, eficiencia y transporte. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, reduce emisiones con energías limpias, eficiencia y transporte.</p>
         <p>Estudiar mitigación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: reduce emisiones con energías limpias, eficiencia y transporte</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Adaptación',
         duration: '8 min',
         theory: `<p>Adaptación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, ajusta infraestructura, agricultura y ecosistemas al nuevo clima. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, ajusta infraestructura, agricultura y ecosistemas al nuevo clima.</p>
         <p>Estudiar adaptación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: ajusta infraestructura, agricultura y ecosistemas al nuevo clima</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Acuerdos internacionales',
         duration: '8 min',
         theory: `<p>Acuerdos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, París busca limitar calentamiento bajo 2 °C con NDC nacionales. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, París busca limitar calentamiento bajo 2 °C con NDC nacionales.</p>
         <p>Estudiar acuerdos internacionales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: París busca limitar calentamiento bajo 2 °C con NDC nacionales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Huella de carbono personal',
         duration: '8 min',
         theory: `<p>Huella personal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, transporte, dieta y energía doméstica suman emisiones individuales. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, transporte, dieta y energía doméstica suman emisiones individuales.</p>
         <p>Estudiar huella de carbono personal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: transporte, dieta y energía doméstica suman emisiones individuales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {

@@ -46,7 +46,7 @@ import {
   MAX_CUSTOM_AVATARS,
 } from './avatar-builder.js';
 import {
-  renderAboutNoteHtml, renderWelcomeLegalFooterHtml, renderLegalFooterLinks, getLegalModalHtml, bindLegalLinks,
+  renderAboutNoteHtml, renderWelcomeLegalFooterHtml, getLegalModalHtml,
 } from './legal.js';
 import {
   getAppVersion,
@@ -1270,13 +1270,14 @@ export class App {
   }
 
   confirmResetCourse(fromWelcome = false) {
+    const courseName = getCourseMeta(getActiveCourseId()).name;
     this.showModal('reset', `
       <h2>↺ Reiniciar curso completo</h2>
-      <p>Se borrará <strong>todo</strong> tu progreso:</p>
+      <p>Se borrará el progreso del saber <strong>${escapeHtml(courseName)}</strong>:</p>
       <ul class="reset-list">
-        <li>Todas las lecciones completadas</li>
-        <li>XP, insignias y rachas</li>
-        <li>Código guardado e intentos</li>
+        <li>Lecciones, XP, quizzes y borradores de este saber</li>
+        <li>Lecciones perfectas e intentos de este saber</li>
+        <li>La racha global y el perfil se conservan</li>
       </ul>
       <label class="reset-option"><input type="checkbox" id="keepName" checked> Conservar mi nombre</label>
       <label class="reset-option"><input type="checkbox" id="keepTheme" checked> Conservar tema claro/oscuro</label>
@@ -1450,9 +1451,11 @@ export class App {
     });
     document.getElementById('btnSettingsResetLesson')?.addEventListener('click', () => {
       this.closeModal();
-      if (this.currentLessonId) {
-        this.confirmResetLesson(this.currentLessonId, getLessonById(this.currentLessonId)?.title);
+      if (!this.currentLessonId) {
+        this.toast('Abre una lección primero para reiniciarla', 'info');
+        return;
       }
+      this.confirmResetLesson(this.currentLessonId, getLessonById(this.currentLessonId)?.title);
     });
     document.getElementById('btnSettingsResetCourse')?.addEventListener('click', () => {
       this.closeModal();
@@ -1501,9 +1504,9 @@ export class App {
       ` : ''}
       <div class="dash-grid">
         <div class="dash-card"><span class="dash-card__val">${stats.completed}/${stats.total}</span><span class="dash-card__lbl">Lecciones</span></div>
-        <div class="dash-card"><span class="dash-card__val">${stats.xp}</span><span class="dash-card__lbl">XP total</span></div>
+        <div class="dash-card"><span class="dash-card__val">${stats.xp}</span><span class="dash-card__lbl">XP del saber</span></div>
+        <div class="dash-card"><span class="dash-card__val">${aggregate.totalXp}</span><span class="dash-card__lbl">XP todos</span></div>
         <div class="dash-card"><span class="dash-card__val">${stats.streak}🔥</span><span class="dash-card__lbl">Racha</span></div>
-        <div class="dash-card"><span class="dash-card__val">${stats.totalTimeMin}m</span><span class="dash-card__lbl">Tiempo</span></div>
       </div>
       <div class="daily-challenge ${dailyDone ? 'daily-challenge--done' : ''}">
         <h3>📅 Desafío del día ${dailyDone ? '✓' : ''}</h3>
@@ -1523,6 +1526,7 @@ export class App {
       this.closeModal();
       const l = getDailyChallengeLesson();
       if (l) this.goToLesson(l.id, { tab: 'exercise' });
+      else this.toast('No hay lección de reto disponible en este saber', 'info');
     });
     bindStudyingCourseActions(document.getElementById('dashCourseList'), (id) => this.switchToCourse(id));
     document.getElementById('btnDashAddCourse')?.addEventListener('click', () => {
@@ -1619,6 +1623,11 @@ export class App {
     body.innerHTML = html;
     overlay.classList.remove('hidden');
     overlay.dataset.modal = id;
+    // Accesibilidad: enfocar el primer control interactivo del modal
+    queueMicrotask(() => {
+      const focusable = body.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+      (focusable || document.getElementById('btnCloseModal'))?.focus?.();
+    });
   }
 
   closeModal() {

@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Magma vs lava',
         duration: '8 min',
         theory: `<p>Magma vs lava es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica basalto en acantilados y granito en montañas antiguas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, identifica basalto en acantilados y granito en montañas antiguas.</p>
         <p>Estudiar magma vs lava con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Magma es roca fundida bajo superficie; lava al salir</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Textura vítrea',
         duration: '8 min',
         theory: `<p>Textura vítrea es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, busca obsidiana con fractura conchoidal Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, busca obsidiana con fractura conchoidal.</p>
         <p>Estudiar textura vítrea con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Enfriamiento muy rápido impide cristales; forma vidrio volcánico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Basalto columnar',
         duration: '8 min',
         theory: `<p>Basalto columnar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, fotografía columnas y mide ángulos en afloramientos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, fotografía columnas y mide ángulos en afloramientos.</p>
         <p>Estudiar basalto columnar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Contracción al enfriar lava forma columnas hexagonales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Granito plutónico',
         duration: '8 min',
         theory: `<p>Granito plutónico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, distingue granito (grueso) de riolita (fina) por textura Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, distingue granito (grueso) de riolita (fina) por textura.</p>
         <p>Estudiar granito plutónico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Intrusivo ácido rico en cuarzo y feldespato potásico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Piroclastos',
         duration: '8 min',
         theory: `<p>Piroclastos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, recoge lapilli con guantes evitando inhalar polvo fino Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, recoge lapilli con guantes evitando inhalar polvo fino.</p>
         <p>Estudiar piroclastos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Fragmentos expulsados: ceniza, lapilli y bloques</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Rocas ultrabásicas',
         duration: '8 min',
         theory: `<p>Rocas ultrabásicas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica peridotita en ofiolitas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, identifica peridotita en ofiolitas.</p>
         <p>Estudiar rocas ultrabásicas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Ricas en olivino y piroxeno; origen mantélico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Diques y sills',
         duration: '8 min',
         theory: `<p>Diques y sills es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa dique basáltico en caliza en cortes de carretera Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa dique basáltico en caliza en cortes de carretera.</p>
         <p>Estudiar diques y sills con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Diques cortan estratos; sills se intruyen paralelos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Índice de color',
         duration: '8 min',
         theory: `<p>Índice de color es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara colores de rocas volcánicas en mismo sitio Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, compara colores de rocas volcánicas en mismo sitio.</p>
         <p>Estudiar índice de color con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Serie ácida-básica según sílice y minerales ferromagnesianos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Calderas',
         duration: '8 min',
         theory: `<p>Calderas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica calderas circulares en mapas topográficos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, identifica calderas circulares en mapas topográficos.</p>
         <p>Estudiar calderas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Colapso tras vaciado de cámara magmática</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Identificación en campo',
         duration: '8 min',
         theory: `<p>Identificación en campo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lleva martillo, lupa y HCl diluido Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, lleva martillo, lupa y HCl diluido.</p>
         <p>Estudiar identificación en campo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Textura, dureza, color y reacción ácida clasifican ígneas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Clasificación clástica',
         duration: '8 min',
         theory: `<p>Clasificación clástica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mide granos con regla en playa o cauce seco Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, mide granos con regla en playa o cauce seco.</p>
         <p>Estudiar clasificación clástica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Tamaño de grano define conglomerado, arenisca y lutita</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Ambientes deposicionales',
         duration: '8 min',
         theory: `<p>Ambientes deposicionales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, interpreta capas alternantes en acantilado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, interpreta capas alternantes en acantilado.</p>
         <p>Estudiar ambientes deposicionales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Río, delta, playa y mar profundo dejan secuencias distintas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Rocas químicas',
         duration: '8 min',
         theory: `<p>Rocas químicas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa estratos de yeso en cuencas áridas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa estratos de yeso en cuencas áridas.</p>
         <p>Estudiar rocas químicas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Evaporitas y calizas químicas por precipitación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Caliza y fósiles',
         duration: '8 min',
         theory: `<p>Caliza y fósiles es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, aplica HCl diluido: caliza reacciona Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, aplica HCl diluido: caliza reacciona.</p>
         <p>Estudiar caliza y fósiles con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Carbonatos biogénicos con fósiles marinos frecuentes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Discordancias',
         duration: '8 min',
         theory: `<p>Discordancias es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, busca contacto angular en afloramientos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, busca contacto angular en afloramientos.</p>
         <p>Estudiar discordancias con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Superficie de erosión entre rocas de edades distintas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Transgresiones',
         duration: '8 min',
         theory: `<p>Transgresiones es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa alternancia lutita-arenisca Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa alternancia lutita-arenisca.</p>
         <p>Estudiar transgresiones con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Subida del mar deja secuencias fino arriba de grueso</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Turbiditas',
         duration: '8 min',
         theory: `<p>Turbiditas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica gradación inversa en capas gruesas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, identifica gradación inversa en capas gruesas.</p>
         <p>Estudiar turbiditas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Corrientes de densidad depositan gradación en aguas profundas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Fosilización',
         duration: '8 min',
         theory: `<p>Fosilización es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, registra fósiles con estrato y orientación Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, registra fósiles con estrato y orientación.</p>
         <p>Estudiar fosilización con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Entierro rápido y química favorable preservan restos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Diagénesis',
         duration: '8 min',
         theory: `<p>Diagénesis es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa cemento de sílice en arenisca Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa cemento de sílice en arenisca.</p>
         <p>Estudiar diagénesis con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Compactación y cementación convierten sedimento en roca</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Muestreo estratigráfico',
         duration: '8 min',
         theory: `<p>Muestreo estratigráfico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, toma muestra representativa sin mezclar capas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, toma muestra representativa sin mezclar capas.</p>
         <p>Estudiar muestreo estratigráfico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Registrar estrato, espesor, color y contactos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Metamorfismo de contacto',
         duration: '8 min',
         theory: `<p>Metamorfismo de contacto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa halo de hornfels junto a dike Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa halo de hornfels junto a dike.</p>
         <p>Estudiar metamorfismo de contacto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Calor de intrusión altera roca encajante</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Metamorfismo regional',
         duration: '8 min',
         theory: `<p>Metamorfismo regional es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica foliación con mica brillante Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, identifica foliación con mica brillante.</p>
         <p>Estudiar metamorfismo regional con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Presión en orogenias forma esquistos y gneiss</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Facies metamórficas',
         duration: '8 min',
         theory: `<p>Facies metamórficas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, aprende serie clorita-biotita-garnet-kyanite Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, aprende serie clorita-biotita-garnet-kyanite.</p>
         <p>Estudiar facies metamórficas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Minerales indican condiciones P-T de equilibrio</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Gneiss bandeado',
         duration: '8 min',
         theory: `<p>Gneiss bandeado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa bandas cuarzo-feldespato vs ferromagnesianos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa bandas cuarzo-feldespato vs ferromagnesianos.</p>
         <p>Estudiar gneiss bandeado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Bandas claras y oscuras por segregación mineral</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Mármol y cuarcita',
         duration: '8 min',
         theory: `<p>Mármol y cuarcita es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cuarcita raya vidrio por cuarzo recristalizado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, cuarcita raya vidrio por cuarzo recristalizado.</p>
         <p>Estudiar mármol y cuarcita con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Caliza→mármol; arenisca→cuarcita por recristalización</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Pizarra y cleavage',
         duration: '8 min',
         theory: `<p>Pizarra y cleavage es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prueba partir pizarra paralela a planos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, prueba partir pizarra paralela a planos.</p>
         <p>Estudiar pizarra y cleavage con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Foliación fina permite partir en láminas delgadas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Milonitas',
         duration: '8 min',
         theory: `<p>Milonitas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, busca roca muy fina en zonas de falla Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, busca roca muy fina en zonas de falla.</p>
         <p>Estudiar milonitas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Deformación ductil en fallas profundas tritura roca</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Metamorfismo de impacto',
         duration: '8 min',
         theory: `<p>Metamorfismo de impacto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, estudia cráteres como Meteor Crater Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, estudia cráteres como Meteor Crater.</p>
         <p>Estudiar metamorfismo de impacto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Ondas de choque producen cuarzo con líneas planares</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Porfiroblastos',
         duration: '8 min',
         theory: `<p>Porfiroblastos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica granates euédricos en esquisto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, identifica granates euédricos en esquisto.</p>
         <p>Estudiar porfiroblastos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Cristales grandes crecen en matriz fina metamórfica</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Mapas metamórficos',
         duration: '8 min',
         theory: `<p>Mapas metamórficos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, superpone mapa geológico con ruta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, superpone mapa geológico con ruta.</p>
         <p>Estudiar mapas metamórficos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Zonas indican grado y edad metamórfica regional</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Meteorización física',
         duration: '8 min',
         theory: `<p>Meteorización física es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa exfoliación en bolas de granito Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa exfoliación en bolas de granito.</p>
         <p>Estudiar meteorización física con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Fractura mecánica por hielo, sal y termoclastia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Meteorización química',
         duration: '8 min',
         theory: `<p>Meteorización química es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa corteza de alteración Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa corteza de alteración.</p>
         <p>Estudiar meteorización química con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Disolución e hidrólisis alteran minerales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Erosión fluvial',
         duration: '8 min',
         theory: `<p>Erosión fluvial es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, calcula pendiente de cauce en mapa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, calcula pendiente de cauce en mapa.</p>
         <p>Estudiar erosión fluvial con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Agua transporta sedimento según caudal y pendiente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Erosión glaciar',
         duration: '8 min',
         theory: `<p>Erosión glaciar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, distingue valle U vs V Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, distingue valle U vs V.</p>
         <p>Estudiar erosión glaciar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Glaciares escarban valles U y depositan till</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Erosión eólica',
         duration: '8 min',
         theory: `<p>Erosión eólica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa ventifactos pulidos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, observa ventifactos pulidos.</p>
         <p>Estudiar erosión eólica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Viento transporta finos y forma dunas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Procesos gravitacionales',
         duration: '8 min',
         theory: `<p>Procesos gravitacionales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, evalúa talud de escoria al pie Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, evalúa talud de escoria al pie.</p>
         <p>Estudiar procesos gravitacionales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Desprendimientos y creep mueven material pendiente abajo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Karst',
         duration: '8 min',
         theory: `<p>Karst es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no entres en cueva sin equipo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, no entres en cueva sin equipo.</p>
         <p>Estudiar karst con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Disolución de caliza crea dolinas y cuevas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Costas',
         duration: '8 min',
         theory: `<p>Costas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, documenta retroceso con fotos repetidas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, documenta retroceso con fotos repetidas.</p>
         <p>Estudiar costas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Oleaje y mareas remodelan playas y acantilados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Suelos y horizontes',
         duration: '8 min',
         theory: `<p>Suelos y horizontes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, excava zanja segura y describe horizontes Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, excava zanja segura y describe horizontes.</p>
         <p>Estudiar suelos y horizontes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Perfil O-A-B-C refleja clima, biota y tiempo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Ciclo geológico',
         duration: '8 min',
         theory: `<p>Ciclo geológico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, relaciona observaciones con diagrama del ciclo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, relaciona observaciones con diagrama del ciclo.</p>
         <p>Estudiar ciclo geológico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Rocas reciclan entre tipos por procesos endógenos y exógenos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Equipo básico',
         duration: '8 min',
         theory: `<p>Equipo básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prepara mochila con botiquín Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, prepara mochila con botiquín.</p>
         <p>Estudiar equipo básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Martillo, brújula, lupa, cuaderno y GPS</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Mapas geológicos',
         duration: '8 min',
         theory: `<p>Mapas geológicos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, superpone geológico con topográfico Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, superpone geológico con topográfico.</p>
         <p>Estudiar mapas geológicos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Colores y símbolos indican litología y edad</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Strike y dip',
         duration: '8 min',
         theory: `<p>Strike y dip es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa regla de mano derecha Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, usa regla de mano derecha.</p>
         <p>Estudiar strike y dip con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Rumbo y buzamiento describen orientación de estratos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Seguridad en afloramientos',
         duration: '8 min',
         theory: `<p>Seguridad en afloramientos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, informa ruta y hora de regreso Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, informa ruta y hora de regreso.</p>
         <p>Estudiar seguridad en afloramientos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Evaluar caídas, fauna, clima y acceso legal</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Muestreo ético',
         duration: '8 min',
         theory: `<p>Muestreo ético es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, pide permiso en fincas privadas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, pide permiso en fincas privadas.</p>
         <p>Estudiar muestreo ético con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Respeta propiedad, parques y normas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Cuaderno de campo',
         duration: '8 min',
         theory: `<p>Cuaderno de campo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, incluye escala y norte en croquis Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, incluye escala y norte en croquis.</p>
         <p>Estudiar cuaderno de campo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Fecha, clima, litología, estructuras y croquis</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Fallas',
         duration: '8 min',
         theory: `<p>Fallas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica slickensides en plano de falla Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, identifica slickensides en plano de falla.</p>
         <p>Estudiar fallas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Normales, inversas y de rumbo desplazan bloques</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Fósiles in situ',
         duration: '8 min',
         theory: `<p>Fósiles in situ es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, fotografía antes de mover si está permitido Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, fotografía antes de mover si está permitido.</p>
         <p>Estudiar fósiles in situ con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Contexto estratigráfico da valor científico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Georreferenciación',
         duration: '8 min',
         theory: `<p>Georreferenciación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, registra precisión y datum Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, registra precisión y datum.</p>
         <p>Estudiar georreferenciación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: GPS/UTM ubica muestras reproduciblemente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Informe post-excursión',
         duration: '8 min',
         theory: `<p>Informe post-excursión es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y las rocas y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, incluye mapa, fotos y columna Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y las rocas de forma integrada.</p>
+        <p>En la práctica, incluye mapa, fotos y columna.</p>
         <p>Estudiar informe post-excursión con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en excursiones y muestras en campo.</p>
         <ul><li>Concepto central: Síntesis, interpretación y limitaciones</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en excursiones y muestras en campo</li></ul>`,
         example: {

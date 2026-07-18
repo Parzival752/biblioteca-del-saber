@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Tipos de mapas',
         duration: '8 min',
         theory: `<p>Mapas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, topográficos, políticos, temáticos y cartas náuticas/aéreas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, topográficos, políticos, temáticos y cartas náuticas/aéreas.</p>
         <p>Estudiar tipos de mapas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: topográficos, políticos, temáticos y cartas náuticas/aéreas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Escala cartográfica',
         duration: '8 min',
         theory: `<p>Escala es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, 1:24 000 significa 1 cm = 240 m en terreno. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, 1:24 000 significa 1 cm = 240 m en terreno.</p>
         <p>Estudiar escala cartográfica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: 1:24 000 significa 1 cm = 240 m en terreno</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Curvas de nivel',
         duration: '8 min',
         theory: `<p>Curvas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, líneas de igual elevación; índice cada quinto intervalo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, líneas de igual elevación; índice cada quinto intervalo.</p>
         <p>Estudiar curvas de nivel con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: líneas de igual elevación; índice cada quinto intervalo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Coordenadas UTM',
         duration: '8 min',
         theory: `<p>UTM es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cuadrícula métrica en zonas; easting y northing. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cuadrícula métrica en zonas; easting y northing.</p>
         <p>Estudiar coordenadas utm con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cuadrícula métrica en zonas; easting y northing</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Latitud y longitud',
         duration: '8 min',
         theory: `<p>Lat/Lon es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, latitud paralelos; longitud meridianos; minutos y segundos o decimal. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, latitud paralelos; longitud meridianos; minutos y segundos o decimal.</p>
         <p>Estudiar latitud y longitud con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: latitud paralelos; longitud meridianos; minutos y segundos o decimal</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Orientación del mapa',
         duration: '8 min',
         theory: `<p>Orientar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, alinear norte mapa con norte magnético o geográfico. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, alinear norte mapa con norte magnético o geográfico.</p>
         <p>Estudiar orientación del mapa con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: alinear norte mapa con norte magnético o geográfico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Simbología cartográfica',
         duration: '8 min',
         theory: `<p>Símbolos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, caminos, ferrocarril, vegetación, edificios estandarizados. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, caminos, ferrocarril, vegetación, edificios estandarizados.</p>
         <p>Estudiar simbología cartográfica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: caminos, ferrocarril, vegetación, edificios estandarizados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Perfil topográfico',
         duration: '8 min',
         theory: `<p>Perfil es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, corte transversal muestra elevación a lo largo de ruta. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, corte transversal muestra elevación a lo largo de ruta.</p>
         <p>Estudiar perfil topográfico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: corte transversal muestra elevación a lo largo de ruta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Mapas digitales',
         duration: '8 min',
         theory: `<p>Digitales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, GeoPDF, apps offline y capas descargables. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, GeoPDF, apps offline y capas descargables.</p>
         <p>Estudiar mapas digitales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: GeoPDF, apps offline y capas descargables</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Errores comunes',
         duration: '8 min',
         theory: `<p>Errores es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, ignorar declinación, escala incorrecta, mapa viejo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, ignorar declinación, escala incorrecta, mapa viejo.</p>
         <p>Estudiar errores comunes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: ignorar declinación, escala incorrecta, mapa viejo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Partes de la brújula',
         duration: '8 min',
         theory: `<p>Brújula es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, caja, aguja, orienting arrow, baseplate, declination scale. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, caja, aguja, orienting arrow, baseplate, declination scale.</p>
         <p>Estudiar partes de la brújula con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: caja, aguja, orienting arrow, baseplate, declination scale</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Azimut y rumbo',
         duration: '8 min',
         theory: `<p>Azimut es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, ángulo 0-360° desde norte. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, ángulo 0-360° desde norte.</p>
         <p>Estudiar azimut y rumbo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: ángulo 0-360° desde norte</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Tomar bearing a objetivo',
         duration: '8 min',
         theory: `<p>Bearing es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, apuntar flecha de orientación al objetivo y leer grados. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, apuntar flecha de orientación al objetivo y leer grados.</p>
         <p>Estudiar tomar bearing a objetivo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: apuntar flecha de orientación al objetivo y leer grados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Seguir azimut',
         duration: '8 min',
         theory: `<p>Seguir es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, girar caja hasta N roja en N flecha; caminar dirección flecha. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, girar caja hasta N roja en N flecha; caminar dirección flecha.</p>
         <p>Estudiar seguir azimut con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: girar caja hasta N roja en N flecha; caminar dirección flecha</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Triangulación',
         duration: '8 min',
         theory: `<p>Triangulación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, dos o más bearings desde puntos conocidos ubican posición. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, dos o más bearings desde puntos conocidos ubican posición.</p>
         <p>Estudiar triangulación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: dos o más bearings desde puntos conocidos ubican posición</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Declinación magnética',
         duration: '8 min',
         theory: `<p>Declinación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, diferencia norte magnético y geográfico varía por lugar y tiempo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, diferencia norte magnético y geográfico varía por lugar y tiempo.</p>
         <p>Estudiar declinación magnética con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: diferencia norte magnético y geográfico varía por lugar y tiempo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Handrail y catching features',
         duration: '8 min',
         theory: `<p>Handrail es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, seguir río, cresta o camino como guía; objetivo grande difícil errar. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, seguir río, cresta o camino como guía; objetivo grande difícil errar.</p>
         <p>Estudiar handrail y catching features con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: seguir río, cresta o camino como guía; objetivo grande difícil errar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Pacing y conteo',
         duration: '8 min',
         theory: `<p>Pacing es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, pasos a distancia conocida en terreno plano. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, pasos a distancia conocida en terreno plano.</p>
         <p>Estudiar pacing y conteo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: pasos a distancia conocida en terreno plano</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Navegación nocturna',
         duration: '8 min',
         theory: `<p>Nocturna es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, más difícil; usa estrellas, linterna y referencias cercanas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, más difícil; usa estrellas, linterna y referencias cercanas.</p>
         <p>Estudiar navegación nocturna con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: más difícil; usa estrellas, linterna y referencias cercanas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Cuando estás perdido',
         duration: '8 min',
         theory: `<p>Perdido es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, STOP, retroceder a último punto conocido, no seguir errando. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, STOP, retroceder a último punto conocido, no seguir errando.</p>
         <p>Estudiar cuando estás perdido con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: STOP, retroceder a último punto conocido, no seguir errando</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Cómo funciona GPS',
         duration: '8 min',
         theory: `<p>GPS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, trilateración con satélites; precisión típica 3-10 m. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, trilateración con satélites; precisión típica 3-10 m.</p>
         <p>Estudiar cómo funciona gps con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: trilateración con satélites; precisión típica 3-10 m</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Waypoints y tracks',
         duration: '8 min',
         theory: `<p>Waypoints es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, punto guardado; track registra ruta recorrida. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, punto guardado; track registra ruta recorrida.</p>
         <p>Estudiar waypoints y tracks con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: punto guardado; track registra ruta recorrida</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Coordenadas en GPS',
         duration: '8 min',
         theory: `<p>Coordenadas GPS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, WGS84 lat/lon o UTM; coherencia con mapa. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, WGS84 lat/lon o UTM; coherencia con mapa.</p>
         <p>Estudiar coordenadas en gps con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: WGS84 lat/lon o UTM; coherencia con mapa</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Limitaciones GPS',
         duration: '8 min',
         theory: `<p>Limitaciones es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cañones, bosque denso y batería limitan. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cañones, bosque denso y batería limitan.</p>
         <p>Estudiar limitaciones gps con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cañones, bosque denso y batería limitan</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. GNSS multi-constelación',
         duration: '8 min',
         theory: `<p>GNSS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, GPS, GLONASS, Galileo mejoran fix. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, GPS, GLONASS, Galileo mejoran fix.</p>
         <p>Estudiar gnss multi-constelación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: GPS, GLONASS, Galileo mejoran fix</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Apps de senderismo',
         duration: '8 min',
         theory: `<p>Apps es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, AllTrails, OsmAnd, Gaia con mapas offline. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, AllTrails, OsmAnd, Gaia con mapas offline.</p>
         <p>Estudiar apps de senderismo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: AllTrails, OsmAnd, Gaia con mapas offline</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. PLB y SOS satelital',
         duration: '8 min',
         theory: `<p>PLB es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, baliza personal alerta rescate vía satélite. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, baliza personal alerta rescate vía satélite.</p>
         <p>Estudiar plb y sos satelital con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: baliza personal alerta rescate vía satélite</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Batería y backup',
         duration: '8 min',
         theory: `<p>Batería es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, power bank, pilas extra; papel como respaldo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, power bank, pilas extra; papel como respaldo.</p>
         <p>Estudiar batería y backup con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: power bank, pilas extra; papel como respaldo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Geocaching y práctica',
         duration: '8 min',
         theory: `<p>Geocaching es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, juego de waypoints entrena uso GPS. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, juego de waypoints entrena uso GPS.</p>
         <p>Estudiar geocaching y práctica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: juego de waypoints entrena uso GPS</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Privacidad y tracks',
         duration: '8 min',
         theory: `<p>Privacidad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, compartir ubicación con cuidado; borrar metadatos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, compartir ubicación con cuidado; borrar metadatos.</p>
         <p>Estudiar privacidad y tracks con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: compartir ubicación con cuidado; borrar metadatos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Principios LNT',
         duration: '8 min',
         theory: `<p>LNT es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, planificar, superficie resistente, residuos, naturaleza, fuego, fauna, otros. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, planificar, superficie resistente, residuos, naturaleza, fuego, fauna, otros.</p>
         <p>Estudiar principios lnt con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: planificar, superficie resistente, residuos, naturaleza, fuego, fauna, otros</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Planificar y preparar',
         duration: '8 min',
         theory: `<p>Planificación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, permisos, clima, equipo, grupo size. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, permisos, clima, equipo, grupo size.</p>
         <p>Estudiar planificar y preparar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: permisos, clima, equipo, grupo size</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Superficies resistentes',
         duration: '8 min',
         theory: `<p>Superficies es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, rocas, grava, suelo seco vs vegetación frágil. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, rocas, grava, suelo seco vs vegetación frágil.</p>
         <p>Estudiar superficies resistentes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: rocas, grava, suelo seco vs vegetación frágil</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Dispersión de residuos',
         duration: '8 min',
         theory: `<p>Residuos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, empacar basura; baño cat hole 15-20 cm, 60 m del agua. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, empacar basura; baño cat hole 15-20 cm, 60 m del agua.</p>
         <p>Estudiar dispersión de residuos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: empacar basura; baño cat hole 15-20 cm, 60 m del agua</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Dejar lo que encuentras',
         duration: '8 min',
         theory: `<p>Dejar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, no recolectar fósiles, plantas, artefactos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, no recolectar fósiles, plantas, artefactos.</p>
         <p>Estudiar dejar lo que encuentras con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: no recolectar fósiles, plantas, artefactos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Fuego mínimo impacto',
         duration: '8 min',
         theory: `<p>Fuego LNT es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, estufas vs fogata; usar anillos existentes. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, estufas vs fogata; usar anillos existentes.</p>
         <p>Estudiar fuego mínimo impacto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: estufas vs fogata; usar anillos existentes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Respetar fauna',
         duration: '8 min',
         theory: `<p>Fauna LNT es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, observar distancia, guardar comida, no alimentar. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, observar distancia, guardar comida, no alimentar.</p>
         <p>Estudiar respetar fauna con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: observar distancia, guardar comida, no alimentar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Consideración a otros',
         duration: '8 min',
         theory: `<p>Otros es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, silencio, música, sendero compartido. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, silencio, música, sendero compartido.</p>
         <p>Estudiar consideración a otros con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: silencio, música, sendero compartido</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. LNT en grupo grande',
         duration: '8 min',
         theory: `<p>Grupos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, dividir en subgrupos, rotar sitios, educar. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, dividir en subgrupos, rotar sitios, educar.</p>
         <p>Estudiar lnt en grupo grande con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: dividir en subgrupos, rotar sitios, educar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. LNT urbano y local',
         duration: '8 min',
         theory: `<p>Urbano es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, parques urbanos también requieren cuidado. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, parques urbanos también requieren cuidado.</p>
         <p>Estudiar lnt urbano y local con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: parques urbanos también requieren cuidado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Objetivos de expedición',
         duration: '8 min',
         theory: `<p>Expedición es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, meta clara, duración, equipo acorde, plan contingencia. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, meta clara, duración, equipo acorde, plan contingencia.</p>
         <p>Estudiar objetivos de expedición con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: meta clara, duración, equipo acorde, plan contingencia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Equipo y peso',
         duration: '8 min',
         theory: `<p>Equipo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, lista verificada, peso distribuido, redundancia crítica. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, lista verificada, peso distribuido, redundancia crítica.</p>
         <p>Estudiar equipo y peso con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: lista verificada, peso distribuido, redundancia crítica</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Nutrición en travesía',
         duration: '8 min',
         theory: `<p>Nutrición es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, calorías densas, electrolitos, raciones por día. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, calorías densas, electrolitos, raciones por día.</p>
         <p>Estudiar nutrición en travesía con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: calorías densas, electrolitos, raciones por día</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Hidratación en ruta',
         duration: '8 min',
         theory: `<p>Hidratación ruta es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, litros por día según clima; mapa de fuentes. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, litros por día según clima; mapa de fuentes.</p>
         <p>Estudiar hidratación en ruta con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: litros por día según clima; mapa de fuentes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Primeros auxilios grupal',
         duration: '8 min',
         theory: `<p>PA grupo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, botiquín grupal, roles, comunicación emergencia. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, botiquín grupal, roles, comunicación emergencia.</p>
         <p>Estudiar primeros auxilios grupal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: botiquín grupal, roles, comunicación emergencia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Clima y ventanas',
         duration: '8 min',
         theory: `<p>Ventana clima es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, estación seca, huracanes, avalancha según zona. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, estación seca, huracanes, avalancha según zona.</p>
         <p>Estudiar clima y ventanas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: estación seca, huracanes, avalancha según zona</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Comunicación satelital',
         duration: '8 min',
         theory: `<p>Comms es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, inReach, Zoleo, radio en grupo remoto. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, inReach, Zoleo, radio en grupo remoto.</p>
         <p>Estudiar comunicación satelital con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: inReach, Zoleo, radio en grupo remoto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Evacuación y rescue',
         duration: '8 min',
         theory: `<p>Evacuación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, plan extracción, coordenadas LZ, señales aéreas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, plan extracción, coordenadas LZ, señales aéreas.</p>
         <p>Estudiar evacuación y rescue con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: plan extracción, coordenadas LZ, señales aéreas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Expedición internacional',
         duration: '8 min',
         theory: `<p>Internacional es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, visas, seguro, vacunas, permisos locales. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, visas, seguro, vacunas, permisos locales.</p>
         <p>Estudiar expedición internacional con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: visas, seguro, vacunas, permisos locales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Debrief y aprendizaje',
         duration: '8 min',
         theory: `<p>Debrief es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, revisar qué funcionó, incidentes, mejoras. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, revisar qué funcionó, incidentes, mejoras.</p>
         <p>Estudiar debrief y aprendizaje con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: revisar qué funcionó, incidentes, mejoras</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {

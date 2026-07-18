@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Escala del mapa',
         duration: '8 min',
         theory: `<p>Escala del mapa es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, calcula distancia real entre dos puntos con regla y escala 1:25000 Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, calcula distancia real entre dos puntos con regla y escala 1:25000.</p>
         <p>Estudiar escala del mapa con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Relaciona distancia en mapa con distancia real en terreno</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Curvas de nivel',
         duration: '8 min',
         theory: `<p>Curvas de nivel es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica cumbres, collados y valles solo con curvas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, identifica cumbres, collados y valles solo con curvas.</p>
         <p>Estudiar curvas de nivel con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Líneas que unen puntos de igual altitud; separación indica pendiente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Orientación del mapa',
         duration: '8 min',
         theory: `<p>Orientación del mapa es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa brújula para orientar mapa en terreno visible Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, usa brújula para orientar mapa en terreno visible.</p>
         <p>Estudiar orientación del mapa con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Rotar mapa hasta alinear norte cartográfico con norte real</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Simbología IGN/OSM',
         duration: '8 min',
         theory: `<p>Simbología IGN/OSM es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, memoriza símbolos de senda, pista y carretera en tu región Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, memoriza símbolos de senda, pista y carretera en tu región.</p>
         <p>Estudiar simbología ign/osm con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Interpretar caminos, sendas, límites y puntos de referencia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Coordenadas UTM',
         duration: '8 min',
         theory: `<p>Coordenadas UTM es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, localiza tu posición leyendo cruces de coordenadas en mapa impreso Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, localiza tu posición leyendo cruces de coordenadas en mapa impreso.</p>
         <p>Estudiar coordenadas utm con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Sistema métrico por zonas; easting y northing en metros</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Perfil topográfico',
         duration: '8 min',
         theory: `<p>Perfil topográfico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, dibuja perfil entre refugio y cumbre contando curvas cruzadas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, dibuja perfil entre refugio y cumbre contando curvas cruzadas.</p>
         <p>Estudiar perfil topográfico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Corte vertical del terreno a lo largo de una ruta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Marga magnética',
         duration: '8 min',
         theory: `<p>Marga magnética es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, aplica declinación local al tomar azimut con brújula Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, aplica declinación local al tomar azimut con brújula.</p>
         <p>Estudiar marga magnética con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Diferencia entre norte verdadero, magnético y de cuadrícula</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Errores de lectura',
         duration: '8 min',
         theory: `<p>Errores de lectura es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, verifica cruce de arroyo con brújula y altitud esperada Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, verifica cruce de arroyo con brújula y altitud esperada.</p>
         <p>Estudiar errores de lectura con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Confundir camino con arroyo seco o sombrear mal una ladera</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Mapas digitales offline',
         duration: '8 min',
         theory: `<p>Mapas digitales offline es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, guarda mapa topográfico offline en app antes de la ruta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, guarda mapa topográfico offline en app antes de la ruta.</p>
         <p>Estudiar mapas digitales offline con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Descargar teselas antes de perder cobertura</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Ejercicio de triangulación',
         duration: '8 min',
         theory: `<p>Ejercicio de triangulación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, practica en parque con colinas visibles y mapa impreso Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, practica en parque con colinas visibles y mapa impreso.</p>
         <p>Estudiar ejercicio de triangulación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Ubicarse cruzando azimuts desde dos puntos conocidos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Partes de la brújula',
         duration: '8 min',
         theory: `<p>Partes de la brújula es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica cada parte en tu brújula antes de salir Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, identifica cada parte en tu brújula antes de salir.</p>
         <p>Estudiar partes de la brújula con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Visor, línea de dirección, rosa y orientador magnético</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Azimut vs rumbo',
         duration: '8 min',
         theory: `<p>Azimut vs rumbo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, toma azimut a cumbre visible y compáralo con mapa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, toma azimut a cumbre visible y compáralo con mapa.</p>
         <p>Estudiar azimut vs rumbo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Azimut se mide 0–360° desde el norte en sentido horario</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Compensar declinación',
         duration: '8 min',
         theory: `<p>Compensar declinación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, marca declinación en brújula si tiene escala ajustable Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, marca declinación en brújula si tiene escala ajustable.</p>
         <p>Estudiar compensar declinación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Sumar o restar declinación según hemisferio y convención del mapa</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Seguir un rumbo',
         duration: '8 min',
         theory: `<p>Seguir un rumbo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, elige árbol o roca en tu azimut y camina en zigzag mínimo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, elige árbol o roca en tu azimut y camina en zigzag mínimo.</p>
         <p>Estudiar seguir un rumbo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Escoger punto intermedio y caminar hacia él sin desviarte</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Brújula y mapa juntos',
         duration: '8 min',
         theory: `<p>Brújula y mapa juntos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, traza en mapa rumbo al refugio y comprueba en terreno Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, traza en mapa rumbo al refugio y comprueba en terreno.</p>
         <p>Estudiar brújula y mapa juntos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Trasladar azimut entre mapa y campo con orientación correcta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Desvío lateral',
         duration: '8 min',
         theory: `<p>Desvío lateral es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, practica desvío intencional de 50 m y corrección Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, practica desvío intencional de 50 m y corrección.</p>
         <p>Estudiar desvío lateral con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Regla del contraste: si te desvías, corrige volviendo al rumbo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Interferencias magnéticas',
         duration: '8 min',
         theory: `<p>Interferencias magnéticas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, aleja brújula del teléfono y hebillas al leer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, aleja brújula del teléfono y hebillas al leer.</p>
         <p>Estudiar interferencias magnéticas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Metal, mochilas y cables pueden desviar la aguja</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Back bearing',
         duration: '8 min',
         theory: `<p>Back bearing es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, al llegar a meta, mide back bearing al punto de partida Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, al llegar a meta, mide back bearing al punto de partida.</p>
         <p>Estudiar back bearing con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Azimut inverso ±180° confirma que volviste por la misma línea</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Brújula de espejo vs baseplate',
         duration: '8 min',
         theory: `<p>Brújula de espejo vs baseplate es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prueba ambos tipos si tu club de montaña los presta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, prueba ambos tipos si tu club de montaña los presta.</p>
         <p>Estudiar brújula de espejo vs baseplate con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Espejo permite señalización y lectura precisa a distancia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Práctica en parque',
         duration: '8 min',
         theory: `<p>Práctica en parque es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, diseña circuito de 2 km con waypoints en mapa impreso Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, diseña circuito de 2 km con waypoints en mapa impreso.</p>
         <p>Estudiar práctica en parque con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Recorrido corto con 5 cambios de rumbo registrados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Regla de Naismith',
         duration: '8 min',
         theory: `<p>Regla de Naismith es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, estima hora de llegada a refugio con desnivel del perfil Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, estima hora de llegada a refugio con desnivel del perfil.</p>
         <p>Estudiar regla de naismith con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Tiempo = distancia/velocidad + 1 h cada 600 m de ascenso</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Puntos de agua',
         duration: '8 min',
         theory: `<p>Puntos de agua es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, confirma en foros locales si manantial está seco en verano Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, confirma en foros locales si manantial está seco en verano.</p>
         <p>Estudiar puntos de agua con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Marcar fuentes, arroyos y refugios en mapa antes de salir</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Punto de retorno',
         duration: '8 min',
         theory: `<p>Punto de retorno es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, fija retorno 2 h antes del anochecer en rutas largas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, fija retorno 2 h antes del anochecer en rutas largas.</p>
         <p>Estudiar punto de retorno con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Hora límite para volver aunque no se alcance la cumbre</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Alternativas y escape',
         duration: '8 min',
         theory: `<p>Alternativas y escape es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, marca rutas alternativas más bajas en mapa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, marca rutas alternativas más bajas en mapa.</p>
         <p>Estudiar alternativas y escape con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Plan B por valle sur si hay tormenta en cresta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Equipamiento mínimo',
         duration: '8 min',
         theory: `<p>Equipamiento mínimo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa lista de verificación antes de cada salida Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, usa lista de verificación antes de cada salida.</p>
         <p>Estudiar equipamiento mínimo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Mapa, brújula, silbato, agua, capa, linterna y botiquín</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Ritmo de grupo',
         duration: '8 min',
         theory: `<p>Ritmo de grupo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, acuerda paradas cada hora para hidratación Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, acuerda paradas cada hora para hidratación.</p>
         <p>Estudiar ritmo de grupo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Velocidad del más lento define avance seguro</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Track GPX',
         duration: '8 min',
         theory: `<p>Track GPX es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, exporta GPX de práctica y revísalo en ordenador Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, exporta GPX de práctica y revísalo en ordenador.</p>
         <p>Estudiar track gpx con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Registrar ruta real para comparar con plan</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Permisos y acceso',
         duration: '8 min',
         theory: `<p>Permisos y acceso es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, consulta autoridad local y normativa de parque Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, consulta autoridad local y normativa de parque.</p>
         <p>Estudiar permisos y acceso con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Algunas zonas requieren permiso o tienen cierre estacional</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Meteo de montaña',
         duration: '8 min',
         theory: `<p>Meteo de montaña es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, consulta pronóstico por altitud, no solo valle Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, consulta pronóstico por altitud, no solo valle.</p>
         <p>Estudiar meteo de montaña con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Temporales vespertinos y viento en cresta cambian plan</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Briefing pre-salida',
         duration: '8 min',
         theory: `<p>Briefing pre-salida es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, 5 minutos en parking evitan malentendidos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, 5 minutos en parking evitan malentendidos.</p>
         <p>Estudiar briefing pre-salida con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Repasar ruta, roles, emergencia y hora de retorno en grupo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Limitaciones del GPS',
         duration: '8 min',
         theory: `<p>Limitaciones del GPS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no dependas solo del GPS en cañón estrecho Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, no dependas solo del GPS en cañón estrecho.</p>
         <p>Estudiar limitaciones del gps con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Batería, señal en cañones y precisión ±3–10 m</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Waypoints y rutas',
         duration: '8 min',
         theory: `<p>Waypoints y rutas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, crea ruta con 4 waypoints antes de salir Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, crea ruta con 4 waypoints antes de salir.</p>
         <p>Estudiar waypoints y rutas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Marcar refugio, cruce y coche como puntos numerados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. UTM en GPS',
         duration: '8 min',
         theory: `<p>UTM en GPS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, verifica zona UTM en menú del GPS y mapa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, verifica zona UTM en menú del GPS y mapa.</p>
         <p>Estudiar utm en gps con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Configurar mismo datum y zona que mapa impreso</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Navegación mixta',
         duration: '8 min',
         theory: `<p>Navegación mixta es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, practica llegar a waypoint solo con mapa y brújula Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, practica llegar a waypoint solo con mapa y brújula.</p>
         <p>Estudiar navegación mixta con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: GPS confirma posición; brújula guía si falla electrónica</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Geocaching y práctica',
         duration: '8 min',
         theory: `<p>Geocaching y práctica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, busca cache de dificultad baja para practicar UTM Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, busca cache de dificultad baja para practicar UTM.</p>
         <p>Estudiar geocaching y práctica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Caches en parques entrenan lectura de coordenadas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Smartphone como GPS',
         duration: '8 min',
         theory: `<p>Smartphone como GPS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, descarga mapas offline y cierra apps en ruta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, descarga mapas offline y cierra apps en ruta.</p>
         <p>Estudiar smartphone como gps con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Modo avión + GPS ahorra batería; lleva powerbank</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Registrar emergencia',
         duration: '8 min',
         theory: `<p>Registrar emergencia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, practica leer UTM actual y dictarla en simulacro Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, practica leer UTM actual y dictarla en simulacro.</p>
         <p>Estudiar registrar emergencia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Coordenadas exactas acortan rescate</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Errores GPS comunes',
         duration: '8 min',
         theory: `<p>Errores GPS comunes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, comprueba que posición GPS coincide con terreno visible Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, comprueba que posición GPS coincide con terreno visible.</p>
         <p>Estudiar errores gps comunes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Confiar en flecha sin mapa ni contexto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Track vs ruta planificada',
         duration: '8 min',
         theory: `<p>Track vs ruta planificada es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, analiza desvío en cruce confuso tras la salida Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, analiza desvío en cruce confuso tras la salida.</p>
         <p>Estudiar track vs ruta planificada con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Superponer GPX plan y real en software</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Integración en cuaderno',
         duration: '8 min',
         theory: `<p>Integración en cuaderno es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, formato: WP2 14U 543210 2345678 10:45 collado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, formato: WP2 14U 543210 2345678 10:45 collado.</p>
         <p>Estudiar integración en cuaderno con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Anotar UTM, hora y observaciones en cada waypoint</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Capas de ropa',
         duration: '8 min',
         theory: `<p>Capas de ropa es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ajusta capas en collado antes de enfriarte Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, ajusta capas en collado antes de enfriarte.</p>
         <p>Estudiar capas de ropa con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Base, aislamiento y shell contra viento y lluvia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Hipotermia e hipertermia',
         duration: '8 min',
         theory: `<p>Hipotermia e hipertermia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, reconoce temblor, confusión y pulso rápido Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, reconoce temblor, confusión y pulso rápido.</p>
         <p>Estudiar hipotermia e hipertermia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Temperatura corporal fuera de rango es emergencia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Señales de socorro',
         duration: '8 min',
         theory: `<p>Señales de socorro es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, practica señal con espejo de brújula hacia parking Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, practica señal con espejo de brújula hacia parking.</p>
         <p>Estudiar señales de socorro con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Tres de anything; espejo; silbato; SMS si hay cobertura</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Botiquín de montaña',
         duration: '8 min',
         theory: `<p>Botiquín de montaña es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, revisa caducidad cada temporada Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, revisa caducidad cada temporada.</p>
         <p>Estudiar botiquín de montaña con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Vendajes, analgésico, blister care, termo manta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Lesiones comunes',
         duration: '8 min',
         theory: `<p>Lesiones comunes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, aprende vendaje en talón para ampollas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, aprende vendaje en talón para ampollas.</p>
         <p>Estudiar lesiones comunes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Esguince, ampolla y roce por desnivel</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Noche inesperada',
         duration: '8 min',
         theory: `<p>Noche inesperada es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lleva linterna aunque vuelvas de día Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, lleva linterna aunque vuelvas de día.</p>
         <p>Estudiar noche inesperada con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Linterna frontal, refugio improvisado y no separarse</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Fauna y riesgos locales',
         duration: '8 min',
         theory: `<p>Fauna y riesgos locales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, infórmate de protocolo local antes del viaje Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, infórmate de protocolo local antes del viaje.</p>
         <p>Estudiar fauna y riesgos locales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Serpientes, osos o barrancos según región</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Comunicación de emergencia',
         duration: '8 min',
         theory: `<p>Comunicación de emergencia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, guarda número de rescate de montaña en contactos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, guarda número de rescate de montaña en contactos.</p>
         <p>Estudiar comunicación de emergencia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: 112 o número local; radio en zonas remotas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Dejar rastro',
         duration: '8 min',
         theory: `<p>Dejar rastro es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, deja papel en parabrisas con ruta y teléfono Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, deja papel en parabrisas con ruta y teléfono.</p>
         <p>Estudiar dejar rastro con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Nota en coche con hora retorno; track compartido</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Post-mortem de ruta',
         duration: '8 min',
         theory: `<p>Post-mortem de ruta es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el terreno y la navegación y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, reunión 10 min tras ruta con grupo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el terreno y la navegación de forma integrada.</p>
+        <p>En la práctica, reunión 10 min tras ruta con grupo.</p>
         <p>Estudiar post-mortem de ruta con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en rutas reales con mapa y brújula.</p>
         <ul><li>Concepto central: Revisar qué funcionó y errores para próxima salida</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en rutas reales con mapa y brújula</li></ul>`,
         example: {

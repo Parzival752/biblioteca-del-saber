@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Qué es la terminal',
         duration: '8 min',
         theory: `<p>Qué es la terminal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, abre terminal y ejecuta whoami y pwd Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, abre terminal y ejecuta whoami y pwd.</p>
         <p>Estudiar qué es la terminal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Interfaz texto que ejecuta comandos en el shell</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Estructura de rutas',
         duration: '8 min',
         theory: `<p>Estructura de rutas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, navega con cd /home y cd .. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, navega con cd /home y cd ..</p>
         <p>Estudiar estructura de rutas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Rutas absolutas desde /; relativas desde directorio actual</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -55,7 +55,7 @@ export const CURRICULUM = [
               q: '¿Ruta absoluta?',
               options: [
                 'Sin barras',
-                'Empieza con ..',
+                'Empieza con .',
                 'Empieza con /',
                 'Solo nombre de archivo',
               ],
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Comando ls',
         duration: '8 min',
         theory: `<p>Comando ls es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prueba ls -lah en tu home Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, prueba ls -lah en tu home.</p>
         <p>Estudiar comando ls con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Lista archivos; -l detalle, -a incluye ocultos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -99,9 +99,9 @@ export const CURRICULUM = [
         title: '4. cd y rutas especiales',
         duration: '8 min',
         theory: `<p>cd y rutas especiales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, alterna cd - entre dos carpetas de trabajo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, alterna cd - entre dos carpetas de trabajo.</p>
         <p>Estudiar cd y rutas especiales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
-        <ul><li>Concepto central: . actual; .. padre; - directorio anterior</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
+        <ul><li>Concepto central: . actual; . padre; - directorio anterior</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
           title: 'Ejemplo: cd y rutas especiales',
           content: `<p>Tab completa nombres de carpetas.</p>`,
@@ -115,7 +115,7 @@ export const CURRICULUM = [
               q: '¿Ir al directorio anterior?',
               options: [
                 'cd -',
-                'cd ..',
+                'cd .',
                 'cd /',
                 'cd .',
               ],
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. man y --help',
         duration: '8 min',
         theory: `<p>man y --help es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lee man ls y ls --help Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, lee man ls y ls --help.</p>
         <p>Estudiar man y --help con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Documentación integrada de comandos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Historial bash',
         duration: '8 min',
         theory: `<p>Historial bash es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, busca comando previo con Ctrl+R Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, busca comando previo con Ctrl+R.</p>
         <p>Estudiar historial bash con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Flechas arriba/abajo; history lista comandos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Autocompletado Tab',
         duration: '8 min',
         theory: `<p>Autocompletado Tab es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, escribe cd Doc y pulsa Tab Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, escribe cd Doc y pulsa Tab.</p>
         <p>Estudiar autocompletado tab con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Completa comandos y rutas parciales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Permisos básicos lectura',
         duration: '8 min',
         theory: `<p>Permisos básicos lectura es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mira ls -l y identifica permisos de un script Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, mira ls -l y identifica permisos de un script.</p>
         <p>Estudiar permisos básicos lectura con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: r lectura, w escritura, x ejecución para user/group/other</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Usuarios y sudo',
         duration: '8 min',
         theory: `<p>Usuarios y sudo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, actualiza lista paquetes con sudo apt update (Debian/Ubuntu) Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, actualiza lista paquetes con sudo apt update (Debian/Ubuntu).</p>
         <p>Estudiar usuarios y sudo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: sudo ejecuta comando como root temporalmente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Alias útiles',
         duration: '8 min',
         theory: `<p>Alias útiles es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, crea alias gs='git status' si usas git Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, crea alias gs='git status' si usas git.</p>
         <p>Estudiar alias útiles con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Atajos en .bashrc: alias ll='ls -la'</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. mkdir y touch',
         duration: '8 min',
         theory: `<p>mkdir y touch es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mkdir -p proyecto/src crea árbol Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, mkdir -p proyecto/src crea árbol.</p>
         <p>Estudiar mkdir y touch con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: mkdir crea carpetas; touch crea archivo vacío o actualiza fecha</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. cp y mv',
         duration: '8 min',
         theory: `<p>cp y mv es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cp -r dir1 dir2 copia recursiva Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, cp -r dir1 dir2 copia recursiva.</p>
         <p>Estudiar cp y mv con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: cp copia; mv mueve o renombra</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. rm con cuidado',
         duration: '8 min',
         theory: `<p>rm con cuidado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, NUNCA ejecutes rm -rf / como broma Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, NUNCA ejecutes rm -rf / como broma.</p>
         <p>Estudiar rm con cuidado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: rm borra; -r recursivo; -i interactivo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. cat, less, head, tail',
         duration: '8 min',
         theory: `<p>cat, less, head, tail es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, tail -f sigue log en vivo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, tail -f sigue log en vivo.</p>
         <p>Estudiar cat, less, head, tail con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Ver contenido; less pagina; head/tail extremos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. find básico',
         duration: '8 min',
         theory: `<p>find básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, find . -name '*.txt' Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, find . -name '*.txt'.</p>
         <p>Estudiar find básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Buscar por nombre, tipo, tamaño</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. grep',
         duration: '8 min',
         theory: `<p>grep es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, grep -r 'TODO' src/ Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, grep -r 'TODO' src/.</p>
         <p>Estudiar grep con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Buscar texto en archivos o salida de comandos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Enlaces simbólicos',
         duration: '8 min',
         theory: `<p>Enlaces simbólicos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ln -s /ruta/larga enlace_corto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, ln -s /ruta/larga enlace_corto.</p>
         <p>Estudiar enlaces simbólicos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: ln -s destino enlace crea symlink</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. wc y sort',
         duration: '8 min',
         theory: `<p>wc y sort es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, wc -l archivo cuenta líneas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, wc -l archivo cuenta líneas.</p>
         <p>Estudiar wc y sort con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: wc cuenta líneas; sort ordena</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Redirección',
         duration: '8 min',
         theory: `<p>Redirección es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ls > lista.txt guarda salida Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, ls > lista.txt guarda salida.</p>
         <p>Estudiar redirección con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: > sobrescribe; >> añade; 2> errores; | tubería</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. nano vs vim básico',
         duration: '8 min',
         theory: `<p>nano vs vim básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, nano ~/.bashrc edita configuración Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, nano ~/.bashrc edita configuración.</p>
         <p>Estudiar nano vs vim básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Editores en terminal; nano más amigable principiante</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. ps y top',
         duration: '8 min',
         theory: `<p>ps y top es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, htop si está instalado es más claro que top Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, htop si está instalado es más claro que top.</p>
         <p>Estudiar ps y top con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Listar procesos; top/htop monitor en vivo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. kill y señales',
         duration: '8 min',
         theory: `<p>kill y señales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, kill PID termina proceso Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, kill PID termina proceso.</p>
         <p>Estudiar kill y señales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: kill envía señal; SIGTERM 15 graceful; SIGKILL 9 forzado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. jobs y fg/bg',
         duration: '8 min',
         theory: `<p>jobs y fg/bg es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Ctrl+Z suspende; bg continúa fondo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, Ctrl+Z suspende; bg continúa fondo.</p>
         <p>Estudiar jobs y fg/bg con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Control de trabajos en shell actual</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. df y du',
         duration: '8 min',
         theory: `<p>df y du es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, df -h legible; du -sh carpeta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, df -h legible; du -sh carpeta.</p>
         <p>Estudiar df y du con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: df espacio en discos montados; du uso por carpeta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. free y memoria',
         duration: '8 min',
         theory: `<p>free y memoria es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa available más que free en sistemas con cache Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, observa available más que free en sistemas con cache.</p>
         <p>Estudiar free y memoria con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: free -h muestra RAM y swap</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. systemctl básico',
         duration: '8 min',
         theory: `<p>systemctl básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, systemctl status ssh Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, systemctl status ssh.</p>
         <p>Estudiar systemctl básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Gestionar servicios en systemd</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. journalctl',
         duration: '8 min',
         theory: `<p>journalctl es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, journalctl -u nginx -f sigue servicio Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, journalctl -u nginx -f sigue servicio.</p>
         <p>Estudiar journalctl con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Logs del sistema con systemd</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. uptime y load average',
         duration: '8 min',
         theory: `<p>uptime y load average es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, uptime muestra load 1,5,15 min Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, uptime muestra load 1,5,15 min.</p>
         <p>Estudiar uptime y load average con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Tiempo encendido y carga CPU promedio</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. which y type',
         duration: '8 min',
         theory: `<p>which y type es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, which python3 Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, which python3.</p>
         <p>Estudiar which y type con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Ubicación de ejecutables y tipo de comando</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. cron introducción',
         duration: '8 min',
         theory: `<p>cron introducción es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, crontab -e edita (con cuidado) Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, crontab -e edita (con cuidado).</p>
         <p>Estudiar cron introducción con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Tareas programadas en crontab</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. ip y ss',
         duration: '8 min',
         theory: `<p>ip y ss es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ip a muestra IPv4 e IPv6 Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, ip a muestra IPv4 e IPv6.</p>
         <p>Estudiar ip y ss con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: ip addr muestra interfaces; ss sockets</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. ping y traceroute',
         duration: '8 min',
         theory: `<p>ping y traceroute es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ping -c 4 8.8.8.8 Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, ping -c 4 8.8.8.8.</p>
         <p>Estudiar ping y traceroute con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Diagnóstico conectividad y ruta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. curl',
         duration: '8 min',
         theory: `<p>curl es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, curl -I https://example.com headers Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, curl -I https://example.com headers.</p>
         <p>Estudiar curl con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Cliente HTTP/HTTPS en terminal</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. wget',
         duration: '8 min',
         theory: `<p>wget es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, wget URL -O archivo.local Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, wget URL -O archivo.local.</p>
         <p>Estudiar wget con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Descarga archivos por HTTP/FTP</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. ssh cliente',
         duration: '8 min',
         theory: `<p>ssh cliente es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ssh usuario@host Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, ssh usuario@host.</p>
         <p>Estudiar ssh cliente con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Conexión remota cifrada</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. scp y rsync',
         duration: '8 min',
         theory: `<p>scp y rsync es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, scp file user@host:/ruta/ Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, scp file user@host:/ruta/.</p>
         <p>Estudiar scp y rsync con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Copiar archivos por red</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. /etc/hosts',
         duration: '8 min',
         theory: `<p>/etc/hosts es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, añade 127.0.0.1 miapp.local para prueba Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, añade 127.0.0.1 miapp.local para prueba.</p>
         <p>Estudiar /etc/hosts con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Resolución local de nombres</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. nmcli básico',
         duration: '8 min',
         theory: `<p>nmcli básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, nmcli dev status Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, nmcli dev status.</p>
         <p>Estudiar nmcli básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: NetworkManager en CLI</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. firewall ufw intro',
         duration: '8 min',
         theory: `<p>firewall ufw intro es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, sudo ufw status Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, sudo ufw status.</p>
         <p>Estudiar firewall ufw intro con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Firewall simplificado Ubuntu</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. dig y nslookup',
         duration: '8 min',
         theory: `<p>dig y nslookup es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, dig example.com A Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, dig example.com A.</p>
         <p>Estudiar dig y nslookup con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Consultas DNS</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Shebang',
         duration: '8 min',
         theory: `<p>Shebang es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, primera línea #!/usr/bin/env bash es portable Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, primera línea #!/usr/bin/env bash es portable.</p>
         <p>Estudiar shebang con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: #!/bin/bash indica intérprete del script</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Variables bash',
         duration: '8 min',
         theory: `<p>Variables bash es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, echo $HOME muestra home Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, echo $HOME muestra home.</p>
         <p>Estudiar variables bash con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: VAR=valor sin espacios; $VAR expansión</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1297,9 +1297,9 @@ export const CURRICULUM = [
         title: '43. Condicionales if',
         duration: '8 min',
         theory: `<p>Condicionales if es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prueba if [ -f archivo ]; then echo existe; fi Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, prueba if [ -f archivo ]; then echo existe; fi.</p>
         <p>Estudiar condicionales if con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
-        <ul><li>Concepto central: if [ condición ]; then ... fi</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
+        <ul><li>Concepto central: if [ condición ]; then .. fi</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
           title: 'Ejemplo: Condicionales if',
           content: `<p>[ ] es test; -f archivo, -d directorio.</p>`,
@@ -1327,9 +1327,9 @@ export const CURRICULUM = [
         title: '44. Bucles for',
         duration: '8 min',
         theory: `<p>Bucles for es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, for f in *.txt; do echo $f; done Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, for f in *.txt; do echo $f; done.</p>
         <p>Estudiar bucles for con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
-        <ul><li>Concepto central: for i in lista; do ... done</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
+        <ul><li>Concepto central: for i in lista; do .. done</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
           title: 'Ejemplo: Bucles for',
           content: `<p>for ((i=0;i<10;i++)) estilo C.</p>`,
@@ -1357,13 +1357,13 @@ export const CURRICULUM = [
         title: '45. Funciones bash',
         duration: '8 min',
         theory: `<p>Funciones bash es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, funciones organizan scripts largos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, funciones organizan scripts largos.</p>
         <p>Estudiar funciones bash con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: nombre() { cuerpo; }</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
           title: 'Ejemplo: Funciones bash',
           content: `<p>return devuelve código salida.</p>`,
-          tip: 'Parámetros $1 $2...',
+          tip: 'Parámetros $1 $2..',
         },
         exercise: {
           instructions: 'Comprueba lo aprendido sobre funciones bash.',
@@ -1374,7 +1374,7 @@ export const CURRICULUM = [
               options: [
                 'def bash()',
                 'fn bash',
-                'mi_func() { ...; }',
+                'mi_func() { ..; }',
                 'function=()',
               ],
               correct: 2,
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Pipes y xargs',
         duration: '8 min',
         theory: `<p>Pipes y xargs es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, find . -name '*.log' | xargs rm Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, find . -name '*.log' | xargs rm.</p>
         <p>Estudiar pipes y xargs con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: Componer comandos; xargs construye argumentos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Exit codes',
         duration: '8 min',
         theory: `<p>Exit codes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, comando; echo $? verifica Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, comando; echo $? verifica.</p>
         <p>Estudiar exit codes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: $? código salida; 0 éxito</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Entorno PATH',
         duration: '8 min',
         theory: `<p>Entorno PATH es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, echo $PATH Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, echo $PATH.</p>
         <p>Estudiar entorno path con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: PATH lista directorios donde buscar ejecutables</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. tar y compresión',
         duration: '8 min',
         theory: `<p>tar y compresión es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, tar -czvf backup.tar.gz carpeta/ Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, tar -czvf backup.tar.gz carpeta/.</p>
         <p>Estudiar tar y compresión con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: tar empaqueta; -czvf gzip; -xzvf extrae</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Buenas prácticas CLI',
         duration: '8 min',
         theory: `<p>Buenas prácticas CLI es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la terminal y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lee comando twice antes de Enter en rm -rf Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la terminal de forma integrada.</p>
+        <p>En la práctica, lee comando twice antes de Enter en rm -rf.</p>
         <p>Estudiar buenas prácticas cli con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en comandos en tu sistema Linux.</p>
         <ul><li>Concepto central: No root innecesario; backups; probar en copia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en comandos en tu sistema Linux</li></ul>`,
         example: {

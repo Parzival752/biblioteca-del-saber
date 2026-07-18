@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Raíces y absorción',
         duration: '8 min',
         theory: `<p>Las raíces es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, absorben agua y minerales y anclan la planta al sustrato. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, absorben agua y minerales y anclan la planta al sustrato.</p>
         <p>Estudiar raíces y absorción con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: absorben agua y minerales y anclan la planta al sustrato</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Tallo y transporte',
         duration: '8 min',
         theory: `<p>El tallo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, transporta savia por xilema y floema. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, transporta savia por xilema y floema.</p>
         <p>Estudiar tallo y transporte con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: transporta savia por xilema y floema</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Hojas y fotosíntesis',
         duration: '8 min',
         theory: `<p>Las hojas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, captan luz con cloroplastos y regulan intercambio por estomas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, captan luz con cloroplastos y regulan intercambio por estomas.</p>
         <p>Estudiar hojas y fotosíntesis con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: captan luz con cloroplastos y regulan intercambio por estomas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Tejidos vegetales',
         duration: '8 min',
         theory: `<p>Los tejidos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluyen meristemático, parenquima, colénquima y esclerénquima. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluyen meristemático, parenquima, colénquima y esclerénquima.</p>
         <p>Estudiar tejidos vegetales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluyen meristemático, parenquima, colénquima y esclerénquima</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Flores y reproducción',
         duration: '8 min',
         theory: `<p>Las flores es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, contienen órganos reproductivos con polen y óvulos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, contienen órganos reproductivos con polen y óvulos.</p>
         <p>Estudiar flores y reproducción con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: contienen órganos reproductivos con polen y óvulos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Frutos y semillas',
         duration: '8 min',
         theory: `<p>Frutos y semillas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, protegen embriones y facilitan dispersión. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, protegen embriones y facilitan dispersión.</p>
         <p>Estudiar frutos y semillas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: protegen embriones y facilitan dispersión</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Corteza y crecimiento secundario',
         duration: '8 min',
         theory: `<p>La corteza es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, protege y almacena; el cambium vascular engrosa tallos leñosos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, protege y almacena; el cambium vascular engrosa tallos leñosos.</p>
         <p>Estudiar corteza y crecimiento secundario con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: protege y almacena; el cambium vascular engrosa tallos leñosos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Plantas vasculares vs no vasculares',
         duration: '8 min',
         theory: `<p>Plantas vasculares es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tienen xilema y floema; musgos y hepáticas no. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tienen xilema y floema; musgos y hepáticas no.</p>
         <p>Estudiar plantas vasculares vs no vasculares con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tienen xilema y floema; musgos y hepáticas no</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Adaptaciones a sequía',
         duration: '8 min',
         theory: `<p>Adaptaciones xerófitas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluyen cutícula gruesa, hojas reducidas y CAM. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluyen cutícula gruesa, hojas reducidas y CAM.</p>
         <p>Estudiar adaptaciones a sequía con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluyen cutícula gruesa, hojas reducidas y CAM</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Identificación botánica básica',
         duration: '8 min',
         theory: `<p>Identificación botánica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, usa hojas, flores, frutos y hábitat con claves dicotómicas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, usa hojas, flores, frutos y hábitat con claves dicotómicas.</p>
         <p>Estudiar identificación botánica básica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: usa hojas, flores, frutos y hábitat con claves dicotómicas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Clorofila y luz',
         duration: '8 min',
         theory: `<p>La clorofila es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, absorbe rojo y azul y refleja verde. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, absorbe rojo y azul y refleja verde.</p>
         <p>Estudiar clorofila y luz con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: absorbe rojo y azul y refleja verde</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Fase lumínica',
         duration: '8 min',
         theory: `<p>La fase lumínica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, divide agua, libera O₂ y genera ATP y NADPH. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, divide agua, libera O₂ y genera ATP y NADPH.</p>
         <p>Estudiar fase lumínica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: divide agua, libera O₂ y genera ATP y NADPH</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Ciclo de Calvin',
         duration: '8 min',
         theory: `<p>El ciclo de Calvin es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, fija CO₂ en glucosa usando ATP y NADPH. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, fija CO₂ en glucosa usando ATP y NADPH.</p>
         <p>Estudiar ciclo de calvin con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: fija CO₂ en glucosa usando ATP y NADPH</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Plantas C4 y CAM',
         duration: '8 min',
         theory: `<p>Metabolismo C4/CAM es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, concentran CO₂ para eficiencia en calor o sequía. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, concentran CO₂ para eficiencia en calor o sequía.</p>
         <p>Estudiar plantas c4 y cam con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: concentran CO₂ para eficiencia en calor o sequía</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Nutrientes minerales',
         duration: '8 min',
         theory: `<p>Nutrientes minerales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, como N, P, K son esenciales y se absorben por raíces. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, como N, P, K son esenciales y se absorben por raíces.</p>
         <p>Estudiar nutrientes minerales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: como N, P, K son esenciales y se absorben por raíces</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Simbiosis micorrícica',
         duration: '8 min',
         theory: `<p>Micorrizas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, amplían absorción de fósforo a cambio de carbohidratos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, amplían absorción de fósforo a cambio de carbohidratos.</p>
         <p>Estudiar simbiosis micorrícica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: amplían absorción de fósforo a cambio de carbohidratos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Fijación biológica de nitrógeno',
         duration: '8 min',
         theory: `<p>Fijación de N₂ es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, la realizan bacterias en nódulos de leguminosas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, la realizan bacterias en nódulos de leguminosas.</p>
         <p>Estudiar fijación biológica de nitrógeno con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: la realizan bacterias en nódulos de leguminosas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Transpiración',
         duration: '8 min',
         theory: `<p>La transpiración es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, mueve agua por xilema y enfría la planta. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, mueve agua por xilema y enfría la planta.</p>
         <p>Estudiar transpiración con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: mueve agua por xilema y enfría la planta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Fotoperiodismo',
         duration: '8 min',
         theory: `<p>Fotoperiodismo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, regula floración según duración del día. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, regula floración según duración del día.</p>
         <p>Estudiar fotoperiodismo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: regula floración según duración del día</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Estrés hídrico y salino',
         duration: '8 min',
         theory: `<p>Estrés abiótico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, activa hormonas como ABA cerrando estomas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, activa hormonas como ABA cerrando estomas.</p>
         <p>Estudiar estrés hídrico y salino con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: activa hormonas como ABA cerrando estomas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Anatomía del árbol',
         duration: '8 min',
         theory: `<p>Anatomía leñosa es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluye duramen, albura, cámara y cambium. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluye duramen, albura, cámara y cambium.</p>
         <p>Estudiar anatomía del árbol con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluye duramen, albura, cámara y cambium</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Anillos de crecimiento',
         duration: '8 min',
         theory: `<p>Anillos anuales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, reflejan estaciones y permiten datar edad. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, reflejan estaciones y permiten datar edad.</p>
         <p>Estudiar anillos de crecimiento con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: reflejan estaciones y permiten datar edad</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Estratos del bosque',
         duration: '8 min',
         theory: `<p>Estratos forestales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluyen emergente, dosel, sotobosque y suelo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluyen emergente, dosel, sotobosque y suelo.</p>
         <p>Estudiar estratos del bosque con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluyen emergente, dosel, sotobosque y suelo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Bosques caducifolios vs perennifolios',
         duration: '8 min',
         theory: `<p>Tipos de hoja es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, caducifolios pierden hoja en estación fría o seca. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, caducifolios pierden hoja en estación fría o seca.</p>
         <p>Estudiar bosques caducifolios vs perennifolios con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: caducifolios pierden hoja en estación fría o seca</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Regeneración natural',
         duration: '8 min',
         theory: `<p>Regeneración es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, usa semillas, brotes y bancos de semillas del suelo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, usa semillas, brotes y bancos de semillas del suelo.</p>
         <p>Estudiar regeneración natural con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: usa semillas, brotes y bancos de semillas del suelo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Especies pioneras',
         duration: '8 min',
         theory: `<p>Pioneras es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, colonizan suelos desnudos y mejoran sustrato. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, colonizan suelos desnudos y mejoran sustrato.</p>
         <p>Estudiar especies pioneras con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: colonizan suelos desnudos y mejoran sustrato</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Sucesión ecológica',
         duration: '8 min',
         theory: `<p>Sucesión es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, progresa de comunidades simples a complejas hasta clímax local. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, progresa de comunidades simples a complejas hasta clímax local.</p>
         <p>Estudiar sucesión ecológica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: progresa de comunidades simples a complejas hasta clímax local</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Madera y usos sostenibles',
         duration: '8 min',
         theory: `<p>Madera sostenible es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, requiere tala selectiva, replante y certificación. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, requiere tala selectiva, replante y certificación.</p>
         <p>Estudiar madera y usos sostenibles con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: requiere tala selectiva, replante y certificación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Plagas forestales',
         duration: '8 min',
         theory: `<p>Plagas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluyen insectos, hongos patógenos y especies invasoras. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluyen insectos, hongos patógenos y especies invasoras.</p>
         <p>Estudiar plagas forestales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluyen insectos, hongos patógenos y especies invasoras</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Árboles notables de México',
         duration: '8 min',
         theory: `<p>Árboles mexicanos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluyen ahuehuete, oyamel y cactus columnares en matorral. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluyen ahuehuete, oyamel y cactus columnares en matorral.</p>
         <p>Estudiar árboles notables de méxico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluyen ahuehuete, oyamel y cactus columnares en matorral</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Reino Fungi',
         duration: '8 min',
         theory: `<p>Los hongos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, son heterótrofos con quitina en pared y hifas ramificadas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, son heterótrofos con quitina en pared y hifas ramificadas.</p>
         <p>Estudiar reino fungi con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: son heterótrofos con quitina en pared y hifas ramificadas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Anatomía del cuerpo fructífero',
         duration: '8 min',
         theory: `<p>Cuerpo fructífero es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluye sombrero, láminas/tubos y pie con basidios/esporas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluye sombrero, láminas/tubos y pie con basidios/esporas.</p>
         <p>Estudiar anatomía del cuerpo fructífero con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluye sombrero, láminas/tubos y pie con basidios/esporas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Hongos comestibles',
         duration: '8 min',
         theory: `<p>Comestibles es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, requieren identificación segura; nunca comer dudoso. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, requieren identificación segura; nunca comer dudoso.</p>
         <p>Estudiar hongos comestibles con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: requieren identificación segura; nunca comer dudoso</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Hongos tóxicos',
         duration: '8 min',
         theory: `<p>Tóxicos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, contienen amatoxinas, muscarina u otras toxinas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, contienen amatoxinas, muscarina u otras toxinas.</p>
         <p>Estudiar hongos tóxicos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: contienen amatoxinas, muscarina u otras toxinas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Levaduras y fermentación',
         duration: '8 min',
         theory: `<p>Levaduras es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, fermentan azúcares produciendo CO₂ y etanol. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, fermentan azúcares produciendo CO₂ y etanol.</p>
         <p>Estudiar levaduras y fermentación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: fermentan azúcares produciendo CO₂ y etanol</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Hongos patógenos',
         duration: '8 min',
         theory: `<p>Patógenos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, causan tizones, roñas y infecciones en plantas y animales. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, causan tizones, roñas y infecciones en plantas y animales.</p>
         <p>Estudiar hongos patógenos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: causan tizones, roñas y infecciones en plantas y animales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Micorrizas y redes',
         duration: '8 min',
         theory: `<p>Redes fúngicas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, conectan árboles compartiendo nutrientes e información química. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, conectan árboles compartiendo nutrientes e información química.</p>
         <p>Estudiar micorrizas y redes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: conectan árboles compartiendo nutrientes e información química</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Descomposición de madera',
         duration: '8 min',
         theory: `<p>Descomposición es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, basidiomicetos degradan lignina y celulosa. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, basidiomicetos degradan lignina y celulosa.</p>
         <p>Estudiar descomposición de madera con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: basidiomicetos degradan lignina y celulosa</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Recolección responsable',
         duration: '8 min',
         theory: `<p>Recolección es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, corta pie sin arrancar micelio; respeta cantidades y permisos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, corta pie sin arrancar micelio; respeta cantidades y permisos.</p>
         <p>Estudiar recolección responsable con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: corta pie sin arrancar micelio; respeta cantidades y permisos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Identificación micológica',
         duration: '8 min',
         theory: `<p>Identificación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, usa sombrero, láminas, anillo, volva, esporada y olor. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, usa sombrero, láminas, anillo, volva, esporada y olor.</p>
         <p>Estudiar identificación micológica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: usa sombrero, láminas, anillo, volva, esporada y olor</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Historia de fitoterapia',
         duration: '8 min',
         theory: `<p>Fitoterapia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, usa plantas con evidencia tradicional y estudios modernos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, usa plantas con evidencia tradicional y estudios modernos.</p>
         <p>Estudiar historia de fitoterapia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: usa plantas con evidencia tradicional y estudios modernos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Principios activos',
         duration: '8 min',
         theory: `<p>Principios activos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, son compuestos como alcaloides, flavonoides y terpenos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, son compuestos como alcaloides, flavonoides y terpenos.</p>
         <p>Estudiar principios activos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: son compuestos como alcaloides, flavonoides y terpenos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Preparaciones: infusión y decocción',
         duration: '8 min',
         theory: `<p>Preparaciones es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, infusión para partes blandas; decocción para raíces y cortezas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, infusión para partes blandas; decocción para raíces y cortezas.</p>
         <p>Estudiar preparaciones: infusión y decocción con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: infusión para partes blandas; decocción para raíces y cortezas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Tinturas y extractos',
         duration: '8 min',
         theory: `<p>Tinturas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, maceran planta en alcohol o glicerina para extraer activos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, maceran planta en alcohol o glicerina para extraer activos.</p>
         <p>Estudiar tinturas y extractos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: maceran planta en alcohol o glicerina para extraer activos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Plantas comunes: manzanilla',
         duration: '8 min',
         theory: `<p>Manzanilla es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, apoya digestión leve y calma cutánea en uso tópico. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, apoya digestión leve y calma cutánea en uso tópico.</p>
         <p>Estudiar plantas comunes: manzanilla con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: apoya digestión leve y calma cutánea en uso tópico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Plantas comunes: árnica',
         duration: '8 min',
         theory: `<p>Árnica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, se usa tópica para contusiones; no ingerir. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, se usa tópica para contusiones; no ingerir.</p>
         <p>Estudiar plantas comunes: árnica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: se usa tópica para contusiones; no ingerir</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Plantas comunes: aloe',
         duration: '8 min',
         theory: `<p>Aloe vera es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, gel alivia quemaduras leves e irritación cutánea. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, gel alivia quemaduras leves e irritación cutánea.</p>
         <p>Estudiar plantas comunes: aloe con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: gel alivia quemaduras leves e irritación cutánea</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Toxicidad y contraindicaciones',
         duration: '8 min',
         theory: `<p>Seguridad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, plantas interactúan con fármacos y pueden ser tóxicas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, plantas interactúan con fármacos y pueden ser tóxicas.</p>
         <p>Estudiar toxicidad y contraindicaciones con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: plantas interactúan con fármacos y pueden ser tóxicas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Cosecha ética y sostenible',
         duration: '8 min',
         theory: `<p>Cosecha ética es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, toma poco, deja plantas madre y respeta áreas protegidas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, toma poco, deja plantas madre y respeta áreas protegidas.</p>
         <p>Estudiar cosecha ética y sostenible con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: toma poco, deja plantas madre y respeta áreas protegidas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Botiquín herbal de campo',
         duration: '8 min',
         theory: `<p>Botiquín herbal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, incluye vendas, antiséptico, plantas seguras identificadas y notas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, incluye vendas, antiséptico, plantas seguras identificadas y notas.</p>
         <p>Estudiar botiquín herbal de campo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: incluye vendas, antiséptico, plantas seguras identificadas y notas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {

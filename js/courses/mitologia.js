@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Definición académica',
         duration: '8 min',
         theory: `<p>Definición académica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara mito con leyenda y folclore Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, compara mito con leyenda y folclore.</p>
         <p>Estudiar definición académica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Narrativa sagrada o fundacional de una cultura</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Funciones del mito',
         duration: '8 min',
         theory: `<p>Funciones del mito es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica función en mito creación local Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, identifica función en mito creación local.</p>
         <p>Estudiar funciones del mito con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Explicar, unificar, educar, ritual</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Mito vs religión',
         duration: '8 min',
         theory: `<p>Mito vs religión es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara panteón griego vs práctica culto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, compara panteón griego vs práctica culto.</p>
         <p>Estudiar mito vs religión con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Solapados pero analíticos distintos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Transmisión oral',
         duration: '8 min',
         theory: `<p>Transmisión oral es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, nota variantes Prometeo en fuentes Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, nota variantes Prometeo en fuentes.</p>
         <p>Estudiar transmisión oral con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Variantes múltiples antes fijar escrito</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Euhemerismo',
         duration: '8 min',
         theory: `<p>Euhemerismo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, debate euhemerismo vs simbolismo clase Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, debate euhemerismo vs simbolismo clase.</p>
         <p>Estudiar euhemerismo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Interpretar dioses como héroes humanos exagerados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Monomito Campbell',
         duration: '8 min',
         theory: `<p>Monomito Campbell es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, aplica esquema a Odiseo o Moana Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, aplica esquema a Odiseo o Moana.</p>
         <p>Estudiar monomito campbell con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Héroe viaje: llamada, prueba, retorno</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Animismo y totem',
         duration: '8 min',
         theory: `<p>Animismo y totem es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara totem aborigen australiano Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, compara totem aborigen australiano.</p>
         <p>Estudiar animismo y totem con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Espíritus en naturaleza; totem clan</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Pantheon estructura',
         duration: '8 min',
         theory: `<p>Pantheon estructura es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mapea Zeus/Jupiter rol Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, mapea Zeus/Jupiter rol.</p>
         <p>Estudiar pantheon estructura con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Jerarquía dioses refleja sociedad</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Mito creation ex nihilo',
         duration: '8 min',
         theory: `<p>Mito creation ex nihilo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Enuma Elish vs Génesis análisis literario Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, Enuma Elish vs Génesis análisis literario.</p>
         <p>Estudiar mito creation ex nihilo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Creación desde nada vs caos primordial</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Etica lectura',
         duration: '8 min',
         theory: `<p>Etica lectura es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cita fuentes académicas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, cita fuentes académicas.</p>
         <p>Estudiar etica lectura con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Respeto culturas originarias; evitar apropiación superficial</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Teogonía Hesiodo',
         duration: '8 min',
         theory: `<p>Teogonía Hesiodo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lee resumen Teogonía Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, lee resumen Teogonía.</p>
         <p>Estudiar teogonía hesiodo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Caos, Gea, Titanes, Olimpo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Olimpo griego',
         duration: '8 min',
         theory: `<p>Olimpo griego es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, tabla dios dominio Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, tabla dios dominio.</p>
         <p>Estudiar olimpo griego con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Doce dioses principales funciones</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Héroes griegos',
         duration: '8 min',
         theory: `<p>Héroes griegos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara Aquiles y Odiseo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, compara Aquiles y Odiseo.</p>
         <p>Estudiar héroes griegos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Semidioses mortalidad y arete</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Romanización mitos',
         duration: '8 min',
         theory: `<p>Romanización mitos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Jupiter/Zeus diferencias culturales Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, Jupiter/Zeus diferencias culturales.</p>
         <p>Estudiar romanización mitos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Adaptación nombres y valores romanos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Mitología romana práctica',
         duration: '8 min',
         theory: `<p>Mitología romana práctica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, augurio aves significado cultural Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, augurio aves significado cultural.</p>
         <p>Estudiar mitología romana práctica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Ritual estado y augurios</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Troya arqueológica',
         duration: '8 min',
         theory: `<p>Troya arqueológica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, distinción mito literario vs yacimiento Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, distinción mito literario vs yacimiento.</p>
         <p>Estudiar troya arqueológica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Schliemann y capas históricas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Tragedia y mito',
         duration: '8 min',
         theory: `<p>Tragedia y mito es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, leer resumen Edipo Rey Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, leer resumen Edipo Rey.</p>
         <p>Estudiar tragedia y mito con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Edipo, Antígona dilemas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Mitos naturaleza',
         duration: '8 min',
         theory: `<p>Mitos naturaleza es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, explicación cultural estaciones Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, explicación cultural estaciones.</p>
         <p>Estudiar mitos naturaleza con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Deméter/Persephone estaciones</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Iconografía',
         duration: '8 min',
         theory: `<p>Iconografía es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, reconoce tridente Poseidón Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, reconoce tridente Poseidón.</p>
         <p>Estudiar iconografía con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Atributos visual identifican dioses</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Recepción moderna',
         duration: '8 min',
         theory: `<p>Recepción moderna es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, analiza película vs fuente clásica Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, analiza película vs fuente clásica.</p>
         <p>Estudiar recepción moderna con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Mitología en cine literatura</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Nórdico cosmología',
         duration: '8 min',
         theory: `<p>Nórdico cosmología es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, resumen Edda Poética Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, resumen Edda Poética.</p>
         <p>Estudiar nórdico cosmología con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Yggdrasil nueve mundos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Mesoamérica Quetzalcoatl',
         duration: '8 min',
         theory: `<p>Mesoamérica Quetzalcoatl es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara azteca y maya Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, compara azteca y maya.</p>
         <p>Estudiar mesoamérica quetzalcoatl con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Dios pluma serpiente culturas múltiples</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Popol Vuh',
         duration: '8 min',
         theory: `<p>Popol Vuh es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lectura comentada Popol Vuh extracto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, lectura comentada Popol Vuh extracto.</p>
         <p>Estudiar popol vuh con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Creación maya k'iche'</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Yoruba Orishas',
         duration: '8 min',
         theory: `<p>Yoruba Orishas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Eshu trickster función Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, Eshu trickster función.</p>
         <p>Estudiar yoruba orishas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Panteón Nigeria diaspora</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Anansi',
         duration: '8 min',
         theory: `<p>Anansi es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cuentos Anansi moraleja Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, cuentos Anansi moraleja.</p>
         <p>Estudiar anansi con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Trickster araña África occidental</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Dreamtime aborigen',
         duration: '8 min',
         theory: `<p>Dreamtime aborigen es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, arte dot painting contexto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, arte dot painting contexto.</p>
         <p>Estudiar dreamtime aborigen con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Tiempo sueño creación Australia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Comparación diluvio',
         duration: '8 min',
         theory: `<p>Comparación diluvio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, tabla paralelos estructurales Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, tabla paralelos estructurales.</p>
         <p>Estudiar comparación diluvio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Noé, Utnapishtim, Deucalion</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Trickster global',
         duration: '8 min',
         theory: `<p>Trickster global es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, analiza función social trickster Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, analiza función social trickster.</p>
         <p>Estudiar trickster global con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Loki, Coyote, Hermes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Heroína en mitos',
         duration: '8 min',
         theory: `<p>Heroína en mitos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, recupera voces femeninas narrativas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, recupera voces femeninas narrativas.</p>
         <p>Estudiar heroína en mitos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Atalanta, Isis, Amaterasu</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Sincretismo',
         duration: '8 min',
         theory: `<p>Sincretismo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ejemplo Día Muertos capas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, ejemplo Día Muertos capas.</p>
         <p>Estudiar sincretismo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Mezcla tradiciones por contacto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Lévi-Strauss estructural',
         duration: '8 min',
         theory: `<p>Lévi-Strauss estructural es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, raw vs cooked en mitos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, raw vs cooked en mitos.</p>
         <p>Estudiar lévi-strauss estructural con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Oposiciones binarias en mitos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Jung arquetipos',
         duration: '8 min',
         theory: `<p>Jung arquetipos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, discute límites arquetipos académicos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, discute límites arquetipos académicos.</p>
         <p>Estudiar jung arquetipos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Sombra, anima en psicología profunda</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Contexto histórico',
         duration: '8 min',
         theory: `<p>Contexto histórico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Guerra Troya contexto bronce Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, Guerra Troya contexto bronce.</p>
         <p>Estudiar contexto histórico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Mito refleja guerra, clima, política época</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Análisis simbólico',
         duration: '8 min',
         theory: `<p>Análisis simbólico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, serpiente multi cultura Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, serpiente multi cultura.</p>
         <p>Estudiar análisis simbólico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Serpiente, agua, árbol significados variables</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Comparativa responsable',
         duration: '8 min',
         theory: `<p>Comparativa responsable es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, tabla similitudes diferencias Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, tabla similitudes diferencias.</p>
         <p>Estudiar comparativa responsable con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Paralelos sin equiparar superficial</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Fuentes primarias',
         duration: '8 min',
         theory: `<p>Fuentes primarias es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cita traducción Loeb o similar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, cita traducción Loeb o similar.</p>
         <p>Estudiar fuentes primarias con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Textos arcaicos traducciones académicas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Arqueología mito',
         duration: '8 min',
         theory: `<p>Arqueología mito es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, pintura vasija griega escena Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, pintura vasija griega escena.</p>
         <p>Estudiar arqueología mito con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Objetos ritual ilustran creencias</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Mitología contemporánea',
         duration: '8 min',
         theory: `<p>Mitología contemporánea es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, analiza Spider-Man arquetipo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, analiza Spider-Man arquetipo.</p>
         <p>Estudiar mitología contemporánea con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Superhéroes como mitos modernos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Escritura comparativa ensayo',
         duration: '8 min',
         theory: `<p>Escritura comparativa ensayo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, outline ensayo 1500 palabras Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, outline ensayo 1500 palabras.</p>
         <p>Estudiar escritura comparativa ensayo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Tesis, evidencia, bibliografía</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Presentación oral',
         duration: '8 min',
         theory: `<p>Presentación oral es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, practica cronometrada Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, practica cronometrada.</p>
         <p>Estudiar presentación oral con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Contar mito en 5 min contexto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Elegir par mitos',
         duration: '8 min',
         theory: `<p>Elegir par mitos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, selecciona con bibliografía disponible Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, selecciona con bibliografía disponible.</p>
         <p>Estudiar elegir par mitos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Creación, héroe, diluvio de dos culturas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Mapa conceptual',
         duration: '8 min',
         theory: `<p>Mapa conceptual es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, draw.io mapa genealogía Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, draw.io mapa genealogía.</p>
         <p>Estudiar mapa conceptual con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Visualizar personajes relaciones</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Tabla comparativa',
         duration: '8 min',
         theory: `<p>Tabla comparativa es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Google Sheet comparativa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, Google Sheet comparativa.</p>
         <p>Estudiar tabla comparativa con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Columnas: cultura, función, símbolos, fuente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Línea temporal',
         duration: '8 min',
         theory: `<p>Línea temporal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, timeline mitos escritura Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, timeline mitos escritura.</p>
         <p>Estudiar línea temporal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Ordenar textos y hallazgos arqueológicos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Glosario personal',
         duration: '8 min',
         theory: `<p>Glosario personal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, arete, hubris, cosmogonía Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, arete, hubris, cosmogonía.</p>
         <p>Estudiar glosario personal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: 20 términos definidos propias palabras</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Resumen académico',
         duration: '8 min',
         theory: `<p>Resumen académico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, resumen Popol Vuh Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, resumen Popol Vuh.</p>
         <p>Estudiar resumen académico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: 300 palabras neutrales sin opinión</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Debate en clase',
         duration: '8 min',
         theory: `<p>Debate en clase es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prepara 3 citas debate Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, prepara 3 citas debate.</p>
         <p>Estudiar debate en clase con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Argumentar interpretación con evidencia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Arte y mito',
         duration: '8 min',
         theory: `<p>Arte y mito es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, descripción iconográfica Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, descripción iconográfica.</p>
         <p>Estudiar arte y mito con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Analizar escultura mitológica museo virtual</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Mito local',
         duration: '8 min',
         theory: `<p>Mito local es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, entrevista oral opcional ética Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, entrevista oral opcional ética.</p>
         <p>Estudiar mito local con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Investigar leyenda región propia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Portfolio final',
         duration: '8 min',
         theory: `<p>Portfolio final es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en los relatos culturales y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, entrega carpeta digital Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar los relatos culturales de forma integrada.</p>
+        <p>En la práctica, entrega carpeta digital.</p>
         <p>Estudiar portfolio final con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en lectura comparativa de mitos.</p>
         <ul><li>Concepto central: Ensayo + tabla + mapa + reflexión aprendizaje</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en lectura comparativa de mitos</li></ul>`,
         example: {

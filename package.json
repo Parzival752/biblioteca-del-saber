@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "vitest run",
-    "dev": "python3 -m http.server 8773",
+    "dev": "vite --port 8773 --strictPort",
+    "dev:static": "python3 -m http.server 8773 --directory dist",
     "prebuild": "node scripts/generate-version.mjs && node scripts/generate-sitemap.mjs",
     "build": "vite build",
     "postbuild": "node scripts/verify-dist.mjs",

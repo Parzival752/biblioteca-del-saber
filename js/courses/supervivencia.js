@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Prioridades de supervivencia',
         duration: '8 min',
         theory: `<p>Prioridades es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, en muchos escenarios: refugio, agua, fuego, señal, comida. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, en muchos escenarios: refugio, agua, fuego, señal, comida.</p>
         <p>Estudiar prioridades de supervivencia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: en muchos escenarios: refugio, agua, fuego, señal, comida</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Refugio de emergencia',
         duration: '8 min',
         theory: `<p>Refugio rápido es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, protege de viento, lluvia y contacto con suelo frío. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, protege de viento, lluvia y contacto con suelo frío.</p>
         <p>Estudiar refugio de emergencia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: protege de viento, lluvia y contacto con suelo frío</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Lean-to y A-frame',
         duration: '8 min',
         theory: `<p>Estructuras básicas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, lean-to usa árbol o tronca; A-frame con dos montantes. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, lean-to usa árbol o tronca; A-frame con dos montantes.</p>
         <p>Estudiar lean-to y a-frame con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: lean-to usa árbol o tronca; A-frame con dos montantes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Aislamiento del suelo',
         duration: '8 min',
         theory: `<p>Aislamiento es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, capa gruesa de material seco evita pérdida de calor por conducción. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, capa gruesa de material seco evita pérdida de calor por conducción.</p>
         <p>Estudiar aislamiento del suelo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: capa gruesa de material seco evita pérdida de calor por conducción</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Refugio de nieve',
         duration: '8 min',
         theory: `<p>Nieve es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cueva de nieve o quinzee aísla si construcción es correcta. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cueva de nieve o quinzee aísla si construcción es correcta.</p>
         <p>Estudiar refugio de nieve con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cueva de nieve o quinzee aísla si construcción es correcta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Refugio en desierto',
         duration: '8 min',
         theory: `<p>Desierto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, sombra y reducir exposición diurna; aislar del suelo caliente. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, sombra y reducir exposición diurna; aislar del suelo caliente.</p>
         <p>Estudiar refugio en desierto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: sombra y reducir exposición diurna; aislar del suelo caliente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Hamaca y tienda',
         duration: '8 min',
         theory: `<p>Tienda es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, tienda con doble techo y estacas correctas resisten lluvia. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, tienda con doble techo y estacas correctas resisten lluvia.</p>
         <p>Estudiar hamaca y tienda con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: tienda con doble techo y estacas correctas resisten lluvia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Ubicación del campamento',
         duration: '8 min',
         theory: `<p>Sitio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, evita cañadas (frío), cauces secos (flash flood), ramas muertas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, evita cañadas (frío), cauces secos (flash flood), ramas muertas.</p>
         <p>Estudiar ubicación del campamento con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: evita cañadas (frío), cauces secos (flash flood), ramas muertas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Materiales naturales',
         duration: '8 min',
         theory: `<p>Materiales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, hojas secas, musgo, corteza y ramas flexibles. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, hojas secas, musgo, corteza y ramas flexibles.</p>
         <p>Estudiar materiales naturales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: hojas secas, musgo, corteza y ramas flexibles</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Refugio grupal',
         duration: '8 min',
         theory: `<p>Grupal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, compartir calor corporal y trabajo reduce tiempo y riesgo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, compartir calor corporal y trabajo reduce tiempo y riesgo.</p>
         <p>Estudiar refugio grupal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: compartir calor corporal y trabajo reduce tiempo y riesgo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Regla de los 3',
         duration: '8 min',
         theory: `<p>Regla 3 es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, 3 min sin aire, 3 días sin agua, 3 semanas sin comida (aprox.). Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, 3 min sin aire, 3 días sin agua, 3 semanas sin comida (aprox.).</p>
         <p>Estudiar regla de los 3 con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: 3 min sin aire, 3 días sin agua, 3 semanas sin comida (aprox.)</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Fuentes de agua',
         duration: '8 min',
         theory: `<p>Fuentes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, arroyos, rocío, lluvia, vegetación, solar still. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, arroyos, rocío, lluvia, vegetación, solar still.</p>
         <p>Estudiar fuentes de agua con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: arroyos, rocío, lluvia, vegetación, solar still</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Recolección de lluvia',
         duration: '8 min',
         theory: `<p>Lluvia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, lona limpia en Y o hoja amplia canaliza gotas a recipiente. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, lona limpia en Y o hoja amplia canaliza gotas a recipiente.</p>
         <p>Estudiar recolección de lluvia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: lona limpia en Y o hoja amplia canaliza gotas a recipiente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Filtración mecánica',
         duration: '8 min',
         theory: `<p>Filtración es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, elimina partículas con tela, arena y carbón en capas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, elimina partículas con tela, arena y carbón en capas.</p>
         <p>Estudiar filtración mecánica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: elimina partículas con tela, arena y carbón en capas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Purificación por hervido',
         duration: '8 min',
         theory: `<p>Hervido es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, 1 minuto a rolling boil (más en altitud) mata patógenos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, 1 minuto a rolling boil (más en altitud) mata patógenos.</p>
         <p>Estudiar purificación por hervido con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: 1 minuto a rolling boil (más en altitud) mata patógenos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Tabletas y filtros comerciales',
         duration: '8 min',
         theory: `<p>Químicos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cloro/dioxido y filtros 0.2 µm son backup confiable. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cloro/dioxido y filtros 0.2 µm son backup confiable.</p>
         <p>Estudiar tabletas y filtros comerciales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cloro/dioxido y filtros 0.2 µm son backup confiable</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Agua de vegetación',
         duration: '8 min',
         theory: `<p>Vegetación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, bolsa solar en rama verde produce condensación. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, bolsa solar en rama verde produce condensación.</p>
         <p>Estudiar agua de vegetación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: bolsa solar en rama verde produce condensación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Hielo y nieve',
         duration: '8 min',
         theory: `<p>Nieve es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, derretir consume mucha energía; comer nieve enfría cuerpo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, derretir consume mucha energía; comer nieve enfría cuerpo.</p>
         <p>Estudiar hielo y nieve con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: derretir consume mucha energía; comer nieve enfría cuerpo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Contaminantes químicos',
         duration: '8 min',
         theory: `<p>Químicos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, filtro y hervido no quitan plomo, pesticidas o sal. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, filtro y hervido no quitan plomo, pesticidas o sal.</p>
         <p>Estudiar contaminantes químicos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: filtro y hervido no quitan plomo, pesticidas o sal</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Hidratación y electrolitos',
         duration: '8 min',
         theory: `<p>Electrolitos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, sudor pierde sodio; beber solo agua diluye sin reponer sales. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, sudor pierde sodio; beber solo agua diluye sin reponer sales.</p>
         <p>Estudiar hidratación y electrolitos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: sudor pierde sodio; beber solo agua diluye sin reponer sales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Importancia del fuego',
         duration: '8 min',
         theory: `<p>Fuego es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, calor, purificación agua, señal, cocina y moral. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, calor, purificación agua, señal, cocina y moral.</p>
         <p>Estudiar importancia del fuego con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: calor, purificación agua, señal, cocina y moral</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Triángulo del fuego',
         duration: '8 min',
         theory: `<p>Combustión es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, combustible, oxígeno y calor; quitar uno apaga. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, combustible, oxígeno y calor; quitar uno apaga.</p>
         <p>Estudiar triángulo del fuego con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: combustible, oxígeno y calor; quitar uno apaga</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Preparación de leña',
         duration: '8 min',
         theory: `<p>Leña es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, yesca fina, kindling, leña gruesa progresiva. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, yesca fina, kindling, leña gruesa progresiva.</p>
         <p>Estudiar preparación de leña con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: yesca fina, kindling, leña gruesa progresiva</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Fricción arco y taladro',
         duration: '8 min',
         theory: `<p>Fricción es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, técnicas primitivas requieren práctica y madera seca adecuada. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, técnicas primitivas requieren práctica y madera seca adecuada.</p>
         <p>Estudiar fricción arco y taladro con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: técnicas primitivas requieren práctica y madera seca adecuada</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Pedernal y ferrocerio',
         duration: '8 min',
         theory: `<p>Chispa es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, ferrocerio produce chispas calientes sobre yesca seca. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, ferrocerio produce chispas calientes sobre yesca seca.</p>
         <p>Estudiar pedernal y ferrocerio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: ferrocerio produce chispas calientes sobre yesca seca</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Lupa solar',
         duration: '8 min',
         theory: `<p>Solar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, concentra luz en yesca negra en día despejado. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, concentra luz en yesca negra en día despejado.</p>
         <p>Estudiar lupa solar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: concentra luz en yesca negra en día despejado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Tipos de fogata',
         duration: '8 min',
         theory: `<p>Fogatas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, teepee enciende; log cabin sostiene; star para leña larga. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, teepee enciende; log cabin sostiene; star para leña larga.</p>
         <p>Estudiar tipos de fogata con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: teepee enciende; log cabin sostiene; star para leña larga</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Fuego en humedad',
         duration: '8 min',
         theory: `<p>Humedad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, busca yesca bajo corteza, dead standing wood seco interior. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, busca yesca bajo corteza, dead standing wood seco interior.</p>
         <p>Estudiar fuego en humedad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: busca yesca bajo corteza, dead standing wood seco interior</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Seguridad y extinción',
         duration: '8 min',
         theory: `<p>Seguridad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, anillo mineral, vigilar viento, apagar con agua y revolver. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, anillo mineral, vigilar viento, apagar con agua y revolver.</p>
         <p>Estudiar seguridad y extinción con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: anillo mineral, vigilar viento, apagar con agua y revolver</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Fuego como señal',
         duration: '8 min',
         theory: `<p>Señal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, humo denso con material verde en rescate diurno. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, humo denso con material verde en rescate diurno.</p>
         <p>Estudiar fuego como señal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: humo denso con material verde en rescate diurno</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Material de cuerda',
         duration: '8 min',
         theory: `<p>Cuerda es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, paracord 550, sisal y sintética tienen usos distintos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, paracord 550, sisal y sintética tienen usos distintos.</p>
         <p>Estudiar material de cuerda con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: paracord 550, sisal y sintética tienen usos distintos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Nudo as de guía',
         duration: '8 min',
         theory: `<p>As de guía es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, lazo fijo que no se aprieta bajo carga. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, lazo fijo que no se aprieta bajo carga.</p>
         <p>Estudiar nudo as de guía con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: lazo fijo que no se aprieta bajo carga</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Nudo de rizo',
         duration: '8 min',
         theory: `<p>Rizo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, une dos cuerdas de similar grosor. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, une dos cuerdas de similar grosor.</p>
         <p>Estudiar nudo de rizo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: une dos cuerdas de similar grosor</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Nudo de bolina',
         duration: '8 min',
         theory: `<p>Bolina es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, lazo fijo al final de cuerda, fácil deshacer. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, lazo fijo al final de cuerda, fácil deshacer.</p>
         <p>Estudiar nudo de bolina con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: lazo fijo al final de cuerda, fácil deshacer</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Nudo de trinca',
         duration: '8 min',
         theory: `<p>Trinca es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, atadura rápida a poste bajo tensión. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, atadura rápida a poste bajo tensión.</p>
         <p>Estudiar nudo de trinca con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: atadura rápida a poste bajo tensión</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Nudo de pescador',
         duration: '8 min',
         theory: `<p>Pescador es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, une cuerdas de distinto grosor resistente a deslizamiento. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, une cuerdas de distinto grosor resistente a deslizamiento.</p>
         <p>Estudiar nudo de pescador con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: une cuerdas de distinto grosor resistente a deslizamiento</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Nudo de rizo doble',
         duration: '8 min',
         theory: `<p>Rizo doble es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, más seguro que rizo simple en uniones críticas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, más seguro que rizo simple en uniones críticas.</p>
         <p>Estudiar nudo de rizo doble con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: más seguro que rizo simple en uniones críticas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Línea de vida y anclaje',
         duration: '8 min',
         theory: `<p>Anclaje es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, redistribuye carga en múltiples puntos. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, redistribuye carga en múltiples puntos.</p>
         <p>Estudiar línea de vida y anclaje con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: redistribuye carga en múltiples puntos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Nudo corredizo y precaución',
         duration: '8 min',
         theory: `<p>Corredizo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, útil pero puede atascar; evitar en rescate crítico. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, útil pero puede atascar; evitar en rescate crítico.</p>
         <p>Estudiar nudo corredizo y precaución con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: útil pero puede atascar; evitar en rescate crítico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Mantenimiento de cuerda',
         duration: '8 min',
         theory: `<p>Mantenimiento es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, secar, evitar fricción en roca afilada, revisar desgaste. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, secar, evitar fricción en roca afilada, revisar desgaste.</p>
         <p>Estudiar mantenimiento de cuerda con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: secar, evitar fricción en roca afilada, revisar desgaste</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Brújula básica',
         duration: '8 min',
         theory: `<p>Brújula es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, aguja apunta norte magnético; declinación corrige vs geográfico. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, aguja apunta norte magnético; declinación corrige vs geográfico.</p>
         <p>Estudiar brújula básica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: aguja apunta norte magnético; declinación corrige vs geográfico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Orientación sin brújula',
         duration: '8 min',
         theory: `<p>Natural es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, sol, sombra, estrellas y musgo como referencias aproximadas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, sol, sombra, estrellas y musgo como referencias aproximadas.</p>
         <p>Estudiar orientación sin brújula con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: sol, sombra, estrellas y musgo como referencias aproximadas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Mapa y terreno',
         duration: '8 min',
         theory: `<p>Mapa es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, curvas de nivel, escala y simbología topográfica. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, curvas de nivel, escala y simbología topográfica.</p>
         <p>Estudiar mapa y terreno con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: curvas de nivel, escala y simbología topográfica</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Señales de rescate',
         duration: '8 min',
         theory: `<p>Señales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, SOS, espejo, silbato, panel VS17, humo. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, SOS, espejo, silbato, panel VS17, humo.</p>
         <p>Estudiar señales de rescate con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: SOS, espejo, silbato, panel VS17, humo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Kit de supervivencia básico',
         duration: '8 min',
         theory: `<p>Kit básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, cuchillo, fuego, agua, abrigo, señal, primeros auxilios. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, cuchillo, fuego, agua, abrigo, señal, primeros auxilios.</p>
         <p>Estudiar kit de supervivencia básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: cuchillo, fuego, agua, abrigo, señal, primeros auxilios</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Planificación de salida',
         duration: '8 min',
         theory: `<p>Plan es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, itinerario, hora retorno, clima, compañero informado. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, itinerario, hora retorno, clima, compañero informado.</p>
         <p>Estudiar planificación de salida con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: itinerario, hora retorno, clima, compañero informado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Riesgo de hipotermia',
         duration: '8 min',
         theory: `<p>Hipotermia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, temperatura central baja; mojado + viento acelera. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, temperatura central baja; mojado + viento acelera.</p>
         <p>Estudiar riesgo de hipotermia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: temperatura central baja; mojado + viento acelera</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Calor e hipertermia',
         duration: '8 min',
         theory: `<p>Hipertermia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, golpe de calor: piel caliente, confusión, pulso rápido. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, golpe de calor: piel caliente, confusión, pulso rápido.</p>
         <p>Estudiar calor e hipertermia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: golpe de calor: piel caliente, confusión, pulso rápido</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Comida en supervivencia',
         duration: '8 min',
         theory: `<p>Comida es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, prioridad baja inicial; conoce plantas seguras y trampas básicas. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, prioridad baja inicial; conoce plantas seguras y trampas básicas.</p>
         <p>Estudiar comida en supervivencia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: prioridad baja inicial; conoce plantas seguras y trampas básicas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Mentalidad y S.T.O.P.',
         duration: '8 min',
         theory: `<p>S.T.O.P. es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en naturaleza y aplicaciones prácticas de supervivencia y conservación.</p>
-        <p>En la práctica, Sit, Think, Observe, Plan reduce pánico y errores. Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar sistemas vivos de forma integrada.</p>
+        <p>En la práctica, Sit, Think, Observe, Plan reduce pánico y errores.</p>
         <p>Estudiar mentalidad y s.t.o.p. con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al identificar organismos, procesos o tomar decisiones en campo.</p>
         <ul><li>Concepto central: Sit, Think, Observe, Plan reduce pánico y errores</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas de observación o simulaciones</li></ul>`,
         example: {
@@ -1516,7 +1516,7 @@ export const CURRICULUM = [
           tip: 'Anota fecha, lugar y condiciones al practicar mentalidad y s.t.o.p. en campo.',
         },
         exercise: {
-          instructions: 'Comprueba lo aprendido sobre mentalidad y s.t.o.p..',
+          instructions: 'Comprueba lo aprendido sobre mentalidad y s.t.o.p.',
           hint: 'Repasa el concepto central de la lección.',
           questions: [
             {

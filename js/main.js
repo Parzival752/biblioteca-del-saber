@@ -15,5 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('modalOverlay')?.addEventListener('click', (e) => {
     if (e.target.id === 'modalOverlay') app.closeModal();
   });
+  // Evita doble polling: el script inline cede el relevo al módulo
+  if (typeof window.__BDS_STOP_INLINE_UPDATE === 'function') {
+    window.__BDS_STOP_INLINE_UPDATE();
+  }
   startUpdateChecker();
 });

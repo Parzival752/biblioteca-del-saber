@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Textura del suelo',
         duration: '8 min',
         theory: `<p>Textura del suelo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, haz la prueba del puño: aprieta tierra húmeda; si forma bola que se desmenuza, el equilibrio es bueno Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, haz la prueba del puño: aprieta tierra húmeda; si forma bola que se desmenuza, el equilibrio es bueno.</p>
         <p>Estudiar textura del suelo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: La proporción de arena, limo y arcilla determina retención de agua y aireación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. pH del suelo',
         duration: '8 min',
         theory: `<p>pH del suelo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa tiras reactivas o un medidor económico antes de elegir cultivos exigentes Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, usa tiras reactivas o un medidor económico antes de elegir cultivos exigentes.</p>
         <p>Estudiar ph del suelo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: El pH mide acidez o alcalinidad y afecta la disponibilidad de nutrientes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Drenaje y aeración',
         duration: '8 min',
         theory: `<p>Drenaje y aeración es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, perfora macetas sin agujero y añade una capa de grava solo si el sustrato es muy denso Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, perfora macetas sin agujero y añade una capa de grava solo si el sustrato es muy denso.</p>
         <p>Estudiar drenaje y aeración con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Las raíces necesitan oxígeno; el exceso de agua estancada provoca pudrición</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Compost casero básico',
         duration: '8 min',
         theory: `<p>Compost casero básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, alterna capas verdes (nitrógeno) y marrones (carbono) manteniendo humedad como esponja exprimida Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, alterna capas verdes (nitrógeno) y marrones (carbono) manteniendo humedad como esponja exprimida.</p>
         <p>Estudiar compost casero básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Materia orgánica descompuesta mejora estructura, nutrientes y vida microbiana</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Camas elevadas',
         duration: '8 min',
         theory: `<p>Camas elevadas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, delimita con madera no tratada o piedra; rellena con mezcla 40% compost, 40% tierra, 20% arena Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, delimita con madera no tratada o piedra; rellena con mezcla 40% compost, 40% tierra, 20% arena.</p>
         <p>Estudiar camas elevadas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Las raised beds calientan antes, drenan mejor y reducen compactación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Mulching orgánico',
         duration: '8 min',
         theory: `<p>Mulching orgánico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, extiende 5–8 cm de paja, corteza fina o hojas secas sin tocar el tallo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, extiende 5–8 cm de paja, corteza fina o hojas secas sin tocar el tallo.</p>
         <p>Estudiar mulching orgánico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: La acolchado conserva humedad, modera temperatura del suelo y reduce malezas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Rotación de cultivos',
         duration: '8 min',
         theory: `<p>Rotación de cultivos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no plantes solanáceas (tomate, pimiento) en el mismo sitio dos años seguidos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, no plantes solanáceas (tomate, pimiento) en el mismo sitio dos años seguidos.</p>
         <p>Estudiar rotación de cultivos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Alternar familias botánicas evita agotar nutrientes y rompe ciclos de plagas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Semilleros y trasplante',
         duration: '8 min',
         theory: `<p>Semilleros y trasplante es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa sustrato ligero, riega alrededor del tallo y endurece plántulas una semana antes de trasplantar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, usa sustrato ligero, riega alrededor del tallo y endurece plántulas una semana antes de trasplantar.</p>
         <p>Estudiar semilleros y trasplante con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Sembrar en bandeja protege de clima extremo y permite seleccionar plántulas fuertes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Herramientas esenciales',
         duration: '8 min',
         theory: `<p>Herramientas esenciales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, limpia y seca metal tras usar; afila corte limpio en podas sanas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, limpia y seca metal tras usar; afila corte limpio en podas sanas.</p>
         <p>Estudiar herramientas esenciales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Pala, rastrillo, podadora y regadera bien mantenidas ahorran tiempo y lesiones</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Calendario de siembra',
         duration: '8 min',
         theory: `<p>Calendario de siembra es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, consulta tabla local; adelantar siembra sin luz suficiente produce plantas etioladas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, consulta tabla local; adelantar siembra sin luz suficiente produce plantas etioladas.</p>
         <p>Estudiar calendario de siembra con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Cada especie tiene ventana óptima según temperatura del suelo y horas de luz</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Riego profundo vs superficial',
         duration: '8 min',
         theory: `<p>Riego profundo vs superficial es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, aplica agua hasta humedecer 15–20 cm en hortalizas; deja secar la capa superior entre riegos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, aplica agua hasta humedecer 15–20 cm en hortalizas; deja secar la capa superior entre riegos.</p>
         <p>Estudiar riego profundo vs superficial con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Regar poco y a menudo favorece raíces superficiales; riego profundo las ancla</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Horario de riego',
         duration: '8 min',
         theory: `<p>Horario de riego es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, evita mojar follaje al atardecer en climas húmedos para prevenir hongos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, evita mojar follaje al atardecer en climas húmedos para prevenir hongos.</p>
         <p>Estudiar horario de riego con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Regar al amanecer reduce evaporación y deja hojas secas antes de la noche</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Luz solar y sombra',
         duration: '8 min',
         theory: `<p>Luz solar y sombra es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa sombras estacionales antes de instalar bancales permanentes Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, observa sombras estacionales antes de instalar bancales permanentes.</p>
         <p>Estudiar luz solar y sombra con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Pleno sol son ≥6 h directas; sombra parcial 3–6 h; plena sombra <3 h</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Macronutrientes N-P-K',
         duration: '8 min',
         theory: `<p>Macronutrientes N-P-K es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lee etiquetas 10-10-10; usa fórmulas altas en K antes de fructificación Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, lee etiquetas 10-10-10; usa fórmulas altas en K antes de fructificación.</p>
         <p>Estudiar macronutrientes n-p-k con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Nitrógeno (N) follaje, fósforo (P) raíces/flores, potasio (K) frutos y resistencia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Deficiencias visuales',
         duration: '8 min',
         theory: `<p>Deficiencias visuales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, corrige pH antes de abonar: nutrientes bloqueados parecen deficiencias Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, corrige pH antes de abonar: nutrientes bloqueados parecen deficiencias.</p>
         <p>Estudiar deficiencias visuales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Clorosis interveinal puede ser hierro; bordes quemados, potasio; púrpura en hojas, fósforo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Abonos orgánicos',
         duration: '8 min',
         theory: `<p>Abonos orgánicos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, nunca uses estiércol fresco: quema raíces y puede contener patógenos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, nunca uses estiércol fresco: quema raíces y puede contener patógenos.</p>
         <p>Estudiar abonos orgánicos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Estiércol compostado, humus de lombriz y emulsión de pescado liberan nutrientes lentamente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Riego por goteo casero',
         duration: '8 min',
         theory: `<p>Riego por goteo casero es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, instala manguera perforada o botellas con pinchazo; revisa caudal uniforme Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, instala manguera perforada o botellas con pinchazo; revisa caudal uniforme.</p>
         <p>Estudiar riego por goteo casero con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: El goteo entrega agua en la zona radicular con mínima pérdida</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Recolección de agua de lluvia',
         duration: '8 min',
         theory: `<p>Recolección de agua de lluvia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cubre tanques, limpia filtros y no uses agua de tejado plomo en hortalizas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, cubre tanques, limpia filtros y no uses agua de tejado plomo en hortalizas.</p>
         <p>Estudiar recolección de agua de lluvia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Agua sin cloro y suave es ideal para riego; cumple normativa local</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Síntomas de exceso de agua',
         duration: '8 min',
         theory: `<p>Síntomas de exceso de agua es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mejora drenaje, reduce frecuencia y airea suelo con horquilla sin dañar raíces Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, mejora drenaje, reduce frecuencia y airea suelo con horquilla sin dañar raíces.</p>
         <p>Estudiar síntomas de exceso de agua con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Hojas amarillas, marchitamiento paradójico y olor a humedad indican saturación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Fertilización en macetas',
         duration: '8 min',
         theory: `<p>Fertilización en macetas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa abono líquido diluido quincenal en crecimiento; reduce en invierno Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, usa abono líquido diluido quincenal en crecimiento; reduce en invierno.</p>
         <p>Estudiar fertilización en macetas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Volumen limitado agota nutrientes rápido; lixiviación por riego frecuente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Tomates en contenedor',
         duration: '8 min',
         theory: `<p>Tomates en contenedor es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, maceta mínima 20 L, tutor desde plántula, elimina brotes axilares en variedades indeterminadas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, maceta mínima 20 L, tutor desde plántula, elimina brotes axilares en variedades indeterminadas.</p>
         <p>Estudiar tomates en contenedor con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Variedades determinadas (bush) son más compactas; indeterminadas necesitan tutor</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Hierbas aromáticas',
         duration: '8 min',
         theory: `<p>Hierbas aromáticas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, planta menta en maceta separada: invade por estolones Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, planta menta en maceta separada: invade por estolones.</p>
         <p>Estudiar hierbas aromáticas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Albahaca, romero, tomillo y menta tienen necesidades distintas de agua y sol</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Cultivo de lechuga',
         duration: '8 min',
         theory: `<p>Cultivo de lechuga es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, siembra escalonada cada 2 semanas; sombrea en verano Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, siembra escalonada cada 2 semanas; sombrea en verano.</p>
         <p>Estudiar cultivo de lechuga con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Crece rápido en fresco; bolting (floración) amarga hojas con calor y días largos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Legumbres fijadoras',
         duration: '8 min',
         theory: `<p>Legumbres fijadoras es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no arranques plantas al terminar: deja raíces en suelo para liberar nitrógeno Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, no arranques plantas al terminar: deja raíces en suelo para liberar nitrógeno.</p>
         <p>Estudiar legumbres fijadoras con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Bacterias Rhizobium en nódulos convierten N₂ atmosférico en formas asimilables</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Zanahorias y raíces',
         duration: '8 min',
         theory: `<p>Zanahorias y raíces es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, siembra directa; ralea a 3 cm cuando tengan 5 cm de altura Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, siembra directa; ralea a 3 cm cuando tengan 5 cm de altura.</p>
         <p>Estudiar zanahorias y raíces con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Suelo suelto sin piedras produce raíces rectas; compactación causa horquillas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Calabacines y cucurbitáceas',
         duration: '8 min',
         theory: `<p>Calabacines y cucurbitáceas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica flores masculinas y femeninas; transfiere polen con pincel al mediodía Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, identifica flores masculinas y femeninas; transfiere polen con pincel al mediodía.</p>
         <p>Estudiar calabacines y cucurbitáceas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Necesitan polinizadores o polinización manual; frutos abortan si flor no fecundada</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Patatas en saco',
         duration: '8 min',
         theory: `<p>Patatas en saco es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, planta patata de semilla en saco con 15 cm sustrato; añade mezcla al crecer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, planta patata de semilla en saco con 15 cm sustrato; añade mezcla al crecer.</p>
         <p>Estudiar patatas en saco con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Aporque repetido entierra tallos para formar tubérculos en nuevos nodos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Frutales en maceta',
         duration: '8 min',
         theory: `<p>Frutales en maceta es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, elige portainjerto enano; maceta ancha y profunda con buen drenaje Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, elige portainjerto enano; maceta ancha y profunda con buen drenaje.</p>
         <p>Estudiar frutales en maceta con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Raíces limitadas restringen tamaño; necesitan poda y abono regular</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Microgreens',
         duration: '8 min',
         theory: `<p>Microgreens es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, siembra denso en bandeja poco profunda; cosecha con tijera al alcanzar 5–8 cm Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, siembra denso en bandeja poco profunda; cosecha con tijera al alcanzar 5–8 cm.</p>
         <p>Estudiar microgreens con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Brotes cosechados con cotiledones; alto sabor y nutrientes en pocos días</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Policultivo y compañías',
         duration: '8 min',
         theory: `<p>Policultivo y compañías es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, evita plantar cebolla junto a guisantes según tradición; prueba en pequeño Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, evita plantar cebolla junto a guisantes según tradición; prueba en pequeño.</p>
         <p>Estudiar policultivo y compañías con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Algunas combinaciones repelen plagas o aprovechan estratos (ej. maíz-frijol-calabaza)</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Pulgón y control mecánico',
         duration: '8 min',
         theory: `<p>Pulgón y control mecánico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, chorro de agua, elimina brotes muy infestados, introduce mariquitas si es posible Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, chorro de agua, elimina brotes muy infestados, introduce mariquitas si es posible.</p>
         <p>Estudiar pulgón y control mecánico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Pulgones succionan savia y transmiten virus; proliferan sin depredadores</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Caracoles y barreras',
         duration: '8 min',
         theory: `<p>Caracoles y barreras es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, barrera de cobre, cerveza en trampa poco profunda, recogida manual al amanecer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, barrera de cobre, cerveza en trampa poco profunda, recogida manual al amanecer.</p>
         <p>Estudiar caracoles y barreras con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Activos de noche y tiempo húmedo; dejan baba y agujeros irregulares</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Oídio y hongos foliares',
         duration: '8 min',
         theory: `<p>Oídio y hongos foliares es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mejora ventilación, riega suelo, elimina hojas afectadas, azufre o bicarbonato preventivo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, mejora ventilación, riega suelo, elimina hojas afectadas, azufre o bicarbonato preventivo.</p>
         <p>Estudiar oídio y hongos foliares con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Hongos que forman polvo blanco; favorecidos por humedad en hojas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Manchas foliares bacterianas',
         duration: '8 min',
         theory: `<p>Manchas foliares bacterianas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, rota cultivos, no trabajes plantas mojadas, desinfecta herramientas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, rota cultivos, no trabajes plantas mojadas, desinfecta herramientas.</p>
         <p>Estudiar manchas foliares bacterianas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Lesiones acuosas que se vuelven marrones; se propagan con salpicaduras</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Nematodos del suelo',
         duration: '8 min',
         theory: `<p>Nematodos del suelo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, solariza suelo en verano, rota con tagetes marigold, mantén materia orgánica Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, solariza suelo en verano, rota con tagetes marigold, mantén materia orgánica.</p>
         <p>Estudiar nematodos del suelo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Gusanos microscópicos; algunos dañan raíces formando nódulos o agallas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Control biológico',
         duration: '8 min',
         theory: `<p>Control biológico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Bacillus thuringiensis para orugas; feromonas para confundir insectos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, Bacillus thuringiensis para orugas; feromonas para confundir insectos.</p>
         <p>Estudiar control biológico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Usar depredadores naturales o microorganismos en lugar de químicos amplios</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Trampas cromáticas',
         duration: '8 min',
         theory: `<p>Trampas cromáticas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cuelga a nivel del follaje, renueva cuando están llenas o polvo las invalida Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, cuelga a nivel del follaje, renueva cuando están llenas o polvo las invalida.</p>
         <p>Estudiar trampas cromáticas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Placas amarillas atraen insectos voladores; azules ciertos trips</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Cuarentena de plantas nuevas',
         duration: '8 min',
         theory: `<p>Cuarentena de plantas nuevas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, 7–14 días aparte, inspecciona hojas y sustrato, trata antes de integrar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, 7–14 días aparte, inspecciona hojas y sustrato, trata antes de integrar.</p>
         <p>Estudiar cuarentena de plantas nuevas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Planta comprada puede traer plagas ocultas; aislar evita contagio del huerto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Higiene de fin de ciclo',
         duration: '8 min',
         theory: `<p>Higiene de fin de ciclo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, retira y elimina (no compostes) restos con mildiu u oídio severo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, retira y elimina (no compostes) restos con mildiu u oídio severo.</p>
         <p>Estudiar higiene de fin de ciclo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Restos vegetales enfermos pueden sobrevivir al invierno y reinfectar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. MIP — manejo integrado',
         duration: '8 min',
         theory: `<p>MIP — manejo integrado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica plaga antes de tratar; rota modos de acción si usas químicos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, identifica plaga antes de tratar; rota modos de acción si usas químicos.</p>
         <p>Estudiar mip — manejo integrado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Combina prevención, monitorización, umbrales de acción y tratamientos específicos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Zonificación del espacio',
         duration: '8 min',
         theory: `<p>Zonificación del espacio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, dibuja plano a escala con ruta de manguera y acceso para carretilla Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, dibuja plano a escala con ruta de manguera y acceso para carretilla.</p>
         <p>Estudiar zonificación del espacio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Agrupa por riego, sol y altura: altos al norte para no sombrear bajos (hemisferio norte)</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Huerto en contenedores urbano',
         duration: '8 min',
         theory: `<p>Huerto en contenedores urbano es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, macetas con platillo drenado; fija tutores; usa sustrato ligero si hay límite de peso Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, macetas con platillo drenado; fija tutores; usa sustrato ligero si hay límite de peso.</p>
         <p>Estudiar huerto en contenedores urbano con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Balcones y terrazas requieren peso, drenaje y viento considerados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Invernadero pasivo',
         duration: '8 min',
         theory: `<p>Invernadero pasivo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, abre laterales en días soleados >20 °C; cierra antes de heladas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, abre laterales en días soleados >20 °C; cierra antes de heladas.</p>
         <p>Estudiar invernadero pasivo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Estructura transparente captura calor; ventilación evita sobrecalentamiento</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Cultivos de invierno',
         duration: '8 min',
         theory: `<p>Cultivos de invierno es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa manta térmica en heladas fuertes; reduce riego con días cortos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, usa manta térmica en heladas fuertes; reduce riego con días cortos.</p>
         <p>Estudiar cultivos de invierno con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Algunas especies toleran frío: kale, acelga, ajo plantado en otoño</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Semillas vs plántulas',
         duration: '8 min',
         theory: `<p>Semillas vs plántulas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, direct sow para zanahoria, rábano; plántula para tomate, pimiento Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, direct sow para zanahoria, rábano; plántula para tomate, pimiento.</p>
         <p>Estudiar semillas vs plántulas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Semilla es económica y variada; plántula adelanta cosecha pero cuesta más</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Cosecha y punto óptimo',
         duration: '8 min',
         theory: `<p>Cosecha y punto óptimo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cosecha mañana tras secar rocío; usa cuchillo limpio en frutos de vaina Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, cosecha mañana tras secar rocío; usa cuchillo limpio en frutos de vaina.</p>
         <p>Estudiar cosecha y punto óptimo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Cada cultivo tiene señales: color, tamaño, facilidad de separación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Conservación post-cosecha',
         duration: '8 min',
         theory: `<p>Conservación post-cosecha es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no laves bayas hasta consumir; hierbas en ramo en agua como florero Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, no laves bayas hasta consumir; hierbas en ramo en agua como florero.</p>
         <p>Estudiar conservación post-cosecha con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Lavado, secado, frío adecuado y contenedores prolongan vida útil</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Propagación por esqueje',
         duration: '8 min',
         theory: `<p>Propagación por esqueje es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, corta bajo nudo, quita hojas bajas, sustrato húmedo sin encharcar, bolsa transparente opcional Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, corta bajo nudo, quita hojas bajas, sustrato húmedo sin encharcar, bolsa transparente opcional.</p>
         <p>Estudiar propagación por esqueje con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Fragmento de tallo enraiza clonando genotipo idéntico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Banco de semillas propio',
         duration: '8 min',
         theory: `<p>Banco de semillas propio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, fermenta semilla de tomate, seca completamente, etiqueta variedad y año Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, fermenta semilla de tomate, seca completamente, etiqueta variedad y año.</p>
         <p>Estudiar banco de semillas propio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Guardar semilla de plantas adaptadas a tu microclima preserva traits útiles</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Evaluación anual del huerto',
         duration: '8 min',
         theory: `<p>Evaluación anual del huerto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el jardín y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, actualiza plano, prueba suelo cada 2–3 años, rota familias según registro Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el jardín de forma integrada.</p>
+        <p>En la práctica, actualiza plano, prueba suelo cada 2–3 años, rota familias según registro.</p>
         <p>Estudiar evaluación anual del huerto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en tu huerto, macetas o parcela.</p>
         <ul><li>Concepto central: Revisar qué funcionó, rotaciones, suelo agotado y objetivos del próximo ciclo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en tu huerto, macetas o parcela</li></ul>`,
         example: {

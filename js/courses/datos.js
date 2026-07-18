@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Jerarquía de carpetas',
         duration: '8 min',
         theory: `<p>Jerarquía de carpetas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, crea plantilla carpetas para nuevo proyecto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, crea plantilla carpetas para nuevo proyecto.</p>
         <p>Estudiar jerarquía de carpetas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Estructura lógica por proyecto/año/tipo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Nombres de archivo',
         duration: '8 min',
         theory: `<p>Nombres de archivo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, renombra fotos con prefijo fecha Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, renombra fotos con prefijo fecha.</p>
         <p>Estudiar nombres de archivo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Fecha ISO YYYY-MM-DD al inicio ordena cronológicamente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Metadatos útiles',
         duration: '8 min',
         theory: `<p>Metadatos útiles es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, añade tags en Finder/Explorer o herramienta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, añade tags en Finder/Explorer o herramienta.</p>
         <p>Estudiar metadatos útiles con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Etiquetas OS, comentarios PDF, EXIF fotos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Duplicados',
         duration: '8 min',
         theory: `<p>Duplicados es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa fdupes o rmlint con precaución Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, usa fdupes o rmlint con precaución.</p>
         <p>Estudiar duplicados con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Copias idénticas ocupan espacio y confunden</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Inbox cero digital',
         duration: '8 min',
         theory: `<p>Inbox cero digital es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mueve Descargas a Inbox y procesa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, mueve Descargas a Inbox y procesa.</p>
         <p>Estudiar inbox cero digital con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Carpeta Inbox para procesar y clasificar semanalmente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Plantillas documento',
         duration: '8 min',
         theory: `<p>Plantillas documento es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, guarda plantilla .odt/.docx en Templates Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, guarda plantilla .odt/.docx en Templates.</p>
         <p>Estudiar plantillas documento con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Contratos, informes y listas reutilizables</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Control versiones simple',
         duration: '8 min',
         theory: `<p>Control versiones simple es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no uses 'final_final2.docx' sin sistema Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, no uses 'final_final2.docx' sin sistema.</p>
         <p>Estudiar control versiones simple con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Sufijos v1 v2 o carpeta versions/</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Archivar vs borrar',
         duration: '8 min',
         theory: `<p>Archivar vs borrar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, carpeta Archive/Año para cerrados Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, carpeta Archive/Año para cerrados.</p>
         <p>Estudiar archivar vs borrar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Archivo frío para referencia; borrar lo obsoleto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Búsqueda eficiente',
         duration: '8 min',
         theory: `<p>Búsqueda eficiente es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, indexa discos y aprende operadores Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, indexa discos y aprende operadores.</p>
         <p>Estudiar búsqueda eficiente con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Everything, locate, Spotlight según OS</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Auditoría trimestral',
         duration: '8 min',
         theory: `<p>Auditoría trimestral es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, calendario recordatorio cada 3 meses Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, calendario recordatorio cada 3 meses.</p>
         <p>Estudiar auditoría trimestral con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Revisar estructura, duplicados y permisos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. CSV UTF-8',
         duration: '8 min',
         theory: `<p>CSV UTF-8 es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, exporta CSV UTF-8 desde hoja Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, exporta CSV UTF-8 desde hoja.</p>
         <p>Estudiar csv utf-8 con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Formato intercambio universal; cuidado separador , vs ;</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Encabezados claros',
         duration: '8 min',
         theory: `<p>Encabezados claros es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa snake_case o Title Case consistente Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, usa snake_case o Title Case consistente.</p>
         <p>Estudiar encabezados claros con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Primera fila nombres columna sin espacios raros</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Tipos de datos',
         duration: '8 min',
         theory: `<p>Tipos de datos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, formato fecha ISO en columna Fecha Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, formato fecha ISO en columna Fecha.</p>
         <p>Estudiar tipos de datos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Número, fecha, texto; no mezclar en columna</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Filtros y tablas',
         duration: '8 min',
         theory: `<p>Filtros y tablas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Ctrl+Shift+L filtro en Excel Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, Ctrl+Shift+L filtro en Excel.</p>
         <p>Estudiar filtros y tablas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Convertir rango en Tabla facilita filtros</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. VLOOKUP/XLOOKUP intro',
         duration: '8 min',
         theory: `<p>VLOOKUP/XLOOKUP intro es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, busca precio producto por SKU Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, busca precio producto por SKU.</p>
         <p>Estudiar vlookup/xlookup intro con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Unir datos por clave común</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Pivot básico',
         duration: '8 min',
         theory: `<p>Pivot básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, insert pivot desde rango tabular Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, insert pivot desde rango tabular.</p>
         <p>Estudiar pivot básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Resumir ventas por categoría/mes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Validación datos',
         duration: '8 min',
         theory: `<p>Validación datos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, valida Estado: Pendiente/Hecho/Cancelado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, valida Estado: Pendiente/Hecho/Cancelado.</p>
         <p>Estudiar validación datos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Listas desplegables evitan typos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Gráficos honestos',
         duration: '8 min',
         theory: `<p>Gráficos honestos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, gráfico barras gastos mensuales Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, gráfico barras gastos mensuales.</p>
         <p>Estudiar gráficos honestos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Ejes desde cero cuando corresponde; etiquetas claras</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Backup hojas',
         duration: '8 min',
         theory: `<p>Backup hojas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, guarda copia fecha antes de transformar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, guarda copia fecha antes de transformar.</p>
         <p>Estudiar backup hojas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Copia versionada antes de macros masivas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Import limpio',
         duration: '8 min',
         theory: `<p>Import limpio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, import CSV con tipos correctos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, import CSV con tipos correctos.</p>
         <p>Estudiar import limpio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Power Query / datos→texto columnas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Diario estructurado',
         duration: '8 min',
         theory: `<p>Diario estructurado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, plantilla markdown diaria Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, plantilla markdown diaria.</p>
         <p>Estudiar diario estructurado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Campos: fecha, ánimo 1-5, logros, bloqueos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Tracker hábitos',
         duration: '8 min',
         theory: `<p>Tracker hábitos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, hoja mes con filas días columnas hábitos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, hoja mes con filas días columnas hábitos.</p>
         <p>Estudiar tracker hábitos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Checkbox diario ejercicio, lectura, agua</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Finanzas personales',
         duration: '8 min',
         theory: `<p>Finanzas personales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, registra cada gasto mismo día Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, registra cada gasto mismo día.</p>
         <p>Estudiar finanzas personales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Ingresos, gastos fijos, variables por categoría</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Inventario casa',
         duration: '8 min',
         theory: `<p>Inventario casa es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, foto etiqueta serial en registro Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, foto etiqueta serial en registro.</p>
         <p>Estudiar inventario casa con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Serial, compra, garantía electrodomésticos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Salud registro básico',
         duration: '8 min',
         theory: `<p>Salud registro básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, log sueño hora acostar/levantar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, log sueño hora acostar/levantar.</p>
         <p>Estudiar salud registro básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Sueño, pasos, síntomas opcionales sin diagnosticar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Lectura y media',
         duration: '8 min',
         theory: `<p>Lectura y media es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Goodreads o hoja simple Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, Goodreads o hoja simple.</p>
         <p>Estudiar lectura y media con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Lista lectura: título, autor, estado, nota</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Contactos enriquecidos',
         duration: '8 min',
         theory: `<p>Contactos enriquecidos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, CRM personal ligero en hoja Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, CRM personal ligero en hoja.</p>
         <p>Estudiar contactos enriquecidos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Contexto cómo conociste, cumple, preferencias</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Objetivos SMART',
         duration: '8 min',
         theory: `<p>Objetivos SMART es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, transforma 'estudiar más' en meta semanal horas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, transforma 'estudiar más' en meta semanal horas.</p>
         <p>Estudiar objetivos smart con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Specific Measurable Achievable Relevant Time-bound</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Privacidad registros',
         duration: '8 min',
         theory: `<p>Privacidad registros es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, veracrypt o cifrado disco OS Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, veracrypt o cifrado disco OS.</p>
         <p>Estudiar privacidad registros con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Cifrar carpeta sensible; backup cifrado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Export periódico',
         duration: '8 min',
         theory: `<p>Export periódico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, exporta finanzas año a Archive Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, exporta finanzas año a Archive.</p>
         <p>Estudiar export periódico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: PDF/CSV anual para archivo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Fórmulas vs macros',
         duration: '8 min',
         theory: `<p>Fórmulas vs macros es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prefiere SUMIF antes de VBA Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, prefiere SUMIF antes de VBA.</p>
         <p>Estudiar fórmulas vs macros con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Fórmulas transparentes; macros para repetitivo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. OpenRefine limpieza',
         duration: '8 min',
         theory: `<p>OpenRefine limpieza es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, import CSV sucio a OpenRefine Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, import CSV sucio a OpenRefine.</p>
         <p>Estudiar openrefine limpieza con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Corregir mayúsculas, trim, cluster duplicados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. IFTTT/Zapier intro',
         duration: '8 min',
         theory: `<p>IFTTT/Zapier intro es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, automatiza recibo gasto a spreadsheet Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, automatiza recibo gasto a spreadsheet.</p>
         <p>Estudiar ifttt/zapier intro con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Conectar apps: email→hoja, form→notificación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Python pandas mini',
         duration: '8 min',
         theory: `<p>Python pandas mini es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, script 10 líneas limpia CSV mensual Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, script 10 líneas limpia CSV mensual.</p>
         <p>Estudiar python pandas mini con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: read_csv, dropna, to_csv para limpieza</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. APIs REST GET',
         duration: '8 min',
         theory: `<p>APIs REST GET es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, curl API clima a JSON local Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, curl API clima a JSON local.</p>
         <p>Estudiar apis rest get con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Obtener JSON público y parsear</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Scheduled tasks datos',
         duration: '8 min',
         theory: `<p>Scheduled tasks datos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, backup CSV a las 2am Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, backup CSV a las 2am.</p>
         <p>Estudiar scheduled tasks datos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Cron ejecuta export nightly</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Normalización',
         duration: '8 min',
         theory: `<p>Normalización es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, separa Cliente y Pedidos tablas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, separa Cliente y Pedidos tablas.</p>
         <p>Estudiar normalización con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Tercera forma normal simplificada: no repetir grupos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Documentar pipeline',
         duration: '8 min',
         theory: `<p>Documentar pipeline es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, diagrama flecha simple Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, diagrama flecha simple.</p>
         <p>Estudiar documentar pipeline con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: README pasos origen→transform→destino</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Calidad datos',
         duration: '8 min',
         theory: `<p>Calidad datos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, regla email contiene @ Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, regla email contiene @.</p>
         <p>Estudiar calidad datos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Completitud, unicidad, validez métricas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Ethics scraping',
         duration: '8 min',
         theory: `<p>Ethics scraping es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa API oficial si existe Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, usa API oficial si existe.</p>
         <p>Estudiar ethics scraping con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Respeta robots.txt y ToS</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Elegir gráfico correcto',
         duration: '8 min',
         theory: `<p>Elegir gráfico correcto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no uses pie con 15 categorías Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, no uses pie con 15 categorías.</p>
         <p>Estudiar elegir gráfico correcto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Barras categorías; línea tiempo; scatter correlación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Tablas legibles',
         duration: '8 min',
         theory: `<p>Tablas legibles es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, formato condicional resalta outliers Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, formato condicional resalta outliers.</p>
         <p>Estudiar tablas legibles con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Alineación número derecha; miles separador</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Storytelling datos',
         duration: '8 min',
         theory: `<p>Storytelling datos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, título activo: 'Ventas subieron 12% Q2' Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, título activo: 'Ventas subieron 12% Q2'.</p>
         <p>Estudiar storytelling datos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Un mensaje principal por visualización</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Accesibilidad color',
         duration: '8 min',
         theory: `<p>Accesibilidad color es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, viridis o contrast check Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, viridis o contrast check.</p>
         <p>Estudiar accesibilidad color con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: No solo color; patrones para daltónicos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Export presentación',
         duration: '8 min',
         theory: `<p>Export presentación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, export 300dpi si imprime Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, export 300dpi si imprime.</p>
         <p>Estudiar export presentación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: SVG vector gráficos; PNG alta res</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Dashboard simple',
         duration: '8 min',
         theory: `<p>Dashboard simple es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, hoja Resumen con enlaces detalle Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, hoja Resumen con enlaces detalle.</p>
         <p>Estudiar dashboard simple con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: KPIs 3-5 máximo una pantalla</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Anotar fuentes',
         duration: '8 min',
         theory: `<p>Anotar fuentes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Fuente: Inventario 2025-03, sin obsoletos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, Fuente: Inventario 2025-03, sin obsoletos.</p>
         <p>Estudiar anotar fuentes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Pie de figura: origen, fecha, filtro</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Evitar cherry-picking',
         duration: '8 min',
         theory: `<p>Evitar cherry-picking es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, incluir meses malos y buenos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, incluir meses malos y buenos.</p>
         <p>Estudiar evitar cherry-picking con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Mostrar rango completo temporal</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Feedback audiencia',
         duration: '8 min',
         theory: `<p>Feedback audiencia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prueba con una persona no experta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, prueba con una persona no experta.</p>
         <p>Estudiar feedback audiencia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Preguntar qué confunde antes de final</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Archivo final proyecto',
         duration: '8 min',
         theory: `<p>Archivo final proyecto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tus datos y registros y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, carpeta final/ con README Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tus datos y registros de forma integrada.</p>
+        <p>En la práctica, carpeta final/ con README.</p>
         <p>Estudiar archivo final proyecto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en organizar información cotidiana.</p>
         <ul><li>Concepto central: Datos crudos, limpios, figuras, informe</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en organizar información cotidiana</li></ul>`,
         example: {

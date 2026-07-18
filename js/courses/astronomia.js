@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. El movimiento diurno',
         duration: '8 min',
         theory: `<p>El movimiento diurno es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa cómo las estrellas circumpolares no se ponen en latitudes medias Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, observa cómo las estrellas circumpolares no se ponen en latitudes medias.</p>
         <p>Estudiar el movimiento diurno con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: La bóveda celeste parece girar alrededor de un eje por la rotación terrestre</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Coordenadas alt-az',
         duration: '8 min',
         theory: `<p>Coordenadas alt-az es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, practica estimar 45° de altitud comparando con el puño a brazo extendido Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, practica estimar 45° de altitud comparando con el puño a brazo extendido.</p>
         <p>Estudiar coordenadas alt-az con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Altitud mide grados sobre horizonte; acimut es ángulo desde el norte hacia el este</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Eclíptica y zodiaco',
         duration: '8 min',
         theory: `<p>Eclíptica y zodiaco es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, localiza el camino lunar y planetas cerca de la eclíptica en cualquier mes Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, localiza el camino lunar y planetas cerca de la eclíptica en cualquier mes.</p>
         <p>Estudiar eclíptica y zodiaco con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Plano donde orbitan planetas; constelaciones zodiacales lo cruzan</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Magnitud aparente',
         duration: '8 min',
         theory: `<p>Magnitud aparente es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica las cinco estrellas más brillantes visibles desde tu latitud Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, identifica las cinco estrellas más brillantes visibles desde tu latitud.</p>
         <p>Estudiar magnitud aparente con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Escala logarítmica de brillo; menor número = más brillante</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Luz y contaminación lumínica',
         duration: '8 min',
         theory: `<p>Luz y contaminación lumínica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, busca sitios Bortle 4 o mejor; apaga luces directas y espera adaptación 20 min Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, busca sitios Bortle 4 o mejor; apaga luces directas y espera adaptación 20 min.</p>
         <p>Estudiar luz y contaminación lumínica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Lámparas dispersas reducen contraste del cielo y ocultan estrellas débiles</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Fases lunares',
         duration: '8 min',
         theory: `<p>Fases lunares es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, registra forma lunar cada noche y predice siguiente fase Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, registra forma lunar cada noche y predice siguiente fase.</p>
         <p>Estudiar fases lunares con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Fase depende del ángulo Sol-Tierra-Luna; ciclo sinódico ~29,5 días</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Planeta vs estrella',
         duration: '8 min',
         theory: `<p>Planeta vs estrella es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara Júpiter con estrella cercana: Júpiter es constante y más nítido Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, compara Júpiter con estrella cercana: Júpiter es constante y más nítido.</p>
         <p>Estudiar planeta vs estrella con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Planetas muestran disco y no parpadean tanto; estrellas son puntos que titilan</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Estaciones y el Sol',
         duration: '8 min',
         theory: `<p>Estaciones y el Sol es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mide sombra al mediodía solar en solsticios y equinoccios si puedes Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, mide sombra al mediodía solar en solsticios y equinoccios si puedes.</p>
         <p>Estudiar estaciones y el sol con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Inclinación axial causa estaciones; altura del Sol al mediodía varía</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Brújula celeste y Polaris',
         duration: '8 min',
         theory: `<p>Brújula celeste y Polaris es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, localiza Osa Mayor y sigue el borde del cubo hasta Polaris Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, localiza Osa Mayor y sigue el borde del cubo hasta Polaris.</p>
         <p>Estudiar brújula celeste y polaris con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Polaris indica norte geográfico con error pequeño en hemisferio norte</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Cuaderno de campo astronómico',
         duration: '8 min',
         theory: `<p>Cuaderno de campo astronómico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, anota seeing, transparencia y objetos vistos con boceto simple Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, anota seeing, transparencia y objetos vistos con boceto simple.</p>
         <p>Estudiar cuaderno de campo astronómico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Registrar fecha, hora UTC/local, instrumento y condiciones mejora aprendizaje</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Mercurio y Venus',
         duration: '8 min',
         theory: `<p>Mercurio y Venus es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, busca Mercurio en crepúsculo 30 min tras puesta de Sol Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, busca Mercurio en crepúsculo 30 min tras puesta de Sol.</p>
         <p>Estudiar mercurio y venus con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Interiores a la Tierra; Venus muy brillante; Mercurio pegado al Sol</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Marte en oposición',
         duration: '8 min',
         theory: `<p>Marte en oposición es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, planifica observación cuando Marte esté opuesto y alto en el cielo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, planifica observación cuando Marte esté opuesto y alto en el cielo.</p>
         <p>Estudiar marte en oposición con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Marte más brillante y grande cerca de oposición cada ~26 meses</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Júpiter y lunas galileanas',
         duration: '8 min',
         theory: `<p>Júpiter y lunas galileanas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa cambio de posición de Io y Europa en una sola noche Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, observa cambio de posición de Io y Europa en una sola noche.</p>
         <p>Estudiar júpiter y lunas galileanas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Cuatro lunas grandes visibles en binoculares; orbitan en días</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Saturno y anillos',
         duration: '8 min',
         theory: `<p>Saturno y anillos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa cuando Saturno esté alto para menos turbulencia Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, observa cuando Saturno esté alto para menos turbulencia.</p>
         <p>Estudiar saturno y anillos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Anillos de hielo y roca visibles con telescopio >60 mm bien colimado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Lluvias de meteoros',
         duration: '8 min',
         theory: `<p>Lluvias de meteoros es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Perseidas agosto; Gemínidas diciembre; observa después de medianoche Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, Perseidas agosto; Gemínidas diciembre; observa después de medianoche.</p>
         <p>Estudiar lluvias de meteoros con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Polvo cometario entra en atmósfera; radiant indica constelación origen</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Eclipses solares',
         duration: '8 min',
         theory: `<p>Eclipses solares es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa gafas ISO 12312-2; nunca sin protección excepto totality breve Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, usa gafas ISO 12312-2; nunca sin protección excepto totality breve.</p>
         <p>Estudiar eclipses solares con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Luna cubre Sol; total solo en franja; parcial en región más amplia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Eclipses lunares',
         duration: '8 min',
         theory: `<p>Eclipses lunares es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Luna puede volverse rojiza por dispersión atmosfrica (blood moon) Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, Luna puede volverse rojiza por dispersión atmosfrica (blood moon).</p>
         <p>Estudiar eclipses lunares con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Tierra proyecta sombra en Luna; visibles en todo el hemisferio nocturno</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Cometas visibles',
         duration: '8 min',
         theory: `<p>Cometas visibles es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cola de polvo y de iones apuntan direcciones distintas por viento solar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, cola de polvo y de iones apuntan direcciones distintas por viento solar.</p>
         <p>Estudiar cometas visibles con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Núcleo hielo-polvo desarrolla coma y colas cerca del Sol</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Asteroides y conjunciones',
         duration: '8 min',
         theory: `<p>Asteroides y conjunciones es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, app de planetario muestra conjunciones Luna-Júpiter espectaculares Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, app de planetario muestra conjunciones Luna-Júpiter espectaculares.</p>
         <p>Estudiar asteroides y conjunciones con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Conjunción es proximidad aparente en cielo, no distancia real</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Estaciones en otros planetas',
         duration: '8 min',
         theory: `<p>Estaciones en otros planetas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara duración orbital marciana ~687 días terrestres Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, compara duración orbital marciana ~687 días terrestres.</p>
         <p>Estudiar estaciones en otros planetas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Marte tiene estaciones por inclinación similar; duración ~ el doble que Tierra</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Espectro y color estelar',
         duration: '8 min',
         theory: `<p>Espectro y color estelar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara Betelgeuse roja con Rigel azul en Orión Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, compara Betelgeuse roja con Rigel azul en Orión.</p>
         <p>Estudiar espectro y color estelar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Color indica temperatura superficial: azul caliente, rojo frío</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Secuencia principal',
         duration: '8 min',
         theory: `<p>Secuencia principal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Sol permanecerá en secuencia principal ~10 mil millones años Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, Sol permanecerá en secuencia principal ~10 mil millones años.</p>
         <p>Estudiar secuencia principal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Relación masa-luminosidad-temperatura; estrellas fusionan H en núcleo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Constelaciones estacionales',
         duration: '8 min',
         theory: `<p>Constelaciones estacionales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, verifica Leo primavera, Cygnus verano, Orión invierno (hemisferio norte) Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, verifica Leo primavera, Cygnus verano, Orión invierno (hemisferio norte).</p>
         <p>Estudiar constelaciones estacionales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Mapa estelar cambia con estación y hora por órbita terrestre</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Cúmulos abiertos',
         duration: '8 min',
         theory: `<p>Cúmulos abiertos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Pídides y Hyades visibles; Pléyades con nebulosidad en fotos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, Pídides y Hyades visibles; Pléyades con nebulosidad en fotos.</p>
         <p>Estudiar cúmulos abiertos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Grupo de estrellas jóvenes nacidas de misma nube; dispersan con tiempo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Nebulosas brillantes',
         duration: '8 min',
         theory: `<p>Nebulosas brillantes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Orion Nebula M42 visible espada de Orión con binoculares Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, Orion Nebula M42 visible espada de Orión con binoculares.</p>
         <p>Estudiar nebulosas brillantes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Gas ionizado brilla por estrellas calientes cercanas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Galaxia de Andrómeda',
         duration: '8 min',
         theory: `<p>Galaxia de Andrómeda es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, visible otoño; campo oscuro esencial Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, visible otoño; campo oscuro esencial.</p>
         <p>Estudiar galaxia de andrómeda con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: M31 galaxia espiral ~2,5 M años luz; mancha oval sin luna</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Estrellas variables',
         duration: '8 min',
         theory: `<p>Estrellas variables es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Cefeidas usadas en cosmología por relación periodo-luminosidad Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, Cefeidas usadas en cosmología por relación periodo-luminosidad.</p>
         <p>Estudiar estrellas variables con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Brillo cambia por pulsación, eclipses binarias u otros mecanismos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Agujeros negros estelares',
         duration: '8 min',
         theory: `<p>Agujeros negros estelares es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Cygnus X-1 candidato histórico; no observable visualmente directamente Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, Cygnus X-1 candidato histórico; no observable visualmente directamente.</p>
         <p>Estudiar agujeros negros estelares con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Remanentes masivos; detectados por efectos en compañera o ondas gravitacionales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Vía Láctea',
         duration: '8 min',
         theory: `<p>Vía Láctea es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mejor verano en hemisferio norte lejos de luna y ciudad Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, mejor verano en hemisferio norte lejos de luna y ciudad.</p>
         <p>Estudiar vía láctea con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Nuestro brazo espiral visto desde dentro como banda difusa</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Exoplanetas',
         duration: '8 min',
         theory: `<p>Exoplanetas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, métodos: tránsito, velocidad radial, microlente Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, métodos: tránsito, velocidad radial, microlente.</p>
         <p>Estudiar exoplanetas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Planetas orbitan otras estrellas; mayoría detectados indirectamente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Binoculares 10x50',
         duration: '8 min',
         theory: `<p>Binoculares 10x50 es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa trípode adaptador para estabilidad en objetos tenues Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, usa trípode adaptador para estabilidad en objetos tenues.</p>
         <p>Estudiar binoculares 10x50 con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: 10 aumentos, objetivos 50 mm; buen equilibrio cielo mano</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Telescopio reflector vs refractor',
         duration: '8 min',
         theory: `<p>Telescopio reflector vs refractor es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, reflectores grandes son más baratos por pulgada; refractores nítidos en planetas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, reflectores grandes son más baratos por pulgada; refractores nítidos en planetas.</p>
         <p>Estudiar telescopio reflector vs refractor con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Reflector usa espejos; refractor lentes; distintos costos y aberraciones</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Apertura y resolución',
         duration: '8 min',
         theory: `<p>Apertura y resolución es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, regla práctica: resolución ~116/D mm arco-segundos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, regla práctica: resolución ~116/D mm arco-segundos.</p>
         <p>Estudiar apertura y resolución con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Diámetro mayor recoge más luz y resuelve detalles finos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Monturas alt-az y ecuatorial',
         duration: '8 min',
         theory: `<p>Monturas alt-az y ecuatorial es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ecuatorial facilita astrofotografía con seguimiento motorizado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, ecuatorial facilita astrofotografía con seguimiento motorizado.</p>
         <p>Estudiar monturas alt-az y ecuatorial con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Alt-az simple; ecuatorial alinea con eje terrestre para seguimiento</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Oculares y aumento',
         duration: '8 min',
         theory: `<p>Oculares y aumento es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, empieza con ocular medio; cambia según objeto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, empieza con ocular medio; cambia según objeto.</p>
         <p>Estudiar oculares y aumento con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Aumento = focal telescopio / focal ocular; exceso empeora imagen</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Filtros lunares y planetarios',
         duration: '8 min',
         theory: `<p>Filtros lunares y planetarios es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, nunca filtro solar improvisado; solo certificado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, nunca filtro solar improvisado; solo certificado.</p>
         <p>Estudiar filtros lunares y planetarios con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Filtro lunar reduce brillo; colorados realzan detalles marcianos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Astrofotografía con trípode',
         duration: '8 min',
         theory: `<p>Astrofotografía con trípode es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, regla 500: tiempo max ≈ 500/(focal×crop) segundos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, regla 500: tiempo max ≈ 500/(focal×crop) segundos.</p>
         <p>Estudiar astrofotografía con trípode con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Exposiciones de segundos capturan cielo estrellado sin seguimiento</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Seeing y transparencia',
         duration: '8 min',
         theory: `<p>Seeing y transparencia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, planetas mejor con seeing estable aunque algo de luz polución Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, planetas mejor con seeing estable aunque algo de luz polución.</p>
         <p>Estudiar seeing y transparencia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Seeing es estabilidad atmosférica; transparencia claridad por humo/nubes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Star hopping',
         duration: '8 min',
         theory: `<p>Star hopping es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, practica desde Pléyades a objetos cercanos con mapa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, practica desde Pléyades a objetos cercanos con mapa.</p>
         <p>Estudiar star hopping con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Navegar saltando de estrellas conocidas a objetos tenues</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Mantenimiento óptica',
         duration: '8 min',
         theory: `<p>Mantenimiento óptica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, evita roces en recubrimientos; guarda con tapas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, evita roces en recubrimientos; guarda con tapas.</p>
         <p>Estudiar mantenimiento óptica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Polvo en lentes/espejos: soplar polvo, limpiar solo si necesario con kit</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Big Bang y expansión',
         duration: '8 min',
         theory: `<p>Big Bang y expansión es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no es explosión en un punto del espacio sino expansión del espacio Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, no es explosión en un punto del espacio sino expansión del espacio.</p>
         <p>Estudiar big bang y expansión con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Universo temprano denso; expansión explica corrimiento al rojo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Edad del universo',
         duration: '8 min',
         theory: `<p>Edad del universo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, estrellas más antiguas ~13 mil millones confirman orden magnitud Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, estrellas más antiguas ~13 mil millones confirman orden magnitud.</p>
         <p>Estudiar edad del universo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: ~13,8 mil millones años de modelos cosmológicos y CMB</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Materia oscura y energía',
         duration: '8 min',
         theory: `<p>Materia oscura y energía es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, modelo estándar incluye ~68% energía oscura, ~27% materia oscura Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, modelo estándar incluye ~68% energía oscura, ~27% materia oscura.</p>
         <p>Estudiar materia oscura y energía con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Componentes no visibles explican rotación galáctica y aceleración expansión</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Calendario lunar vs solar',
         duration: '8 min',
         theory: `<p>Calendario lunar vs solar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, calendario gregoriano es solar con corrección bisiesto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, calendario gregoriano es solar con corrección bisiesto.</p>
         <p>Estudiar calendario lunar vs solar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Lunar ~354 días; solar 365; culturas combinan con meses intercalares</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Solsticios y equinoccios',
         duration: '8 min',
         theory: `<p>Solsticios y equinoccios es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, marca fechas culturales y cambio estacional astronómico Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, marca fechas culturales y cambio estacional astronómico.</p>
         <p>Estudiar solsticios y equinoccios con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Solsticio: Sol máxima declinación; equinoccio: día y noche ~ iguales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Precesión del eje',
         duration: '8 min',
         theory: `<p>Precesión del eje es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Thuban fue polar en Egipto antiguo; Vega lo será Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, Thuban fue polar en Egipto antiguo; Vega lo será.</p>
         <p>Estudiar precesión del eje con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Bamboleo lento del eje ~26 mil años; cambia estrella polar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Satélites artificiales',
         duration: '8 min',
         theory: `<p>Satélites artificiales es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, apps muestran pasos brillantes post-atardecer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, apps muestran pasos brillantes post-atardecer.</p>
         <p>Estudiar satélites artificiales con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: TLE permiten predecir pasos ISS y Starlink</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Estaciones espaciales y basura',
         duration: '8 min',
         theory: `<p>Estaciones espaciales y basura es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, objetos bajos caen; geostacionarios lejanos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, objetos bajos caen; geostacionarios lejanos.</p>
         <p>Estudiar estaciones espaciales y basura con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Basura espacial amenaza satélites; reentradas visibles ocasionales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Planificar sesión mensual',
         duration: '8 min',
         theory: `<p>Planificar sesión mensual es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, luna menguante semanas mejores cielo profundo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, luna menguante semanas mejores cielo profundo.</p>
         <p>Estudiar planificar sesión mensual con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Combina fases lunares, planetas prominentes y eventos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Ciudadanía científica astronómica',
         duration: '8 min',
         theory: `<p>Ciudadanía científica astronómica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el cielo nocturno y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, proyectos AAVSO, Zooniverse Galaxy Zoo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el cielo nocturno de forma integrada.</p>
+        <p>En la práctica, proyectos AAVSO, Zooniverse Galaxy Zoo.</p>
         <p>Estudiar ciudadanía científica astronómica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en observaciones al aire libre con plano estelar.</p>
         <ul><li>Concepto central: Amateurs contribuyen curvas de luz, asteroides, variable stars</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en observaciones al aire libre con plano estelar</li></ul>`,
         example: {

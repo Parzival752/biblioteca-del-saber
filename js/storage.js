@@ -1,11 +1,16 @@
 /**
  * Storage v4 — perfil global + progreso por curso/lenguaje
  */
-import { getCourseMeta, getLessonCount, COURSES } from './courses/registry.js';
+import { getCourseMeta, getLessonCount, COURSES, getCurriculum } from './courses/registry.js';
 import { MAX_CUSTOM_AVATARS } from './avatar-builder.js';
 
 const STORAGE_KEY = 'biblioteca-del-saber-v1';
 const LEGACY_KEYS = ['aprende-js-v4', 'aprende-js-v3', 'super-maestro-v2', 'super-maestro-v1'];
+
+export const XP_PER_LESSON = 50;
+export const XP_BONUS_NO_HINT = 15;
+export const XP_PER_QUIZ = 10;
+export const XP_DAILY_BONUS = 25;
 
 const defaultCourseState = () => ({
   completed: [],
@@ -22,7 +27,9 @@ const defaultCourseState = () => ({
   lessonTimeMs: {},
   dailyChallengeDate: null,
   dailyChallengeDone: false,
+  dailyBonusXp: 0,
   quizzesPassed: [],
+  perfectLessons: [],
 });
 
 const defaultProfile = () => ({
@@ -39,6 +46,7 @@ const defaultProfile = () => ({
   onboardingDone: {},
   tourDone: {},
   studiedAtNight: false,
+  /** @deprecated migrado a course.perfectLessons */
   perfectLessons: [],
   studyingCourses: [],
   customAvatars: [],
@@ -105,6 +113,11 @@ function loadRoot() {
         .map(([id]) => id);
       root.profile.studyingCourses = derived.length ? derived : [cid];
     }
+    for (const id of Object.keys(root.courses)) ensureCourse(root, id);
+    const hadLegacyPerfect = Array.isArray(root.profile.perfectLessons) && root.profile.perfectLessons.length > 0;
+    migratePerfectLessonsToCourses(root);
+    for (const id of Object.keys(root.courses)) recalcXp(root.courses[id]);
+    if (hadLegacyPerfect) saveRoot(root);
     return root;
   } catch {
     return defaultRoot();
@@ -115,11 +128,38 @@ function saveRoot(root) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(root));
 }
 
+function lessonIdsForCourse(courseId) {
+  try {
+    return new Set(
+      (getCurriculum(courseId) || []).flatMap((m) => (m.lessons || []).map((l) => l.id)),
+    );
+  } catch {
+    return new Set();
+  }
+}
+
+function migratePerfectLessonsToCourses(root) {
+  const legacy = Array.isArray(root.profile.perfectLessons) ? root.profile.perfectLessons : [];
+  if (!legacy.length) return;
+  for (const lessonId of legacy) {
+    if (typeof lessonId !== 'string') continue;
+    for (const [cid, course] of Object.entries(root.courses)) {
+      if (!lessonIdsForCourse(cid).has(lessonId)) continue;
+      course.perfectLessons = Array.isArray(course.perfectLessons) ? course.perfectLessons : [];
+      if (!course.perfectLessons.includes(lessonId)) course.perfectLessons.push(lessonId);
+    }
+  }
+  root.profile.perfectLessons = [];
+}
+
 function ensureCourse(root, courseId) {
   if (!root.courses[courseId]) {
     root.courses[courseId] = { ...defaultCourseState() };
   }
-  return root.courses[courseId];
+  const course = root.courses[courseId];
+  if (!Array.isArray(course.perfectLessons)) course.perfectLessons = [];
+  if (course.dailyBonusXp == null) course.dailyBonusXp = 0;
+  return course;
 }
 
 function mutateCourse(fn) {
@@ -230,9 +270,11 @@ export function loadProgress() {
 }
 
 function recalcXp(course) {
-  const base = course.completed.length * 50;
-  const bonus = (course.noHintLessons || []).filter((id) => course.completed.includes(id)).length * 15;
-  course.xp = base + bonus;
+  const base = (course.completed?.length || 0) * XP_PER_LESSON;
+  const noHint = (course.noHintLessons || []).filter((id) => course.completed.includes(id)).length * XP_BONUS_NO_HINT;
+  const quizzes = (course.quizzesPassed || []).length * XP_PER_QUIZ;
+  const daily = Number(course.dailyBonusXp) || 0;
+  course.xp = base + noHint + quizzes + daily;
 }
 
 export function markComplete(lessonId, { usedHint = false } = {}) {
@@ -290,7 +332,7 @@ export function markQuizPassed(lessonId) {
   mutateCourse((course) => {
     if (!course.quizzesPassed.includes(lessonId)) {
       course.quizzesPassed.push(lessonId);
-      course.xp = (course.xp || 0) + 10;
+      recalcXp(course);
     }
   });
 }
@@ -432,6 +474,7 @@ export function resetLesson(lessonId) {
     course.completed = course.completed.filter((id) => id !== lessonId);
     course.noHintLessons = course.noHintLessons.filter((id) => id !== lessonId);
     course.quizzesPassed = course.quizzesPassed.filter((id) => id !== lessonId);
+    course.perfectLessons = (course.perfectLessons || []).filter((id) => id !== lessonId);
     delete course.codeDrafts[lessonId];
     delete course.attempts[lessonId];
     delete course.hintsUsed[lessonId];
@@ -444,6 +487,7 @@ export function resetLesson(lessonId) {
 
 export function resetModule(lessonIds) {
   mutateCourse((course) => {
+    const drop = new Set(lessonIds);
     for (const id of lessonIds) {
       course.completed = course.completed.filter((lid) => lid !== id);
       course.noHintLessons = course.noHintLessons.filter((lid) => lid !== id);
@@ -454,6 +498,7 @@ export function resetModule(lessonIds) {
       delete course.hintLevels[id];
       delete course.attemptHistory[id];
     }
+    course.perfectLessons = (course.perfectLessons || []).filter((id) => !drop.has(id));
     recalcXp(course);
   });
   return loadProgress();
@@ -521,12 +566,12 @@ export function getStats(totalLessons) {
 }
 
 export function markPerfectLesson(lessonId) {
-  const root = loadRoot();
-  root.profile.perfectLessons = root.profile.perfectLessons || [];
-  if (!root.profile.perfectLessons.includes(lessonId)) {
-    root.profile.perfectLessons.push(lessonId);
-    saveRoot(root);
-  }
+  mutateCourse((course) => {
+    course.perfectLessons = course.perfectLessons || [];
+    if (!course.perfectLessons.includes(lessonId)) {
+      course.perfectLessons.push(lessonId);
+    }
+  });
 }
 
 export function recordStudyTime() {
@@ -540,9 +585,11 @@ export function recordStudyTime() {
 export function markDailyChallengeDoneStorage() {
   const today = new Date().toISOString().slice(0, 10);
   mutateCourse((course) => {
+    if (course.dailyChallengeDate === today && course.dailyChallengeDone) return;
     course.dailyChallengeDate = today;
     course.dailyChallengeDone = true;
-    course.xp = (course.xp || 0) + 25;
+    course.dailyBonusXp = (Number(course.dailyBonusXp) || 0) + XP_DAILY_BONUS;
+    recalcXp(course);
   });
 }
 
@@ -576,12 +623,14 @@ function normalizeCourseState(raw) {
   merged.attemptHistory = asObject(merged.attemptHistory);
   merged.lessonTimeMs = asObject(merged.lessonTimeMs);
   merged.quizzesPassed = asArray(merged.quizzesPassed).filter((id) => typeof id === 'string');
+  merged.perfectLessons = asArray(merged.perfectLessons).filter((id) => typeof id === 'string');
   merged.totalAttempts = Number(merged.totalAttempts) || 0;
-  merged.xp = Number(merged.xp) || 0;
+  merged.dailyBonusXp = Math.max(0, Number(merged.dailyBonusXp) || 0);
   merged.lastLesson = typeof merged.lastLesson === 'string' ? merged.lastLesson : null;
   merged.dailyChallengeDate = typeof merged.dailyChallengeDate === 'string' ? merged.dailyChallengeDate : null;
   merged.dailyChallengeDone = Boolean(merged.dailyChallengeDone);
   merged.startedAt = Number(merged.startedAt) || Date.now();
+  recalcXp(merged);
   return merged;
 }
 
@@ -655,6 +704,9 @@ export function validateBackup(data) {
   if (!data.profile || typeof data.profile !== 'object') throw new Error('Falta el perfil');
   if (!data.courses || typeof data.courses !== 'object') throw new Error('Falta el progreso de cursos');
   if (!Object.keys(data.courses).length) throw new Error('No hay cursos guardados en el archivo');
+  if (data.version != null && Number(data.version) > BACKUP_VERSION) {
+    throw new Error('Esta copia es de una versión más nueva de la app. Actualiza La Biblioteca del Saber e inténtalo de nuevo.');
+  }
   return data;
 }
 

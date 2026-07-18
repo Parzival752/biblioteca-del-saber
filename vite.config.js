@@ -37,6 +37,24 @@ export default defineConfig(({ mode }) => {
       outDir: 'dist',
       emptyOutDir: true,
       sourcemap: false,
+      chunkSizeWarningLimit: 2000,
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('/js/courses/')) {
+              const m = id.match(/courses\/([^/]+)\.js$/);
+              return m ? `course-${m[1]}` : 'courses';
+            }
+            if (id.includes('/js/runners/')) return 'runners';
+            if (id.includes('/js/avatar-builder')) return 'avatar-builder';
+            if (id.includes('/js/legal')) return 'legal';
+          },
+        },
+      },
+    },
+    server: {
+      port: 8773,
+      strictPort: true,
     },
     plugins: [
       copyStatic(['assets', 'assets']),

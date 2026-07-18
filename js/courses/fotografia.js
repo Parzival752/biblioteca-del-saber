@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Triángulo exposición',
         duration: '8 min',
         theory: `<p>Triángulo exposición es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, modo manual cambia uno observa histograma Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, modo manual cambia uno observa histograma.</p>
         <p>Estudiar triángulo exposición con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Apertura, velocidad e ISO se compensan</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Apertura y profundidad',
         duration: '8 min',
         theory: `<p>Apertura y profundidad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, foto flor f/2.8 vs paisaje f/11 Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, foto flor f/2.8 vs paisaje f/11.</p>
         <p>Estudiar apertura y profundidad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: f/2.8 poca profundidad; f/11 mucha</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Velocidad congelar',
         duration: '8 min',
         theory: `<p>Velocidad congelar es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, experimenta cascada 1/4 s Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, experimenta cascada 1/4 s.</p>
         <p>Estudiar velocidad congelar con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: 1/1000 aves; 1/30 agua sedosa con trípode</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. ISO y ruido',
         duration: '8 min',
         theory: `<p>ISO y ruido es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara ISO 3200 en sombra Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, compara ISO 3200 en sombra.</p>
         <p>Estudiar iso y ruido con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Base ISO 100-400 según cámara; subir si necesario</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Histograma',
         duration: '8 min',
         theory: `<p>Histograma es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, activa histograma live view Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, activa histograma live view.</p>
         <p>Estudiar histograma con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Grafico tonos; evitar clipping extremos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Hora dorada',
         duration: '8 min',
         theory: `<p>Hora dorada es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, planifica salida golden hour app Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, planifica salida golden hour app.</p>
         <p>Estudiar hora dorada con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Primera/última hora luz cálida lateral</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Hora azul',
         duration: '8 min',
         theory: `<p>Hora azul es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, foto ciudad blue hour trípode Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, foto ciudad blue hour trípode.</p>
         <p>Estudiar hora azul con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Crepúsculo cielo azul profundo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Contraluz y silueta',
         duration: '8 min',
         theory: `<p>Contraluz y silueta es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, silueta árbol atardecer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, silueta árbol atardecer.</p>
         <p>Estudiar contraluz y silueta con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Medir cielo silueta montaña</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Filtros ND',
         duration: '8 min',
         theory: `<p>Filtros ND es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ND8 cascada día Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, ND8 cascada día.</p>
         <p>Estudiar filtros nd con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: ND reduce luz día larga exposición</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Filtro polarizador',
         duration: '8 min',
         theory: `<p>Filtro polarizador es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, rotar CPL max saturación cielo 90° sol Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, rotar CPL max saturación cielo 90° sol.</p>
         <p>Estudiar filtro polarizador con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Reduce reflejos cielo agua</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Regla tercios',
         duration: '8 min',
         theory: `<p>Regla tercios es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, activa grid cámara Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, activa grid cámara.</p>
         <p>Estudiar regla tercios con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Sujeto en intersecciones tercios</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Líneas guía',
         duration: '8 min',
         theory: `<p>Líneas guía es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, componer camino desde esquina Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, componer camino desde esquina.</p>
         <p>Estudiar líneas guía con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Senderos, ríos dirigen ojo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Foreground interest',
         duration: '8 min',
         theory: `<p>Foreground interest es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, gran angular cerca objeto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, gran angular cerca objeto.</p>
         <p>Estudiar foreground interest con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Roca flor primer plano escala</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Encuadre vertical',
         duration: '8 min',
         theory: `<p>Encuadre vertical es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, probar mismo lugar H vs V Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, probar mismo lugar H vs V.</p>
         <p>Estudiar encuadre vertical con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Montañas árboles altos vertical</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Simetría reflejos',
         duration: '8 min',
         theory: `<p>Simetría reflejos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, amanecer viento mínimo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, amanecer viento mínimo.</p>
         <p>Estudiar simetría reflejos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Lago calma reflejo perfecto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Marco natural',
         duration: '8 min',
         theory: `<p>Marco natural es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, buscar ventana vegetación Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, buscar ventana vegetación.</p>
         <p>Estudiar marco natural con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Ramás forman marco cascada</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Minimalismo',
         duration: '8 min',
         theory: `<p>Minimalismo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, una dunas cielo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, una dunas cielo.</p>
         <p>Estudiar minimalismo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Espacio negativo cielo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Escala humana',
         duration: '8 min',
         theory: `<p>Escala humana es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, silueta cresta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, silueta cresta.</p>
         <p>Estudiar escala humana con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Persona lejana tamaño montaña</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Clutter removal',
         duration: '8 min',
         theory: `<p>Clutter removal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, 2 pasos izquierda elimina poste Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, 2 pasos izquierda elimina poste.</p>
         <p>Estudiar clutter removal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Mover basura frame o cambiar ángulo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Storytelling',
         duration: '8 min',
         theory: `<p>Storytelling es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, 3 fotos antes/durante/después Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, 3 fotos antes/durante/después.</p>
         <p>Estudiar storytelling con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Secuencia amanecer cuenta historia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Cámara APS-C vs FF',
         duration: '8 min',
         theory: `<p>Cámara APS-C vs FF es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa lo que tienes bien Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, usa lo que tienes bien.</p>
         <p>Estudiar cámara aps-c vs ff con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Full frame mejor baja luz; APS-C ligero</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Gran angular',
         duration: '8 min',
         theory: `<p>Gran angular es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, probar 16mm estrellas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, probar 16mm estrellas.</p>
         <p>Estudiar gran angular con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: 10-24mm paisaje expansivo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Tele paisaje',
         duration: '8 min',
         theory: `<p>Tele paisaje es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, montañas apiladas tele Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, montañas apiladas tele.</p>
         <p>Estudiar tele paisaje con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Compresión montañas capas 70-200</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Trípode elección',
         duration: '8 min',
         theory: `<p>Trípode elección es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, trípode amanecer larga exposición Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, trípode amanecer larga exposición.</p>
         <p>Estudiar trípode elección con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Estabilidad viento carga; ball head</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Bolsa y clima',
         duration: '8 min',
         theory: `<p>Bolsa y clima es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, fundas cambio lente seco Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, fundas cambio lente seco.</p>
         <p>Estudiar bolsa y clima con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Rain cover humedad; silice</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Baterías frío',
         duration: '8 min',
         theory: `<p>Baterías frío es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, 2 baterías invierno Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, 2 baterías invierno.</p>
         <p>Estudiar baterías frío con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Frío drena; calentar bolsillo spare</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Tarjetas backup',
         duration: '8 min',
         theory: `<p>Tarjetas backup es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, copiar noche laptop campo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, copiar noche laptop campo.</p>
         <p>Estudiar tarjetas backup con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: 2 tarjetas rotar; no borrar hasta backup</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Sensor polvo',
         duration: '8 min',
         theory: `<p>Sensor polvo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, soplador bulb sensor Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, soplador bulb sensor.</p>
         <p>Estudiar sensor polvo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Cambio lente viento cuidado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Mochila foto',
         duration: '8 min',
         theory: `<p>Mochila foto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Peak Design vs f-stop debate Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, Peak Design vs f-stop debate.</p>
         <p>Estudiar mochila foto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Acceso rápido cámara lateral</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Etiqueta sendero',
         duration: '8 min',
         theory: `<p>Etiqueta sendero es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, step aside grupos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, step aside grupos.</p>
         <p>Estudiar etiqueta sendero con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: No bloquear sendero trípode</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Bracketing HDR',
         duration: '8 min',
         theory: `<p>Bracketing HDR es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ±2 EV paisaje alto contraste Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, ±2 EV paisaje alto contraste.</p>
         <p>Estudiar bracketing hdr con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: 3-5 exposiciones fusionar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Panorámica horizontal',
         duration: '8 min',
         theory: `<p>Panorámica horizontal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, une 5 tomas valle Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, une 5 tomas valle.</p>
         <p>Estudiar panorámica horizontal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Overlap 30% rotar trípode</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Enfoque hyperfocal',
         duration: '8 min',
         theory: `<p>Enfoque hyperfocal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, app hyperfocal calcular Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, app hyperfocal calcular.</p>
         <p>Estudiar enfoque hyperfocal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Max profundidad paisaje</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Focus stacking',
         duration: '8 min',
         theory: `<p>Focus stacking es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, 10 shots merge Helicon Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, 10 shots merge Helicon.</p>
         <p>Estudiar focus stacking con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Macro flores múltiples focos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Astro vía láctea',
         duration: '8 min',
         theory: `<p>Astro vía láctea es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, regla 500 evitar trails Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, regla 500 evitar trails.</p>
         <p>Estudiar astro vía láctea con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: ISO alto gran angular trípode 15-25s</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Star trails',
         duration: '8 min',
         theory: `<p>Star trails es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, app intervalometer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, app intervalometer.</p>
         <p>Estudiar star trails con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Bulb 30min o stack</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Time-lapse',
         duration: '8 min',
         theory: `<p>Time-lapse es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, LRTimelapse o cámara built-in Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, LRTimelapse o cámara built-in.</p>
         <p>Estudiar time-lapse con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Interval 2-5s nubes</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Long exposure personas',
         duration: '8 min',
         theory: `<p>Long exposure personas es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ND1000 plaza 2min Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, ND1000 plaza 2min.</p>
         <p>Estudiar long exposure personas con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: ND gente desaparece turístico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Vertorama',
         duration: '8 min',
         theory: `<p>Vertorama es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, 3 shots vertical stitch Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, 3 shots vertical stitch.</p>
         <p>Estudiar vertorama con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Panorama vertical acantilado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Planning PhotoPills',
         duration: '8 min',
         theory: `<p>Planning PhotoPills es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, planificar luna alineada arco Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, planificar luna alineada arco.</p>
         <p>Estudiar planning photopills con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: App sol luna posición</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. RAW vs JPEG',
         duration: '8 min',
         theory: `<p>RAW vs JPEG es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, dispara RAW+JPEG si duda Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, dispara RAW+JPEG si duda.</p>
         <p>Estudiar raw vs jpeg con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: RAW más datos recuperación sombras</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Balance blancos',
         duration: '8 min',
         theory: `<p>Balance blancos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, RAW ajustar WB after Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, RAW ajustar WB after.</p>
         <p>Estudiar balance blancos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Temp tint cálido frío</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Curvas y contraste',
         duration: '8 min',
         theory: `<p>Curvas y contraste es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, highlights recovery shadows lift Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, highlights recovery shadows lift.</p>
         <p>Estudiar curvas y contraste con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: S-curve suave</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Dehaze local',
         duration: '8 min',
         theory: `<p>Dehaze local es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, brush dehaze fondo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, brush dehaze fondo.</p>
         <p>Estudiar dehaze local con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Clarity montaña niebla moderada</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Sharpening export',
         duration: '8 min',
         theory: `<p>Sharpening export es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, export sharpen screen Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, export sharpen screen.</p>
         <p>Estudiar sharpening export con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Capture vs output sharpen web</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Crop y nivel',
         duration: '8 min',
         theory: `<p>Crop y nivel es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, grid overlay rotate Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, grid overlay rotate.</p>
         <p>Estudiar crop y nivel con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Enderezar horizonte crítico</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Color grading natural',
         duration: '8 min',
         theory: `<p>Color grading natural es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, subtle teal orange evitar cliché Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, subtle teal orange evitar cliché.</p>
         <p>Estudiar color grading natural con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: HSL ajuste cielo verde selective</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Metadata keywords',
         duration: '8 min',
         theory: `<p>Metadata keywords es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, añadir GPS si ético Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, añadir GPS si ético.</p>
         <p>Estudiar metadata keywords con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Keywords location copyright IPTC</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Backup 3-2-1',
         duration: '8 min',
         theory: `<p>Backup 3-2-1 es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, SSD + cloud fotos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, SSD + cloud fotos.</p>
         <p>Estudiar backup 3-2-1 con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: 3 copias 2 medios 1 offsite</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Portfolio salida',
         duration: '8 min',
         theory: `<p>Portfolio salida es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en el paisaje natural y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, critique grupo fotoclub Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar el paisaje natural de forma integrada.</p>
+        <p>En la práctica, critique grupo fotoclub.</p>
         <p>Estudiar portfolio salida con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en salidas fotográficas al aire libre.</p>
         <ul><li>Concepto central: Seleccionar 10 mejores serie coherente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en salidas fotográficas al aire libre</li></ul>`,
         example: {

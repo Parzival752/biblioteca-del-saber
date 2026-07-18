@@ -1,11 +1,12 @@
 import { getCurriculum } from './courses/registry.js';
 import { getCourseSpecificBadges } from './course-achievements.js';
+export { XP_PER_LESSON, XP_BONUS_NO_HINT } from './storage.js';
 
 /** Logros compartidos (todos los saberes). Filtrados por minLessons del curso. */
 export const SHARED_BADGES = [
   { id: 'first', icon: '🚀', name: 'Primer paso', desc: 'Completa tu primera lección', metric: 'lessons', target: 1, group: 'shared' },
   { id: 'lessons5', icon: '👣', name: 'Calentando', desc: 'Completa 5 lecciones', metric: 'lessons', target: 5, minLessons: 5, group: 'shared' },
-  { id: 'half', icon: '⚡', name: 'A mitad de camino', desc: 'Completa 10 lecciones', metric: 'lessons', target: 10, minLessons: 10, group: 'shared' },
+  { id: 'half', icon: '⚡', name: 'A mitad de camino', desc: 'Completa la mitad de las lecciones del saber', metric: 'lessons', targetRatio: 0.5, minLessons: 2, group: 'shared' },
   { id: 'lessons20', icon: '🛤️', name: 'Camino firme', desc: 'Completa 20 lecciones', metric: 'lessons', target: 20, minLessons: 20, group: 'shared' },
   { id: 'lessons35', icon: '🏔️', name: 'Cumbre cercana', desc: 'Completa 35 lecciones', metric: 'lessons', target: 35, minLessons: 35, group: 'shared' },
   { id: 'graduate', icon: '🎓', name: 'Graduado', desc: 'Completa todo un saber', metric: 'lessons', target: null, group: 'shared' },
@@ -30,10 +31,10 @@ export const SHARED_BADGES = [
 /** @deprecated Usa getBadgesForCourse — se mantiene por compatibilidad. */
 export const BADGES = SHARED_BADGES;
 
-export const XP_PER_LESSON = 50;
-export const XP_BONUS_NO_HINT = 15;
-
 function badgeTarget(badge, totalLessons) {
+  if (badge.targetRatio != null) {
+    return Math.max(1, Math.ceil((totalLessons || 1) * badge.targetRatio));
+  }
   if (badge.metric === 'lessons' && (badge.target == null || badge.id === 'graduate')) {
     return Math.max(totalLessons || 1, 1);
   }

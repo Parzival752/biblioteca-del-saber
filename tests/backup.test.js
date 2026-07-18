@@ -77,10 +77,10 @@ describe('Copia de seguridad export/import', () => {
     expect(after.profile.theme).toBe('light');
     expect(after.profile.fontSize).toBe('lg');
     expect(after.profile.beginnerMode).toBe(false);
-    expect(after.profile.perfectLessons).toContain('l01-hola');
     expect(after.profile.customAvatars.some((a) => a.id === 'custom-test-1')).toBe(true);
 
     expect(after.courses.javascript.completed).toContain('l01-hola');
+    expect(after.courses.javascript.perfectLessons).toContain('l01-hola');
     expect(after.courses.javascript.codeDrafts['l01-hola']).toBe('console.log("hola")');
     expect(after.courses.javascript.quizzesPassed).toContain('l01-hola');
     expect(after.courses.javascript.attempts['l01-hola']).toBeGreaterThanOrEqual(1);
@@ -123,12 +123,12 @@ describe('Copia de seguridad export/import', () => {
     const root = getFullBackup();
     expect(root.profile.studentName).toBe('Sano');
     expect(root.profile.onboardingDone.flora).toBe(true);
-    expect(root.profile.perfectLessons).toEqual([]);
     expect(root.profile.customAvatars).toHaveLength(1);
     expect(root.courses.flora.completed).toEqual(['flora-l001']);
     expect(root.courses.flora.codeDrafts).toEqual({});
     expect(root.courses.flora.attempts).toEqual({});
-    expect(root.courses.flora.xp).toBe(50);
+    // 1 lección + 1 quiz recalculados (ignora el "50" string corrupto del archivo)
+    expect(root.courses.flora.xp).toBe(60);
   });
 
   it('rechaza archivos inválidos', () => {

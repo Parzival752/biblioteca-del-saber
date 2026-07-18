@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. Inbox universal',
         duration: '8 min',
         theory: `<p>Inbox universal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, app notas o cuaderno siempre accesible Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, app notas o cuaderno siempre accesible.</p>
         <p>Estudiar inbox universal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Un solo lugar capturar ideas y tareas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Brain dump',
         duration: '8 min',
         theory: `<p>Brain dump es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, timer 15 min escribir sin parar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, timer 15 min escribir sin parar.</p>
         <p>Estudiar brain dump con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Volcar todo pendiente sin filtrar 15 min</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Segundo cerebro ligero',
         duration: '8 min',
         theory: `<p>Segundo cerebro ligero es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, carpeta ProyectoX con links Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, carpeta ProyectoX con links.</p>
         <p>Estudiar segundo cerebro ligero con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Notas enlazadas por proyecto/contexto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. Recordatorios contexto',
         duration: '8 min',
         theory: `<p>Recordatorios contexto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, recordatorio al llegar biblioteca: libros devolver Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, recordatorio al llegar biblioteca: libros devolver.</p>
         <p>Estudiar recordatorios contexto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Ubicación o herramienta como disparador</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. Listas por contexto',
         duration: '8 min',
         theory: `<p>Listas por contexto es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, procesa lista @llamadas en batch Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, procesa lista @llamadas en batch.</p>
         <p>Estudiar listas por contexto con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: @casa @pc @llamadas agrupa errands</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. Plantillas checklist',
         duration: '8 min',
         theory: `<p>Plantillas checklist es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, checklist impresa mochila escuela Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, checklist impresa mochila escuela.</p>
         <p>Estudiar plantillas checklist con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Salida casa, inicio estudio, cierre día</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. Calendario bloques',
         duration: '8 min',
         theory: `<p>Calendario bloques es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, bloque 9-11 estudio matemáticas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, bloque 9-11 estudio matemáticas.</p>
         <p>Estudiar calendario bloques con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Tiempo real reservado en calendario</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. Referencias visibles',
         duration: '8 min',
         theory: `<p>Referencias visibles es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, post-it deadline entrega visible Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, post-it deadline entrega visible.</p>
         <p>Estudiar referencias visibles con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Horario, deadlines pared o monitor</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Captura voz',
         duration: '8 min',
         theory: `<p>Captura voz es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, widget grabación móvil Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, widget grabación móvil.</p>
         <p>Estudiar captura voz con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Dictar idea caminando a notas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Revisión semanal',
         duration: '8 min',
         theory: `<p>Revisión semanal es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, viernes tarde ritual fijo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, viernes tarde ritual fijo.</p>
         <p>Estudiar revisión semanal con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: 30 min: inbox cero, calendario semana, prioridades</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. Pomodoro 25/5',
         duration: '8 min',
         theory: `<p>Pomodoro 25/5 es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, timer visible durante bloque Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, timer visible durante bloque.</p>
         <p>Estudiar pomodoro 25/5 con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: 25 min foco, 5 descanso; 4 ciclos pausa larga</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Timeboxing',
         duration: '8 min',
         theory: `<p>Timeboxing es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, máx 45 min redactar borrador Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, máx 45 min redactar borrador.</p>
         <p>Estudiar timeboxing con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Caja tiempo máxima por tarea evita perfeccionismo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. Timer visible',
         duration: '8 min',
         theory: `<p>Timer visible es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, app fullscreen timer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, app fullscreen timer.</p>
         <p>Estudiar timer visible con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Reloj cuenta atrás grande en pantalla</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Transiciones',
         duration: '8 min',
         theory: `<p>Transiciones es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, playlist 2 min entre bloques Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, playlist 2 min entre bloques.</p>
         <p>Estudiar transiciones con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Ritual 2 min entre materias: respirar, agua, stretch</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Single-tasking',
         duration: '8 min',
         theory: `<p>Single-tasking es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, solo una pestaña trabajo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, solo una pestaña trabajo.</p>
         <p>Estudiar single-tasking con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Una tarea activa visible; resto oculta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Parkinson adaptado',
         duration: '8 min',
         theory: `<p>Parkinson adaptado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, examen práctica 30 min no 3h Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, examen práctica 30 min no 3h.</p>
         <p>Estudiar parkinson adaptado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Tarea expande al tiempo dado; acorta caja</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Energy mapping',
         duration: '8 min',
         theory: `<p>Energy mapping es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, registra energía 1-5 cada hora semana Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, registra energía 1-5 cada hora semana.</p>
         <p>Estudiar energy mapping con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Estudiar materia dura en pico energía personal</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. Descansos movimiento',
         duration: '8 min',
         theory: `<p>Descansos movimiento es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, timer pausa = caminar agua Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, timer pausa = caminar agua.</p>
         <p>Estudiar descansos movimiento con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: 5 min caminar reduce inquietud</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Anti-distraction environment',
         duration: '8 min',
         theory: `<p>Anti-distraction environment es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, focus mode activado bloque Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, focus mode activado bloque.</p>
         <p>Estudiar anti-distraction environment con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Modo no molestar, teléfono otra habitación</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Tracking tiempo opcional',
         duration: '8 min',
         theory: `<p>Tracking tiempo opcional es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, track una semana diagnóstico Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, track una semana diagnóstico.</p>
         <p>Estudiar tracking tiempo opcional con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Toggl conocer dónde va día sin obsesión</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Body doubling',
         duration: '8 min',
         theory: `<p>Body doubling es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, sesión Zoom mute cámara opcional estudiando Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, sesión Zoom mute cámara opcional estudiando.</p>
         <p>Estudiar body doubling con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Otra persona presente silenciosa aumenta inicio tarea</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Focusmate estilo',
         duration: '8 min',
         theory: `<p>Focusmate estilo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, probar plataforma cowork virtual Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, probar plataforma cowork virtual.</p>
         <p>Estudiar focusmate estilo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Turnos 25 min compartidos check-in</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. Grupo estudio estructurado',
         duration: '8 min',
         theory: `<p>Grupo estudio estructurado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, grupo 3-4 misma materia Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, grupo 3-4 misma materia.</p>
         <p>Estudiar grupo estudio estructurado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Agenda: 5 min meta, 45 min silencio, 10 repaso</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Accountability partner',
         duration: '8 min',
         theory: `<p>Accountability partner es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mensaje noche: hice X, mañana Y Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, mensaje noche: hice X, mañana Y.</p>
         <p>Estudiar accountability partner con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Reporte diario 2 líneas progreso</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Contrato consigo mismo',
         duration: '8 min',
         theory: `<p>Contrato consigo mismo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, pegado escritorio Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, pegado escritorio.</p>
         <p>Estudiar contrato consigo mismo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Escrito firmado objetivo semana</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. Clases grabadas ritmo',
         duration: '8 min',
         theory: `<p>Clases grabadas ritmo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ver lecture con compañero pausas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, ver lecture con compañero pausas.</p>
         <p>Estudiar clases grabadas ritmo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Asistir síncrono o body double replay</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Biblioteca como ancla',
         duration: '8 min',
         theory: `<p>Biblioteca como ancla es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mesa habitual biblioteca Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, mesa habitual biblioteca.</p>
         <p>Estudiar biblioteca como ancla con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Mismo sitio = modo estudio automático</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. Música foco',
         duration: '8 min',
         theory: `<p>Música foco es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, playlist instrumental fija Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, playlist instrumental fija.</p>
         <p>Estudiar música foco con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Lo-fi sin letra o ruido blanco</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Gamificación ligera',
         duration: '8 min',
         theory: `<p>Gamificación ligera es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, tablero visible racha días Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, tablero visible racha días.</p>
         <p>Estudiar gamificación ligera con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Puntos stickers metas cumplidas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Límites sociales estudio',
         duration: '8 min',
         theory: `<p>Límites sociales estudio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mensaje auto: estudio hasta 17h Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, mensaje auto: estudio hasta 17h.</p>
         <p>Estudiar límites sociales estudio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Decir no salida si bloque reservado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Mochila lista',
         duration: '8 min',
         theory: `<p>Mochila lista es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, checklist mochila puerta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, checklist mochila puerta.</p>
         <p>Estudiar mochila lista con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Todo material noche anterior</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Escritorio clear',
         duration: '8 min',
         theory: `<p>Escritorio clear es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, caja temporal resto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, caja temporal resto.</p>
         <p>Estudiar escritorio clear con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Solo lo necesario sesión actual</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Digital desktop',
         duration: '8 min',
         theory: `<p>Digital desktop es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mover archivos activos ahí Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, mover archivos activos ahí.</p>
         <p>Estudiar digital desktop con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Carpeta SESION_HOY en desktop</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Bookmarks estudio',
         duration: '8 min',
         theory: `<p>Bookmarks estudio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, eliminar 50 tabs guardados Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, eliminar 50 tabs guardados.</p>
         <p>Estudiar bookmarks estudio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Barra favoritos solo recursos curso</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. Impresión batch',
         duration: '8 min',
         theory: `<p>Impresión batch es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, domingo imprimir readings Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, domingo imprimir readings.</p>
         <p>Estudiar impresión batch con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Imprimir semana una vez</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Suministros backup',
         duration: '8 min',
         theory: `<p>Suministros backup es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, estuche siempre mochila Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, estuche siempre mochila.</p>
         <p>Estudiar suministros backup con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Bolígrafo extra, cargador, batería</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Iluminación',
         duration: '8 min',
         theory: `<p>Iluminación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lámpara escritorio 4000K Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, lámpara escritorio 4000K.</p>
         <p>Estudiar iluminación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Luz frontal suficiente reduce fatiga</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Ruido control',
         duration: '8 min',
         theory: `<p>Ruido control es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, probar biblioteca vs casa Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, probar biblioteca vs casa.</p>
         <p>Estudiar ruido control con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Tapones o ANC si ruido ambiente</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. Digital minimal tabs',
         duration: '8 min',
         theory: `<p>Digital minimal tabs es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, OneTab guardar resto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, OneTab guardar resto.</p>
         <p>Estudiar digital minimal tabs con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Extensión limit tabs max 5</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Reset espacio post',
         duration: '8 min',
         theory: `<p>Reset espacio post es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, timer 5 min guardar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, timer 5 min guardar.</p>
         <p>Estudiar reset espacio post con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: 5 min ordenar fin sesión</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Regla 2 minutos',
         duration: '8 min',
         theory: `<p>Regla 2 minutos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, decir 'solo abro documento' Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, decir 'solo abro documento'.</p>
         <p>Estudiar regla 2 minutos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Si resistencia, comprometer solo 2 min empezar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Active recall',
         duration: '8 min',
         theory: `<p>Active recall es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, flashcards Anki 10 min Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, flashcards Anki 10 min.</p>
         <p>Estudiar active recall con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Cerrar apuntes y recitar conceptos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Feynman técnica',
         duration: '8 min',
         theory: `<p>Feynman técnica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, grabar audio explicación 3 min Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, grabar audio explicación 3 min.</p>
         <p>Estudiar feynman técnica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Explicar en voz alta simple</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. Interleaving',
         duration: '8 min',
         theory: `<p>Interleaving es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, mezclar álgebra y geometría sesión Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, mezclar álgebra y geometría sesión.</p>
         <p>Estudiar interleaving con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Alternar tipos problemas vs bloque único</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Chunking materia',
         duration: '8 min',
         theory: `<p>Chunking materia es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, outline antes leer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, outline antes leer.</p>
         <p>Estudiar chunking materia con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Dividir capítulo secciones 20 min</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Spaced repetition',
         duration: '8 min',
         theory: `<p>Spaced repetition es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, Anki deck diario 15 min Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, Anki deck diario 15 min.</p>
         <p>Estudiar spaced repetition con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Repasar día 1,3,7,14</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Practice exams',
         duration: '8 min',
         theory: `<p>Practice exams es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, timer exam completo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, timer exam completo.</p>
         <p>Estudiar practice exams con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Simular condiciones tiempo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Reward pairing',
         duration: '8 min',
         theory: `<p>Reward pairing es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, café favorito tras 2 pomodoros Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, café favorito tras 2 pomodoros.</p>
         <p>Estudiar reward pairing con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Gusto pequeño tras bloque completado</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. Sleep hygiene estudio',
         duration: '8 min',
         theory: `<p>Sleep hygiene estudio es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no all-nighter si evitable Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, no all-nighter si evitable.</p>
         <p>Estudiar sleep hygiene estudio con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Dormir suficiente consolida memoria</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Autoevaluación honesta',
         duration: '8 min',
         theory: `<p>Autoevaluación honesta es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en tu rutina diaria y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, 3 preguntas viernes journal Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar tu rutina diaria de forma integrada.</p>
+        <p>En la práctica, 3 preguntas viernes journal.</p>
         <p>Estudiar autoevaluación honesta con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en hábitos de estudio TDAH-friendly.</p>
         <ul><li>Concepto central: Qué funcionó esta semana organización</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en hábitos de estudio TDAH-friendly</li></ul>`,
         example: {

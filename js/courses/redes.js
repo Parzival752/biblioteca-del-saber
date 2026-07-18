@@ -9,7 +9,7 @@ export const CURRICULUM = [
         title: '1. IPv4 privada',
         duration: '8 min',
         theory: `<p>IPv4 privada es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica IP de tu router y PC con ip addr o ipconfig Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, identifica IP de tu router y PC con ip addr o ipconfig.</p>
         <p>Estudiar ipv4 privada con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Rangos 10/8, 172.16/12, 192.168/16 para LAN</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -39,7 +39,7 @@ export const CURRICULUM = [
         title: '2. Máscara de subred',
         duration: '8 min',
         theory: `<p>Máscara de subred es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, calcula hosts útiles en /24: 254 aprox Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, calcula hosts útiles en /24: 254 aprox.</p>
         <p>Estudiar máscara de subred con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Define porción red vs host; /24 = 255.255.255.0 común</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -69,7 +69,7 @@ export const CURRICULUM = [
         title: '3. Gateway predeterminado',
         duration: '8 min',
         theory: `<p>Gateway predeterminado es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ping gateway desde PC; si falla, problema local Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, ping gateway desde PC; si falla, problema local.</p>
         <p>Estudiar gateway predeterminado con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Router que enruta tráfico fuera de subred local</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -99,7 +99,7 @@ export const CURRICULUM = [
         title: '4. DNS',
         duration: '8 min',
         theory: `<p>DNS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, nslookup dominio comprueba resolución Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, nslookup dominio comprueba resolución.</p>
         <p>Estudiar dns con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Traduce nombres a IP; suele ser router o 8.8.8.8/1.1.1.1</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -129,7 +129,7 @@ export const CURRICULUM = [
         title: '5. MAC address',
         duration: '8 min',
         theory: `<p>MAC address es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, encuentra MAC en ip link o etiqueta router Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, encuentra MAC en ip link o etiqueta router.</p>
         <p>Estudiar mac address con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Identificador físico interfaz; útil en DHCP reservas</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -159,7 +159,7 @@ export const CURRICULUM = [
         title: '6. DHCP',
         duration: '8 min',
         theory: `<p>DHCP es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, reserva IP por MAC en panel router para servidor Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, reserva IP por MAC en panel router para servidor.</p>
         <p>Estudiar dhcp con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Asigna IP automáticamente; lease temporal</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -189,7 +189,7 @@ export const CURRICULUM = [
         title: '7. NAT doméstico',
         duration: '8 min',
         theory: `<p>NAT doméstico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, múltiples dispositivos comparten IP pública Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, múltiples dispositivos comparten IP pública.</p>
         <p>Estudiar nat doméstico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Router traduce IPs privadas a pública WAN</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -219,7 +219,7 @@ export const CURRICULUM = [
         title: '8. TCP vs UDP',
         duration: '8 min',
         theory: `<p>TCP vs UDP es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, HTTP usa TCP; DNS tradicional UDP Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, HTTP usa TCP; DNS tradicional UDP.</p>
         <p>Estudiar tcp vs udp con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: TCP confiable con handshake; UDP rápido sin garantía</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -249,7 +249,7 @@ export const CURRICULUM = [
         title: '9. Puertos comunes',
         duration: '8 min',
         theory: `<p>Puertos comunes es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, nmap localhost en red propia con permiso Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, nmap localhost en red propia con permiso.</p>
         <p>Estudiar puertos comunes con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: 80 HTTP, 443 HTTPS, 22 SSH, 53 DNS</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -279,7 +279,7 @@ export const CURRICULUM = [
         title: '10. Modelo OSI práctico',
         duration: '8 min',
         theory: `<p>Modelo OSI práctico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, si ping IP OK pero no nombre, sospecha DNS Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, si ping IP OK pero no nombre, sospecha DNS.</p>
         <p>Estudiar modelo osi práctico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: 7 capas; diagnóstico de abajo arriba: cable, IP, DNS, app</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -316,7 +316,7 @@ export const CURRICULUM = [
         title: '11. 2.4 vs 5 GHz',
         duration: '8 min',
         theory: `<p>2.4 vs 5 GHz es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, conecta móvil a 5 GHz cerca del router Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, conecta móvil a 5 GHz cerca del router.</p>
         <p>Estudiar 2.4 vs 5 ghz con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: 2.4 más alcance; 5 más velocidad y menos interferencia</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -346,7 +346,7 @@ export const CURRICULUM = [
         title: '12. Canales WiFi',
         duration: '8 min',
         theory: `<p>Canales WiFi es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, analiza congestión con app WiFi analyzer Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, analiza congestión con app WiFi analyzer.</p>
         <p>Estudiar canales wifi con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: 2.4 GHz canales 1,6,11 no solapados en EEUU/EU similar</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -376,7 +376,7 @@ export const CURRICULUM = [
         title: '13. SSID y contraseña',
         duration: '8 min',
         theory: `<p>SSID y contraseña es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, cambia contraseña por defecto del router Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, cambia contraseña por defecto del router.</p>
         <p>Estudiar ssid y contraseña con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: WPA2/WPA3; contraseña larga aleatoria</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -406,7 +406,7 @@ export const CURRICULUM = [
         title: '14. Repetidor vs mesh',
         duration: '8 min',
         theory: `<p>Repetidor vs mesh es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, evalúa cobertura en planta alta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, evalúa cobertura en planta alta.</p>
         <p>Estudiar repetidor vs mesh con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Repetidor halva ancho de banda; mesh coordina nodos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -436,7 +436,7 @@ export const CURRICULUM = [
         title: '15. Potencia y ubicación',
         duration: '8 min',
         theory: `<p>Potencia y ubicación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no dentro de armario metálico Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, no dentro de armario metálico.</p>
         <p>Estudiar potencia y ubicación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Router central elevado lejos de metales</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -466,7 +466,7 @@ export const CURRICULUM = [
         title: '16. Invitados WiFi',
         duration: '8 min',
         theory: `<p>Invitados WiFi es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, activa red invitados para visitas IoT Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, activa red invitados para visitas IoT.</p>
         <p>Estudiar invitados wifi con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: SSID invitados aísla de dispositivos LAN</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -496,7 +496,7 @@ export const CURRICULUM = [
         title: '17. Actualizar firmware router',
         duration: '8 min',
         theory: `<p>Actualizar firmware router es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, backup config antes de actualizar Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, backup config antes de actualizar.</p>
         <p>Estudiar actualizar firmware router con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Parches seguridad y estabilidad</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -526,7 +526,7 @@ export const CURRICULUM = [
         title: '18. QoS básico',
         duration: '8 min',
         theory: `<p>QoS básico es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, configura QoS si router lo soporta Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, configura QoS si router lo soporta.</p>
         <p>Estudiar qos básico con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Prioriza tráfico videollamada o juego</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -556,7 +556,7 @@ export const CURRICULUM = [
         title: '19. Diagnóstico velocidad',
         duration: '8 min',
         theory: `<p>Diagnóstico velocidad es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prueba con cable ethernet directo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, prueba con cable ethernet directo.</p>
         <p>Estudiar diagnóstico velocidad con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: speedtest en cable vs WiFi compara</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -586,7 +586,7 @@ export const CURRICULUM = [
         title: '20. Lista dispositivos conectados',
         duration: '8 min',
         theory: `<p>Lista dispositivos conectados es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, identifica desconocidos y cambia WiFi Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, identifica desconocidos y cambia WiFi.</p>
         <p>Estudiar lista dispositivos conectados con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Panel router muestra DHCP clients</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -623,7 +623,7 @@ export const CURRICULUM = [
         title: '21. Router vs switch vs modem',
         duration: '8 min',
         theory: `<p>Router vs switch vs modem es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, diagrama tu red doméstica en papel Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, diagrama tu red doméstica en papel.</p>
         <p>Estudiar router vs switch vs modem con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Modem ISP; router enruta; switch expande puertos L2</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -653,7 +653,7 @@ export const CURRICULUM = [
         title: '22. Cat5e vs Cat6',
         duration: '8 min',
         theory: `<p>Cat5e vs Cat6 es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usa Cat6 para cableado nuevo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, usa Cat6 para cableado nuevo.</p>
         <p>Estudiar cat5e vs cat6 con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Cat6 mejor rendimiento a distancias cortas 1G+</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -683,7 +683,7 @@ export const CURRICULUM = [
         title: '23. PoE',
         duration: '8 min',
         theory: `<p>PoE es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, verifica switch PoE budget watts Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, verifica switch PoE budget watts.</p>
         <p>Estudiar poe con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Alimentación por ethernet para AP y cámaras</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -713,7 +713,7 @@ export const CURRICULUM = [
         title: '24. Link lights',
         duration: '8 min',
         theory: `<p>Link lights es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, sin luz link: cable o puerto malo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, sin luz link: cable o puerto malo.</p>
         <p>Estudiar link lights con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: LED en puerto indica link y velocidad</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -743,7 +743,7 @@ export const CURRICULUM = [
         title: '25. Loop de conmutación',
         duration: '8 min',
         theory: `<p>Loop de conmutación es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, evita loops sin STP en switches baratos Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, evita loops sin STP en switches baratos.</p>
         <p>Estudiar loop de conmutación con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Conectar switch a sí mismo puede crear bucle</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -773,7 +773,7 @@ export const CURRICULUM = [
         title: '26. UPnP y riesgos',
         duration: '8 min',
         theory: `<p>UPnP y riesgos es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, desactiva UPnP si no lo necesitas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, desactiva UPnP si no lo necesitas.</p>
         <p>Estudiar upnp y riesgos con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Abre puertos automáticamente para apps</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -803,7 +803,7 @@ export const CURRICULUM = [
         title: '27. Port forwarding',
         duration: '8 min',
         theory: `<p>Port forwarding es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, solo abre puertos necesarios para servidor Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, solo abre puertos necesarios para servidor.</p>
         <p>Estudiar port forwarding con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Redirige puerto WAN a IP LAN interna</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -833,7 +833,7 @@ export const CURRICULUM = [
         title: '28. VLAN introducción',
         duration: '8 min',
         theory: `<p>VLAN introducción es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, IoT en VLAN separada en redes avanzadas Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, IoT en VLAN separada en redes avanzadas.</p>
         <p>Estudiar vlan introducción con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Segmenta tráfico lógicamente en switch managed</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -863,7 +863,7 @@ export const CURRICULUM = [
         title: '29. Tester de cable',
         duration: '8 min',
         theory: `<p>Tester de cable es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, tester barato detecta cruce pares Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, tester barato detecta cruce pares.</p>
         <p>Estudiar tester de cable con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Verifica pares y continuidad</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -893,7 +893,7 @@ export const CURRICULUM = [
         title: '30. Documentar red',
         duration: '8 min',
         theory: `<p>Documentar red es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, actualiza tras cada cambio hardware Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, actualiza tras cada cambio hardware.</p>
         <p>Estudiar documentar red con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Diagrama IP, MAC, ubicación AP y contraseñas en gestor</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -930,7 +930,7 @@ export const CURRICULUM = [
         title: '31. Capa física primero',
         duration: '8 min',
         theory: `<p>Capa física primero es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, reinicia modem y router 30 s apagados Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, reinicia modem y router 30 s apagados.</p>
         <p>Estudiar capa física primero con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Cable, WiFi conectado, luces link</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -960,7 +960,7 @@ export const CURRICULUM = [
         title: '32. Ping gateway',
         duration: '8 min',
         theory: `<p>Ping gateway es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ping 192.168.1.1 ejemplo Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, ping 192.168.1.1 ejemplo.</p>
         <p>Estudiar ping gateway con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Confirma conectividad LAN</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -990,7 +990,7 @@ export const CURRICULUM = [
         title: '33. Ping 8.8.8.8',
         duration: '8 min',
         theory: `<p>Ping 8.8.8.8 es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, ping 8.8.8.8 Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, ping 8.8.8.8.</p>
         <p>Estudiar ping 8.8.8.8 con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Prueba salida Internet sin DNS</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1020,7 +1020,7 @@ export const CURRICULUM = [
         title: '34. Traceroute',
         duration: '8 min',
         theory: `<p>Traceroute es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, traceroute google.com Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, traceroute google.com.</p>
         <p>Estudiar traceroute con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Identifica salto donde se pierde ruta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1050,7 +1050,7 @@ export const CURRICULUM = [
         title: '35. ipconfig / ip addr',
         duration: '8 min',
         theory: `<p>ipconfig / ip addr es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, compara con rango esperado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, compara con rango esperado.</p>
         <p>Estudiar ipconfig / ip addr con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Ver IP, máscara, gateway asignados</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1080,7 +1080,7 @@ export const CURRICULUM = [
         title: '36. Flush DNS cache',
         duration: '8 min',
         theory: `<p>Flush DNS cache es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, systemd-resolve --flush-caches o equivalente Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, systemd-resolve --flush-caches o equivalente.</p>
         <p>Estudiar flush dns cache con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Limpiar caché DNS corrupta</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1110,7 +1110,7 @@ export const CURRICULUM = [
         title: '37. Un solo dispositivo',
         duration: '8 min',
         theory: `<p>Un solo dispositivo es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, olvidar/rediscover WiFi en móvil Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, olvidar/rediscover WiFi en móvil.</p>
         <p>Estudiar un solo dispositivo con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Si solo uno falla, enfoca en ese dispositivo</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1140,7 +1140,7 @@ export const CURRICULUM = [
         title: '38. Logs router',
         duration: '8 min',
         theory: `<p>Logs router es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, accede panel admin cable Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, accede panel admin cable.</p>
         <p>Estudiar logs router con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Revisar WAN disconnects y DHCP</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1170,7 +1170,7 @@ export const CURRICULUM = [
         title: '39. MTU issues',
         duration: '8 min',
         theory: `<p>MTU issues es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, prueba ping -M do -s 1472 host Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, prueba ping -M do -s 1472 host.</p>
         <p>Estudiar mtu issues con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: MTU incorrecto fragmenta VPN o PPPoE</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1200,7 +1200,7 @@ export const CURRICULUM = [
         title: '40. Escalado ISP',
         duration: '8 min',
         theory: `<p>Escalado ISP es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, anota hora, luces modem, resultados ping Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, anota hora, luces modem, resultados ping.</p>
         <p>Estudiar escalado isp con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Documentar pruebas antes de llamar soporte</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1237,7 +1237,7 @@ export const CURRICULUM = [
         title: '41. Contraseña admin router',
         duration: '8 min',
         theory: `<p>Contraseña admin router es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, usuario/contraseña únicos fuertes Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, usuario/contraseña únicos fuertes.</p>
         <p>Estudiar contraseña admin router con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Cambiar default evita takeover remoto</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1267,7 +1267,7 @@ export const CURRICULUM = [
         title: '42. Actualizar dispositivos IoT',
         duration: '8 min',
         theory: `<p>Actualizar dispositivos IoT es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, lista IoT y calendario update Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, lista IoT y calendario update.</p>
         <p>Estudiar actualizar dispositivos iot con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Cámaras y plugs parchean vulnerabilidades</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1297,7 +1297,7 @@ export const CURRICULUM = [
         title: '43. Firewall host',
         duration: '8 min',
         theory: `<p>Firewall host es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, activa firewall en laptop Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, activa firewall en laptop.</p>
         <p>Estudiar firewall host con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: ufw/firewalld en PCs expuestos</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1327,7 +1327,7 @@ export const CURRICULUM = [
         title: '44. HTTPS everywhere',
         duration: '8 min',
         theory: `<p>HTTPS everywhere es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, observa candado navegador Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, observa candado navegador.</p>
         <p>Estudiar https everywhere con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Cifrado tráfico web; HSTS en sitios</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1357,7 +1357,7 @@ export const CURRICULUM = [
         title: '45. Phishing en red',
         duration: '8 min',
         theory: `<p>Phishing en red es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, no loguear bancos en WiFi abierto Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, no loguear bancos en WiFi abierto.</p>
         <p>Estudiar phishing en red con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Captive portals falsos en WiFi público</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1387,7 +1387,7 @@ export const CURRICULUM = [
         title: '46. Backup configuración router',
         duration: '8 min',
         theory: `<p>Backup configuración router es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, guarda cifrado en password manager Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, guarda cifrado en password manager.</p>
         <p>Estudiar backup configuración router con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Export config tras cambios</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1417,7 +1417,7 @@ export const CURRICULUM = [
         title: '47. Desactivar WPS',
         duration: '8 min',
         theory: `<p>Desactivar WPS es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, toggle off en wireless settings Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, toggle off en wireless settings.</p>
         <p>Estudiar desactivar wps con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: PIN WPS brute-forcible</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1447,7 +1447,7 @@ export const CURRICULUM = [
         title: '48. Monitoreo anomalías',
         duration: '8 min',
         theory: `<p>Monitoreo anomalías es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, revisa dispositivos listados router Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, revisa dispositivos listados router.</p>
         <p>Estudiar monitoreo anomalías con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Tráfico saliente inusual puede ser malware</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1477,7 +1477,7 @@ export const CURRICULUM = [
         title: '49. VPN doméstica',
         duration: '8 min',
         theory: `<p>VPN doméstica es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, WireGuard en NAS o router avanzado Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, WireGuard en NAS o router avanzado.</p>
         <p>Estudiar vpn doméstica con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Acceso remoto seguro a LAN</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
@@ -1507,7 +1507,7 @@ export const CURRICULUM = [
         title: '50. Plan respuesta incidente',
         duration: '8 min',
         theory: `<p>Plan respuesta incidente es un concepto fundamental en este módulo. Comprenderlo te permite conectar teoría con observaciones reales en la red local y aplicaciones prácticas cotidianas.</p>
-        <p>En la práctica, desconecta IoT comprometido de red Este conocimiento se relaciona con otros temas del curso y refuerza tu capacidad de analizar la red local de forma integrada.</p>
+        <p>En la práctica, desconecta IoT comprometido de red.</p>
         <p>Estudiar plan respuesta incidente con ejemplos concretos facilita memorizar principios clave y evitar errores comunes al trabajar en diagnóstico en casa u oficina.</p>
         <ul><li>Concepto central: Aislar dispositivo, cambiar passwords, firmware</li><li>Relaciona esta lección con módulos anteriores y posteriores del curso</li><li>Practica aplicando lo aprendido en diagnóstico en casa u oficina</li></ul>`,
         example: {
