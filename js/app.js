@@ -1627,15 +1627,22 @@ export class App {
     const overlay = document.getElementById('modalOverlay');
     const body = document.getElementById('modalBody');
     if (!overlay || !body) return;
-    body.className = id === 'legal'
-      ? 'modal modal--legal'
-      : id === 'avatar-builder'
-        ? 'modal modal--avatar-builder'
-        : id === 'achievements'
-          ? 'modal modal--achievements'
-          : id === 'profile'
-            ? 'modal modal--profile'
-            : 'modal';
+    const modalClass = {
+      legal: 'modal modal--legal',
+      'avatar-builder': 'modal modal--avatar-builder',
+      achievements: 'modal modal--achievements',
+      profile: 'modal modal--profile',
+      settings: 'modal modal--settings',
+      dashboard: 'modal modal--dashboard',
+      courses: 'modal modal--wide',
+      onboarding: 'modal modal--md',
+      summary: 'modal modal--md',
+      'course-complete': 'modal modal--md',
+      tour: 'modal modal--md',
+      reset: 'modal modal--sm',
+      toast: 'modal modal--sm',
+    }[id] || 'modal modal--md';
+    body.className = modalClass;
     body.innerHTML = html;
     overlay.classList.remove('hidden');
     overlay.dataset.modal = id;

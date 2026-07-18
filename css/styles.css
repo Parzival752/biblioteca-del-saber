@@ -899,12 +899,34 @@ kbd {
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 2rem;
-  max-width: 480px;
+  max-width: min(560px, 96vw);
   width: 100%;
   max-height: 85vh;
   overflow-y: auto;
   box-shadow: 0 32px 80px var(--shadow);
   animation: fadeIn 0.25s ease;
+}
+
+.modal--sm { max-width: min(440px, 96vw); }
+.modal--md { max-width: min(580px, 96vw); }
+.modal--wide { max-width: min(720px, 96vw); }
+
+.modal--settings,
+.modal--dashboard {
+  max-width: min(860px, 96vw);
+  max-height: min(92vh, 900px);
+}
+
+@media (min-width: 720px) {
+  .modal--settings .settings-actions--legal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.45rem;
+  }
+
+  .modal--dashboard .dash-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .modal h2 { font-size: 1.25rem; margin-bottom: 1rem; }
@@ -1008,8 +1030,8 @@ kbd {
 .profile-stat-link:hover { color: var(--accent); }
 
 .modal--achievements {
-  max-width: min(560px, 96vw);
-  max-height: min(88vh, 720px);
+  max-width: min(720px, 96vw);
+  max-height: min(90vh, 820px);
   overflow-y: auto;
 }
 
