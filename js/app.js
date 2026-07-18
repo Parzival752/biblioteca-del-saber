@@ -654,7 +654,8 @@ export class App {
 
   routeFromHash() {
     const id = location.hash.replace('#', '');
-    if (id && getLessonById(id) && this.mainApp && !this.mainApp.classList.contains('hidden')) {
+    if (!id || id === this.currentLessonId) return;
+    if (getLessonById(id) && this.mainApp && !this.mainApp.classList.contains('hidden')) {
       this.goToLesson(id);
     }
   }
@@ -693,7 +694,7 @@ export class App {
         btn.className = `nav-lesson${lesson.id === this.currentLessonId ? ' active' : ''}${done ? ' done' : ''}`;
         btn.innerHTML = `<span class="nav-lesson__check">${done ? '✓' : '○'}</span><span>${lesson.title.replace(/^\d+\.\s*/, '')}</span>`;
         btn.addEventListener('click', () => {
-          this.goToLesson(lesson.id);
+          this.goToLesson(lesson.id, { tab: 'theory' });
           if (window.innerWidth <= 768) this.toggleSidebar();
         });
         li.appendChild(btn);
@@ -725,16 +726,25 @@ export class App {
     this.updateProfileUI();
   }
 
-  goToLesson(id) {
+  goToLesson(id, options = {}) {
+    const changingLesson = id !== this.currentLessonId;
     if (this.currentLessonId && this.lessonEnterTime) {
       addLessonTime(this.currentLessonId, Date.now() - this.lessonEnterTime);
+    }
+    // Nueva lección → siempre Teoría (salvo tab explícita, p.ej. desafío diario)
+    if (changingLesson) {
+      this.activeTab = options.tab || 'theory';
+    } else if (options.tab) {
+      this.activeTab = options.tab;
     }
     this.currentLessonId = id;
     this.lessonEnterTime = Date.now();
     this.hintUsedThisSession = false;
     this.hintLevelSession = getHintLevel(id);
     setLastLesson(id);
-    location.hash = id;
+    if (location.hash.replace('#', '') !== id) {
+      location.hash = id;
+    }
     const lesson = getLessonById(id);
     if (!lesson) return;
 
@@ -935,7 +945,7 @@ export class App {
     });
 
     this.content.querySelectorAll('[data-nav]').forEach((btn) => {
-      btn.addEventListener('click', () => this.goToLesson(btn.dataset.nav));
+      btn.addEventListener('click', () => this.goToLesson(btn.dataset.nav, { tab: 'theory' }));
     });
 
     document.getElementById('btnFinish')?.addEventListener('click', () => this.showCourseComplete());
@@ -1140,7 +1150,7 @@ export class App {
         const next = getNextLesson(lesson.id);
         if (getBeginnerMode() && next) {
           const ok = await confirmDialog({ title: '¡Lección completada!', message: `¿Ir a "${next.title}"?`, confirmText: 'Siguiente lección' });
-          if (ok) this.goToLesson(next.id);
+          if (ok) this.goToLesson(next.id, { tab: 'theory' });
         } else if (!next) {
           setTimeout(() => this.showCourseComplete(), 1500);
         }
@@ -1465,7 +1475,7 @@ export class App {
     document.getElementById('btnGoDaily')?.addEventListener('click', () => {
       this.closeModal();
       const l = getDailyChallengeLesson();
-      if (l) { this.activeTab = 'exercise'; this.goToLesson(l.id); }
+      if (l) this.goToLesson(l.id, { tab: 'exercise' });
     });
     bindStudyingCourseActions(document.getElementById('dashCourseList'), (id) => this.switchToCourse(id));
     document.getElementById('btnDashAddCourse')?.addEventListener('click', () => {
