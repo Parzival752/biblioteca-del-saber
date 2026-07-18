@@ -388,30 +388,31 @@ kbd {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
-  padding: 0.35rem 0.75rem;
-  min-height: 2.75rem;
+  gap: 0.5rem;
+  padding: 0.3rem 0.65rem;
+  height: 2.6rem;
+  box-sizing: border-box;
   background: var(--bg-card);
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
   min-width: 0;
+  overflow: hidden;
 }
 
 .topbar__left {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
   min-width: 0;
   flex: 1 1 auto;
+  overflow: hidden;
 }
 
 .topbar__right {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
-  flex: 0 1 auto;
-  min-width: 0;
-  max-width: 72%;
+  gap: 0.35rem;
+  flex: 0 0 auto;
 }
 
 .topbar__brand {
@@ -419,19 +420,19 @@ kbd {
   flex-direction: column;
   justify-content: center;
   min-width: 0;
-  max-width: 16rem;
+  flex: 0 1 11rem;
 }
 
 .topbar__brand strong {
-  font-size: 0.8rem;
-  line-height: 1.15;
+  font-size: 0.78rem;
+  line-height: 1.1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .topbar__brand span {
-  font-size: 0.68rem;
-  line-height: 1.15;
+  font-size: 0.65rem;
+  line-height: 1.1;
   color: var(--text-muted);
   white-space: nowrap;
   overflow: hidden;
@@ -448,25 +449,37 @@ kbd {
 .topbar__actions {
   display: flex;
   align-items: center;
-  gap: 0.05rem;
+  gap: 0;
   flex-shrink: 0;
 }
 
 .topbar__progress {
   display: flex;
   align-items: center;
-  gap: 0.35rem;
-  font-size: 0.68rem;
+  gap: 0.3rem;
+  font-size: 0.65rem;
   color: var(--text-muted);
   flex-shrink: 0;
 }
 
 .progress-bar {
-  width: 56px;
+  width: 48px;
   height: 4px;
   background: var(--bg-elevated);
   border-radius: 99px;
   overflow: hidden;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .progress-bar__fill {
@@ -1939,53 +1952,38 @@ kbd {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.15rem 0.55rem 0.15rem 0.15rem;
-  border-radius: 99px;
+  padding: 0.12rem 0.6rem 0.12rem 0.12rem;
+  border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--bg-elevated);
   cursor: pointer;
   color: inherit;
   font: inherit;
-  flex: 0 1 9.5rem;
-  width: auto;
-  max-width: 11rem;
-  min-width: 0;
+  flex: 0 0 auto;
+  max-width: 13rem;
   overflow: hidden;
   transition: border-color 0.15s;
 }
 
 .profile-pill:hover { border-color: var(--accent); }
 
-/* Avatar compacto en la barra (sin anillo que desborde) */
-.profile-pill .avatar {
-  width: 1.55rem;
-  height: 1.55rem;
-  border-width: 1.5px;
-  box-shadow: none;
+.profile-pill .avatar,
+.profile-pill .avatar--sm {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  border-width: 1.5px !important;
+  box-shadow: none !important;
+  flex-shrink: 0;
 }
 
-.profile-pill__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 1 1 auto;
-  min-width: 0;
-  text-align: left;
-  line-height: 1.15;
-  overflow: hidden;
-}
-
-.profile-pill__info strong {
-  font-size: 0.75rem;
+.profile-pill__name {
+  font-size: 0.78rem;
   font-weight: 600;
+  line-height: 1.2;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-/* Nivel/XP solo en sidebar; en topbar estorba */
-.profile-pill__level {
-  display: none;
+  max-width: 10.5rem;
 }
 
 .student-card {
@@ -2586,33 +2584,33 @@ kbd {
 .course-card small { font-size: 0.62rem; color: var(--accent); margin-top: 0.15rem; }
 
 .topbar .btn-icon {
-  width: 1.85rem;
-  height: 1.85rem;
-  font-size: 0.85rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0.2rem;
+  font-size: 0.82rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 @media (max-width: 1100px) {
-  .topbar__right { max-width: 78%; }
-  .profile-pill { flex-basis: 8rem; max-width: 9.5rem; }
   .topbar__actions #btnFocus,
   .topbar__actions #btnSearch { display: none; }
+  .profile-pill__name { max-width: 8rem; }
 }
 
 @media (max-width: 900px) {
-  .profile-pill { flex-basis: 7rem; max-width: 8.5rem; }
-  .topbar__progress .progress-bar { width: 40px; }
+  .topbar__progress .progress-bar { width: 36px; }
   .topbar__actions #btnDashboard { display: none; }
+  .profile-pill__name { max-width: 6.5rem; }
 }
 
 @media (max-width: 768px) {
-  .profile-pill__info { display: none; }
-  .profile-pill {
-    padding: 0.12rem;
-    flex: 0 0 auto;
-    max-width: none;
-  }
-  .topbar__right { max-width: none; gap: 0.25rem; }
+  .profile-pill__name { display: none; }
+  .profile-pill { padding: 0.1rem; }
   .topbar__progress { display: none; }
+  .topbar__brand { flex-basis: auto; max-width: 40vw; }
   .avatar-picker__group { grid-template-columns: repeat(4, 1fr); }
   .course-picker { grid-template-columns: 1fr; }
 }

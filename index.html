@@ -154,15 +154,13 @@
             <strong id="topbarCourse">JavaScript</strong>
             <span id="topbarLesson">—</span>
           </div>
-        </div>
-        <div class="topbar__right">
           <button type="button" class="profile-pill" id="btnProfile" title="Tu perfil">
             <span id="topbarAvatar"></span>
-            <span class="profile-pill__info">
-              <strong id="topbarName">Explorador/a</strong>
-              <span id="topbarLevel" class="profile-pill__level">Novato · 0 XP</span>
-            </span>
+            <strong id="topbarName" class="profile-pill__name">Explorador/a</strong>
           </button>
+          <span id="topbarLevel" class="sr-only">Novato · 0 XP</span>
+        </div>
+        <div class="topbar__right">
           <div class="topbar__actions">
             <button type="button" class="btn-icon" id="btnCourses" title="Cambiar saber">📚</button>
             <button type="button" class="btn-icon" id="btnHelp" title="Ayuda (?)">❓</button>
@@ -172,7 +170,7 @@
             <button type="button" class="btn-icon" id="btnSettings" title="Ajustes">⚙️</button>
             <button type="button" class="btn-icon" id="btnTheme" title="Tema">☀️</button>
           </div>
-          <div class="topbar__progress">
+          <div class="topbar__progress" title="Progreso del curso">
             <div class="progress-bar"><div class="progress-bar__fill" id="globalProgress"></div></div>
             <span id="progressText">0%</span>
           </div>
