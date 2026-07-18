@@ -387,24 +387,51 @@ kbd {
 .topbar {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
-  padding: 0.55rem 1rem;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  min-height: 2.75rem;
   background: var(--bg-card);
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
   min-width: 0;
 }
 
+.topbar__left {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.topbar__right {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 72%;
+}
+
 .topbar__brand {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-width: 0;
-  flex: 1 1 8rem;
+  max-width: 16rem;
 }
 
-.topbar__brand strong { font-size: 0.85rem; }
+.topbar__brand strong {
+  font-size: 0.8rem;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .topbar__brand span {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
+  line-height: 1.15;
   color: var(--text-muted);
   white-space: nowrap;
   overflow: hidden;
@@ -420,22 +447,23 @@ kbd {
 
 .topbar__actions {
   display: flex;
-  gap: 0.15rem;
+  align-items: center;
+  gap: 0.05rem;
   flex-shrink: 0;
 }
 
 .topbar__progress {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 0.72rem;
+  gap: 0.35rem;
+  font-size: 0.68rem;
   color: var(--text-muted);
   flex-shrink: 0;
 }
 
 .progress-bar {
-  width: 80px;
-  height: 5px;
+  width: 56px;
+  height: 4px;
   background: var(--bg-elevated);
   border-radius: 99px;
   overflow: hidden;
@@ -1908,48 +1936,56 @@ kbd {
 .avatar--tier-experto { border-color: #eab308; box-shadow: 0 0 0 2px color-mix(in srgb, #eab308 35%, transparent); }
 
 .profile-pill {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.25rem 0.7rem 0.25rem 0.25rem;
+  gap: 0.4rem;
+  padding: 0.15rem 0.55rem 0.15rem 0.15rem;
   border-radius: 99px;
   border: 1px solid var(--border);
   background: var(--bg-elevated);
   cursor: pointer;
   color: inherit;
   font: inherit;
-  flex: 0 0 auto;
+  flex: 0 1 9.5rem;
   width: auto;
-  max-width: min(260px, 32vw);
-  min-width: 9.5rem;
+  max-width: 11rem;
+  min-width: 0;
+  overflow: hidden;
   transition: border-color 0.15s;
 }
 
 .profile-pill:hover { border-color: var(--accent); }
 
+/* Avatar compacto en la barra (sin anillo que desborde) */
+.profile-pill .avatar {
+  width: 1.55rem;
+  height: 1.55rem;
+  border-width: 1.5px;
+  box-shadow: none;
+}
+
 .profile-pill__info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex: 1 1 auto;
   min-width: 0;
   text-align: left;
-  line-height: 1.25;
+  line-height: 1.15;
   overflow: hidden;
 }
 
 .profile-pill__info strong {
-  font-size: 0.78rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.profile-pill__info span {
-  font-size: 0.66rem;
-  color: var(--text-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+/* Nivel/XP solo en sidebar; en topbar estorba */
+.profile-pill__level {
+  display: none;
 }
 
 .student-card {
@@ -2549,29 +2585,34 @@ kbd {
 .course-card span { font-size: 0.68rem; color: var(--text-muted); line-height: 1.3; }
 .course-card small { font-size: 0.62rem; color: var(--accent); margin-top: 0.15rem; }
 
+.topbar .btn-icon {
+  width: 1.85rem;
+  height: 1.85rem;
+  font-size: 0.85rem;
+}
+
 @media (max-width: 1100px) {
-  .profile-pill {
-    max-width: min(200px, 28vw);
-    min-width: 8rem;
-  }
+  .topbar__right { max-width: 78%; }
+  .profile-pill { flex-basis: 8rem; max-width: 9.5rem; }
+  .topbar__actions #btnFocus,
+  .topbar__actions #btnSearch { display: none; }
 }
 
 @media (max-width: 900px) {
-  .profile-pill__info span { display: none; }
-  .profile-pill {
-    min-width: 7rem;
-    max-width: min(180px, 34vw);
-  }
+  .profile-pill { flex-basis: 7rem; max-width: 8.5rem; }
+  .topbar__progress .progress-bar { width: 40px; }
+  .topbar__actions #btnDashboard { display: none; }
 }
 
 @media (max-width: 768px) {
   .profile-pill__info { display: none; }
   .profile-pill {
-    padding: 0.2rem;
+    padding: 0.12rem;
+    flex: 0 0 auto;
     max-width: none;
-    min-width: 0;
-    flex-shrink: 0;
   }
+  .topbar__right { max-width: none; gap: 0.25rem; }
+  .topbar__progress { display: none; }
   .avatar-picker__group { grid-template-columns: repeat(4, 1fr); }
   .course-picker { grid-template-columns: 1fr; }
 }

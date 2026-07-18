@@ -148,30 +148,34 @@
     <!-- App principal -->
     <div id="mainApp" class="main-app hidden">
       <header class="topbar">
-        <button type="button" class="btn-icon" id="btnToggleNav" title="Menú" aria-label="Menú">☰</button>
-        <div class="topbar__brand">
-          <strong id="topbarCourse">JavaScript</strong>
-          <span id="topbarLesson">—</span>
+        <div class="topbar__left">
+          <button type="button" class="btn-icon" id="btnToggleNav" title="Menú" aria-label="Menú">☰</button>
+          <div class="topbar__brand">
+            <strong id="topbarCourse">JavaScript</strong>
+            <span id="topbarLesson">—</span>
+          </div>
         </div>
-        <button type="button" class="profile-pill" id="btnProfile" title="Tu perfil">
-          <span id="topbarAvatar"></span>
-          <span class="profile-pill__info">
-            <strong id="topbarName">Explorador/a</strong>
-            <span id="topbarLevel">Novato · 0 XP</span>
-          </span>
-        </button>
-        <div class="topbar__actions">
-          <button type="button" class="btn-icon" id="btnCourses" title="Cambiar saber">📚</button>
-          <button type="button" class="btn-icon" id="btnHelp" title="Ayuda (?)">❓</button>
-          <button type="button" class="btn-icon" id="btnFocus" title="Modo enfoque">🎯</button>
-          <button type="button" class="btn-icon" id="btnSearch" title="Buscar (/)">🔍</button>
-          <button type="button" class="btn-icon" id="btnDashboard" title="Progreso">📊</button>
-          <button type="button" class="btn-icon" id="btnSettings" title="Ajustes">⚙️</button>
-          <button type="button" class="btn-icon" id="btnTheme" title="Tema">☀️</button>
-        </div>
-        <div class="topbar__progress">
-          <div class="progress-bar"><div class="progress-bar__fill" id="globalProgress"></div></div>
-          <span id="progressText">0%</span>
+        <div class="topbar__right">
+          <button type="button" class="profile-pill" id="btnProfile" title="Tu perfil">
+            <span id="topbarAvatar"></span>
+            <span class="profile-pill__info">
+              <strong id="topbarName">Explorador/a</strong>
+              <span id="topbarLevel" class="profile-pill__level">Novato · 0 XP</span>
+            </span>
+          </button>
+          <div class="topbar__actions">
+            <button type="button" class="btn-icon" id="btnCourses" title="Cambiar saber">📚</button>
+            <button type="button" class="btn-icon" id="btnHelp" title="Ayuda (?)">❓</button>
+            <button type="button" class="btn-icon" id="btnFocus" title="Modo enfoque">🎯</button>
+            <button type="button" class="btn-icon" id="btnSearch" title="Buscar (/)">🔍</button>
+            <button type="button" class="btn-icon" id="btnDashboard" title="Progreso">📊</button>
+            <button type="button" class="btn-icon" id="btnSettings" title="Ajustes">⚙️</button>
+            <button type="button" class="btn-icon" id="btnTheme" title="Tema">☀️</button>
+          </div>
+          <div class="topbar__progress">
+            <div class="progress-bar"><div class="progress-bar__fill" id="globalProgress"></div></div>
+            <span id="progressText">0%</span>
+          </div>
         </div>
       </header>
 
