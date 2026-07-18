@@ -8,7 +8,7 @@ const FIRST_CHECK_MS = 3_000;
 const BUILD_ID = typeof __APP_BUILD_ID__ !== 'undefined' ? __APP_BUILD_ID__ : '';
 const GITHUB_REPO = 'Parzival752/biblioteca-del-saber';
 
-/** Timestamp (ms) de la próxima comprobación automática. */
+/** Momento absoluto (Date.now) de la próxima comprobación. */
 let nextCheckAt = 0;
 let scheduleTimer = null;
 let updateCheckerStarted = false;
@@ -19,15 +19,18 @@ export function getUpdatePollMs() {
   return POLL_MS;
 }
 
-/** Ms restantes hasta la próxima verificación automática (0 si toca ya o está comprobando). */
+/** Ms restantes hasta nextCheckAt (reloj absoluto; no depende del setTimeout). */
 export function getMsUntilNextUpdateCheck() {
   if (isChecking || updatePrompted || !nextCheckAt) return 0;
   return Math.max(0, nextCheckAt - Date.now());
 }
 
-/** Texto corto tipo "18s" o "1:05" (segundos enteros hacia abajo). */
+/**
+ * Segundos enteros que faltan (ceil): con 19.2 s muestra 20, con 0.1 s muestra 1.
+ * Así el número llega a 0 solo cuando toca verificar de verdad.
+ */
 export function formatUpdateCountdown(ms = getMsUntilNextUpdateCheck()) {
-  const totalSec = Math.max(0, Math.floor(ms / 1000));
+  const totalSec = Math.max(0, Math.ceil(ms / 1000));
   if (totalSec <= 0) return '0s';
   if (totalSec < 60) return `${totalSec}s`;
   const m = Math.floor(totalSec / 60);
@@ -35,12 +38,12 @@ export function formatUpdateCountdown(ms = getMsUntilNextUpdateCheck()) {
   return `${m}:${String(s).padStart(2, '0')}`;
 }
 
-/** Etiqueta completa para Ajustes (sincronizada con el programador real). */
+/** Etiqueta completa para Ajustes (lee el mismo nextCheckAt que el programador). */
 export function getUpdateCheckCountdownLabel() {
   if (updatePrompted) return 'Hay una actualización: recarga para aplicarla';
   if (isChecking) return 'Verificando ahora…';
   if (!updateCheckerStarted || !nextCheckAt) return 'Programando verificación…';
-  const ms = getMsUntilNextUpdateCheck();
+  const ms = nextCheckAt - Date.now();
   if (ms <= 0) return 'Verificando ahora…';
   return `Próxima verificación en ${formatUpdateCountdown(ms)}`;
 }
@@ -268,6 +271,13 @@ export function startUpdateChecker() {
     setTimeout(() => showUpdateModal(), 600);
   }
 
+  const clearScheduleTimer = () => {
+    if (scheduleTimer) {
+      clearTimeout(scheduleTimer);
+      scheduleTimer = null;
+    }
+  };
+
   const run = async () => {
     if (updatePrompted || isChecking || document.hidden) return false;
     isChecking = true;
@@ -276,10 +286,7 @@ export function startUpdateChecker() {
       if (result === 'update') {
         updatePrompted = true;
         nextCheckAt = 0;
-        if (scheduleTimer) {
-          clearTimeout(scheduleTimer);
-          scheduleTimer = null;
-        }
+        clearScheduleTimer();
       }
       return true;
     } finally {
@@ -287,27 +294,35 @@ export function startUpdateChecker() {
     }
   };
 
-  const schedule = (delayMs) => {
+  /** Programa la próxima marca absoluta; el contador lee nextCheckAt, no el setTimeout. */
+  const scheduleAt = (atMs) => {
     if (updatePrompted) return;
-    if (scheduleTimer) clearTimeout(scheduleTimer);
-    const wait = Math.max(0, delayMs);
-    nextCheckAt = Date.now() + wait;
+    clearScheduleTimer();
+    nextCheckAt = atMs;
+    const wait = Math.max(0, atMs - Date.now());
     scheduleTimer = setTimeout(async () => {
       scheduleTimer = null;
-      // Marca “tocó ahora” mientras corre la petición
-      nextCheckAt = Date.now();
+      if (document.hidden) {
+        // Mantener nextCheckAt vencido; al volver a la pestaña se dispara
+        return;
+      }
       await run();
-      if (!updatePrompted) schedule(POLL_MS);
+      if (!updatePrompted) scheduleAt(Date.now() + POLL_MS);
     }, wait);
   };
 
-  schedule(FIRST_CHECK_MS);
+  const scheduleIn = (delayMs) => scheduleAt(Date.now() + Math.max(0, delayMs));
 
-  // Solo comprobar al volver si ya pasó la hora (no reiniciar el contador al enfocar)
+  scheduleIn(FIRST_CHECK_MS);
+
+  // Al volver: si ya tocó la hora, comprobar; si no, NO reiniciar el contador
   const checkIfDue = () => {
     if (updatePrompted || document.hidden || isChecking) return;
     if (!nextCheckAt || Date.now() >= nextCheckAt) {
-      schedule(0);
+      scheduleIn(0);
+    } else if (!scheduleTimer) {
+      // Había quedado diferida por pestaña oculta: rearmar el timer
+      scheduleAt(nextCheckAt);
     }
   };
 
