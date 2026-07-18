@@ -25,21 +25,23 @@
 }
 
 [data-theme="light"] {
-  --bg: #faf7fc;
+  /* Superficies más definidas; bordes y texto con contraste usable (WCAG) */
+  --bg: #f0eef4;
   --bg-card: #ffffff;
-  --bg-elevated: #f3ebf8;
-  --border: #e2d4ec;
-  --text: #1a1024;
-  --text-muted: #6b5a7a;
-  --accent: #db2777;
-  --accent-secondary: #0284c7;
+  --bg-elevated: #e4dcec;
+  --border: #b9a8c9;
+  --text: #14101c;
+  --text-muted: #4a3f5c;
+  --accent: #be185d;
+  --accent-secondary: #0369a1;
+  --accent-dim: #9d174d;
   --accent-text: #ffffff;
-  --success: #059669;
-  --error: #e11d48;
-  --info: #0891b2;
-  --code-bg: #282c34;
-  --output-bg: #1e2128;
-  --shadow: rgba(120, 60, 160, 0.12);
+  --success: #047857;
+  --error: #be123c;
+  --info: #0e7490;
+  --code-bg: #1e2430;
+  --output-bg: #161b22;
+  --shadow: rgba(40, 20, 60, 0.14);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -612,7 +614,12 @@ kbd {
 }
 
 .nav-lesson:hover { background: var(--bg-elevated); color: var(--text); }
-.nav-lesson.active { background: rgba(247, 223, 30, 0.12); color: var(--accent); font-weight: 600; }
+.nav-lesson.active {
+  background: color-mix(in srgb, var(--accent) 16%, var(--bg-card));
+  color: var(--accent);
+  font-weight: 600;
+  box-shadow: inset 3px 0 0 var(--accent);
+}
 .nav-lesson.done .nav-lesson__check { color: var(--success); }
 
 .nav-lesson__check { flex-shrink: 0; font-size: 0.65rem; margin-top: 0.2rem; }
@@ -660,9 +667,15 @@ kbd {
   padding: 0.15rem 0.5rem;
   border-radius: 99px;
   background: var(--bg-elevated);
-  color: var(--text-muted);
+  color: var(--text);
+  border: 1px solid var(--border);
 }
-.lesson__badge--done { background: rgba(61,214,140,0.15); color: var(--success); }
+.lesson__badge--done {
+  background: color-mix(in srgb, var(--success) 16%, var(--bg-card));
+  color: var(--success);
+  border-color: color-mix(in srgb, var(--success) 45%, var(--border));
+  font-weight: 600;
+}
 
 /* Tabs */
 .tabs {
@@ -1254,26 +1267,122 @@ kbd {
 .steam-achievements--compact .steam-ach__name { font-size: 0.8rem; }
 .steam-achievements--compact .steam-ach__desc { font-size: 0.68rem; }
 
+/* —— Tema claro: contraste de componentes —— */
+[data-theme="light"] .btn--ghost {
+  background: #fff;
+  border-color: var(--border);
+  color: var(--text);
+}
+[data-theme="light"] .btn--ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, #fff);
+}
+
+[data-theme="light"] .sidebar__search {
+  background: #fff;
+  border-color: var(--border);
+  color: var(--text);
+}
+[data-theme="light"] .sidebar__search::placeholder {
+  color: #6b6080;
+}
+
+[data-theme="light"] .nav-lesson {
+  color: #3a3348;
+}
+[data-theme="light"] .nav-lesson.active {
+  background: #fce7f3;
+  color: #9d174d;
+  box-shadow: inset 3px 0 0 #be185d;
+}
+[data-theme="light"] .nav-lesson.done .nav-lesson__check {
+  color: #047857;
+  font-weight: 700;
+}
+
+[data-theme="light"] .student-card__inner,
+[data-theme="light"] .maestro-banner {
+  background: #fff;
+  border: 1px solid var(--border);
+}
+[data-theme="light"] .student-card__body strong,
+[data-theme="light"] .maestro-banner strong {
+  color: var(--text);
+}
+[data-theme="light"] .student-card__body > span:first-of-type,
+[data-theme="light"] .maestro-banner span {
+  color: #9d174d;
+}
+
+[data-theme="light"] .tip-box {
+  background: #fef9c3;
+  border-color: #ca8a04;
+  color: #422006;
+}
+[data-theme="light"] .tip-box--analogy {
+  background: #e0f2fe;
+  border-color: #0284c7;
+  color: #0c4a6e;
+}
+[data-theme="light"] .summary-box {
+  background: #f5f3ff;
+  border-left-color: #047857;
+}
+[data-theme="light"] .summary-box ul { color: var(--text); }
+[data-theme="light"] .expected-box,
+[data-theme="light"] .feedback--ok {
+  background: #d1fae5;
+  border-color: #059669;
+  color: #064e3b;
+}
+[data-theme="light"] .feedback--err {
+  background: #ffe4e6;
+  border-color: #e11d48;
+  color: #9f1239;
+}
+
+[data-theme="light"] .lesson__maestro {
+  background: #fce7f3;
+  color: #9d174d;
+  border: 1px solid #f9a8d4;
+}
+[data-theme="light"] .lesson__badge {
+  background: #f3eef8;
+  color: #3a3348;
+}
+[data-theme="light"] .topbar {
+  background: #fff;
+  border-bottom-color: var(--border);
+}
+[data-theme="light"] .btn-icon {
+  color: #3a3348;
+}
+[data-theme="light"] .btn-icon:hover {
+  background: var(--bg-elevated);
+  color: var(--text);
+}
+
 [data-theme="light"] .steam-ach {
   background: linear-gradient(90deg, #e8eef5, #f4f7fb);
-  border-color: #b8c9d9;
+  border-color: #8fa5b8;
 }
 
 [data-theme="light"] .steam-ach--earned {
-  background: linear-gradient(90deg, #e8f5e8, #f4fbf4);
-  border-color: #8fbc8f;
+  background: linear-gradient(90deg, #e0f0e0, #f4fbf4);
+  border-color: #5a9a5a;
 }
 
 [data-theme="light"] .steam-ach__name { color: #1b2838; }
 [data-theme="light"] .steam-ach--earned .steam-ach__name { color: #0e141b; }
-[data-theme="light"] .steam-ach__desc { color: #4b5b6b; }
-[data-theme="light"] .steam-ach__icon { background: #fff; border-color: #b8c9d9; }
-[data-theme="light"] .steam-achievements__title { color: #1a9fff; }
+[data-theme="light"] .steam-ach__desc { color: #3d4f5f; }
+[data-theme="light"] .steam-ach__icon { background: #fff; border-color: #8fa5b8; }
+[data-theme="light"] .steam-achievements__title { color: #0369a1; }
 [data-theme="light"] .achievements-modal__score {
-  background: #e8eef5;
-  border-color: #b8c9d9;
+  background: #e0f2fe;
+  border-color: #7dd3fc;
 }
-[data-theme="light"] .achievements-modal__score-val { color: #1a9fff; }
+[data-theme="light"] .achievements-modal__score-val { color: #0369a1; }
 
 /* Resumen de curso completado */
 .course-complete {
@@ -1405,7 +1514,7 @@ kbd {
   border-radius: 8px;
   margin-bottom: 1rem;
   font-size: 0.88rem;
-  color: var(--text-muted);
+  color: var(--text);
 }
 
 .tip-box--analogy {
@@ -1462,8 +1571,10 @@ kbd {
 }
 
 .lesson__badge--pending {
-  background: rgba(96, 165, 250, 0.12);
+  background: color-mix(in srgb, var(--info) 14%, var(--bg-card));
   color: var(--info);
+  border-color: color-mix(in srgb, var(--info) 40%, var(--border));
+  font-weight: 600;
 }
 
 /* ── Reset buttons ── */
