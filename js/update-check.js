@@ -1,12 +1,22 @@
 /**
  * Detecta despliegues nuevos y obliga a recargar.
- * Cruza: meta local, version.json, index.html (bundle) y commit de GitHub.
+ *
+ * Dos señales distintas:
+ * 1) Pages (version.json + bundle del index) — lo que el visitante PUEDE cargar ya.
+ *    Si cambia → hay deploy publicado → se pide recargar.
+ * 2) API GitHub (último commit de main) — lo que está en el repo, a veces ANTES de que
+ *    Pages termine de publicar. Solo informativo (github-pending); no fuerza recarga.
  */
 
-/** PENDIENTE: bajar frecuencia o cachear GitHub API (rate limit ~60/h sin auth). Se mantiene alto para demos. */
-const POLL_MS = 20_000;
-const FIRST_CHECK_MS = 3_000;
+/** Comprobación principal (Pages): cada 10 min + al volver a la pestaña. */
+const POLL_MS = 10 * 60 * 1000;
+/** API GitHub: como máximo cada 15 min (rate limit ~60/h sin auth). */
+const GITHUB_POLL_MS = 15 * 60 * 1000;
+const FIRST_CHECK_MS = 5_000;
 const BUILD_ID = typeof __APP_BUILD_ID__ !== 'undefined' ? __APP_BUILD_ID__ : '';
+
+let cachedGithubId = null;
+let lastGithubFetchAt = 0;
 
 /** Repo para sondeo (configurable con <meta name="github-repo" content="user/repo">). */
 export function getGithubRepo() {
@@ -41,6 +51,11 @@ export function formatUpdateCountdown(ms = getMsUntilNextUpdateCheck()) {
   if (totalSec < 60) return `${totalSec}s`;
   const m = Math.floor(totalSec / 60);
   const s = totalSec % 60;
+  if (m >= 60) {
+    const h = Math.floor(m / 60);
+    const rm = m % 60;
+    return `${h}h ${rm}m`;
+  }
   return `${m}:${String(s).padStart(2, '0')}`;
 }
 
@@ -123,6 +138,18 @@ async function fetchGithubMainId() {
   }
 }
 
+/** Evita spamear la API: reutiliza el SHA cacheado hasta GITHUB_POLL_MS. */
+async function fetchGithubMainIdThrottled() {
+  const now = Date.now();
+  if (lastGithubFetchAt && now - lastGithubFetchAt < GITHUB_POLL_MS) {
+    return cachedGithubId;
+  }
+  const id = await fetchGithubMainId();
+  lastGithubFetchAt = now;
+  if (id) cachedGithubId = id;
+  return id ?? cachedGithubId;
+}
+
 /**
  * @returns {{ localId: string, localBundle: string, pagesId: string|null, pagesBundle: string|null, githubId: string|null, outdated: boolean, reason: string }}
  */
@@ -135,7 +162,7 @@ export async function getUpdateStatus() {
   const [version, html, githubId] = await Promise.all([
     fetchJson(`${base}version.json?_=${stamp}`),
     fetchText(`${base}index.html?_=${stamp}`).then(async (t) => t || fetchText(`${base}?_=${stamp}`)),
-    fetchGithubMainId(),
+    fetchGithubMainIdThrottled(),
   ]);
 
   const fromHtml = parseRemoteFromHtml(html);

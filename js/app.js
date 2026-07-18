@@ -1420,7 +1420,7 @@ export class App {
         Versión actual: <strong id="settingsVersion">${escapeHtml(version)}</strong>
         <span class="settings-version__countdown" id="updateNextCheck">${getUpdateCheckCountdownLabel()}</span>
       </p>
-      <p class="modal-tip">La app comprueba sola si hay versión nueva. El contador indica cuánto falta.</p>
+      <p class="modal-tip">Comprueba el sitio publicado cada ~10 min (y al volver a la pestaña). El contador indica cuánto falta.</p>
       <p class="modal-tip">Modo enfoque: botón 🎯 en la barra superior.</p>
       <h3>Información legal</h3>
       <div class="settings-actions settings-actions--legal">
