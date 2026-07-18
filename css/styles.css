@@ -1089,6 +1089,19 @@ kbd {
   color: #66c0f4;
 }
 
+.steam-achievements__section {
+  margin-top: 1rem;
+}
+
+.steam-achievements__section-title {
+  margin: 0 0 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
 .steam-achievements__count {
   font-size: 0.75rem;
   color: var(--text-muted);

@@ -21,7 +21,7 @@ import {
 } from './storage.js';
 import {
   getEarnedBadges, getAchievements, renderAchievementsHtml,
-  getLevel, XP_PER_LESSON, recordStudyTime, markPerfectLesson, BADGES,
+  getLevel, XP_PER_LESSON, recordStudyTime, markPerfectLesson, getBadgesCount,
 } from './gamification.js';
 import { highlightJS } from './highlighter.js';
 import { fireConfetti } from './confetti.js';
@@ -57,7 +57,6 @@ import {
 
 const TAB_ORDER = ['theory', 'example', 'exercise'];
 const TAB_LABELS = { theory: 'Teoría', example: 'Ejemplo', exercise: 'Ejercicio' };
-const BADGES_COUNT = BADGES.length;
 
 export class App {
   constructor() {
@@ -1310,7 +1309,10 @@ export class App {
     const progress = loadProgress();
     const level = getLevel(progress.xp || 0);
     const tier = getLevelTier(level);
-    const badges = getEarnedBadges(progress, getTotalLessons());
+    const courseId = getActiveCourseId();
+    const totalLessons = getTotalLessons();
+    const badges = getEarnedBadges(progress, totalLessons, courseId);
+    const badgesTotal = getBadgesCount(courseId, totalLessons);
     const overview = getMultiCourseOverview();
     const aggregate = getAggregateStats();
     let editAvatar = progress.avatarId || 'alebrije';
@@ -1322,7 +1324,7 @@ export class App {
           ${renderAvatarHtml(progress.avatarId, tier, 'lg')}
           <div>
             <h2>${escapeHtml(getDisplayName(progress.studentName))}</h2>
-            <p class="profile-modal__level">${level.name} · ${progress.xp || 0} XP en ${getCourseMeta(getActiveCourseId()).name}</p>
+            <p class="profile-modal__level">${level.name} · ${progress.xp || 0} XP en ${getCourseMeta(courseId).name}</p>
             ${overview.length > 1 ? `<p class="modal-tip">${aggregate.coursesCount} saberes · ${aggregate.totalXp} XP total · ${aggregate.totalCompleted} lecciones hechas</p>` : ''}
             ${level.nextAt ? `<div class="level-bar"><div class="level-bar__fill" style="width:${level.progress}%"></div></div>
               <p class="modal-tip">${level.progress}% hacia ${level.nextName} (${level.nextAt} XP)</p>` : '<p class="modal-tip">¡Nivel máximo alcanzado! 🏆</p>'}
@@ -1347,8 +1349,8 @@ export class App {
         </div>
         <div class="profile-modal__stats">
           <span>🔥 ${progress.streak || 0} días</span>
-          <button type="button" class="profile-stat-link" id="btnProfileAchievements">🏅 ${badges.length}/${BADGES_COUNT} logros</button>
-          <span>📚 ${progress.completed.length} lecciones (${getCourseMeta(getActiveCourseId()).name})</span>
+          <button type="button" class="profile-stat-link" id="btnProfileAchievements">🏅 ${badges.length}/${badgesTotal} logros</button>
+          <span>📚 ${progress.completed.length} lecciones (${getCourseMeta(courseId).name})</span>
         </div>
         <button type="button" class="btn btn--primary" id="btnSaveProfile">Guardar perfil</button>
       </div>
@@ -1500,9 +1502,11 @@ export class App {
   showDashboard() {
     const progress = loadProgress();
     const total = getTotalLessons();
+    const courseId = getActiveCourseId();
     const level = getLevel(progress.xp || 0);
     const tier = getLevelTier(level);
-    const badges = getEarnedBadges(progress, total);
+    const badges = getEarnedBadges(progress, total, courseId);
+    const badgesTotal = getBadgesCount(courseId, total);
     const stats = getStats(total);
     const overview = getMultiCourseOverview();
     const aggregate = getAggregateStats();
@@ -1515,7 +1519,7 @@ export class App {
         ${renderAvatarHtml(progress.avatarId, tier, 'lg')}
         <div>
           <h2>Hola, ${escapeHtml(name)} 👋</h2>
-          <p class="dash-profile__level">${level.name} · ${stats.xp} XP (${getCourseMeta(getActiveCourseId()).name})</p>
+          <p class="dash-profile__level">${level.name} · ${stats.xp} XP (${getCourseMeta(courseId).name})</p>
           ${overview.length > 1 ? `<p class="modal-tip">${aggregate.coursesCount} saberes activos · ${aggregate.totalXp} XP combinados</p>` : ''}
         </div>
       </div>
@@ -1537,10 +1541,10 @@ export class App {
       </div>
       ${level.nextAt ? `<div class="level-bar"><div class="level-bar__fill" style="width:${level.progress}%"></div></div><p class="modal-tip">${level.name} → siguiente nivel a ${level.nextAt} XP</p>` : ''}
       <div class="dash-ach-head">
-        <h3>Logros (${badges.length}/${BADGES_COUNT})</h3>
+        <h3>Logros (${badges.length}/${badgesTotal})</h3>
         <button type="button" class="btn btn--ghost btn--sm" id="btnDashAchievements">Ver todos</button>
       </div>
-      ${renderAchievementsHtml(progress, total, { compact: true })}
+      ${renderAchievementsHtml(progress, total, { compact: true, courseId })}
       <p class="modal-tip">Quizzes: ${stats.quizzesPassed} · Intentos totales: ${stats.totalAttempts}</p>
       <button type="button" class="btn btn--ghost btn--sm" id="btnDashProfile">✏️ Editar perfil</button>
     `);
@@ -1567,21 +1571,23 @@ export class App {
   showAchievements() {
     const progress = loadProgress();
     const total = getTotalLessons();
-    const list = getAchievements(progress, total);
+    const courseId = getActiveCourseId();
+    const courseName = getCourseMeta(courseId).name;
+    const list = getAchievements(progress, total, courseId);
     const earned = list.filter((b) => b.earned).length;
     this.showModal('achievements', `
       <div class="achievements-modal">
         <header class="achievements-modal__hero">
           <div>
             <h2>🏆 Logros</h2>
-            <p class="modal-tip">Como en Steam: desbloquea insignias estudiando. Las bloqueadas muestran tu progreso.</p>
+            <p class="modal-tip">Saber activo: <strong>${escapeHtml(courseName)}</strong>. Generales + exclusivos del curso (si tiene 50 lecciones).</p>
           </div>
           <div class="achievements-modal__score">
             <span class="achievements-modal__score-val">${earned}</span>
             <span class="achievements-modal__score-lbl">de ${list.length}</span>
           </div>
         </header>
-        ${renderAchievementsHtml(progress, total)}
+        ${renderAchievementsHtml(progress, total, { courseId })}
         <button type="button" class="btn btn--ghost btn--sm" id="btnAchievementsBack">← Volver al progreso</button>
       </div>
     `);
