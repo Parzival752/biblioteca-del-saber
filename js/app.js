@@ -45,7 +45,7 @@ import {
 import {
   renderAboutNoteHtml, renderWelcomeLegalFooterHtml, renderLegalFooterLinks, getLegalModalHtml, bindLegalLinks,
 } from './legal.js';
-import { checkForUpdate } from './update-check.js';
+import { checkForUpdate, getAppVersion } from './update-check.js';
 
 const TAB_ORDER = ['theory', 'example', 'exercise'];
 const TAB_LABELS = { theory: 'Teoría', example: 'Ejemplo', exercise: 'Ejercicio' };
@@ -1373,8 +1373,10 @@ export class App {
     const beginner = getBeginnerMode();
     const font = getFontSize();
     const summary = getBackupSummary();
+    const version = getAppVersion();
     this.showModal('settings', `
       <h2>⚙️ Ajustes</h2>
+      <p class="settings-version">Versión actual: <strong id="settingsVersion">${escapeHtml(version)}</strong></p>
       <div class="settings-group">
         <label class="settings-toggle">
           <input type="checkbox" id="toggleBeginner" ${beginner ? 'checked' : ''}>
@@ -1402,7 +1404,7 @@ export class App {
         <button type="button" class="btn btn--ghost btn--sm" id="btnSettingsResetCourse">↺ Curso completo</button>
       </div>
       <h3>Actualizaciones</h3>
-      <p class="modal-tip">Si publicamos una versión nueva y esta pestaña sigue abierta, verás un aviso para recargar.</p>
+      <p class="modal-tip">Versión en uso: <code>${escapeHtml(version)}</code>. Si publicamos una versión nueva y esta pestaña sigue abierta, verás un aviso para recargar.</p>
       <div class="settings-actions">
         <button type="button" class="btn btn--ghost btn--sm" id="btnCheckUpdate">Buscar actualización</button>
         <button type="button" class="btn btn--ghost btn--sm" id="btnDemoUpdate">Probar aviso de recarga</button>

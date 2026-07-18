@@ -1215,6 +1215,24 @@ kbd {
 }
 
 /* ── Settings ── */
+.settings-version {
+  margin: -0.25rem 0 1rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: 8px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.settings-version strong,
+.settings-version code {
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 .settings-group { margin-bottom: 1.25rem; }
 
 .settings-toggle {
@@ -1908,6 +1926,9 @@ kbd {
 }
 
 .avatar-pick__plus {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.45rem;
   font-weight: 600;
   line-height: 1;
@@ -1920,7 +1941,7 @@ kbd {
   letter-spacing: 0.03em;
 }
 
-.avatar-pick__plus {
+.avatar {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1963,19 +1984,37 @@ kbd {
   flex: 0 0 auto;
   flex-shrink: 0;
   max-width: none;
-  overflow: visible;
+  overflow: hidden;
   transition: border-color 0.15s;
 }
 
 .profile-pill:hover { border-color: var(--accent); }
 
+#topbarAvatar {
+  display: inline-flex;
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 0;
+}
+
 .profile-pill .avatar,
 .profile-pill .avatar--sm {
+  display: inline-flex !important;
   width: 1.5rem !important;
   height: 1.5rem !important;
   border-width: 1.5px !important;
   box-shadow: none !important;
   flex-shrink: 0;
+  overflow: hidden;
+}
+
+.profile-pill .avatar__img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .profile-pill__name {

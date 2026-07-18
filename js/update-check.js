@@ -11,10 +11,14 @@ function appBase() {
   return base.endsWith('/') ? base : `${base}/`;
 }
 
-function localBuildId() {
+export function getAppVersion() {
   const meta = document.querySelector('meta[name="app-build-id"]')?.content;
   if (meta && !meta.includes('__APP_')) return meta;
-  return BUILD_ID || '';
+  return BUILD_ID || 'dev';
+}
+
+function localBuildId() {
+  return getAppVersion();
 }
 
 function localBundleName() {
