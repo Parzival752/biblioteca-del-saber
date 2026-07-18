@@ -58,12 +58,17 @@ function parseRemoteFromHtml(html) {
 
 async function getRemoteSnapshot() {
   const base = appBase();
-  const stamp = Date.now();
-  const [html, version] = await Promise.all([
-    fetchText(`${base}?_cb=${stamp}&_r=${Math.random().toString(36).slice(2)}`),
-    fetchJson(`${base}version.json?_cb=${stamp}&_r=${Math.random().toString(36).slice(2)}`),
-  ]);
-  const fromHtml = parseRemoteFromHtml(html);
+  const stamp = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  // version.json es la fuente principal; el HTML confirma el bundle desplegado
+  const version = await fetchJson(`${base}version.json?_cb=${stamp}`);
+  let fromHtml = { id: null, bundle: null };
+  try {
+    const html = await fetchText(`${base}index.html?_cb=${stamp}`)
+      || await fetchText(`${base}?_cb=${stamp}`);
+    fromHtml = parseRemoteFromHtml(html);
+  } catch {
+    /* version.json basta */
+  }
   return {
     id: version?.id || fromHtml.id || null,
     bundle: fromHtml.bundle,
@@ -74,8 +79,13 @@ async function getRemoteSnapshot() {
 function isOutdated(remote) {
   const localId = localBuildId();
   const localBundle = localBundleName();
-  if (!remote) return false;
-  if (remote.id && localId && remote.id !== localId) return true;
+  if (!remote?.id && !remote?.bundle) return false;
+  // Normaliza ids cortos (git short vs 12 chars de GITHUB_SHA)
+  if (remote.id && localId) {
+    const a = remote.id.toLowerCase();
+    const b = localId.toLowerCase();
+    if (a !== b && !a.startsWith(b) && !b.startsWith(a)) return true;
+  }
   if (remote.bundle && localBundle && remote.bundle !== localBundle) return true;
   return false;
 }
@@ -135,12 +145,14 @@ export async function checkForUpdate({ forcePrompt = false } = {}) {
       return 'update';
     }
     const remote = await getRemoteSnapshot();
+    if (!remote?.id && !remote?.bundle) return 'error';
     if (isOutdated(remote)) {
       showUpdateModal();
       return 'update';
     }
     return 'latest';
-  } catch {
+  } catch (err) {
+    console.warn('[update-check]', err);
     return 'error';
   }
 }

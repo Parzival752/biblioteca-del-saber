@@ -1376,7 +1376,6 @@ export class App {
     const version = getAppVersion();
     this.showModal('settings', `
       <h2>⚙️ Ajustes</h2>
-      <p class="settings-version">Versión actual: <strong id="settingsVersion">${escapeHtml(version)}</strong></p>
       <div class="settings-group">
         <label class="settings-toggle">
           <input type="checkbox" id="toggleBeginner" ${beginner ? 'checked' : ''}>
@@ -1404,9 +1403,10 @@ export class App {
         <button type="button" class="btn btn--ghost btn--sm" id="btnSettingsResetCourse">↺ Curso completo</button>
       </div>
       <h3>Actualizaciones</h3>
-      <p class="modal-tip">Versión en uso: <code>${escapeHtml(version)}</code>. Si publicamos una versión nueva y esta pestaña sigue abierta, verás un aviso para recargar.</p>
+      <p class="settings-version">Versión actual: <strong id="settingsVersion">${escapeHtml(version)}</strong></p>
+      <p class="modal-tip" id="updateCheckStatus">Pulsa «Buscar actualización» para comprobar si hay una versión nueva en el servidor.</p>
       <div class="settings-actions">
-        <button type="button" class="btn btn--ghost btn--sm" id="btnCheckUpdate">Buscar actualización</button>
+        <button type="button" class="btn btn--primary btn--sm" id="btnCheckUpdate">Buscar actualización</button>
         <button type="button" class="btn btn--ghost btn--sm" id="btnDemoUpdate">Probar aviso de recarga</button>
       </div>
       <p class="modal-tip">Modo enfoque: botón 🎯 en la barra superior.</p>
@@ -1447,14 +1447,34 @@ export class App {
       this.closeModal();
       this.confirmResetCourse();
     });
-    document.getElementById('btnCheckUpdate')?.addEventListener('click', async () => {
-      const result = await checkForUpdate();
-      if (result === 'update') {
-        this.closeModal();
-        return;
+    const statusEl = document.getElementById('updateCheckStatus');
+    const checkBtn = document.getElementById('btnCheckUpdate');
+    checkBtn?.addEventListener('click', async () => {
+      if (!checkBtn || checkBtn.disabled) return;
+      const prevLabel = checkBtn.textContent;
+      checkBtn.disabled = true;
+      checkBtn.textContent = 'Comprobando…';
+      if (statusEl) statusEl.textContent = 'Consultando el servidor…';
+      try {
+        const result = await checkForUpdate();
+        if (result === 'update') {
+          if (statusEl) statusEl.textContent = 'Hay una versión nueva. Recarga para aplicarla.';
+          this.closeModal();
+          return;
+        }
+        if (result === 'latest') {
+          if (statusEl) {
+            statusEl.innerHTML = `✓ Ya tienes la última versión (<code>${escapeHtml(version)}</code>).`;
+          }
+          this.toast('Ya tienes la última versión', 'success');
+        } else if (statusEl) {
+          statusEl.textContent = 'No se pudo comprobar. Revisa tu conexión e inténtalo de nuevo.';
+          this.toast('No se pudo comprobar la actualización', 'info');
+        }
+      } finally {
+        checkBtn.disabled = false;
+        checkBtn.textContent = prevLabel || 'Buscar actualización';
       }
-      if (result === 'latest') this.toast('Ya tienes la última versión', 'success');
-      else this.toast('No se pudo comprobar la actualización', 'info');
     });
     document.getElementById('btnDemoUpdate')?.addEventListener('click', async () => {
       this.closeModal();
