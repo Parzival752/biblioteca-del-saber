@@ -48,7 +48,13 @@ import {
 import {
   renderAboutNoteHtml, renderWelcomeLegalFooterHtml, renderLegalFooterLinks, getLegalModalHtml, bindLegalLinks,
 } from './legal.js';
-import { checkForUpdate, describeUpdateCheck, getAppVersion } from './update-check.js';
+import {
+  checkForUpdate,
+  describeUpdateCheck,
+  getAppVersion,
+  getMsUntilNextUpdateCheck,
+  formatUpdateCountdown,
+} from './update-check.js';
 
 const TAB_ORDER = ['theory', 'example', 'exercise'];
 const TAB_LABELS = { theory: 'Teoría', example: 'Ejemplo', exercise: 'Ejercicio' };
@@ -1410,11 +1416,13 @@ export class App {
         <button type="button" class="btn btn--ghost btn--sm" id="btnSettingsResetCourse">↺ Curso completo</button>
       </div>
       <h3>Actualizaciones</h3>
-      <p class="settings-version">Versión actual: <strong id="settingsVersion">${escapeHtml(version)}</strong></p>
+      <p class="settings-version">
+        Versión actual: <strong id="settingsVersion">${escapeHtml(version)}</strong>
+        <span class="settings-version__countdown" id="updateNextCheck">Próxima verificación en ${formatUpdateCountdown()}</span>
+      </p>
       <p class="modal-tip" id="updateCheckStatus">Pulsa «Buscar actualización» para comprobar si hay una versión nueva en el servidor.</p>
       <div class="settings-actions">
         <button type="button" class="btn btn--primary btn--sm" id="btnCheckUpdate">Buscar actualización</button>
-        <button type="button" class="btn btn--ghost btn--sm" id="btnDemoUpdate">Probar aviso de recarga</button>
       </div>
       <p class="modal-tip">Modo enfoque: botón 🎯 en la barra superior.</p>
       <h3>Información legal</h3>
@@ -1455,7 +1463,21 @@ export class App {
       this.confirmResetCourse();
     });
     const statusEl = document.getElementById('updateCheckStatus');
+    const countdownEl = document.getElementById('updateNextCheck');
     const checkBtn = document.getElementById('btnCheckUpdate');
+    const tickCountdown = () => {
+      if (!countdownEl || !document.body.contains(countdownEl)) {
+        clearInterval(countdownTimer);
+        return;
+      }
+      const ms = getMsUntilNextUpdateCheck();
+      countdownEl.textContent = ms <= 0
+        ? 'Verificando ahora…'
+        : `Próxima verificación en ${formatUpdateCountdown(ms)}`;
+    };
+    const countdownTimer = setInterval(tickCountdown, 250);
+    tickCountdown();
+
     checkBtn?.addEventListener('click', async () => {
       if (!checkBtn || checkBtn.disabled) return;
       const prevLabel = checkBtn.textContent;
@@ -1476,10 +1498,6 @@ export class App {
         checkBtn.disabled = false;
         checkBtn.textContent = prevLabel || 'Buscar actualización';
       }
-    });
-    document.getElementById('btnDemoUpdate')?.addEventListener('click', async () => {
-      this.closeModal();
-      await checkForUpdate({ forcePrompt: true });
     });
   }
 
@@ -1615,7 +1633,9 @@ export class App {
         ? 'modal modal--avatar-builder'
         : id === 'achievements'
           ? 'modal modal--achievements'
-          : 'modal';
+          : id === 'profile'
+            ? 'modal modal--profile'
+            : 'modal';
     body.innerHTML = html;
     overlay.classList.remove('hidden');
     overlay.dataset.modal = id;

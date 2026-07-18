@@ -4,8 +4,34 @@
  */
 
 const POLL_MS = 20_000;
+const FIRST_CHECK_MS = 3_000;
 const BUILD_ID = typeof __APP_BUILD_ID__ !== 'undefined' ? __APP_BUILD_ID__ : '';
 const GITHUB_REPO = 'Parzival752/biblioteca-del-saber';
+
+/** Timestamp (ms) de la próxima comprobación automática. */
+let nextCheckAt = 0;
+let scheduleTimer = null;
+let updateCheckerStarted = false;
+
+export function getUpdatePollMs() {
+  return POLL_MS;
+}
+
+/** Ms restantes hasta la próxima verificación automática (0 si toca ya). */
+export function getMsUntilNextUpdateCheck() {
+  if (!nextCheckAt) return FIRST_CHECK_MS;
+  return Math.max(0, nextCheckAt - Date.now());
+}
+
+/** Texto corto tipo "18s" o "1:05". */
+export function formatUpdateCountdown(ms = getMsUntilNextUpdateCheck()) {
+  const totalSec = Math.ceil(ms / 1000);
+  if (totalSec <= 0) return 'ahora';
+  if (totalSec < 60) return `${totalSec}s`;
+  const m = Math.floor(totalSec / 60);
+  const s = totalSec % 60;
+  return `${m}:${String(s).padStart(2, '0')}`;
+}
 
 function appBase() {
   const base = import.meta.env.BASE_URL || '/';
@@ -222,6 +248,9 @@ export async function describeUpdateCheck() {
 }
 
 export function startUpdateChecker() {
+  if (updateCheckerStarted) return;
+  updateCheckerStarted = true;
+
   const params = new URLSearchParams(location.search);
   if (params.has('forceUpdate')) {
     setTimeout(() => showUpdateModal(), 600);
@@ -241,10 +270,28 @@ export function startUpdateChecker() {
     }
   };
 
-  setTimeout(run, 3_000);
-  setInterval(run, POLL_MS);
+  const schedule = (delayMs) => {
+    if (scheduleTimer) clearTimeout(scheduleTimer);
+    nextCheckAt = Date.now() + delayMs;
+    scheduleTimer = setTimeout(async () => {
+      await run();
+      if (!prompted) schedule(POLL_MS);
+      else nextCheckAt = 0;
+    }, delayMs);
+  };
+
+  schedule(FIRST_CHECK_MS);
+
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible') run();
+    if (document.visibilityState !== 'visible' || prompted) return;
+    run().finally(() => {
+      if (!prompted) schedule(POLL_MS);
+    });
   });
-  window.addEventListener('focus', run);
+  window.addEventListener('focus', () => {
+    if (prompted || document.hidden) return;
+    run().finally(() => {
+      if (!prompted) schedule(POLL_MS);
+    });
+  });
 }
