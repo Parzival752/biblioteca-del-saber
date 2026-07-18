@@ -19,7 +19,7 @@ git init
 git branch -M main
 git add .
 git commit -m "Initial commit: Biblioteca del Saber web"
-git remote add origin https://github.com/TU_USUARIO/biblioteca-del-saber.git
+git remote add origin https://github.com/Parzival752/biblioteca-del-saber.git
 git push -u origin main
 ```
 
@@ -30,7 +30,7 @@ git push -u origin main
 1. Repo → **Settings** → **Pages**
 2. **Build and deployment** → Source: **GitHub Actions**
 3. Tras el primer push, entra a **Actions** y espera el workflow **Deploy GitHub Pages** (verde)
-4. Tu URL sera: `https://TU_USUARIO.github.io/biblioteca-del-saber/`
+4. Tu URL sera: `https://Parzival752.github.io/biblioteca-del-saber/`
 
 ### 4. Actualizar dominio en el proyecto
 

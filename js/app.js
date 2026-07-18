@@ -19,7 +19,10 @@ import {
   exportBackupJson, parseBackupFile, importBackup, getBackupSummary,
   getCustomAvatar, upsertCustomAvatar, removeCustomAvatar, getCustomAvatars,
 } from './storage.js';
-import { getEarnedBadges, getLevel, XP_PER_LESSON, recordStudyTime, markPerfectLesson, BADGES } from './gamification.js';
+import {
+  getEarnedBadges, getAchievements, renderAchievementsHtml,
+  getLevel, XP_PER_LESSON, recordStudyTime, markPerfectLesson, BADGES,
+} from './gamification.js';
 import { highlightJS } from './highlighter.js';
 import { fireConfetti } from './confetti.js';
 import { getLessonAids, GLOSSARY, CHEATSHEET } from './lesson-aids.js';
@@ -1339,13 +1342,17 @@ export class App {
         </div>
         <div class="profile-modal__stats">
           <span>🔥 ${progress.streak || 0} días</span>
-          <span>🏅 ${badges.length} insignias</span>
+          <button type="button" class="profile-stat-link" id="btnProfileAchievements">🏅 ${badges.length}/${BADGES_COUNT} logros</button>
           <span>📚 ${progress.completed.length} lecciones (${getCourseMeta(getActiveCourseId()).name})</span>
         </div>
         <button type="button" class="btn btn--primary" id="btnSaveProfile">Guardar perfil</button>
       </div>
     `);
 
+    document.getElementById('btnProfileAchievements')?.addEventListener('click', () => {
+      this.closeModal();
+      this.showAchievements();
+    });
     this.refreshAvatarPicker(document.getElementById('profileAvatarPicker'), editAvatar, 'profile');
     bindStudyingCourseActions(document.getElementById('profileCourseList'), (id) => this.switchToCourse(id));
     document.getElementById('btnProfileAddCourse')?.addEventListener('click', () => {
@@ -1515,10 +1522,11 @@ export class App {
         ${dailyDone ? '' : `<button type="button" class="btn btn--sm btn--primary" id="btnGoDaily">Ir a la lección</button>`}
       </div>
       ${level.nextAt ? `<div class="level-bar"><div class="level-bar__fill" style="width:${level.progress}%"></div></div><p class="modal-tip">${level.name} → siguiente nivel a ${level.nextAt} XP</p>` : ''}
-      <h3>Insignias (${badges.length}/${BADGES_COUNT})</h3>
-      <div class="badges-grid">${badges.length ? badges.map((b) => `
-        <div class="badge-item" title="${b.desc}"><span class="badge-item__icon">${b.icon}</span><span class="badge-item__name">${b.name}</span></div>
-      `).join('') : '<p class="modal-tip">Completa lecciones para ganar insignias</p>'}</div>
+      <div class="dash-ach-head">
+        <h3>Logros (${badges.length}/${BADGES_COUNT})</h3>
+        <button type="button" class="btn btn--ghost btn--sm" id="btnDashAchievements">Ver todos</button>
+      </div>
+      ${renderAchievementsHtml(progress, total, { compact: true })}
       <p class="modal-tip">Quizzes: ${stats.quizzesPassed} · Intentos totales: ${stats.totalAttempts}</p>
       <button type="button" class="btn btn--ghost btn--sm" id="btnDashProfile">✏️ Editar perfil</button>
     `);
@@ -1535,6 +1543,37 @@ export class App {
     document.getElementById('btnDashProfile')?.addEventListener('click', () => {
       this.closeModal();
       this.showProfile();
+    });
+    document.getElementById('btnDashAchievements')?.addEventListener('click', () => {
+      this.closeModal();
+      this.showAchievements();
+    });
+  }
+
+  showAchievements() {
+    const progress = loadProgress();
+    const total = getTotalLessons();
+    const list = getAchievements(progress, total);
+    const earned = list.filter((b) => b.earned).length;
+    this.showModal('achievements', `
+      <div class="achievements-modal">
+        <header class="achievements-modal__hero">
+          <div>
+            <h2>🏆 Logros</h2>
+            <p class="modal-tip">Como en Steam: desbloquea insignias estudiando. Las bloqueadas muestran tu progreso.</p>
+          </div>
+          <div class="achievements-modal__score">
+            <span class="achievements-modal__score-val">${earned}</span>
+            <span class="achievements-modal__score-lbl">de ${list.length}</span>
+          </div>
+        </header>
+        ${renderAchievementsHtml(progress, total)}
+        <button type="button" class="btn btn--ghost btn--sm" id="btnAchievementsBack">← Volver al progreso</button>
+      </div>
+    `);
+    document.getElementById('btnAchievementsBack')?.addEventListener('click', () => {
+      this.closeModal();
+      this.showDashboard();
     });
   }
 
@@ -1574,7 +1613,9 @@ export class App {
       ? 'modal modal--legal'
       : id === 'avatar-builder'
         ? 'modal modal--avatar-builder'
-        : 'modal';
+        : id === 'achievements'
+          ? 'modal modal--achievements'
+          : 'modal';
     body.innerHTML = html;
     overlay.classList.remove('hidden');
     overlay.dataset.modal = id;
