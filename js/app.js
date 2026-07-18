@@ -45,6 +45,7 @@ import {
 import {
   renderAboutNoteHtml, renderWelcomeLegalFooterHtml, renderLegalFooterLinks, getLegalModalHtml, bindLegalLinks,
 } from './legal.js';
+import { checkForUpdate } from './update-check.js';
 
 const TAB_ORDER = ['theory', 'example', 'exercise'];
 const TAB_LABELS = { theory: 'Teoría', example: 'Ejemplo', exercise: 'Ejercicio' };
@@ -1395,6 +1396,12 @@ export class App {
         <button type="button" class="btn btn--ghost btn--sm" id="btnSettingsResetLesson">↺ Lección actual</button>
         <button type="button" class="btn btn--ghost btn--sm" id="btnSettingsResetCourse">↺ Curso completo</button>
       </div>
+      <h3>Actualizaciones</h3>
+      <p class="modal-tip">Si publicamos una versión nueva y esta pestaña sigue abierta, verás un aviso para recargar.</p>
+      <div class="settings-actions">
+        <button type="button" class="btn btn--ghost btn--sm" id="btnCheckUpdate">Buscar actualización</button>
+        <button type="button" class="btn btn--ghost btn--sm" id="btnDemoUpdate">Probar aviso de recarga</button>
+      </div>
       <p class="modal-tip">Modo enfoque: botón 🎯 en la barra superior.</p>
       <h3>Información legal</h3>
       <div class="settings-actions settings-actions--legal">
@@ -1432,6 +1439,19 @@ export class App {
     document.getElementById('btnSettingsResetCourse')?.addEventListener('click', () => {
       this.closeModal();
       this.confirmResetCourse();
+    });
+    document.getElementById('btnCheckUpdate')?.addEventListener('click', async () => {
+      const result = await checkForUpdate();
+      if (result === 'update') {
+        this.closeModal();
+        return;
+      }
+      if (result === 'latest') this.toast('Ya tienes la última versión', 'success');
+      else this.toast('No se pudo comprobar la actualización', 'info');
+    });
+    document.getElementById('btnDemoUpdate')?.addEventListener('click', async () => {
+      this.closeModal();
+      await checkForUpdate({ forcePrompt: true });
     });
   }
 

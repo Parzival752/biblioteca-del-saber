@@ -279,9 +279,12 @@
   <meta name="app-build-id" content="__APP_BUILD_ID__">
   <script>
   (function () {
-    var localId = document.querySelector('meta[name="app-build-id"]');
-    localId = localId && localId.content;
+    var metaEl = document.querySelector('meta[name="app-build-id"]');
+    var localId = metaEl && metaEl.content;
     if (!localId || localId.indexOf('__APP_') === 0) return;
+    if (new URLSearchParams(location.search).has('forceUpdate')) {
+      /* el modulo JS mostrara el aviso; aqui tambien por si el bundle falla */
+    }
 
     function appBase() {
       var s = document.querySelector('script[type="module"][src*="assets/"]');
@@ -292,6 +295,13 @@
       var path = location.pathname;
       if (path.endsWith('/')) return path;
       return path.replace(/\/[^/]*$/, '/');
+    }
+
+    function localBundle() {
+      var s = document.querySelector('script[type="module"][src*="assets/"]');
+      if (!s || !s.src) return '';
+      var m = s.src.match(/assets\/(index-[^/?#]+\.js)/);
+      return m ? m[1] : '';
     }
 
     function hardReload() {
@@ -305,33 +315,54 @@
       var overlay = document.createElement('div');
       overlay.id = 'updateReloadOverlay';
       overlay.className = 'update-reload-overlay';
+      overlay.setAttribute('style', 'position:fixed;inset:0;z-index:20000;display:flex;align-items:center;justify-content:center;padding:1.25rem;background:rgba(12,8,18,.72)');
       overlay.innerHTML =
-        '<div class="update-reload-card">' +
-        '<p class="update-reload-badge">Nueva versión</p>' +
-        '<h2>Actualización realizada</h2>' +
-        '<p class="update-reload-msg">Hay una versión nueva de La Biblioteca del Saber. Es necesario recargar la página para ver los cambios.</p>' +
-        '<button type="button" class="btn btn--primary update-reload-btn" id="btnUpdateReloadOk">OK — recargar</button>' +
+        '<div class="update-reload-card" style="width:min(420px,100%);padding:1.5rem 1.35rem;border-radius:12px;background:#1c1724;border:1px solid #3d3350;text-align:center;color:#f5f0fa">' +
+        '<p class="update-reload-badge" style="display:inline-block;margin:0 0 .65rem;padding:.2rem .65rem;border-radius:999px;font-size:.75rem;font-weight:700;background:#f472b6;color:#1a0a14">Nueva versión</p>' +
+        '<h2 style="margin:0 0 .65rem;font-size:1.35rem">Actualización realizada</h2>' +
+        '<p class="update-reload-msg" style="margin:0 0 1.25rem;font-size:.95rem;line-height:1.45;color:#b8a9c9">Hay una versión nueva de La Biblioteca del Saber. Es necesario recargar la página para ver los cambios.</p>' +
+        '<button type="button" class="btn btn--primary update-reload-btn" id="btnUpdateReloadOk" style="min-width:10rem;padding:.55rem 1rem;border:none;border-radius:8px;background:#f472b6;color:#1a0a14;font-weight:700;cursor:pointer">OK — recargar</button>' +
         '</div>';
       document.body.appendChild(overlay);
       var btn = document.getElementById('btnUpdateReloadOk');
       if (btn) btn.onclick = hardReload;
     }
 
-    function check() {
-      if (document.hidden) return;
-      fetch(appBase() + 'version.json?t=' + Date.now(), { cache: 'no-store' })
-        .then(function (r) { return r.ok ? r.json() : null; })
-        .then(function (v) {
-          if (v && v.id && v.id !== localId) showPrompt();
-        })
-        .catch(function () {});
+    function outdated(remoteId, remoteBundle) {
+      var lb = localBundle();
+      if (remoteId && remoteId !== localId) return true;
+      if (remoteBundle && lb && remoteBundle !== lb) return true;
+      return false;
     }
 
-    setTimeout(check, 3500);
-    setInterval(check, 45000);
+    function check() {
+      if (document.hidden) return;
+      if (new URLSearchParams(location.search).has('forceUpdate')) {
+        showPrompt();
+        return;
+      }
+      var base = appBase();
+      var stamp = Date.now() + '-' + Math.random().toString(36).slice(2);
+      Promise.all([
+        fetch(base + '?_cb=' + stamp, { cache: 'no-store' }).then(function (r) { return r.ok ? r.text() : ''; }),
+        fetch(base + 'version.json?_cb=' + stamp, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; })
+      ]).then(function (pair) {
+        var html = pair[0] || '';
+        var ver = pair[1];
+        var idMatch = html.match(/name=["']app-build-id["']\s+content=["']([^"']+)["']/i);
+        var bundleMatch = html.match(/assets\/(index-[^"'/?#]+\.js)/);
+        var remoteId = (ver && ver.id) || (idMatch && idMatch[1]) || null;
+        var remoteBundle = bundleMatch ? bundleMatch[1] : null;
+        if (outdated(remoteId, remoteBundle)) showPrompt();
+      }).catch(function () {});
+    }
+
+    setTimeout(check, 2000);
+    setInterval(check, 15000);
     document.addEventListener('visibilitychange', function () {
       if (document.visibilityState === 'visible') check();
     });
+    window.addEventListener('focus', check);
   })();
   </script>
   <script type="module" src="js/main.js"></script>

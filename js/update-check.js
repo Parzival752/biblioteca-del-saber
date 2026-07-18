@@ -1,19 +1,40 @@
 /**
- * Detecta despliegues nuevos y obliga a recargar para no quedar con JS/CSS viejo.
- * Compara el BUILD_ID embebido en el bundle con public/version.json del servidor.
+ * Detecta despliegues nuevos y obliga a recargar.
+ * Compara el build local (meta / bundle) con index.html y version.json frescos.
  */
 
-const POLL_MS = 45_000;
+const POLL_MS = 15_000;
 const BUILD_ID = typeof __APP_BUILD_ID__ !== 'undefined' ? __APP_BUILD_ID__ : '';
 
-function versionUrl() {
+function appBase() {
   const base = import.meta.env.BASE_URL || '/';
-  const normalized = base.endsWith('/') ? base : `${base}/`;
-  return `${normalized}version.json?t=${Date.now()}`;
+  return base.endsWith('/') ? base : `${base}/`;
 }
 
-async function fetchRemoteVersion() {
-  const res = await fetch(versionUrl(), {
+function localBuildId() {
+  const meta = document.querySelector('meta[name="app-build-id"]')?.content;
+  if (meta && !meta.includes('__APP_')) return meta;
+  return BUILD_ID || '';
+}
+
+function localBundleName() {
+  const s = document.querySelector('script[type="module"][src*="assets/"]');
+  if (!s?.src) return '';
+  const m = s.src.match(/assets\/(index-[^/?#]+\.js)/);
+  return m?.[1] || '';
+}
+
+async function fetchText(url) {
+  const res = await fetch(url, {
+    cache: 'no-store',
+    headers: { 'Cache-Control': 'no-cache', Pragma: 'no-cache' },
+  });
+  if (!res.ok) return null;
+  return res.text();
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url, {
     cache: 'no-store',
     headers: { 'Cache-Control': 'no-cache', Pragma: 'no-cache' },
   });
@@ -21,7 +42,41 @@ async function fetchRemoteVersion() {
   return res.json();
 }
 
-async function hardReload() {
+/** Lee el build id y el nombre del bundle desde un HTML recién descargado. */
+function parseRemoteFromHtml(html) {
+  if (!html) return { id: null, bundle: null };
+  const id = html.match(/name=["']app-build-id["']\s+content=["']([^"']+)["']/i)?.[1]
+    || html.match(/content=["']([^"']+)["']\s+name=["']app-build-id["']/i)?.[1]
+    || null;
+  const bundle = html.match(/assets\/(index-[^"'/?#]+\.js)/)?.[1] || null;
+  return { id, bundle };
+}
+
+async function getRemoteSnapshot() {
+  const base = appBase();
+  const stamp = Date.now();
+  const [html, version] = await Promise.all([
+    fetchText(`${base}?_cb=${stamp}&_r=${Math.random().toString(36).slice(2)}`),
+    fetchJson(`${base}version.json?_cb=${stamp}&_r=${Math.random().toString(36).slice(2)}`),
+  ]);
+  const fromHtml = parseRemoteFromHtml(html);
+  return {
+    id: version?.id || fromHtml.id || null,
+    bundle: fromHtml.bundle,
+    builtAt: version?.builtAt || null,
+  };
+}
+
+function isOutdated(remote) {
+  const localId = localBuildId();
+  const localBundle = localBundleName();
+  if (!remote) return false;
+  if (remote.id && localId && remote.id !== localId) return true;
+  if (remote.bundle && localBundle && remote.bundle !== localBundle) return true;
+  return false;
+}
+
+export async function hardReload() {
   try {
     if ('caches' in window) {
       const keys = await caches.keys();
@@ -39,7 +94,7 @@ async function hardReload() {
   location.replace(url.pathname + url.search + url.hash);
 }
 
-function showUpdateModal() {
+export function showUpdateModal() {
   if (document.getElementById('updateReloadOverlay')) return;
 
   const overlay = document.createElement('div');
@@ -66,31 +121,51 @@ function showUpdateModal() {
   document.getElementById('btnUpdateReloadOk')?.focus();
 }
 
+/**
+ * @returns {'update'|'latest'|'error'}
+ */
+export async function checkForUpdate({ forcePrompt = false } = {}) {
+  try {
+    if (forcePrompt) {
+      showUpdateModal();
+      return 'update';
+    }
+    const remote = await getRemoteSnapshot();
+    if (isOutdated(remote)) {
+      showUpdateModal();
+      return 'update';
+    }
+    return 'latest';
+  } catch {
+    return 'error';
+  }
+}
+
 export function startUpdateChecker() {
-  if (!BUILD_ID || BUILD_ID === 'dev') return;
+  const params = new URLSearchParams(location.search);
+  // Prueba manual: ?forceUpdate=1 muestra el aviso al instante
+  if (params.has('forceUpdate')) {
+    setTimeout(() => showUpdateModal(), 600);
+  }
 
   let prompted = false;
+  let checking = false;
 
-  const check = async () => {
-    if (prompted || document.hidden) return;
+  const run = async () => {
+    if (prompted || checking || document.hidden) return;
+    checking = true;
     try {
-      const remote = await fetchRemoteVersion();
-      if (!remote?.id) return;
-      if (remote.id !== BUILD_ID) {
-        prompted = true;
-        showUpdateModal();
-      }
-    } catch {
-      /* red / offline */
+      const result = await checkForUpdate();
+      if (result === 'update') prompted = true;
+    } finally {
+      checking = false;
     }
   };
 
-  // Primera comprobación tras un momento (deja cargar la app)
-  setTimeout(check, 4_000);
-  setInterval(check, POLL_MS);
-
+  setTimeout(run, 2_500);
+  setInterval(run, POLL_MS);
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible') check();
+    if (document.visibilityState === 'visible') run();
   });
-  window.addEventListener('focus', check);
+  window.addEventListener('focus', run);
 }
